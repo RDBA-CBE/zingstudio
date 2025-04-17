@@ -1,0 +1,58 @@
+
+import Link from "next/link";
+
+import ProjectDetails from "@/components/portfolio/ProjectDetails";
+import React from "react";
+import { allProjects } from "@/data/projects";
+import WebDesignDetails from "@/components/service/WebDesignDetails";
+import AcademyContent from "@/components/academy/AcademyContent";
+import Header17 from "@/components/headers/Header17";
+import Testimonials from "@/components/homes/home-6/Testimonials";
+import Footer13 from "@/components/footers/Footer13";
+import Cta from "@/components/homes/home-13/Cta";
+export const metadata = {
+  title: "Academy || Zing Studio",
+  description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
+};
+export default function page() {
+  return (
+    <>
+      <div className="page-wraper  ">
+        <Header17 />
+        <div className="page-content bg-white">
+          <div
+            className="dlab-bnr-inr overlay-black-middle bg-pt"
+            style={{ backgroundImage: "url(/images/Academy/banner.jpg)" }}
+          >
+            <div className="container">
+              <div className="dlab-bnr-inr-entry">
+                <h1 className="text-white">Academy</h1>
+                {/* Breadcrumb row */}
+                <div className="breadcrumb-row">
+                  {/* <ul className="list-inline">
+                    <li>
+                      <Link href={`/`}>Home</Link>
+                    </li>
+
+                    <li>
+                    <Link href={`/academy`}>Academy</Link></li>
+                  </ul> */}
+                </div>
+                {/* Breadcrumb row END */}
+              </div>
+            </div>
+          </div>
+
+          <div className="content-block">
+            <AcademyContent  />
+          </div>
+
+          {/* <Testimonials /> */}
+        </div>
+        <Cta/>
+        
+        <Footer13 />
+      </div>
+    </>
+  );
+}

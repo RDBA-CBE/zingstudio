@@ -20156,7 +20156,7 @@ input[type="radio"]+label:hover:before {
 } */
 
 .home-banner-title{
-  font-size: 150px;
+  font-size: 180px;
     font-weight: 700 !important;
     /*text-transform: uppercase;*/
     color:#fff;
@@ -20168,11 +20168,12 @@ input[type="radio"]+label:hover:before {
 .newHero .home-banner-subtitle{
   -webkit-text-stroke:0px #fff;
   color: #fff !important;
-  font-weight: 500;
-  font-size: 25px;
-  position: relative;
-  top: -20px;
-  text-transform: uppercase;
+  font-weight: 700;
+ /* font-size: 80px;*/
+  position: relative; 
+ /* top: -20px;
+  text-transform: uppercase;*/
+   align-items: end; padding-left: 10%; line-height: 95px; text-align: right;
 }
 
 .banner-btn a{
@@ -21418,3 +21419,4 @@ justify-content: center;
 }
 
 
+/* banner text*/

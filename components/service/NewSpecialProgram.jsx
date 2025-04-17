@@ -6,12 +6,16 @@ import { Accordion } from 'react-bootstrap';
 
 const NewSpecialProgram = () => {
   return (
-    <div className="how-it-works-section container-fluid py-5">
+    <div className="how-it-works-section container-fluid py-5 mb-5">
       <div className="row justify-content-center align-items-center">
-        {/* Left Section */}
-        <div className="col-lg-6 mb-4">
-          <div className="hiw-card hiw-left">
-            <h2 className="hiw-heading">How it Works</h2>
+      
+        <div className='col-11'>
+            <div className='container-fluid'>
+                <div className='row'>
+                     {/* Left Section */}
+        <div className="col-lg-6 mb-4 px-0" >
+          <div className="hiw-card hiw-left" style={{position:"relative",top:"-30px"}}>
+            <h2 className="hiw-heading text-black">How it Works</h2>
             <Accordion defaultActiveKey="0" className="hiw-accordion">
               <Accordion.Item eventKey="0">
                 <Accordion.Header>What is a digital agency?</Accordion.Header>
@@ -36,8 +40,8 @@ const NewSpecialProgram = () => {
         </div>
 
         {/* Right Section */}
-        <div className="col-lg-6">
-          <div className="hiw-card hiw-right">
+        <div className="col-lg-6 px-0">
+          <div className="hiw-card hiw-right" style={{position:"relative",top:"50px"}}>
             <img src="/images/Home-Page/vector-img.png" alt="character" className="character-img" />
             <div className="hiw-stats">
               <div>
@@ -51,6 +55,10 @@ const NewSpecialProgram = () => {
             </div>
           </div>
         </div>
+                </div>
+            </div>
+        </div>
+       
       </div>
     </div>
   );

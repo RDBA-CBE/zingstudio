@@ -21336,19 +21336,26 @@ justify-content: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  height: 100%;
+  width: 100%;
+  padding: 60px 80px;
+  
+  /* box-shadow: 0 10px 30px rgba(0,0,0,0.3); */
   
 }
 
 .hiw-right {
   background-image: url('../images/Home-Page/right-shape.png');
+  height: 100%;
+  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
-  padding-top: 80px;
+ 
+  /* padding: 60px; */
   position: relative;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  /* box-shadow: 0 10px 30px rgba(0,0,0,0.3); */
 }
 
 .hiw-heading {
@@ -21378,7 +21385,7 @@ justify-content: center;
 }
 
 .character-img {
-  width: 170px;
+  width: 50%;
   margin-bottom: 20px;
 }
 
@@ -21409,14 +21416,44 @@ justify-content: center;
     gap: 20px;
   }
 
-  .character-img {
+  /* .character-img {
     width: 120px;
-  }
+  } */
 
   .hiw-heading {
     font-size: 20px;
   }
 }
+
+.info-section {
+  background: linear-gradient(to right, #f5a8a8, #9f5de2);
+  border-radius: 25px;
+  padding: 60px 20px;
+}
+
+.bg-number {
+  font-size: 100px;
+  font-weight: 700;
+  opacity: 0.1;
+  margin: 0;
+}
+
+.desc-text {
+  font-size: 16px;
+  color: #ffffffcc;
+  max-width: 300px;
+}
+
+@media (max-width: 768px) {
+  .bg-number {
+    font-size: 70px;
+  }
+
+  .desc-text {
+    font-size: 14px;
+  }
+}
+
 
 
 /* banner text*/

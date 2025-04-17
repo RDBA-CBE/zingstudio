@@ -25,6 +25,7 @@ import NewSpecialize from "@/components/service/NewSpecialize";
 import NewITeach from "@/components/service/NewITeach";
 import NewHomeWorks from "@/components/service/NewHomeWorks";
 import NewSpecialProgram from "@/components/service/NewSpecialProgram";
+import NewSupportWomen from "@/components/service/NewSupportWomen";
 // import HomeService from "@/components/service/HomeService"
 
 
@@ -50,15 +51,13 @@ export default function NewHome() {
         <NewITeach/>
         <NewHomeWorks/>
         <NewSpecialProgram/>
+        <NewSupportWomen/>
 
 
         {/* <HomeHero /> */}
         {/* <ITeach/> */}
         
-         
-       
-
-          <HomeSpecialPrograms/>
+          {/* <HomeSpecialPrograms/> */}
 
         
 
@@ -66,7 +65,7 @@ export default function NewHome() {
 
         
         </div>
-        <SupportWomen/>
+        {/* <SupportWomen/> */}
 
         <HomeCta />
         <div className="home-footer">

@@ -106,7 +106,7 @@ export default function NewHomeMobileBanner() {
           loop
           direction={"horizontal"}
           navigation={{ prevEl: ".snbph7", nextEl: ".snbnh7" }}
-          style={{ height: "95vh" }}
+          style={{ height: "95vh",width:"95%", borderRadius:"30px" }}
           className="home-ban swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress home-swiper-10 swiper-backface-hidden fadeInUp" data-wow-delay="0.2s"
         >
 

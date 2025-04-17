@@ -153,9 +153,9 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
                 <span className="bg-primary" />
               </h3>
               <iframe
-            src="https://connect.irepute.in/file/zing-fluence/"
+            src="https://connect.irepute.in/file/brand-buzz/"
             width="100%"
-            height="320px"
+            height="290px"
             // style="border: none;"
             allowfullscreen
            scrolling="no"

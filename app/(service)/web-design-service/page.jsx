@@ -18,7 +18,7 @@ import ServicesCta from "@/components/service/e-commerceService1/ServicesCta";
 import ServicePortfolio from "@/components/service/e-commerceService1/portfolio";
 
 export const metadata = {
-  title: "E-commerce Development || Zing Studio",
+  title: "Web Design Development || Zing Studio",
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
 };
 export default function page() {
@@ -38,22 +38,23 @@ export default function page() {
        
         {
             head:"Web Design",
-         title:"Static Web Design",
+         title:"Static Website Design",
          price: "15,000",
          save:"Save 22%",
          strike:"1,919.00",
          condition:" With a 3-yr term. You pay ₹ 53,424.00 today. <br />Renews at  ₹ 69,084.00.",
          
-         list: [
-          { icon: "ti-world", text: "Administrator Dashboard" },
-          { icon: "ti-server", text:  "Categories" },
-          { icon: "ti-time", text: "Secure Online Payment" },
-          { icon: "ti-panel", text: "Product Reviews & Ratings" },
-          { icon: "ti-dashboard", text: "Email Notifications" },
-          { icon: "ti-lock", text: "Products & Inventory Management" },
-          { icon: "ti-gift", text: "Orders & Shipping Management" },
-          { icon: "ti-shield", text: "Stock,Order & Customer Report" },
-          
+         
+
+        list: [
+          { icon: "ti-world", text: "10 Page Static Website Design" },
+          { icon: "ti-server", text: "SEO Ready Website" },
+          { icon: "ti-time", text:  "100% Mobile Friendly Website"},
+          { icon: "ti-dashboard", text: "Quick Enquiry Form"},
+          { icon: "ti-lock", text: "Map Listing & Social Media Integration" },
+          { icon: "ti-gift", text:   "Stock Images" },
+          { icon: "ti-shield", text: "1st Year Hosting/SSL & Domain Free"},
+          { icon: "ti-reload", text: "1 Revision" }
         ],
         //  list:[
         //      "Administrator Dashboard",
@@ -71,21 +72,22 @@ export default function page() {
 
         {
             head:"Web Design",
-            title:"CMS Web Design",
+            title:"CMS Website Design",
             price: "30,000",
             save:"Save 23%",
             strike:"1,919.00",
             condition:" With a 3-yr term. You pay ₹ 53,424.00 today. <br />Renews at  ₹ 69,084.00.",
             
             list: [
-              { icon: "ti-world", text: "Custom Layout" },
-              { icon: "ti-server", text: "10 Static Page(HTML/PHP)" },
-              { icon: "ti-time", text:  "Enquiry Form"},
-              { icon: "ti-dashboard", text: "Free Website Maintenance"},
-              { icon: "ti-lock", text: "Free Images" },
-              { icon: "ti-gift", text:   "World Class Design & Approval" },
-              { icon: "ti-shield", text: "User Friendly Design"},
-              { icon: "ti-reload", text: "Responsive Design" }
+              { icon: "ti-world", text: "10 Page Dynamic Website Design" },
+              { icon: "ti-server", text:  "SEO Ready Website" },
+              { icon: "ti-time", text: "100% Mobile Friendly Website" },
+              { icon: "ti-panel", text: "Quick Enquiry Form" },
+              { icon: "ti-dashboard", text: "Map Listing & Social Media Integration" },
+              { icon: "ti-lock", text: "Stock Images" },
+              { icon: "ti-gift", text: "1st Year Hosting/SSL & Domain Free" },
+              { icon: "ti-shield", text: "1 Revision" },
+              
             ],
               delay:"0.2s"
            },
@@ -103,7 +105,7 @@ export default function page() {
     ]
     const bannerContent = {
       // src:"https://img1.wsimg.com/cdnassets/transform/c50e55dd-152b-45c6-815a-f7164b2a87aa/FOSMO-98392-WH-SLP-New-Marquee-Image-without-cPanel",
-      src:"/images/services/web-deisgn/banner.jpg",
+      src:"/images/services/web-deisgn/web-design-banner.png",
         head:"Craft Stunning Websites that Captivate, Engage, and Convert with our Web Designing Expertise!",
       caption:"Web Design",
       subTitle:"Designing Websites that Work, Impress, and Convert!",
@@ -190,7 +192,7 @@ export default function page() {
         id: "faq6",
         question: "1. What is the typical timeline for a web design project?",
         answer:
-          "The timeline varies depending on the complexity and requirements of the project. On average, it takes 4 to 8 weeks to complete a standard website.",
+          "The timeline varies depending on the complexity and requirements of the project. On average, it takes 2 to 3 weeks to complete a standard website.",
       },
       {
         id: "faq7",
@@ -208,25 +210,25 @@ export default function page() {
         id: "faq9",
         question: "4. Can I request changes once the design is complete?",
         answer:
-          "Yes, we offer revision rounds during the design phase to ensure your satisfaction before proceeding to development.",
+          "Yes, we offer 1 revision during the design phase to ensure your satisfaction before proceeding to development.",
       },
       {
         id: "faq10",
         question: "5. Do you provide content for the website?",
         answer:
-          "We can assist with content creation or work with the content you provide. Our team also offers copywriting services if needed.",
+          "Content needs to be shared from client side. If required our team also offers copywriting services if needed at extra cost.",
       },
       {
         id: "faq11",
         question: "6. What platforms do you use for website development?",
         answer:
-          "We work with a variety of platforms like WordPress, Shopify, and custom solutions depending on your needs.",
+          "We work with a variety of platforms like WordPress and HTML5/CSS3 - Bootstrap depending on your needs.",
       },
       {
         id: "faq12",
         question: "7. Do you offer website maintenance and support?",
         answer:
-          "Yes, we provide ongoing maintenance packages to keep your website updated, secure, and performing at its best.",
+          "Yes, we provide ongoing maintenance packages to keep your website updated, secure, and performing at its best at a additional nominal cost.",
       },
       {
         id: "faq13",
@@ -234,15 +236,10 @@ export default function page() {
         answer:
           "Definitely! We follow best practices for SEO during the design and development stages to enhance your website’s visibility.",
       },
-      {
-        id: "faq14",
-        question: "9. How much will the web design project cost?",
-        answer:
-          "The cost depends on the features and complexity of the website. We offer customized quotes based on your requirements.",
-      },
+     
       {
         id: "faq15",
-        question: "10. How do I get started?",
+        question: "9. How do I get started?",
         answer:
           "Simply contact us to schedule a consultation. We’ll discuss your vision, goals, and how we can bring your website to life!",
       },

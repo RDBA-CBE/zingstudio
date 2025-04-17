@@ -1749,7 +1749,16 @@ h6 {
   width: 100%;
   position: absolute;
   right: 0;
-  bottom: -50px;
+  bottom: -60px;
+}
+
+@media (max-width:1200px){
+  .contact-img-bx img {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: -40px !important;
+  }
 }
 
 /* Services */
@@ -8317,7 +8326,7 @@ button.scroltop {
 }
 
 .dz-oil-industry-zone .dz-banner-top .dz-title {
-  font-size: 35px;
+  font-size: 45px;
   line-height: 90px;
   margin-bottom: 22px;
 }
@@ -8325,7 +8334,7 @@ button.scroltop {
 .dz-oil-industry-zone .dz-banner-top .dz-title::after {
   content: "";
   position: absolute;
-  width: 207px;
+  width: 250px;
   height: 3px;
   background-color: #e21100;
   left: 0;
@@ -8472,7 +8481,7 @@ button.scroltop {
 
 
   .dz-oil-industry-zone .dz-banner-top .dz-title {
-    font-size: 35px;
+    font-size: 45px;
     line-height: 35px;
   }
 }
@@ -8507,7 +8516,7 @@ button.scroltop {
   }
 
   .dz-oil-industry-zone .dz-banner-top .dz-title {
-    font-size: 35px;
+    font-size: 45px;
     line-height: 35px;
   }
 

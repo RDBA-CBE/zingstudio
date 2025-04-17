@@ -114,6 +114,13 @@ export default function RootLayout({ children }) {
   //   };
   // }, []);
 
+  useEffect(() => {
+    document.body.style.userSelect = "none";
+    return () => {
+      document.body.style.userSelect = "auto"; // Reset on unmount
+    };
+  }, []);
+
   return (
     <html lang="en" dir="ltr">
       <head>

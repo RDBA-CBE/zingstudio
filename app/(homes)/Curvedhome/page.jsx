@@ -26,6 +26,7 @@ import NewITeach from "@/components/service/NewITeach";
 import NewHomeWorks from "@/components/service/NewHomeWorks";
 import NewSpecialProgram from "@/components/service/NewSpecialProgram";
 import NewSupportWomen from "@/components/service/NewSupportWomen";
+import NewHomeBanner from "@/components/service/NewHomeBanner";
 // import HomeService from "@/components/service/HomeService"
 
 
@@ -40,7 +41,8 @@ export default function NewHome() {
       <div className="page-wraper bg-white ">
         <Header17 />
         <div className="page-content bg-white pb-0" >
-        <NewResponsiveHomeBanner/>
+        {/* <NewResponsiveHomeBanner/> */}
+        <NewHomeBanner/>
 
 
 
@@ -48,8 +50,9 @@ export default function NewHome() {
         {/* <HomeSpecialize/> */}
 
         <HomeUSP/>
-        <NewITeach/>
         <NewHomeWorks/>
+        <NewITeach/>
+        
         <NewSpecialProgram/>
         <NewSupportWomen/>
 

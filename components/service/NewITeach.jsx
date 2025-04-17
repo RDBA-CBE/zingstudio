@@ -190,10 +190,10 @@ const NewITeach = () => {
                       slidesPerView={6}
                       spaceBetween={30}
                       slidesPerGroup={1}
-                      loop
-                      autoplay={{
-                        delay: 4000,
-                      }}
+                      // loop
+                      // autoplay={{
+                      //   delay: 4000,
+                      // }}
                       speed={2500}
                       modules={[Pagination, Autoplay, Navigation]}
                       navigation={{
@@ -228,15 +228,15 @@ const NewITeach = () => {
                                 // style={{ borderTopLeftRadius: "10px", borderTopRightRadius: "10px" }}
                               />
                             </div>
-                            {/* <div className="ow-event-info d-flex flex-column flex-grow-1 justify-content-between" style={{ borderBottomLeftRadius: "10px", borderBottomRightRadius: "10px" }}>
-                              <p className="mb-4" style={{ color: "#e21100" }}>Fees @ {elm.price}</p>
+                            <div className="ow-event-info d-flex flex-column flex-grow-1 justify-content-between" style={{ borderBottomLeftRadius: "10px", borderBottomRightRadius: "10px" }}>
+                              <p className="mb-0" style={{ color: "#e21100" }}>Fees @ {elm.price}</p>
                               <div className="ow-event-title">
                                 <h4 className="event-title">
-                                  <a href="#" title="Video post">{elm.title}</a>
+                                  <a href="#" title="Video post" style={{textDecoration:"none"}}>{elm.title}</a>
                                 </h4>
                               </div>
                               
-                              <div className="ow-event-readmore mt-auto ">
+                              {/* <div className="ow-event-readmore mt-auto ">
                                 <a
                                   href={elm?.link}
                                   title="READ MORE"
@@ -245,8 +245,8 @@ const NewITeach = () => {
                                 >
                                   Read More <i className="fas fa-arrow-right" />
                                 </a>
-                              </div>
-                            </div> */}
+                              </div> */}
+                            </div>
                           </div>
                         </div>
                       </SwiperSlide>

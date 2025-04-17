@@ -21457,3 +21457,70 @@ justify-content: center;
 
 
 /* banner text*/
+
+.digital-agency {
+  background: linear-gradient(to bottom, #fff 0%, #f5a8a8 40%, #9f5de2 100%);
+  border-radius: 30px;
+  padding: 60px 20px;
+  color: #000;
+}
+
+.hero-img {
+  max-width: 80%;
+  height: auto;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: #eee;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .digital-agency {
+    text-align: center;
+    padding: 40px 10px;
+  }
+
+  .hero-img {
+    max-width: 60%;
+  }
+
+  .description {
+    font-size: 0.95rem;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .digital-agency {
+    text-align: center;
+    padding: 40px 10px;
+  }
+
+  .hero-img {
+    max-width: 60%;
+  }
+
+  .description {
+    font-size: 0.95rem;
+  }
+
+  .digital-agency h1 {
+    font-size: 48px !important;
+    position: static !important;
+  }
+
+  .digital-agency p {
+    font-size: 1rem;
+    position: static !important;
+    width: 90% !important;
+    margin: 0 auto;
+    top: auto !important;
+    left: auto !important;
+  }
+}
+
+
+

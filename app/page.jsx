@@ -1,5 +1,6 @@
 
 import Home1 from "./(homes)/home-1/page";
+import NewHome from "./(homes)/NewHome/page";
 
 
 export const metadata = {
@@ -11,9 +12,9 @@ export default function Home() {
   
   return (
     <>
-      <Home1 />
+      {/* <Home1 /> */}
 
-
+      <NewHome/>
 
     </>
   );

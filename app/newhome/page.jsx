@@ -1,4 +1,5 @@
 import NewHome from "../(homes)/NewHome/page";
+import Curvedhome from "../(homes)/Curvedhome/page";
 
 export const metadata = {
   title: "Zing Studio",
@@ -10,7 +11,8 @@ export default function Home() {
   return (
     <>
      
-      <NewHome/>
+      {/* <NewHome/> */}
+      <Curvedhome/>
     </>
   );
 }

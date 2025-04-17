@@ -25,6 +25,8 @@ import "rc-slider/assets/index.css";
 import "../public/rtl.scss";
 import ScrollTop from "@/components/common/ScrollTop";
 import SearchPopup from "@/components/common/SearchPopup";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export default function RootLayout({ children }) {
   const path = usePathname();
@@ -114,12 +116,12 @@ export default function RootLayout({ children }) {
   //   };
   // }, []);
 
-  useEffect(() => {
-    document.body.style.userSelect = "none";
-    return () => {
-      document.body.style.userSelect = "auto"; // Reset on unmount
-    };
-  }, []);
+  // useEffect(() => {
+  //   document.body.style.userSelect = "none";
+  //   return () => {
+  //     document.body.style.userSelect = "auto"; // Reset on unmount
+  //   };
+  // }, []);
 
   return (
     <html lang="en" dir="ltr">

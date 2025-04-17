@@ -460,7 +460,7 @@ h6 {
 
 .dz_error-405 .dz_error {
   color: #dfdfdf;
-  font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
   font-size: 200px;
   font-weight: 700;
   line-height: 200px;
@@ -1178,7 +1178,7 @@ h6 {
   width: auto;
   padding: 5px;
   background-color: var(--color-primary);
-  font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
 }
 
 .date-style-2 .post-date>strong:after {
@@ -2515,7 +2515,7 @@ HOME 5 Box Header
 .roboto-condensed h3,
 .roboto-condensed h2,
 .roboto-condensed h1 {
-  font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
 }
 
 /* Header */
@@ -2577,7 +2577,7 @@ HOME 5 Box Header
 
 .box-header .header-nav .nav>li>a {
   border: 0;
-  font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
 }
 
 .box-header .extra-nav .site-button {
@@ -2588,7 +2588,7 @@ HOME 5 Box Header
   padding: 0 30px;
   margin-left: 30px;
   position: relative;
-  font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
 }
 
 .box-header .extra-nav .site-button:after {
@@ -2643,7 +2643,7 @@ HOME 5 Box Header
   font-weight: 600;
   position: relative;
   z-index: 1;
-  font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
   border: 5px solid;
   width: 120px;
   height: 150px;
@@ -2655,7 +2655,7 @@ HOME 5 Box Header
 }
 
 .about-year p {
-  font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
   margin-bottom: 0;
   font-size: 18px !important;
   line-height: 28px;
@@ -2782,7 +2782,7 @@ HOME 5 Box Header
   text-transform: uppercase;
   font-weight: 600;
   color: white;
-  font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
   font-size: 14px;
 }
 
@@ -2794,7 +2794,7 @@ HOME 5 Box Header
   width: 100%;
   color: #000;
   font-weight: 400;
-  font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 14px;
@@ -2840,7 +2840,7 @@ HOME 5 Box Header
   border-bottom: 3px solid #eee;
   align-items: center;
   justify-content: center;
-  font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
   position: relative;
 }
 
@@ -2930,7 +2930,7 @@ HOME 5 Box Header
 .project-carousel-1 .owl-prev {
   padding: 0;
   background: transparent;
-  font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
   font-size: 16px;
   text-transform: uppercase;
   color: #fff;
@@ -3715,12 +3715,12 @@ HOME 5 Box Header
 .frame-box h5,
 .frame-box h6,
 .frame-box .site-footer {
-  font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
   font-weight: 700;
 }
 
 .frame-box p {
-  font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
 }
 
 .frame-box .area-frame .container {
@@ -3797,7 +3797,7 @@ HOME 5 Box Header
   background: var(--color-primary);
   margin: 0 2px;
   border-radius: 4px;
-  font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
 }
 
 .frame-box .main-bar {
@@ -3897,7 +3897,7 @@ HOME 5 Box Header
 }
 
 .frame-box .slide-content-box p {
-  font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
   font-size: 21px;
   font-weight: 400;
   color: #fff;
@@ -4024,7 +4024,7 @@ HOME 5 Box Header
 }
 
 .frame-box .service-list li {
-  font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
   font-size: 18px;
   line-height: 28px;
   color: #000;
@@ -4040,7 +4040,7 @@ HOME 5 Box Header
 
 /* Testimonial Text*/
 .frame-box .testimonial-text p {
-  font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
   font-size: 24px;
   color: #6c6979;
   line-height: 40px;
@@ -4048,14 +4048,14 @@ HOME 5 Box Header
 
 .frame-box .item .testimonial-1 .testimonial-position {
   color: var(--color-primary);
-  font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
   text-transform: capitalize;
   font-size: 16px;
   font-weight: 300;
 }
 
 .frame-box .testimonial-1 .testimonial-name {
-  font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
   color: #000;
   font-size: 21px;
   margin-top: 5px;
@@ -4591,7 +4591,7 @@ HOME 5 Box Header
 .slider-tabs .slider-box .slider-content p {
   color: #fff;
   font-size: 18px;
-  font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
   font-weight: 300;
   letter-spacing: 1px;
   line-height: 30px;
@@ -4610,7 +4610,7 @@ HOME 5 Box Header
 
 .slider-tabs .slider-box .slider-content .title {
   font-size: 70px;
-  font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
   line-height: 70px;
   font-weight: 500;
   margin-bottom: 10px;
@@ -4735,7 +4735,7 @@ HOME 5 Box Header
   font-size: 50px;
   font-weight: 600;
   line-height: 60px;
-  font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
   color: #000;
 }
 
@@ -4827,7 +4827,7 @@ HOME 5 Box Header
   top: 5px;
   left: 0;
   transition: all 0.5s;
-  font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
   text-transform: capitalize;
 }
 
@@ -5630,7 +5630,7 @@ HOME 5 Box Header
     padding: 8px 0;
     border-radius: 0;
     font-size: 18px;
-    font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
     font-weight: 500;
   }
 
@@ -5677,7 +5677,7 @@ HOME 5 Box Header
   }
 
   .box-header .header-nav .nav>li>a {
-    font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
 
@@ -7027,7 +7027,7 @@ HOME 5 Box Header
 .call-action.style2 h2.title {
   font-size: 36px;
   line-height: 46px;
-  font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
   font-weight: 700;
   letter-spacing: 1px;
   margin-bottom: 15px;
@@ -7040,7 +7040,7 @@ HOME 5 Box Header
 .call-action.style2 h3 {
   font-size: 26px;
   font-weight: 600;
-  font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
   line-height: 36px;
   margin-bottom: 15px;
 }
@@ -8091,7 +8091,7 @@ button.scroltop {
 .dz-industry-zone {
   padding-top: 84px;
   padding-bottom: 84px;
-  font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
   width: 100%;
   background-color: #1a43bfd5;
   position: relative;

@@ -21497,6 +21497,9 @@ justify-content: center;
     top: 0 !important;
     bottom: 0 !important;
    }
+   .how-it-works-section {
+    padding-bottom: 0 !important;
+   }
 }
 
 

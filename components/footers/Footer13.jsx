@@ -8,11 +8,8 @@ export default function Footer13() {
   return (
     <footer className="site-footer footer-gray-1 ">
       <div className="footer-top">
-        <div className="container-fluid">
-          <div className="row justify-content-center px-3 px-md-5">
-            <div className="col-12 mx-0">
-              <div className="container-fluid">
-              <div className="row">
+        <div className="container">
+          <div className="row">
             <div
               className="col-lg-4 col-md-6 col-sm-6 wow fadeIn"
               data-wow-delay="0.2s"
@@ -157,26 +154,19 @@ export default function Footer13() {
               <img src="/images/Academy/lets-connect/lets-connect-img.png" />
             </div> */}
           </div>
-              </div>
-            </div>
-          </div>
-          
         </div>
       </div>
       {/* footer bottom part */}
       <div className="footer-bottom">
-      <div className="container-fluid">
-          <div className="row justify-content-center px-3 px-md-5">
-            <div className="col-12 mx-0">
-              <div className="container-fluid">
+        <div className="container">
           <div className="row">
             <div className="col-md-6 col-sm-6 text-left">
-              <span  style={{fontSize:'16px'}}>
+              <span>
                 Copyright ©{" "}
                 <span className="current-year">{new Date().getFullYear()} </span>
-              
+                <a href="#" target="_blank">
                   Zing Studio
-                {" "}
+                </a>{" "}
                 . All Rights Reserved.
               </span>
             </div>
@@ -192,9 +182,6 @@ export default function Footer13() {
                 </ul>
               </div>
             </div>
-          </div>
-          </div>
-          </div>
           </div>
         </div>
       </div>

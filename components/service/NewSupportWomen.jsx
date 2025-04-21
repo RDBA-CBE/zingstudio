@@ -35,7 +35,7 @@ const NewSupportWomen = () => {
       {/* 01 - Market Research */}
       <div className="col-12 col-lg-4 d-flex flex-column align-items-start  justify-content-center">
         <div className="position-relative ">
-          <h1 className="bg-number">10% OFF </h1>
+          <h1 className="bg-number" style={{lineHeight: "90px"}}>10% OFF </h1>
           <img src="/images/Home-Page/wep.png" alt="" style={{width:"90%"}}/>
           {/* <img src="/images/Home-Page/entre-2.png" alt="" style={{width:"30%"}}/> */}
           {/* <h4 className="fw-bold" style={{fontSize:"50px"}}> <b style={{fontSize:"25px",color:"#000"}}>for</b>  <br /> Women <br /> Entrepreneurs</h4> */}

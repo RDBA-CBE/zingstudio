@@ -230,7 +230,7 @@ const NewITeach = () => {
                               />
                             </div>
                             <div className="ow-event-info d-flex flex-column flex-grow-1 justify-content-between" style={{ borderBottomLeftRadius: "10px", borderBottomRightRadius: "10px" , height:"180px"}}>
-                              <p className="mb-0" style={{ color: "#e21100" }}>Fees @ {elm.price}</p>
+                              <p className="mb-0" style={{ color: "#4b4848" }}>Fees @ {elm.price}</p>
                               <div className="ow-event-title">
                                 <h4 className="event-title">
                                   <a href="#" title="Video post" style={{textDecoration:"none"}}>{elm.title}</a>

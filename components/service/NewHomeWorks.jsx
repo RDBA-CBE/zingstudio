@@ -18,7 +18,7 @@ const NewHomeWorks = () => {
           <button className="btn btn-dark mt-3  service-btn">View All Projects</button>
           <div className="illustration mt-4">
             <img
-              src="/images/Home-Page/i-teach-img.png"
+              src="/images/Home-Page/WorksIDid-New.png"
               alt="Illustration"
               className="img-fluid"
             />

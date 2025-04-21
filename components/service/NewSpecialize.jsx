@@ -6,19 +6,19 @@ const services = [
     id: "01",
     title: "Website Design",
     description: "Starting @ ₹ 15,000",
-    image: "/images/Home-Page/iteach-img-1.png",
+    image: "/images/Home-Page/development.png",
   },
   {
     id: "02",
     title: "Digital Marketing",
     description: "Starting @ ₹ 12,000",
-    image: "/images/Home-Page/iteach-img-1.png",
+    image: "/images/Home-Page/marketing.png",
   },
   {
     id: "03",
     title: "Ecommerce Website",
     description: "Starting @ ₹ 50,000",
-    image: "/images/Home-Page/iteach-img-1.png",
+    image: "/images/Home-Page/graphic-design.png",
   },
 ];
 

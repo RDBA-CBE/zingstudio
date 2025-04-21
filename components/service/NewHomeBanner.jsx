@@ -12,17 +12,32 @@ const NewHomeBanner = () => {
     {
       title1:"Digital",
       title2:"Agency",
-      content:"We specialize in providing related to digital marketing, web development, design, and technology."
+      content:"We specialize in providing related to digital marketing, web development, design, and technology.",
+      img:"/images/Home-Page/Banner-img.png"
     },
     {
       title1:"Digital",
       title2:"Agency",
-      content:"We specialize in providing related to digital marketing, web development, design, and technology."
+      content:"We specialize in providing related to digital marketing, web development, design, and technology.",
+      img:"/images/Home-Page/Banner-img.png"
     },
     {
       title1:"Digital",
       title2:"Agency",
-      content:"We specialize in providing related to digital marketing, web development, design, and technology."
+      content:"We specialize in providing related to digital marketing, web development, design, and technology.",
+      img:"/images/Home-Page/Banner-img.png"
+    },
+    {
+      title1:"Digital",
+      title2:"Agency",
+      content:"We specialize in providing related to digital marketing, web development, design, and technology.",
+      img:"/images/Home-Page/Banner-img.png"
+    },
+    {
+      title1:"Digital",
+      title2:"Agency",
+      content:"We specialize in providing related to digital marketing, web development, design, and technology.",
+      img:"/images/Home-Page/Banner-img.png"
     }
   ]
 
@@ -53,7 +68,7 @@ const NewHomeBanner = () => {
       speed={2500}
       loop
       navigation={{ prevEl: ".snbph7", nextEl: ".snbnh7" }}
-      style={{  borderRadius: "30px" }}
+      style={{  borderRadius: "30px"}}
       className="home-ban swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress home-swiper-10 swiper-backface-hidden fadeInUp" data-wow-delay="0.2s"
     >
       {slidesData.map((slide, index) => (
@@ -70,7 +85,7 @@ const NewHomeBanner = () => {
 
                     {/* Left - Image */}
                     <div className="col-md-6 text-center mb-4 mb-md-0">
-                      <img src="/images/Home-Page/mbl-banner/character-img-3.png" alt="Digital Agency Art" className="img-fluid hero-img" />
+                      <img src={slide?.img} alt="Digital Agency Art" className="img-fluid hero-img" />
                     </div>
 
                     {/* Right - Text */}

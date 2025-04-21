@@ -3763,7 +3763,7 @@ blockquote:before {
 .header-nav .nav>li>a {
   border-radius: 0px;
   color: #020d26;
-  font-size: 16px;
+  font-size: 16px  !important;
   padding: 23px 17px 22px 17px;
   cursor: pointer;
   font-weight: 600;

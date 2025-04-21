@@ -21577,16 +21577,48 @@ justify-content: center;
 }
 
 @media (max-width: 1024px) {
+  
+
   .NewSupportWomen img{
     width: 90% !important;
     
   }
+
+  .bg-number {
+    font-size: 80px !important;
+    font-weight: 700 !important;
+    opacity: 0.1;
+    margin: 0;
+  }
 }
 
+@media (max-width: 990px) {
+  .bg-number {
+    font-size: 70px !important;
+    line-height: 70px !important;
+    text-align: center !important;
+   
+  }
+  .info-section{
+    padding: 50px 20px;
+      }
+
+      .wom-img{
+        width: 50% !important;
+      }
+
+}
 
 @media (max-width: 768px) {
   .bg-number {
-    font-size: 70px;
+    font-size: 70px !important;
+    line-height: 60px !important;
+    text-align: center !important;
+   
+  }
+  
+  .wom-img{
+    width: 80% !important;
   }
 
   .desc-text {
@@ -21743,6 +21775,109 @@ justify-content: center;
 }
 
 .newIteach .event-title{
-  font-size: 28px !important;
+  font-size: 26px !important;
   font-weight: 700 !important;
 }
+
+
+.footernew.footer-section {
+  background-color: #1a43bf;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  margin-top: 40px;
+}
+
+.footernew .footer-title {
+  font-size: 20px;
+  font-weight: 700 !important;
+  margin-bottom: 20px;
+}
+
+.footernew .footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footernew .footer-list li {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.footernew .footer-subscribe {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ffffff7a !important;
+  padding-bottom: 10px;
+}
+
+.footernew .subscribe-text {
+  font-size: 18px !important;
+  font-weight: 500;
+}
+
+.footernew .subscribe-symbol {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footernew .subscribe-note {
+  font-size: 14px !important;
+  color: #bbb;
+}
+
+.footernew .footer-socials {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footernew .footer-social-btn {
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 999px;
+  padding: 6px 16px;
+  transition: all 0.3s ease;
+}
+
+.footernew .footer-social-btn:hover {
+  background-color: #fff;
+  color: #0b071a;
+}
+
+.footernew .footer-bottom {
+  margin-top: 50px;
+  /* text-align: center; */
+  border-top: 1px solid #ffffff7a;
+  padding-top: 20px;
+  font-size: 13px !important;
+  color: #aaa !important;
+  background: none !important;
+}
+
+/* Responsive */
+@media (max-width: 767.98px) {
+  .footernew .footer-section {
+    text-align: center;
+  }
+
+  .footernew .footer-subscribe {
+    justify-content: center;
+  }
+
+  .footernew .footer-socials {
+    align-items: center;
+  }
+
+  .footernew .footer-bottom {
+    font-size: 12px;
+  }
+}
+

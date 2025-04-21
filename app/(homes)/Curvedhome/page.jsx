@@ -27,6 +27,7 @@ import NewHomeWorks from "@/components/service/NewHomeWorks";
 import NewSpecialProgram from "@/components/service/NewSpecialProgram";
 import NewSupportWomen from "@/components/service/NewSupportWomen";
 import NewHomeBanner from "@/components/service/NewHomeBanner";
+import Footer1 from "@/components/footers/Footer1";
 // import HomeService from "@/components/service/HomeService"
 
 
@@ -72,7 +73,7 @@ export default function NewHome() {
 
         <HomeCta />
         <div className="home-footer">
-        <Footer13 />
+        <Footer1 />
         </div>
        
       </div>

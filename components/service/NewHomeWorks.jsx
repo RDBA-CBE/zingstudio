@@ -53,7 +53,7 @@ const NewHomeWorks = () => {
                  top:"50px"
               },
             ].map((item, index) => (
-              <div className="col-sm-6 work-card-slider pe-0" key={index} style={{marginTop: item.top}}>
+              <div className="col-sm-6 work-card-slider pe-0 ps-0 ps-md-4" key={index} style={{marginTop: item.top}}>
                 <div className="work-card">
                   <img src={item.img} alt={item.title} className="img-fluid rounded-4" />
                   <p className="category-label mt-2 text-uppercase small mb-0" style={{fontSize:"14px"}}>Case Study / Showcase</p>

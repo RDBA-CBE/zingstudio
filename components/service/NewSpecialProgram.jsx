@@ -7,7 +7,7 @@ import { Accordion } from 'react-bootstrap';
 const NewSpecialProgram = () => {
   return (
     <div className="how-it-works-section container-fluid  mb-5" style={{paddingBottom:"130px"}} >
-      <div className="row justify-content-center align-items-center px-5">
+      <div className="row justify-content-center align-items-center px-3 px-md-5">
       
         <div className='col-12 mx-0'>
             <div className='container-fluid'>

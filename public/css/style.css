@@ -21090,7 +21090,7 @@ margin: 50px 20px !important;
   transform: translateX(30px);
 }
 .NewSpecialize .service-title{
-  font-size: 64px;
+  font-size: 110px;
   font-weight: 800 !important;
 }
 .NewSpecialize .section-title{
@@ -21319,6 +21319,7 @@ margin: 50px 20px !important;
 
 .category-label {
   color: #888;
+  font-size: 14px !important;
 }
 
 .illustration img {
@@ -21444,7 +21445,7 @@ justify-content: center;
   background: none;
   border-bottom: 1px solid black;
   box-shadow:"none";
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .hiw-accordion .accordion-button {
@@ -21477,7 +21478,7 @@ justify-content: center;
 }
 
 .hiw-accordion .accordion-body{
-  font-size: 20px !important;
+  font-size: 15px !important;
 }
 
 @media ( max-width:1440px){
@@ -21600,7 +21601,7 @@ justify-content: center;
   border-radius: 30px;
   padding: 60px 20px;
   color: #000;
-  height: 90vh !important;
+  height: 100vh !important;
 }
 
 .hero-img {
@@ -21678,15 +21679,16 @@ justify-content: center;
   left: -60px !important;
   }
   .digital-agency .h-num2{
-    top: -120px !important;
+    top: -100px !important;
       left: 50px !important;
       
   }
   .digital-agency p{
   position: relative !important;
-    top: -120px !important;
-    left: 260px !important;
-    width: 60% !important;
+    top: -100px !important;
+    left: 250px !important;
+    line-height: 15px;
+    width: 50% !important;
     font-size: 14px !important;
 
 }

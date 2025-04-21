@@ -21290,6 +21290,11 @@ margin: 50px 20px !important;
   }
 }
 /* Responsive Media Queries */
+@media (max-width: 1440px) {
+  .heading-digital {
+    font-size: 50px;
+  }
+}
 @media (max-width: 768px) {
   .heading-digital {
     font-size: 35px;

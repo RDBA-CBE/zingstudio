@@ -25,7 +25,7 @@ const services = [
 
 const NewSpecialize = () => {
   return (
-    <section className="services-section text-white py-5 NewSpecialize" style={{marginTop:"40px", background:"#4962a9"}}>
+    <section className="services-section text-white py-5 NewSpecialize" style={{marginTop:"40px", background:"#1a43bf"}}>
       <div className="container-fluid">
         <div className="row justify-content-center">
         <div className="col-10 col-lg-8">

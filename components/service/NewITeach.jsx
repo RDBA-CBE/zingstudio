@@ -157,7 +157,7 @@ const NewITeach = () => {
     <div className='container-fluid pb-5 newIteach'>
         <div className='row justify-content-center px-5'>
             <div className='col-12 mx-0'>
-            <div className="custom-team-section py-5 NewITeach" style={{background:"#4962a9"}}>
+            <div className="custom-team-section py-5 NewITeach" style={{background:"#1a43bf"}}>
       <Container >
         <Row className="align-items-center">
           <Col md={6} className="text-center text-md-start mb-4 mb-md-0">

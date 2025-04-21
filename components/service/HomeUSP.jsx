@@ -55,13 +55,13 @@ export default function Cta() {
           <div className="col-12 text-white overflow-hidden" style={{ marginBottom: "-5px" }}>
             <div className="marquee-wrapper">
               <div className="marquee-content">
-                <span className="title text-uppercase text-dark">Cost Effective Solution</span>
-                <span className="title text-uppercase text-dark">Cutting Edge Technology</span>
-                <span className="title text-uppercase text-dark">Result Driven Service</span>
+                <span className="title text-uppercase text-white">Cost Effective Solution</span>
+                <span className="title text-uppercase text-white">Cutting Edge Technology</span>
+                <span className="title text-uppercase text-white">Result Driven Service</span>
                 {/* Repeat for seamless loop */}
-                <span className="title text-uppercase text-dark">Cost Effective Solution</span>
-                <span className="title text-uppercase text-dark">Cutting Edge Technology</span>
-                <span className="title text-uppercase text-dark">Result Driven Service</span>
+                <span className="title text-uppercase text-white">Cost Effective Solution</span>
+                <span className="title text-uppercase text-white">Cutting Edge Technology</span>
+                <span className="title text-uppercase text-white">Result Driven Service</span>
               </div>
             </div>
           </div>

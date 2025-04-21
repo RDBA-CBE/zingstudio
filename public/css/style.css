@@ -21476,8 +21476,85 @@ justify-content: center;
   max-width: 500px;
   margin: 0 auto;
 }
+@media (max-width: 1590px) {
+  .digital-agency h1{
+    font-size: 120px !important;
+    position: relative !important;
+    left: -60px !important;
+    }
+    .digital-agency .h-num2{
+        top: -130px !important;
+        left: 50px !important;
+        
+    }
+    .digital-agency p{
+    position: relative !important;
+      top: -140px !important;
+      left: 350px !important;
+      width: 50% !important;
+  }
+}
 
-@media (max-width: 768px) {
+@media (max-width: 1440px) {
+  .digital-agency h1{
+  font-size: 120px !important;
+  position: relative !important;
+  left: -60px !important;
+  }
+  .digital-agency .h-num2{
+    top: -145px !important;
+      left: 50px !important;
+      
+  }
+  .digital-agency p{
+  position: relative !important;
+    top: -140px !important;
+    left: 350px !important;
+    width: 50% !important;
+}
+}
+
+@media (max-width: 1300px) {
+  .digital-agency h1{
+  font-size: 100px !important;
+  position: relative !important;
+  left: -60px !important;
+  }
+  .digital-agency .h-num2{
+    
+      left: 50px !important;
+      
+  }
+  .digital-agency p{
+  position: relative !important;
+    top: -140px !important;
+    left: 300px !important;
+    width: 50% !important;
+}
+}
+
+@media (max-width: 1180px) {
+  .digital-agency h1{
+  font-size: 90px !important;
+  position: relative !important;
+  left: -60px !important;
+  }
+  .digital-agency .h-num2{
+    top: -120px !important;
+      left: 50px !important;
+      
+  }
+  .digital-agency p{
+  position: relative !important;
+    top: -120px !important;
+    left: 260px !important;
+    width: 60% !important;
+    font-size: 14px !important;
+
+}
+}
+
+@media (max-width: 990px) {
   .digital-agency {
     text-align: center;
     padding: 40px 10px;
@@ -21493,7 +21570,7 @@ justify-content: center;
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 990px) {
   .digital-agency {
     text-align: center;
     padding: 40px 10px;
@@ -21515,12 +21592,9 @@ justify-content: center;
   .digital-agency p {
     font-size: 1rem;
     position: static !important;
-    width: 90% !important;
+    width: 100% !important;
     margin: 0 auto;
     top: auto !important;
     left: auto !important;
   }
 }
-
-
-

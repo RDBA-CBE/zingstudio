@@ -25,7 +25,7 @@ const NewSupportWomen = () => {
     // </section>
     
     <div className="container-fluid mb-5 NewSupportWomen">
-      <div className="row justify-content-center px-5">
+      <div className="row justify-content-center px-3 px-md-5">
         <div className="col-12 mx-0 ">
         <div className="info-section container-fluid d-flex justify-content-center align-items-center">
     <div className="row w-100 justify-content-center text-white text-center">

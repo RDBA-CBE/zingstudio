@@ -47,7 +47,7 @@ const NewSpecialize = () => {
                 <div className="service-image-wrapper">
                   <img src={service.image} alt={service.title} className="service-image" />
                 </div>
-                <div className="service-id text-white mx-3 mt-3 ">({service.id})</div>
+                <div className="service-id text-white mx-3 mt-4 ">({service.id})</div>
                 <div className="service-text">
                   <h3 className="fw-bold display-5 service-title mb-2 ">{service.title}</h3>
                   <p className=" mb-0">{service.description}</p>

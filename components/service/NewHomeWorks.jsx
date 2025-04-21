@@ -4,7 +4,7 @@ import React from "react";
 const NewHomeWorks = () => {
   return (
     <section className="digital-works-section container-fluid py-5 NewSpecialize">
-      <div className="row justify-content-center px-5">
+      <div className="row justify-content-center px-3 px-md-5">
         <div className="col-12 mx-0">
           <div className="container-fluid">
           <div className="row m-0 ">

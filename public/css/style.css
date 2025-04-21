@@ -131,7 +131,7 @@ html {
 body {
   background-color: #fff;
   font-family: 'DM Sans', Arial, Helvetica, sans-serif !important;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   color: #282222;
   padding: 0;
@@ -147,19 +147,19 @@ body {
 }
 
 p {
-  font-size: 16px !important;
+  font-size: 20px !important;
   font-family: "DM Sans";
   font-weight: 500;
 }
 
 div {
-  font-size: 16px !important;
+  font-size: 20px !important;
   font-family: 'DM Sans', Arial, Helvetica, sans-serif !important;
 
 }
 
 ul li {
-  font-size: 16px !important;
+  font-size: 20px !important;
   font-family: 'DM Sans', Arial, Helvetica, sans-serif !important;
   font-weight: 500 ;
 }
@@ -169,17 +169,17 @@ a{
 }
 
 ul li a {
-  font-size: 16px !important;
+  font-size: 20px !important;
   font-family: 'DM Sans', Arial, Helvetica, sans-serif !important;
   font-weight: 500 ;
 }
 
 footer ul li a {
-  font-size: 14px !important;
+  font-size: 16px !important;
 }
 
 footer .list-2 li a {
-  font-size: 13px !important;
+  font-size: 15px !important;
 }
 
 a {
@@ -21437,7 +21437,7 @@ justify-content: center;
 }
 
 .hiw-accordion .accordion-body{
-  font-size: 15px !important;
+  font-size: 20px !important;
 }
 
 @media ( max-width:1440px){

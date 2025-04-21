@@ -190,10 +190,10 @@ const NewITeach = () => {
                       slidesPerView={6}
                       spaceBetween={30}
                       slidesPerGroup={1}
-                      // loop
-                      // autoplay={{
-                      //   delay: 4000,
-                      // }}
+                      loop
+                      autoplay={{
+                        delay: 4000,
+                      }}
                       // style={{ height: '100%' }}
                       speed={2500}
                       modules={[Pagination, Autoplay, Navigation]}

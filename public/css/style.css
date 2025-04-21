@@ -21284,7 +21284,11 @@ margin: 50px 20px !important;
 .illustration img {
   max-width: 100%;
 }
-
+@media (max-width:1440px){
+  .newIteach .ow-event-info{
+    height: 200px !important;
+  }
+}
 /* Responsive Media Queries */
 @media (max-width: 768px) {
   .heading-digital {

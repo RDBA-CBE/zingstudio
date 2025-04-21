@@ -21057,6 +21057,8 @@ margin: 50px 20px !important;
   opacity: 0;
   transform: translateX(-100%);
   transition: transform 0.5s ease, opacity 0.5s ease;
+  border-radius: 20px;
+  background-color: #edab3a;
 }
 
 /* ID styling */

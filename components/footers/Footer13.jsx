@@ -161,12 +161,12 @@ export default function Footer13() {
         <div className="container">
           <div className="row">
             <div className="col-md-6 col-sm-6 text-left">
-              <span>
+              <span  style={{fontSize:'16px'}}>
                 Copyright ©{" "}
                 <span className="current-year">{new Date().getFullYear()} </span>
-                <a href="#" target="_blank">
+              
                   Zing Studio
-                </a>{" "}
+                {" "}
                 . All Rights Reserved.
               </span>
             </div>

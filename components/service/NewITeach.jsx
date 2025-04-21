@@ -154,7 +154,7 @@ const NewITeach = () => {
 ]
 
   return (
-    <div className='container-fluid py-5'>
+    <div className='container-fluid py-5 newIteach'>
         <div className='row justify-content-center'>
             <div className='col-11'>
             <div className="custom-team-section py-5 NewITeach" style={{background:"#a1afd9"}}>
@@ -194,6 +194,7 @@ const NewITeach = () => {
                       // autoplay={{
                       //   delay: 4000,
                       // }}
+                      // style={{ height: '100%' }}
                       speed={2500}
                       modules={[Pagination, Autoplay, Navigation]}
                       navigation={{
@@ -228,7 +229,7 @@ const NewITeach = () => {
                                 // style={{ borderTopLeftRadius: "10px", borderTopRightRadius: "10px" }}
                               />
                             </div>
-                            <div className="ow-event-info d-flex flex-column flex-grow-1 justify-content-between" style={{ borderBottomLeftRadius: "10px", borderBottomRightRadius: "10px" }}>
+                            <div className="ow-event-info d-flex flex-column flex-grow-1 justify-content-between" style={{ borderBottomLeftRadius: "10px", borderBottomRightRadius: "10px" , height:"180px"}}>
                               <p className="mb-0" style={{ color: "#e21100" }}>Fees @ {elm.price}</p>
                               <div className="ow-event-title">
                                 <h4 className="event-title">
@@ -236,7 +237,7 @@ const NewITeach = () => {
                                 </h4>
                               </div>
                               
-                              {/* <div className="ow-event-readmore mt-auto ">
+                              <div className="ow-event-readmore mt-auto ">
                                 <a
                                   href={elm?.link}
                                   title="READ MORE"
@@ -245,11 +246,16 @@ const NewITeach = () => {
                                 >
                                   Read More <i className="fas fa-arrow-right" />
                                 </a>
-                              </div> */}
+                              </div>
                             </div>
                           </div>
                         </div>
                       </SwiperSlide>
+
+
+                     
+
+
                       
                       ))}
                     </Swiper>

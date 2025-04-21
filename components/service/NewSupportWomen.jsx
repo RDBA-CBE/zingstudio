@@ -31,7 +31,7 @@ const NewSupportWomen = () => {
     <div className="row w-100 justify-content-center text-white text-center">
 
       {/* 01 - Market Research */}
-      <div className="col-md-4 d-flex flex-column align-items-center ">
+      <div className="col-12 col-lg-4 d-flex flex-column align-items-center ">
         <div className="position-relative">
           <h1 className="bg-number">01</h1>
           <h4 className="fw-bold position-absolute top-50 start-50 translate-middle text-center">
@@ -44,13 +44,13 @@ const NewSupportWomen = () => {
       </div>
 
       {/* 02 - Design & Development */}
-      <div className="col-md-4 d-flex flex-column align-items-center">
+      <div className="col-12 col-lg-4 d-flex flex-column align-items-center justify-content-around">
       <img src="/images/Home-Page/supportwomen.png" alt="" style={{width:"70%"}}/>
       </div>
      
 
       {/* 03 - Quality Assurance */}
-      <div className="col-md-4 d-flex flex-column align-items-center">
+      <div className="col-12 col-lg-4 mt-5 mt-lg-0 d-flex flex-column align-items-center">
         <div className="position-relative">
           <h1 className="bg-number">03</h1>
           <h4 className="fw-bold position-absolute top-50 start-50 translate-middle text-center">

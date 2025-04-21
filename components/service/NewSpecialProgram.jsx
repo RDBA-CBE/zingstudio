@@ -11,10 +11,10 @@ const NewSpecialProgram = () => {
       
         <div className='col-11'>
             <div className='container-fluid'>
-                <div className='row'>
+                <div className='row '>
                      {/* Left Section */}
-        <div className="col-lg-6 mb-4 px-0" >
-          <div className="hiw-card hiw-left" style={{position:"relative",top:"-30px"}}>
+        <div className="col-12 col-xl-6 mb-4 px-0" style={{}}>
+          <div className="hiw-card hiw-left me-2" style={{position:"relative",top:"-80px",display:"flex", flexDirection:"column", justifyItems:"center",justifyContent:"center"}}>
             <h2 className="hiw-heading text-black">How it Works</h2>
             <Accordion defaultActiveKey="0" className="hiw-accordion">
               <Accordion.Item eventKey="0">
@@ -40,17 +40,17 @@ const NewSpecialProgram = () => {
         </div>
 
         {/* Right Section */}
-        <div className="col-lg-6 px-0">
-          <div className="hiw-card hiw-right" style={{position:"relative",top:"50px"}}>
+        <div className="col-12 col-xl-6 px-0" >
+          <div className="hiw-card hiw-right ms-2" style={{position:"relative",top:"40px"}}>
             <img src="/images/Home-Page/vector-img.png" alt="character" className="character-img" />
             <div className="hiw-stats">
-              <div>
+              <div className='d-flex align-items-center justify-content-center'>
                 <h3>15</h3>
-                <p>Years of Experience</p>
+                <p className='text-start mx-3'>Years of <br/>Experience</p>
               </div>
-              <div>
+              <div className='d-flex align-items-center justify-content-center'>
                 <h3>1K+</h3>
-                <p>Projects Worldwide</p>
+                <p className='text-start mx-3'>Projects <br/> Worldwide</p>
               </div>
             </div>
           </div>

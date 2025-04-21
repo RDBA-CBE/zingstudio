@@ -30,7 +30,7 @@ const NewSpecialize = () => {
         <div className="d-flex justify-content-between align-items-center  flex-wrap">
           <div>
             <h2 className="section-title  mb-1 text-black mb-3 mb-md-5">
-            I Specialize in
+            Solving Design Problems at<br className="d-none d-md-block"/> a Race Car Speed
             </h2>
           </div>
           <button className="btn btn-outline-light mb-3 mb-md-5  service-btn">

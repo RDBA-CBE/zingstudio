@@ -53,7 +53,7 @@ const NewHomeBanner = () => {
       speed={2500}
       loop
       navigation={{ prevEl: ".snbph7", nextEl: ".snbnh7" }}
-      style={{  width: "95%", borderRadius: "30px" }}
+      style={{  borderRadius: "30px" }}
       className="home-ban swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress home-swiper-10 swiper-backface-hidden fadeInUp" data-wow-delay="0.2s"
     >
       {slidesData.map((slide, index) => (
@@ -106,14 +106,14 @@ const NewHomeBanner = () => {
 
 
 
-      <div className="swiper-button" style={{ zIndex: 1 }}>
+      {/* <div className="swiper-button" style={{ zIndex: 1 }}>
         <div className="swiper-button-prev snbph7 previousButton">
           <i className="las la-angle-left" />
         </div>
         <div className="swiper-button-next snbnh7 nextButton swiper-button-disabled">
           <i className="las la-angle-right" />
         </div>
-      </div>
+      </div> */}
     </Swiper>
   );
 };

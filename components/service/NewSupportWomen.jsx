@@ -25,41 +25,47 @@ const NewSupportWomen = () => {
     // </section>
     
     <div className="container-fluid mb-5 NewSupportWomen">
-      <div className="row justify-content-center">
-        <div className="col-11 ">
+      <div className="row justify-content-center px-5">
+        <div className="col-12 mx-0 ">
         <div className="info-section container-fluid d-flex justify-content-center align-items-center">
     <div className="row w-100 justify-content-center text-white text-center">
 
+      
+
       {/* 01 - Market Research */}
-      <div className="col-12 col-lg-4 d-flex flex-column align-items-center ">
-        <div className="position-relative">
-          <h1 className="bg-number">01</h1>
-          <h4 className="fw-bold position-absolute top-50 start-50 translate-middle text-center">
-            Market <br /> Research
-          </h4>
+      <div className="col-12 col-lg-4 d-flex flex-column align-items-start  justify-content-center">
+        <div className="position-relative ">
+          <h1 className="bg-number">10% OFF </h1>
+          <img src="/images/Home-Page/wep.png" alt="" style={{width:"90%"}}/>
+          {/* <img src="/images/Home-Page/entre-2.png" alt="" style={{width:"30%"}}/> */}
+          {/* <h4 className="fw-bold" style={{fontSize:"50px"}}> <b style={{fontSize:"25px",color:"#000"}}>for</b>  <br /> Women <br /> Entrepreneurs</h4> */}
+          {/* <h4 className=" position-absolute top-50 start-50 translate-middle text-center " >
+            Market
+             <br /> <br /> OFF
+          </h4> */}
         </div>
-        <p className="desc-text mt-3 px-3">
+        {/* <p className="desc-text mt-3 px-3">
           Creating visually appealing, user-friendly websites that align with the client's brand and objectives.
-        </p>
+        </p> */}
       </div>
 
       {/* 02 - Design & Development */}
-      <div className="col-12 col-lg-4 d-flex flex-column align-items-center justify-content-around">
-      <img src="/images/Home-Page/supportwomen.png" alt="" style={{width:"70%"}}/>
+      <div className="col-12 col-lg-4 d-flex flex-column align-items-center justify-content-end">
+      <img src="/images/Home-Page/entre-2.png" alt="" style={{width:"70%",padding:"50px 0 0 0"}}/>
       </div>
      
 
       {/* 03 - Quality Assurance */}
-      <div className="col-12 col-lg-4 mt-5 mt-lg-0 d-flex flex-column align-items-center">
+      <div className="col-12 col-lg-4 mt-5 mt-lg-0 pe-5 d-flex flex-column align-items-center justify-content-around">
         <div className="position-relative">
-          <h1 className="bg-number">03</h1>
-          <h4 className="fw-bold position-absolute top-50 start-50 translate-middle text-center">
+          <h1 className="bg-number text-right " style={{lineHeight:'90px',fontSize:"100px"}}>Support <br />Career Break </h1>
+          {/* <h4 className="fw-bold position-absolute top-50 start-50 translate-middle text-center">
             Quality <br /> Assurance
-          </h4>
+          </h4> */}
         </div>
-        <p className="desc-text mt-3 px-3">
+        {/* <p className="desc-text mt-3 px-3">
           Creating visually appealing, user-friendly websites that align with the client's brand and objectives.
-        </p>
+        </p> */}
       </div>
 
     </div>

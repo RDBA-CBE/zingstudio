@@ -1,6 +1,7 @@
 
 import Home1 from "./(homes)/home-1/page";
 import NewHome from "./(homes)/NewHome/page";
+import Curvedhome from "./(homes)/Curvedhome/page";
 
 
 export const metadata = {
@@ -14,7 +15,9 @@ export default function Home() {
     <>
       {/* <Home1 /> */}
 
-      <NewHome/>
+      {/* <NewHome/> */}
+
+      <Curvedhome/>
 
     </>
   );

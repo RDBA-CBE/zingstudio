@@ -75,11 +75,11 @@ const NewHomeBanner = () => {
         <SwiperSlide
           key={index}
           className="swiper-slide slider-content"
-        // style={{ background: slide.backgroundImage, height: "700px" }}
+        // style={{ background: slide.backgroundImage }}
         >
           <div className="container-fluid">
-            <div className="row justify-content-center">
-              <div className="col-11">
+            <div className="row justify-content-center px-5">
+              <div className="col-12 m-0 p-0">
                 <div className="digital-agency container-fluid d-flex align-items-center justify-content-center py-5">
                   <div className="row align-items-center w-100 px-md-5 px-3">
 

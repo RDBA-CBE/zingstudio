@@ -154,29 +154,29 @@ const NewITeach = () => {
 ]
 
   return (
-    <div className='container-fluid py-5 newIteach'>
-        <div className='row justify-content-center'>
-            <div className='col-11'>
-            <div className="custom-team-section py-5 NewITeach" style={{background:"#a1afd9"}}>
+    <div className='container-fluid pb-5 newIteach'>
+        <div className='row justify-content-center px-5'>
+            <div className='col-12 mx-0'>
+            <div className="custom-team-section py-5 NewITeach" style={{background:"#4962a9"}}>
       <Container >
         <Row className="align-items-center">
           <Col md={6} className="text-center text-md-start mb-4 mb-md-0">
             <div className="custom-team-title">
-              <span className="custom-sparkle">✦</span>
-              <h2 className="fw-bold">Our Team of Dedicated<br />Digital Professionals</h2>
+              {/* <span className="custom-sparkle">✦</span> */}
+              <h2 className="fw-bold text-white">Our Team of Dedicated<br />Digital Professionals</h2>
         
-              <button className="btn btn-outline-light mb-3 mb-md-5 mt-3 custom-about-btn">
+              <button className="btn btn-outline-light mb-3 mb-md-5 mt-3 custom-about-btn" style={{background:"none",border:"1px solid #fff"}}>
             <a href="/services" className="text-white " style={{textDecoration:"none"}}>
             All Services</a> 
           </button>
             </div>
           </Col>
           <Col md={6}>
-            <p className="custom-team-text text-dark">
+            <p className="custom-team-text text-white">
               This is the main factor that sets us apart from our competition and allows us
               to deliver a specialist business consultancy service.
             </p>
-            <p className="custom-team-text text-dark">
+            <p className="custom-team-text text-white">
               Through our years of experience, we’ve also learned that while each channel has
               its own set of advantages, they all work best when strategically paired with
               other channels.

@@ -6,15 +6,15 @@ import { Accordion } from 'react-bootstrap';
 
 const NewSpecialProgram = () => {
   return (
-    <div className="how-it-works-section container-fluid py-5 mb-5">
-      <div className="row justify-content-center align-items-center">
+    <div className="how-it-works-section container-fluid  mb-5" style={{paddingBottom:"130px"}} >
+      <div className="row justify-content-center align-items-center px-5">
       
-        <div className='col-11'>
+        <div className='col-12 mx-0'>
             <div className='container-fluid'>
                 <div className='row '>
                      {/* Left Section */}
-        <div className="col-12 col-xl-6 mb-4 px-0" style={{}}>
-          <div className="hiw-card hiw-left me-2" style={{position:"relative",top:"-80px",display:"flex", flexDirection:"column", justifyItems:"center",justifyContent:"center"}}>
+        <div className="col-12 col-xl-6 mb-4 px-0 " >
+          <div className="hiw-card hiw-left me-2 " style={{position:"relative",top:"0px",display:"flex", flexDirection:"column", justifyItems:"center",justifyContent:"center"}}>
             <h2 className="hiw-heading text-black">How it Works</h2>
             <Accordion defaultActiveKey="0" className="hiw-accordion">
               <Accordion.Item eventKey="0">
@@ -41,7 +41,7 @@ const NewSpecialProgram = () => {
 
         {/* Right Section */}
         <div className="col-12 col-xl-6 px-0" >
-          <div className="hiw-card hiw-right ms-2" style={{position:"relative",top:"40px"}}>
+          <div className="hiw-card hiw-right ms-2" style={{position:"relative",top:"120px"}}>
             <img src="/images/Home-Page/vector-img.png" alt="character" className="character-img" />
             <div className="hiw-stats">
               <div className='d-flex align-items-center justify-content-center'>

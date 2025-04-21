@@ -2,7 +2,10 @@ import React from "react";
 import Link from "next/link";
 export default function HomeCta() {
   return (
-    <div className="section-full call-action  wow fadeIn home-cta"  data-wow-duration="2s" data-wow-delay="0.2s" style={{background:"#d23530"}}>
+    <div className="section-full call-action  wow fadeIn home-cta"  data-wow-duration="2s" data-wow-delay="0.2s" 
+    // style={{background:"linear-gradient(to right, #984674, #4c48d0)"}}
+    style={{background:"#1a43bf"}}
+    >
       <div className="container">
         <div className="row">
           <div className="col-lg-9 text-white wow fadeInUp"

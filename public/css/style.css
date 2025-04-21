@@ -20504,7 +20504,8 @@ ul.wespealize li{ font-size:30px !important; list-style-type: none;}
 
 .ourusp.call-action{
   padding: 20px 0 !important;
-  background-color: #a1afd9 !important;
+  /* background-color: #a1afd9 !important; */
+  background-color: #4962a9 !important;
 }
 .ourusp marquee span {
   font-size: 40px !important;
@@ -21040,6 +21041,7 @@ margin: 50px 20px !important;
   align-items: flex-start;
   position: relative;
   transition: all 0.5s ease;
+  margin-top: 40px;
 }
 
 /* Image styles */
@@ -21095,10 +21097,14 @@ margin: 50px 20px !important;
 }
 .NewSpecialize .service-btn{
   padding: 15px 40px 15px 40px;
-  background-color: #1a43bf;
+  background-color: #fff;
   border-radius: 30px;
 
-  font-weight: 700;
+
+}
+.NewSpecialize .service-btn a{
+  color: #1a43bf !important;
+  font-weight: 700 !important;
 }
 .NewSpecialize .service-btn:hover{
   background-color: white;
@@ -21113,13 +21119,44 @@ margin: 50px 20px !important;
 
 }
 
+.NewSpecialize .headline {
+  font-family: 'Poppins', sans-serif !important; /* Or any modern bold font */
+  font-size: 108px !important; /* Adjust as needed */
+  font-weight: 700 !important;
+  line-height: 1.1 !important;
+  letter-spacing: -4px;
+}
+
+.NewSpecialize .black-text {
+  color: #0b0b1f !important; /* Deep black-blue tone */
+}
+
+.NewSpecialize .gradient-text { 
+  background: linear-gradient(90deg, #984674, #4c48d0) !important; /* Pink to purple */
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  display: inline-block !important;
+}
+
+
 /* Responsive behavior */
+
+@media (max-width: 1100px) {
+  .NewSpecialize .headline {
+    font-family: 'Poppins', sans-serif !important; /* Or any modern bold font */
+    font-size: 70px !important;
+  }
+}
 @media (max-width: 768px) {
   .NewSpecialize .section-title{
     font-size: 30px !important;
   }
   .NewSpecialize .service-title{
     font-size: 36px;
+  }
+  .NewSpecialize .headline {
+    font-family: 'Poppins', sans-serif !important; /* Or any modern bold font */
+    font-size: 50px !important;
   }
   .NewSpecialize .service-id {
    
@@ -21265,6 +21302,7 @@ margin: 50px 20px !important;
 .work-card img {
   transition: transform 0.3s ease;
   border-radius: 15px;
+  /* width: 100%; */
 }
 
 .work-card:hover img {
@@ -21379,7 +21417,7 @@ justify-content: center;
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
- 
+  
   /* padding: 60px; */
   position: relative;
   /* box-shadow: 0 10px 30px rgba(0,0,0,0.3); */
@@ -21508,9 +21546,9 @@ justify-content: center;
 
 
 .info-section {
-  background: linear-gradient(to right, #f5a8a8, #9f5de2);
+  background:linear-gradient(to right, #984674, #4c48d0);
   border-radius: 25px;
-  padding: 60px 20px;
+  padding: 0px 20px;
 }
 
 .bg-number {
@@ -21527,8 +21565,9 @@ justify-content: center;
 }
 
 .NewSupportWomen h4{
-  font-size: 48px !important;
+  font-size: 55px !important;
   font-weight: 700;
+  color:linear-gradient(to right, #984674, #4c48d0) ;
 }
 
 @media (max-width: 1024px) {
@@ -21554,7 +21593,8 @@ justify-content: center;
 /* banner text*/
 
 .digital-agency {
-  background: linear-gradient(to bottom, #fff 0%, #f5a8a8 40%, #9f5de2 100%);
+  /* background: linear-gradient(to bottom, #fff 0%, #f5a8a8 40%, #9f5de2 100%); */
+  background-image: url("../images/Home-Page/banner-bg-img-4.jpg");
   border-radius: 30px;
   padding: 60px 20px;
   color: #000;

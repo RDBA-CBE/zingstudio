@@ -8,8 +8,11 @@ export default function Footer13() {
   return (
     <footer className="site-footer footer-gray-1 ">
       <div className="footer-top">
-        <div className="container">
-          <div className="row">
+        <div className="container-fluid">
+          <div className="row justify-content-center px-3 px-md-5">
+            <div className="col-12 mx-0">
+              <div className="container-fluid">
+              <div className="row">
             <div
               className="col-lg-4 col-md-6 col-sm-6 wow fadeIn"
               data-wow-delay="0.2s"
@@ -18,7 +21,7 @@ export default function Footer13() {
                 <h6 className="m-b10 font-weight-300 " style={{ color: "#1A43BF" }}>
                   Quick Links
                 </h6>
-                <ul className="list-2 ">
+                <ul className="list-2 px-0">
                   {footerLinks2.map((link, index) => (
                     <li key={index}>
                       <Link href={link.href}>{link.label}</Link>
@@ -154,11 +157,18 @@ export default function Footer13() {
               <img src="/images/Academy/lets-connect/lets-connect-img.png" />
             </div> */}
           </div>
+              </div>
+            </div>
+          </div>
+          
         </div>
       </div>
       {/* footer bottom part */}
       <div className="footer-bottom">
-        <div className="container">
+      <div className="container-fluid">
+          <div className="row justify-content-center px-3 px-md-5">
+            <div className="col-12 mx-0">
+              <div className="container-fluid">
           <div className="row">
             <div className="col-md-6 col-sm-6 text-left">
               <span  style={{fontSize:'16px'}}>
@@ -182,6 +192,9 @@ export default function Footer13() {
                 </ul>
               </div>
             </div>
+          </div>
+          </div>
+          </div>
           </div>
         </div>
       </div>

@@ -7,30 +7,35 @@ const services = [
     title: "Website Design",
     description: "Starting @ ₹ 15,000",
     image: "/images/Home-Page/development.png",
+     link:"web-design-service"
   },
   {
     id: "02",
     title: "CMS Websites",
     description: "Starting @ ₹ 12,000",
     image: "/images/Home-Page/marketing.png",
+     link:"web-design-service"
   },
   {
     id: "03",
     title: "Ecommerce",
     description: "Starting @ ₹ 50,000",
     image: "/images/Home-Page/graphic-design.png",
+     link:"e-commerce-service"
   },
   {
     id: "04",
     title: "Digital Marketing",
     description: "Starting @ ₹ 50,000",
     image: "/images/Home-Page/graphic-design.png",
+     link:"digital-marketing-service"
   },
   {
     id: "05",
     title: "Creative Design",
     description: "Starting @ ₹ 50,000",
     image: "/images/Home-Page/graphic-design.png",
+     link:"web-design-service"
   },
 ];
 
@@ -61,7 +66,7 @@ const NewAboutSpecialize = () => {
                 </div> */}
                 <div className="service-id text-white mx-3 mt-lg-4 mt-2 ">({service.id})</div>
                 <div className="service-text">
-                  <h3 className="fw-bold display-5 service-title mb-2 ">{service.title}</h3>
+                  <h3 className="fw-bold display-5 service-title mb-2 "><a href={service.link}>{service.title}</a></h3>
                   {/* <p className=" mb-0">{service.description}</p> */}
                 </div>
               </div>

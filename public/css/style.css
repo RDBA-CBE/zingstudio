@@ -22261,7 +22261,7 @@ justify-content: center;
 .NewAboutSpecialize .service-item:hover .service-id {
   transform: translateX(70px);
 }
-.NewAboutSpecialize .service-title{
+.NewAboutSpecialize .service-title a{
   font-size: 110px;
   font-weight: 800 !important;
 }
@@ -22317,7 +22317,7 @@ justify-content: center;
 
 /* Responsive behavior */
 @media (max-width: 1400px) {
-  .NewAboutSpecialize .service-title{
+  .NewAboutSpecialize .service-title a{
     font-size: 80px !important;
     font-weight: 800 !important;
   }
@@ -22334,7 +22334,7 @@ justify-content: center;
   .NewAboutSpecialize .section-title{
     font-size: 30px !important;
   }
-  .NewAboutSpecialize .service-title{
+  .NewAboutSpecialize .service-title a{
     font-size: 36px !important;
   }
   .NewAboutSpecialize .headline {

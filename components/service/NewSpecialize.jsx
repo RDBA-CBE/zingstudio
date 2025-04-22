@@ -6,19 +6,19 @@ const services = [
     id: "01",
     title: "Website Design",
     description: "Starting @ ₹ 15,000",
-    image: "/images/Home-Page/development.png",
+    image: "/images/Home-Page/web.png",
   },
   {
     id: "02",
     title: "Digital Marketing",
     description: "Starting @ ₹ 12,000",
-    image: "/images/Home-Page/marketing.png",
+    image: "/images/Home-Page/digital.png",
   },
   {
     id: "03",
     title: "Ecommerce",
     description: "Starting @ ₹ 50,000",
-    image: "/images/Home-Page/graphic-design.png",
+    image: "/images/Home-Page/ecomm.png",
   },
 ];
 
@@ -44,7 +44,7 @@ const NewSpecialize = () => {
             {services.map((service) => (
               <div key={service.id} className="service-item border-top border-secondary py-4">
               <div className="service-content d-flex align-items-start">
-                <div className="service-image-wrapper mt-0 mt-lg-4">
+                <div className="service-image-wrapper mt-0 mt-lg-0">
                   <img src={service.image} alt={service.title} className="service-image" />
                 </div>
                 <div className="service-id text-white mx-3 mt-xl-4 mt-4  ">({service.id})</div>

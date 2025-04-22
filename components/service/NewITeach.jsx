@@ -163,7 +163,7 @@ const NewITeach = () => {
           <Col md={6} className="text-center text-md-start mb-4 mb-md-0">
             <div className="custom-team-title">
               {/* <span className="custom-sparkle">✦</span> */}
-              <h2 className="fw-bold text-white">Our Team of Dedicated<br />Digital Professionals</h2>
+              <h2 className="fw-bold text-white"> Lorem ipsum dolor sit<br />consectetur adipis</h2>
         
               <button className="btn btn-outline-light mb-3 mb-md-5 mt-3 custom-about-btn" style={{background:"none",border:"1px solid #fff"}}>
             <a href="/services" className="text-white " style={{textDecoration:"none"}}>

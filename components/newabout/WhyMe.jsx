@@ -10,8 +10,8 @@ const WhyMe = () => {
                             {/* Left Content */}
                             <div className="col-lg-4 text-center text-lg-start mb-5 mb-lg-0 d-flex flex-column justify-content-between">
                                 <div className="service-intro">
-                                    
-                                    <h2 className="service-title mt-3">Giving Your <br />Business Some <br />Great Ideas</h2>
+                              
+                                    <h2 className="service-title mt-3"> Lorem ipsum  <br />  dolorsit amet <br /> conse ctetur  </h2>
                                     <button className="btn service-button mt-4 "><a href="/services" className='text-white'>All Services</a></button>
                                 </div>
 

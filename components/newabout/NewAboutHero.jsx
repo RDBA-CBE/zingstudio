@@ -11,8 +11,7 @@ const NewAboutHero = () => {
                             <div className="col-12 col-lg-6 text-dark content-block">
                             
                                 <h1 className="main-heading mb-4 ">
-                                    We endeavor to craft visually appealing
-                                    and intuitive  
+                                    Lorem ipsum dolor sit amet consectetur adipisicing 
                                 </h1>
                                 {/* <h2 className="sub-heading mb-4">
                                     We work closely with clients to understand

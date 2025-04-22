@@ -47,9 +47,9 @@ const NewAboutSpecialize = () => {
         <div className="row justify-content-center">
         <div className="col-11 col-md-10 col-lg-8">
             <div className="d-flex justify-content-between align-items-center  flex-wrap">
-              <div>
+              <div> 
                 <h2 className="section-title  mb-1 mb-3 mb-md-5">
-                Solving Design Problems at<br className="d-none d-md-block"/> a Race Car Speed
+                Lorem ipsum dolor sit amet<br className="d-none d-md-block"/> consectetur adipis
                 </h2>
               </div>
               <button className="btn btn-outline-light mb-3 mb-md-5  service-btn">

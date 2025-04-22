@@ -12,7 +12,7 @@ const WhyMe = () => {
                                 <div className="service-intro">
                                     
                                     <h2 className="service-title mt-3">Giving Your <br />Business Some <br />Great Ideas</h2>
-                                    <button className="btn service-button mt-4 ">All Services</button>
+                                    <button className="btn service-button mt-4 "><a href="/services" className='text-white'>All Services</a></button>
                                 </div>
 
                                 <div >

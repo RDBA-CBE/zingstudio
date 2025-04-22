@@ -21860,6 +21860,10 @@ justify-content: center;
   background-color: #fff;
   color: #0b071a;
 }
+.footernew .footer-social-btn:hover a{
+  color: #0b071a;
+}
+
 
 .footernew .footer-bottom {
   margin-top: 50px;
@@ -21892,19 +21896,23 @@ justify-content: center;
 
 
 .about-us-hero {
-  background: radial-gradient(
+  /* background: radial-gradient(
     circle at center,
     rgba(139, 96, 179, 0.6) 0%,
     rgba(27, 16, 55, 0.6) 0%,
     #050017 40%,
     #030015 60%
-  );
-  height: 60vh;
-  width: 100%;
+  ); */
+  background-image: url("../images/Home-Page/banner-bg-img-4.jpg");
+  background-position: center;
+  height: 40vh;
+  width: 95%;
   color: white;
   padding: 0 20px;
   position: relative;
   overflow: hidden;
+  border-radius: 30px;
+  margin: auto;
 }
 
 .about-us-title {
@@ -21967,12 +21975,12 @@ justify-content: center;
   font-weight: 400;
   color: #cfcfd4;
   margin: 0;
-  margin-top: 60px !important;
+  margin-top: 40px !important;
 }
 
 .spiral-img {
-  max-width: 100%;
-  height: auto;
+  max-width: 100% !important;
+  height: 100% !important;
   /* margin-top: 30px; */
 }
 
@@ -22023,29 +22031,35 @@ justify-content: center;
 }
 
 
-.service-section {
-  background-color: #1a43bf;
+.new-why-me.service-section {
+  background-color: #fff;
   padding-left: 6%;
   padding-right: 6%;
 }
 
-.service-title {
-  font-size: 48px !important;
+.new-why-me .service-title {
+  font-size: 42px !important;
   font-weight: 700 !important;
   line-height: 1.2;
+  color: #000 !important;
 }
 
-.service-button {
-  background-color: #2f2859;
+.new-why-me .service-button {
+  /* background-color: #2f2859;
   color: #fff;
   font-weight: 600;
   padding: 10px 30px;
   border-radius: 25px;
   border: none;
-  font-size: 0.9rem;
+  font-size: 0.9rem; */
+  padding: 15px 40px 15px 40px !important;
+  background-color: #1a43bf !important;
+  border-radius: 30px !important;
+  font-weight: 700 !important;
+  color: #fff !important;
 }
 
-.service-icon {
+.new-why-me .service-icon {
   width: 25px;
   height: 15px;
   border: 2px solid #b361f2;
@@ -22053,7 +22067,7 @@ justify-content: center;
   position: relative;
 }
 
-.service-icon::before {
+.new-why-me  .service-icon::before {
   content: '';
   position: absolute;
   top: 6px;
@@ -22063,66 +22077,66 @@ justify-content: center;
   background: #b361f2;
 }
 
-.service-box {
+.new-why-me .service-box {
   /* border-top: 1px solid #2f2a47; */
   padding-top: 15px;
 }
 
-.service-number {
+.new-why-me .service-number {
   width: 100% !important;
   font-size: 20px;
   font-weight: 700;
-  color: #8a80b3;
+  color: #545456;
  
  
 }
 
-.service-name {
-  border-top: 1px solid #2f2a47;
-  font-size: 36px;
+.new-why-me .service-name {
+  border-top: 1px solid #97969b7a;
+  font-size: 24px;
   font-weight: 700 !important;
-  color: #fff;
+  color: #000;
   padding-top: 20px;
   margin-top: 20px;
 }
 
-.service-desc {
-  font-size: 0.95rem;
-  color: #a4a0b9;
+.new-why-me .service-desc {
+  font-size: 16px !important;
+  color: #000;
   margin-top: 5px;
   line-height: 1.6;
 }
 
 /* Media Queries */
 @media (max-width: 992px) {
-  .service-title {
+  .new-why-me .service-title {
     font-size: 2rem;
   }
 
-  .service-name {
+  .new-why-me .service-name {
     font-size: 1rem;
   }
 
-  .service-desc {
+  .new-why-me .service-desc {
     font-size: 0.9rem;
   }
 }
 
 @media (max-width: 576px) {
-  .service-title {
+  .new-why-me .service-title {
     font-size: 1.6rem;
   }
 
-  .service-button {
+  .new-why-me .service-button {
     padding: 8px 25px;
     font-size: 0.85rem;
   }
 
-  .service-name {
+  .new-why-me .service-name {
     font-size: 0.95rem;
   }
 
-  .service-desc {
+  .new-why-me .service-desc {
     font-size: 0.85rem;
   }
 }
@@ -22275,4 +22289,10 @@ justify-content: center;
     color: white !important;
     font-weight: 700;
   }
+}
+
+.DefineZing .head{
+  font-size: 48px !important;
+  font-weight: 700 !important;
+  text-align: start;
 }

@@ -2,7 +2,7 @@ import React from 'react';
 
 const WhyMe = () => {
     return (
-        <section className="service-section container-fluid text-white py-5" >
+        <section className="service-section container-fluid text-dark py-5 new-why-me" >
             <div className='row justify-content-center px-3 px-md-5'>
                 <div className='col-12 mx-0'>
                     <div className='container'>
@@ -12,7 +12,7 @@ const WhyMe = () => {
                                 <div className="service-intro">
                                     
                                     <h2 className="service-title mt-3">Giving Your <br />Business Some <br />Great Ideas</h2>
-                                    <button className="btn service-button mt-4">All Services</button>
+                                    <button className="btn service-button mt-4 ">All Services</button>
                                 </div>
                             </div>
 
@@ -20,12 +20,12 @@ const WhyMe = () => {
                             <div className="col-lg-8">
                                 <div className="row gy-4">
                                     {[
-                                        { number: '01', title: 'UI/UX Experience' },
-                                        { number: '02', title: 'Web Development' },
-                                        { number: '03', title: 'Digital Marketing' },
-                                        { number: '04', title: 'Product Design' },
-                                        { number: '05', title: 'Branding & Illustration' },
-                                        { number: '06', title: 'Mobile Solutions' },
+                                        { number: '01', title: 'Two Decades of Experience' },
+                                        { number: '02', title: 'Thorough in what I do' },
+                                        { number: '03', title: 'Creative and Interesting' },
+                                        { number: '04', title: 'Result Driven' },
+                                        { number: '05', title: 'Cost Effective' },
+                                        { number: '06', title: 'Ethical' },
                                     ].map((item, index) => (
                                         <div className="col-md-6" key={index}>
                                             <div className="service-box">

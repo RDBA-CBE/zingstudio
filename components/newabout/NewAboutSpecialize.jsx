@@ -10,13 +10,25 @@ const services = [
   },
   {
     id: "02",
-    title: "Digital Marketing",
+    title: "CMS Websites",
     description: "Starting @ ₹ 12,000",
     image: "/images/Home-Page/marketing.png",
   },
   {
     id: "03",
     title: "Ecommerce",
+    description: "Starting @ ₹ 50,000",
+    image: "/images/Home-Page/graphic-design.png",
+  },
+  {
+    id: "04",
+    title: "Digital Marketing",
+    description: "Starting @ ₹ 50,000",
+    image: "/images/Home-Page/graphic-design.png",
+  },
+  {
+    id: "05",
+    title: "Creative Design",
     description: "Starting @ ₹ 50,000",
     image: "/images/Home-Page/graphic-design.png",
   },
@@ -47,7 +59,7 @@ const NewAboutSpecialize = () => {
                 {/* <div className="service-image-wrapper mt-0 mt-lg-4">
                   <img src={service.image} alt={service.title} className="service-image" />
                 </div> */}
-                <div className="service-id text-white mx-3 mt-xl-2 mt-4 ">({service.id})</div>
+                <div className="service-id text-white mx-3 mt-xl-4 mt-4 ">({service.id})</div>
                 <div className="service-text">
                   <h3 className="fw-bold display-5 service-title mb-2 ">{service.title}</h3>
                   {/* <p className=" mb-0">{service.description}</p> */}

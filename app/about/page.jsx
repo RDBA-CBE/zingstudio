@@ -19,6 +19,8 @@ import Footer1 from "@/components/footers/Footer1";
 import NewAboutHero from "@/components/newabout/NewAboutHero";
 import NewAboutSpecialize from "@/components/newabout/NewAboutSpecialize";
 import AboutInfoGraphic from "@/components/newabout/AboutInfoGraphic";
+import HomeCta from "@/components/service/HomeCta";
+import NewDefineZing from "@/components/newabout/NewDefineZing";
 
 export const metadata = {
   title: "About || Zing Studio",
@@ -27,9 +29,9 @@ export const metadata = {
 export default function page() {
   return (
     <>
-      <div className="page-wraper  ">
+      <div className="page-wraper bg-white ">
         <Header17 />
-        <div className="page-content bg-white">
+        
         
           <NewBanner/>
 
@@ -37,23 +39,18 @@ export default function page() {
 
           <NewAboutSpecialize/>
 
-          <AboutInfoGraphic/>
+          {/* <AboutInfoGraphic/> */}
 
           <WhyMe/>
 
+          <NewDefineZing/>
 
-          
-          {/* <WhatIsZing/>
 
-          <WhyMe/>
-
-          <DefineMe/> */}
-         
-          {/* <AboutCta /> */}
-
-        </div>
-        
+  
+        <HomeCta />
+        <div className="home-footer" >
         <Footer1 />
+        </div>
       </div>
     </>
   );

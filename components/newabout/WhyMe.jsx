@@ -8,11 +8,15 @@ const WhyMe = () => {
                     <div className='container'>
                         <div className="row gx-5">
                             {/* Left Content */}
-                            <div className="col-lg-4 text-center text-lg-start mb-5 mb-lg-0">
+                            <div className="col-lg-4 text-center text-lg-start mb-5 mb-lg-0 d-flex flex-column justify-content-between">
                                 <div className="service-intro">
                                     
                                     <h2 className="service-title mt-3">Giving Your <br />Business Some <br />Great Ideas</h2>
                                     <button className="btn service-button mt-4 ">All Services</button>
+                                </div>
+
+                                <div >
+                                    <img src="/images/elementbg/7.png" alt="" style={{width:"70%"}}/>
                                 </div>
                             </div>
 

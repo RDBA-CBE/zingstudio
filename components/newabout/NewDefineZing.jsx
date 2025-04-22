@@ -4,7 +4,7 @@ const NewDefineZing = () => {
   return (
     
     
-    <div className="container-fluid mt-5 mb-5 NewSupportWomen DefineZing">
+    <div className="container-fluid  mb-5 NewSupportWomen DefineZing">
       <div className="row justify-content-center px-3 px-md-5">
         <div className="col-12 mx-0 ">
         <div className="info-section container-fluid d-flex justify-content-center align-items-center">

@@ -21163,7 +21163,7 @@ margin: 50px 20px !important;
     font-size: 30px !important;
   }
   .NewSpecialize .service-title{
-    font-size: 36px;
+    font-size: 36px !important;
   }
   .NewSpecialize .headline {
     font-family: 'Poppins', sans-serif !important; /* Or any modern bold font */
@@ -21175,7 +21175,7 @@ margin: 50px 20px !important;
   }
   .NewSpecialize .service-btn{
     padding: 18px 35px;
-    background-color: #1a43bf;
+    background-color: #fff !important;
     border-radius: 30px;
     color: white;
     font-weight: 700;
@@ -21890,3 +21890,387 @@ justify-content: center;
   }
 }
 
+
+.about-us-hero {
+  background: radial-gradient(
+    circle at center,
+    rgba(139, 96, 179, 0.6) 0%,
+    rgba(27, 16, 55, 0.6) 0%,
+    #050017 40%,
+    #030015 60%
+  );
+  height: 60vh;
+  width: 100%;
+  color: white;
+  padding: 0 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-us-title {
+  font-size: 5rem;
+  font-weight: 800;
+}
+
+.breadcrumb span {
+  font-size: 1.1rem;
+}
+
+/* Responsive font sizes */
+@media (max-width: 768px) {
+  .about-us-title {
+    font-size: 3rem;
+  }
+
+  .breadcrumb span {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-us-title {
+    font-size: 2.2rem;
+  }
+
+  .breadcrumb span {
+    font-size: 0.95rem;
+  }
+}
+
+.visually-appealing-section {
+  background-color: #08061e;
+  padding: 80px 60px;
+  min-height: 100vh;
+}
+
+.star-icon {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.main-heading {
+  font-size: 48px !important;
+  font-weight: 700 !important;
+
+}
+
+.sub-heading {
+  font-size: 48px !important;
+  font-weight: 700 !important;
+ 
+}
+
+.visually-appealing-section .description {
+  font-size: 20px !important;
+  font-weight: 400;
+  color: #cfcfd4;
+  margin: 0;
+  margin-top: 60px !important;
+}
+
+.spiral-img {
+  max-width: 100%;
+  height: auto;
+  /* margin-top: 30px; */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  .main-heading {
+    font-size:36px !important;
+    text-align: left;
+  }
+
+  .sub-heading {
+    font-size: 36px !important;
+    text-align: left;
+  }
+
+  .description {
+    font-size: 25px !important;
+    text-align: left;
+  }
+
+  .spiral-img {
+    max-width: 70%;
+    margin-top: 20px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .visually-appealing-section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+  .main-heading {
+    font-size: 1.8rem;
+  }
+
+  .sub-heading {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .star-icon {
+    display: none;
+  }
+}
+
+
+.service-section {
+  background-color: #0b0720;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.service-title {
+  font-size: 48px !important;
+  font-weight: 700 !important;
+  line-height: 1.2;
+}
+
+.service-button {
+  background-color: #2f2859;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 30px;
+  border-radius: 25px;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.service-icon {
+  width: 25px;
+  height: 15px;
+  border: 2px solid #b361f2;
+  border-radius: 2px;
+  position: relative;
+}
+
+.service-icon::before {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: -10px;
+  width: 10px;
+  height: 2px;
+  background: #b361f2;
+}
+
+.service-box {
+  /* border-top: 1px solid #2f2a47; */
+  padding-top: 15px;
+}
+
+.service-number {
+  width: 100% !important;
+  font-size: 20px;
+  font-weight: 700;
+  color: #8a80b3;
+ 
+ 
+}
+
+.service-name {
+  border-top: 1px solid #2f2a47;
+  font-size: 36px;
+  font-weight: 700 !important;
+  color: #fff;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.service-desc {
+  font-size: 0.95rem;
+  color: #a4a0b9;
+  margin-top: 5px;
+  line-height: 1.6;
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+  .service-title {
+    font-size: 2rem;
+  }
+
+  .service-name {
+    font-size: 1rem;
+  }
+
+  .service-desc {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .service-title {
+    font-size: 1.6rem;
+  }
+
+  .service-button {
+    padding: 8px 25px;
+    font-size: 0.85rem;
+  }
+
+  .service-name {
+    font-size: 0.95rem;
+  }
+
+  .service-desc {
+    font-size: 0.85rem;
+  }
+}
+
+
+.NewAboutSpecialize.service-content {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  transition: all 0.5s ease;
+  margin-top: 40px;
+}
+
+/* Image styles */
+.NewAboutSpecialize .service-image-wrapper {
+  width: 0;
+  overflow: hidden;
+  transition: width 0.5s ease;
+}
+
+.NewAboutSpecialize .service-image {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  border-radius: 20px;
+  background-color: #edab3a;
+}
+
+/* ID styling */
+.NewAboutSpecialize .service-id {
+  transition: transform 0.5s ease;
+  font-size: 24px !important;
+}
+
+/* Text styling */
+.NewAboutSpecialize .service-text {
+  transition: transform 0.5s ease;
+}
+
+/* Hover effects */
+.NewAboutSpecialize  .service-item:hover{
+  background: linear-gradient(to right, #984674, #4c48d0) ;
+}
+.NewAboutSpecialize  .service-item:hover .service-image-wrapper {
+  width: 140px;
+}
+
+.NewAboutSpecialize .service-item:hover .service-image {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.NewAboutSpecialize .service-item:hover .service-text {
+  transform: translateX(70px);
+}
+
+.NewAboutSpecialize .service-item:hover .service-id {
+  transform: translateX(70px);
+}
+.NewAboutSpecialize .service-title{
+  font-size: 110px;
+  font-weight: 800 !important;
+}
+.NewAboutSpecialize .section-title{
+  font-size: 48px ;
+  font-weight: 800 !important;
+}
+
+
+.NewAboutSpecialize .service-btn{
+  padding: 15px 40px 15px 40px;
+  background-color: #fff;
+  border-radius: 30px;
+
+
+}
+.NewAboutSpecialize .service-btn a{
+  color: #1a43bf !important;
+  font-weight: 700 !important;
+}
+.NewAboutSpecialize .service-btn:hover{
+  background-color: white;
+  color: #1a43bf !important;
+  border:1px solid #1a43bf;
+
+}
+.NewAboutSpecialize .service-btn:hover a{
+ 
+  color: #1a43bf !important;
+  
+
+}
+
+.NewAboutSpecialize .headline {
+  font-family: 'Poppins', sans-serif !important; /* Or any modern bold font */
+  font-size: 108px !important; /* Adjust as needed */
+  font-weight: 700 !important;
+  line-height: 1.1 !important;
+  letter-spacing: -4px;
+}
+
+.NewAboutSpecialize .black-text {
+  color: #0b0b1f !important; /* Deep black-blue tone */
+}
+
+.NewAboutSpecialize .gradient-text { 
+  background: linear-gradient(90deg, #984674, #4c48d0) !important; /* Pink to purple */
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  display: inline-block !important;
+}
+
+
+/* Responsive behavior */
+@media (max-width: 1400px) {
+  .NewAboutSpecialize .service-title{
+    font-size: 80px !important;
+    font-weight: 800 !important;
+  }
+  }
+
+@media (max-width: 1100px) {
+  
+  .NewAboutSpecialize .headline {
+    font-family: 'Poppins', sans-serif !important; /* Or any modern bold font */
+    font-size: 70px !important;
+  }
+}
+@media (max-width: 768px) {
+  .NewAboutSpecialize .section-title{
+    font-size: 30px !important;
+  }
+  .NewAboutSpecialize .service-title{
+    font-size: 36px !important;
+  }
+  .NewAboutSpecialize .headline {
+    font-family: 'Poppins', sans-serif !important; /* Or any modern bold font */
+    font-size: 50px !important;
+  }
+  .NewAboutSpecialize .service-id {
+   
+    font-size: 18px !important;
+  }
+  .NewAboutSpecialize .service-btn{
+    padding: 18px 35px;
+    background-color: #fff !important;
+    border-radius: 30px;
+    color: white !important;
+    font-weight: 700;
+  }
+}

@@ -12,9 +12,12 @@ import React from "react";
 import Footer13 from "@/components/footers/Footer13";
 import AboutCta from "@/components/service/AboutCta";
 import WhatIsZing from "@/components/service/WhatIsZing";
-import WhyMe from "@/components/service/WhyMe";
-import NewBanner from "@/components/about/NewBanner";
+import WhyMe from "@/components/newabout/WhyMe";
+import NewBanner from "@/components/newabout/NewBanner";
 import DefineMe from "@/components/service/DefineMe";
+import Footer1 from "@/components/footers/Footer1";
+import NewAboutHero from "@/components/newabout/NewAboutHero";
+import NewAboutSpecialize from "@/components/newabout/NewAboutSpecialize";
 
 export const metadata = {
   title: "About || Zing Studio",
@@ -28,18 +31,26 @@ export default function page() {
         <div className="page-content bg-white">
         
           <NewBanner/>
-          
-          <WhatIsZing/>
+
+          <NewAboutHero/>
+
+          <NewAboutSpecialize/>
 
           <WhyMe/>
 
-          <DefineMe/>
+
+          
+          {/* <WhatIsZing/>
+
+          <WhyMe/>
+
+          <DefineMe/> */}
          
           {/* <AboutCta /> */}
 
         </div>
         
-        <Footer13 />
+        <Footer1 />
       </div>
     </>
   );

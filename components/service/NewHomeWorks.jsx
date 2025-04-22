@@ -33,22 +33,22 @@ const NewHomeWorks = () => {
           <div className="row gx-5">
             {[
               {
-                title: "Art of Graphic",
+                title: "Magnum Spinning Millss",
                 img: "/images/Home-Page/our-work/Mockup-2.jpg",
                
               },
               {
-                title: "Product Design",
+                title: "Shree Sudharsan Engineering",
                 img: "/images/Home-Page/our-work/Mockup-3.jpg",
                  top:"100px"
               },
               {
-                title: "Motion Integration",
+                title: "GMAK Fiber Laser",
                 img: "/images/Home-Page/our-work/Mockup-4.jpg",
                  top:"0px"
               },
               {
-                title: "App for Watch",
+                title: "Motherland Textiles",
                 img: "/images/Home-Page/our-work/Mockup-5.jpg",
                  top:"50px"
               },
@@ -56,7 +56,7 @@ const NewHomeWorks = () => {
               <div className="col-sm-6 work-card-slider pe-0 ps-0 ps-md-4" key={index} style={{marginTop: item.top}}>
                 <div className="work-card">
                   <img src={item.img} alt={item.title} className="img-fluid rounded-4" />
-                  <p className="category-label mt-2 text-uppercase small mb-0" style={{fontSize:"14px"}}>Case Study / Showcase</p>
+                  <p className="category-label mt-2 text-uppercase small mb-0" style={{fontSize:"14px"}}>Service</p>
                   <h6 className="work-title">{item.title}</h6>
                 </div>
               </div>

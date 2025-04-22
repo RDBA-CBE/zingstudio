@@ -21371,6 +21371,9 @@ margin: 50px 20px !important;
   .newIteach .ow-event-info{
     height: 200px !important;
   }
+  .illustration img{
+    width: 60% !important;
+  }
 }
 @media (max-width:1344px){
   

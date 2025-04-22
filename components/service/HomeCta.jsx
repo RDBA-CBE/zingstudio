@@ -4,12 +4,12 @@ export default function HomeCta() {
   return (
     <div className="section-full call-action  wow fadeIn home-cta  mt-5"  data-wow-duration="2s" data-wow-delay="0.2s" 
     // style={{background:"linear-gradient(to right, #984674, #4c48d0)"}}
-    style={{background:"#1a43bf",position:"static"}}
+    style={{background:"#1a43bf",position:"static", }}
     >
-      <div className="container">
-        <div className="row">
+      <div className="container" >
+        <div className="row pb-4" style={{borderBottom:"1px solid #ffffff7a"}}>
           <div className="col-lg-9 text-white wow fadeInUp"
-      data-wow-delay="1s">
+      data-wow-delay="1s" >
             <h2 className="title">Let’s Build Something Amazing! 
             </h2>
             <p className="m-b0">

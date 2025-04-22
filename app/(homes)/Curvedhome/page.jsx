@@ -72,7 +72,7 @@ export default function NewHome() {
         {/* <SupportWomen/> */}
 
         <HomeCta />
-        <div className="home-footer">
+        <div className="home-footer" >
         <Footer1 />
         </div>
        

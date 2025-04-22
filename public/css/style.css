@@ -21793,7 +21793,7 @@ justify-content: center;
   background-color: #1a43bf;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  margin-top: 40px;
+ 
 }
 
 .footernew .footer-title {
@@ -21809,7 +21809,7 @@ justify-content: center;
 }
 
 .footernew .footer-list li {
-  font-size: 18px;
+  font-size: 16px !important;
   font-weight: 400;
   margin-bottom: 10px;
   line-height: 1.6;
@@ -21938,9 +21938,11 @@ justify-content: center;
 }
 
 .visually-appealing-section {
-  background-color: #08061e;
-  padding: 80px 60px;
-  min-height: 100vh;
+  /* background-color: #1a43bf; */
+  background-color: #fff;
+  padding: 20px 20px;
+  /* min-height: 100vh; */
+  margin-top: 40px;
 }
 
 .star-icon {
@@ -22022,7 +22024,7 @@ justify-content: center;
 
 
 .service-section {
-  background-color: #0b0720;
+  background-color: #1a43bf;
   padding-left: 6%;
   padding-right: 6%;
 }

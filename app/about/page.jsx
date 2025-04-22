@@ -18,6 +18,7 @@ import DefineMe from "@/components/service/DefineMe";
 import Footer1 from "@/components/footers/Footer1";
 import NewAboutHero from "@/components/newabout/NewAboutHero";
 import NewAboutSpecialize from "@/components/newabout/NewAboutSpecialize";
+import AboutInfoGraphic from "@/components/newabout/AboutInfoGraphic";
 
 export const metadata = {
   title: "About || Zing Studio",
@@ -35,6 +36,8 @@ export default function page() {
           <NewAboutHero/>
 
           <NewAboutSpecialize/>
+
+          <AboutInfoGraphic/>
 
           <WhyMe/>
 

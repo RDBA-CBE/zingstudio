@@ -2,7 +2,7 @@ import React from 'react';
 
 const WhyMe = () => {
     return (
-        <section className="service-section container-fluid text-white py-5" style={{marginTop:"40px"}}>
+        <section className="service-section container-fluid text-white py-5" >
             <div className='row justify-content-center px-3 px-md-5'>
                 <div className='col-12 mx-0'>
                     <div className='container'>
@@ -11,7 +11,7 @@ const WhyMe = () => {
                             <div className="col-lg-4 text-center text-lg-start mb-5 mb-lg-0">
                                 <div className="service-intro">
                                     
-                                    <h2 className="service-title">Giving Your <br />Business Some <br />Great Ideas</h2>
+                                    <h2 className="service-title mt-3">Giving Your <br />Business Some <br />Great Ideas</h2>
                                     <button className="btn service-button mt-4">All Services</button>
                                 </div>
                             </div>

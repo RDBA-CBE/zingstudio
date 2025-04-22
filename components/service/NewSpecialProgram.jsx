@@ -15,22 +15,22 @@ const NewSpecialProgram = () => {
                      {/* Left Section */}
         <div className="col-12 col-xl-6 mb-4 px-0 " >
           <div className="hiw-card hiw-left me-2 " style={{position:"relative",top:"0px",display:"flex", flexDirection:"column", justifyItems:"center",justifyContent:"center"}}>
-            <h2 className="hiw-heading text-black">How it Works</h2>
+            <h2 className="hiw-heading text-black">Special Program</h2>
             <Accordion defaultActiveKey="0" className="hiw-accordion">
               <Accordion.Item eventKey="0">
-                <Accordion.Header>What is a digital agency?</Accordion.Header>
+                <Accordion.Header>Influencer Buzz</Accordion.Header>
                 <Accordion.Body >
                   A digital agency is a company that helps design and build businesses online using strategy, design, and tech services.
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1">
-                <Accordion.Header>What services does a digital agency provide?</Accordion.Header>
+                <Accordion.Header>Brand Buzz</Accordion.Header>
                 <Accordion.Body>
                   Services include branding, web design, development, SEO, digital marketing, and app development.
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="2">
-                <Accordion.Header>Why should I hire a digital agency?</Accordion.Header>
+                <Accordion.Header>Expert Hub</Accordion.Header>
                 <Accordion.Body>
                   Digital agencies provide expert support, saving time and boosting your online success with proven strategies.
                 </Accordion.Body>

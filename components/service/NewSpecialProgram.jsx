@@ -13,7 +13,7 @@ const NewSpecialProgram = () => {
             <div className='container-fluid'>
                 <div className='row '>
                      {/* Left Section */}
-        <div className="col-12 col-xl-6 mb-4 px-0 " >
+        <div className="col-12 col-lg-6 mb-4 mb-lg-0 mb-xl-4 px-0 " >
           <div className="hiw-card hiw-left me-2 " style={{position:"relative",top:"0px",display:"flex", flexDirection:"column", justifyItems:"center",justifyContent:"center"}}>
             <h2 className="hiw-heading text-black">Special Program</h2>
             <Accordion defaultActiveKey="0" className="hiw-accordion">
@@ -40,7 +40,7 @@ const NewSpecialProgram = () => {
         </div>
 
         {/* Right Section */}
-        <div className="col-12 col-xl-6 px-0" >
+        <div className="col-12 col-lg-6 px-0" >
           <div className="hiw-card hiw-right ms-2" style={{position:"relative",top:"120px"}}>
             <img src="/images/Home-Page/vector-img.png" alt="character" className="character-img" />
             <div className="hiw-stats">

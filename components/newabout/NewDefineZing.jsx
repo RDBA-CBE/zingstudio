@@ -15,7 +15,7 @@ const NewDefineZing = () => {
       {/* 01 - Market Research */}
       <div className="col-12 col-lg-4 d-flex flex-column align-items-start  justify-content-center">
       
-        <h1 className="head mt-3 px-3">
+        <h1 className="head mt-2 px-3">
         Where Creativity and Purpose
         Meets 
         </h1>

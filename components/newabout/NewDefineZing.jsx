@@ -17,7 +17,7 @@ const NewDefineZing = () => {
       
         <h1 className="head mt-3 px-3">
         Where Creativity and Purpose
-        Meets !
+        Meets 
         </h1>
       </div>
 

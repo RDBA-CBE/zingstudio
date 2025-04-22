@@ -3,7 +3,7 @@ import React from 'react';
 const Footer1 = () => {
   return (
     <footer className="footer-section  text-white footernew">
-    <div className="container">
+    <div className="container px-4">
       <div className="row gy-4 justify-content-between">
         <div className="col-6 col-lg-2">
           <h6 className="footer-title">Services</h6>
@@ -17,7 +17,7 @@ const Footer1 = () => {
 
        
 
-        <div className="col-12 col-lg-5 ">
+        <div className="col-12 col-lg-5 px-4">
        
           <div className='row justify-content-between'>
           <h6 className="footer-title text-start text-md-start px-0 ">Academy</h6>
@@ -62,7 +62,7 @@ const Footer1 = () => {
           </ul>
         </div>
 
-        <div className="col-12 col-lg-2">
+        <div className="col-6 col-lg-2">
           <h6 className="footer-title text-center text-md-start">In Socials</h6>
           <div className="footer-socials">
             <button className="footer-social-btn"><a href="https://www.instagram.com/ireputeagency/" target="_blank">Instagram</a></button>

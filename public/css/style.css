@@ -21161,6 +21161,13 @@ margin: 50px 20px !important;
       font-size: 80px !important;
     }
   }
+  @media (max-width:1344px){
+  
+  
+    .NewSpecialize .headline{
+      font-size: 80px !important;
+    }
+  }
 
 
 @media (max-width:1280px){
@@ -21365,7 +21372,7 @@ margin: 50px 20px !important;
     height: 200px !important;
   }
 }
-@media (max-width:1280px){
+@media (max-width:1344px){
   
   .illustration img{
     width: 70% !important;
@@ -21638,7 +21645,7 @@ justify-content: center;
   color:linear-gradient(to right, #984674, #4c48d0) ;
 }
 
-@media (max-width:1280px){
+@media (max-width:1344px){
   
   .bg-number{
     font-size: 65px !important;

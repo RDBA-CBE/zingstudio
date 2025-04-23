@@ -230,21 +230,26 @@ const NewITeach = () => {
                               />
                             </div>
                             <div className="ow-event-info d-flex flex-column flex-grow-1 justify-content-between" style={{ borderBottomLeftRadius: "10px", borderBottomRightRadius: "10px" , height:"180px"}}>
-                              <p className="mb-0" style={{ color: "#4b4848" }}>Fees @ {elm.price}</p>
+                              {/* <p className="mb-0" style={{ color: "#4b4848" }}>Fees @ {elm.price}</p> */}
+
                               <div className="ow-event-title">
                                 <h4 className="event-title">
                                   <a href="#" title="Video post" style={{textDecoration:"none"}}>{elm.title}</a>
                                 </h4>
+
+                                <p className='mb-0' style={{fontSize:"14px"}}>{elm?.duration}</p>
                               </div>
                               
-                              <div className="ow-event-readmore mt-auto ">
+                              <div className="ow-event-readmore mt-auto d-flex  justify-content-between flex-wrap">
+                              <p className="mb-0 pb-0 mt-1" style={{ color: "#4b4848" }}> {elm.price}</p>
                                 <a
                                   href={elm?.link}
                                   title="READ MORE"
                                   rel="bookmark"
-                                  className="site-button-link "
+                                  className="site-button-link mb-0 "
+                                  style={{fontSize:"18px"}}
                                 >
-                                  Read More <i className="fas fa-arrow-right" />
+                                  View More <i className="fas fa-arrow-right" />
                                 </a>
                               </div>
                             </div>

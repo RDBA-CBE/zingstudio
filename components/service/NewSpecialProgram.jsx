@@ -20,21 +20,21 @@ const NewSpecialProgram = () => {
               <Accordion.Item eventKey="0">
                 <Accordion.Header>Influencer Buzz</Accordion.Header>
                 <Accordion.Body >
-                  A digital agency is a company that helps design and build businesses online using strategy, design, and tech services.
+                  A digital agency is a company that helps design and build businesses online using strategy, design, and tech services.  A digital agency is a company that helps design and build businesses online using strategy, design, and tech services.  A digital agency is a company that helps design and build businesses online using strategy, design, and tech services.
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1">
                 <Accordion.Header>Brand Buzz</Accordion.Header>
                 <Accordion.Body>
-                  Services include branding, web design, development, SEO, digital marketing, and app development.
+                  Services include branding, web design, development, SEO, digital marketing, and app development. Services include branding, web design, development, SEO, digital marketing, and app development. Services include branding, web design, development, SEO, digital marketing, and app development.
                 </Accordion.Body>
               </Accordion.Item>
-              <Accordion.Item eventKey="2">
+              {/* <Accordion.Item eventKey="2">
                 <Accordion.Header>Expert Hub</Accordion.Header>
                 <Accordion.Body>
                   Digital agencies provide expert support, saving time and boosting your online success with proven strategies.
                 </Accordion.Body>
-              </Accordion.Item>
+              </Accordion.Item> */}
             </Accordion>
           </div>
         </div>

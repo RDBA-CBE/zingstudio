@@ -417,14 +417,14 @@ export default function Nav() {
         </ul>
       </li>
 
-      <li className={isMenuActive(ExpertsHubLink) ? "active" : ""}>
+      {/* <li className={isMenuActive(ExpertsHubLink) ? "active" : ""}>
         <Link
           href={ExpertsHubLink.href}
           className={isMenuActive(ExpertsHubLink) ? "menuActive" : ""}
         >
           {ExpertsHubLink.label}
         </Link>
-      </li>
+      </li> */}
 
       <li className={isMenuActive(PortfolioLink) ? "active" : ""}>
         <Link

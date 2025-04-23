@@ -16,6 +16,16 @@ import Guarantee from "@/components/service/e-commerceService1/Guarantee";
 import WebFeatures from "@/components/service/e-commerceService1/WebFeatures";
 import ServicesCta from "@/components/service/e-commerceService1/ServicesCta";
 import ServicePortfolio from "@/components/service/e-commerceService1/portfolio";
+import ServiceBanner from "@/components/service/newservice/ServiceBanner";
+import NewServiceAbout from "@/components/service/newservice/NewServiceAbout";
+import NewPricingTable from "@/components/service/newservice/NewPricingTable";
+import NewGaruntee from "@/components/service/newservice/NewGaruntee";
+import NewFeatures from "@/components/service/newservice/NewFeatures";
+import NewServicePortfolio from "@/components/service/newservice/NewServicePortfolio";
+import NewFAQ from "@/components/service/newservice/NewFAQ";
+import Footer1 from "@/components/footers/Footer1";
+import HomeCta from "@/components/service/HomeCta";
+import NewServiceCta from "@/components/service/newservice/NewServiceCta";
 
 export const metadata = {
   title: "Web Design Development || Zing Studio",
@@ -319,28 +329,48 @@ export default function page() {
     <>
       <div className="page-wraper  ">
         <Header17 />
-        <HeroSection  option={formOption} bannerContent={bannerContent} offers={offers}/>
-        
-        <ServiceList data={EcommerceDevelopment} head={"Web Design Development"} WebDesignfeatures={WebDesignfeatures}/>
 
-       <Guarantee Performance={Performance}/>
+        <ServiceBanner/>
+
+        <NewServiceAbout/>
+
+        <NewPricingTable/>
+
+        <NewGaruntee/>
+
+        <NewFeatures/>
+
+        <NewServicePortfolio/>
+
+        <NewFAQ/>
+
+        <NewServiceCta/>
+
+
+        {/* <HeroSection  option={formOption} bannerContent={bannerContent} offers={offers}/> */}
+        
+        {/* <ServiceList data={EcommerceDevelopment} head={"Web Design Development"} WebDesignfeatures={WebDesignfeatures}/> */}
+
+       {/* <Guarantee Performance={Performance}/> */}
 
 
         {/* <WebFeatures/> */}
 
-        <Features features={features}/>
+        {/* <Features features={features}/> */}
       
 
 
-        <ServicePortfolio portfolioItems={portfolioItems} portfolioContent={portfolioContent}/>
+        {/* <ServicePortfolio portfolioItems={portfolioItems} portfolioContent={portfolioContent}/> */}
 
-        <FAQ faqData={faqData}/>
+        {/* <FAQ faqData={faqData}/> */}
 
         
      
         
-        <ServicesCta cta={Cta}/>
-        <Footer13 />
+        <HomeCta />
+        <div className="home-footer" >
+        <Footer1/>
+        </div>
       </div>
     </>
   );

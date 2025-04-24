@@ -23226,7 +23226,8 @@ justify-content: center;
 }
 
 .arrow-icon {
-  color: #a259ff;
+  /* color: #a259ff; */
+  color: #fff;
   font-size: 16px;
 }
 

@@ -20,7 +20,7 @@ const NewPricingTable = () => {
             <h3 className="plan-price">
                 <span className="dollar-symbol">₹</span>
                 <span className="price-amount">15,000</span>
-                <span className="plan-name">Premium <br /> Plan</span>  
+                <span className="plan-name">Start <br /> From</span>  
             </h3>
             <ul className="plan-features ">
               <li>10 Page Static Website Design </li>
@@ -66,7 +66,7 @@ const NewPricingTable = () => {
             <h3 className="plan-price">
                 <span className="dollar-symbol">₹</span>
                 <span className="price-amount">30,000</span>
-                <span className="plan-name">Premium <br /> Plan</span>  
+                <span className="plan-name">Start <br /> From</span>  
             </h3>
             <ul className="plan-features ">
             <li>10 Page Static Website Design </li>

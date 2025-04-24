@@ -82,7 +82,7 @@ const NewFAQ = () => {
                   </div>
                 
                   <div>
-                  <img src="/images/services/web-deisgn/4.png" alt="" className='w-50'/>
+                  <img src="/images/services/web-deisgn/4.png" alt="" style={{width:"60%"}}/>
                   </div>
                   
                 </div>

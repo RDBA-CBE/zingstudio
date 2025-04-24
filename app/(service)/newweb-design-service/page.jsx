@@ -347,7 +347,7 @@ export default function page() {
 
         <NewFAQ/>
 
-        <NewServiceCta/>
+        {/* <NewServiceCta/> */}
 
 
         {/* <HeroSection  option={formOption} bannerContent={bannerContent} offers={offers}/> */}

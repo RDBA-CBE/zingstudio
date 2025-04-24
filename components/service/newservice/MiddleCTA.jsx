@@ -4,8 +4,8 @@ const MiddleCTA = () => {
   return (
     
     
-    <div className="container-fluid  mt-5 mb-5 NewSupportWomen DefineZing  middleCta">
-      <div className="row justify-content-center px-3 px-md-5">
+    <div className="container-fluid  pb-5 NewSupportWomen DefineZing  middleCta bg-white">
+      <div className="row justify-content-center px-3 px-md-5 bg-white">
         <div className="col-12 mx-0 ">
         <div className="info-section container-fluid d-flex justify-content-center align-items-center">
     <div className="row w-100 justify-content-center text-white text-center">

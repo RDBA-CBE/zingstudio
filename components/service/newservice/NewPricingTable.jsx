@@ -32,7 +32,7 @@ const NewPricingTable = () => {
               <li>1st Year Hosting/SSL & Domain Free</li>
               <li>1 Revision</li>
             </ul>
-            <button className=" rounded-pill choose-button ">Choose Pricing Plan</button>
+            <button className=" rounded-pill choose-button ">Buy Now</button>
           </div>
         </div>
 
@@ -78,7 +78,7 @@ const NewPricingTable = () => {
               <li>1st Year Hosting/SSL & Domain Free</li>
               <li>1 Revision</li>
             </ul>
-            <button className="rounded-pill choose-button">Choose Pricing Plan</button>
+            <button className="rounded-pill choose-button">Buy Now</button>
           </div>
         </div>
       </div>

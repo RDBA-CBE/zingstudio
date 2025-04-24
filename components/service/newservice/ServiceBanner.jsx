@@ -12,7 +12,7 @@ const ServiceBanner = () => {
                 <div className='col-11'>
                   <div className='container-fluid'>
                   <div className="row align-items-center justify-content-around py-5">
-                  <div className="col-lg-6 text-white text-center text-lg-start mb-4 mb-lg-0" style={{zIndex:"100"}}>
+                  <div className="col-12 col-lg-6  text-white text-center text-lg-start mb-4 mb-lg-0" style={{zIndex:"100"}}>
                     <p className="subheading mb-2">Web Design</p>
                     <h1 className="hero-title">
                     Craft Stunning  <br />
@@ -29,7 +29,7 @@ const ServiceBanner = () => {
                       Get a quote
                     </button> */}
                   </div>
-                  <div className="col-lg-4 text-center">
+                  <div className="col-12 col-lg-6 col-xxl-4 text-center">
                     {/* <img src="/images/services/web-deisgn/vector-img.png" alt="Illustration" className="img-fluid hero-img" style={{height:"100%", width:"70%"}}/> */}
                     <video  src="/images/services/web-deisgn/banner-vd.mp4"
                             loop autoPlay  muted

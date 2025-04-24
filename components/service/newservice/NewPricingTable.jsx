@@ -13,7 +13,7 @@ const NewPricingTable = () => {
         </div>
 
         {/* Standard Plan */}
-        <div className="col-md-4 mb-4">
+        <div className="col-12 col-lg-6 col-xl-5 col-xxl-4 mb-4">
           <div className="pricing-card ultra-plan p-4 py-5">
             <p className="plan-duration">Static Website Design</p>
             {/* <h3 className="plan-price">$499 <span className="plan-name">Standard <br /> Plan</span></h3> */}
@@ -59,7 +59,7 @@ const NewPricingTable = () => {
         </div> */}
 
         {/* Premium Plan */}
-        <div className="col-md-4 mb-4">
+        <div className="col-12 col-lg-6 col-xl-5 col-xxl-4 mb-4">
           <div className="pricing-card ultra-plan p-4 py-5">
             <p className="plan-duration">CMS Website Design</p>
             {/* <h3 className="plan-price">$899 <span className="plan-name">Premium <br /> Plan</span></h3> */}

@@ -1,8 +1,10 @@
+import Link from 'next/link';
 import React from 'react';
 
 
 
-const ServiceBanner = () => {
+
+const ServiceBanner = ({bannerContent}) => {
   return (
     <div className="container-fluid bg-white">
       <div className='row px-3 px-md-5'>
@@ -13,13 +15,12 @@ const ServiceBanner = () => {
                   <div className='container-fluid'>
                   <div className="row align-items-center justify-content-around py-5">
                   <div className="col-12 col-lg-6  text-white text-center text-lg-start mb-4 mb-lg-0" style={{zIndex:"100"}}>
-                    <p className="subheading mb-2">Web Design</p>
-                    <h1 className="hero-title">
-                    Craft Stunning  <br />
-                      <span className="highlight">Websites</span>
+                    <p className="subheading mb-2">{bannerContent?.caption}</p>
+                    <h1 className="hero-title"dangerouslySetInnerHTML={{__html:bannerContent?.head}}>
+                   
                     </h1>
                     <h4 className="mt-3 mb-4">
-                    that Captivate, Engage, and Convert with our Web Designing Expertise!
+                    {bannerContent?.subtitle}
                     </h4>
 
 
@@ -31,7 +32,7 @@ const ServiceBanner = () => {
                   </div>
                   <div className="col-12 col-lg-6 col-xxl-4 text-center">
                     {/* <img src="/images/services/web-deisgn/vector-img.png" alt="Illustration" className="img-fluid hero-img" style={{height:"100%", width:"70%"}}/> */}
-                    <video  src="/images/services/web-deisgn/banner-vd.mp4"
+                    <video  src={bannerContent?.src}
                             loop autoPlay  muted
                                 type="video/mp4"
                                 className="rounded-5" style={{height:"100%", width:"100%",objectFit:"contain"}} >   
@@ -40,40 +41,33 @@ const ServiceBanner = () => {
                   </div>
                   <div className='row'>
                   <div className='text-center'>
-                    <p className='hero-subdes-text'>Designing Websites that Work, Impress, and Convert!
+                    <p className='hero-subdes-text'>{bannerContent?.listTitle}
                     </p>
                   </div>
 
                   <div className="hiw-stats" style={{borderBottom:"1px solid #b1aeae7d", width:"auto",margin:"auto",marginBottom:"5px"}}>
-                      <div className='d-flex align-items-center justify-content-center'>
+                  {bannerContent?.list.map((list,index)=>(
+                     <div className='d-flex align-items-center justify-content-center'>
                         <div className="icon-xl  m-b20 ">
-                            <img src="/images/services/web-deisgn/1.png" alt="" />
+                            <img src={list.src} alt="" />
                         </div>
-                        <p className='text-start mx-3 pe-4 pe-md-0 '>User-Centric  <br/>Design</p>
+                        <p className='text-start mx-3 pe-4 pe-md-0 ' dangerouslySetInnerHTML={{__html:list.item}}></p>
                       </div>
-                      <div className='d-flex align-items-center justify-content-center'>
-                        <div className="icon-xl  m-b20">
-                            <img src="/images/services/web-deisgn/2.png" alt="" />
-                        </div>
-                        <p className='text-start mx-3'>Responsive &  <br/> Mobile-Friendly</p>
-                      </div>
-
-                      <div className='d-flex align-items-center justify-content-center'>
-                        <div className="icon-xl  m-b20">
-                            <img src="/images/services/web-deisgn/7.png" alt="" />
-                        </div>
-                        <p className='text-start mx-3'>SEO-Optimized 
-                        <br/> for Visibility</p>
-                      </div>
+                  ))}
+                     
+                      
                   </div>
 
                   <div className='text-center mt-2'>
-                    <p className='hero-des-text'>Let our Web Design experts bring your vision to life!
+                    <p className='hero-des-text'>{bannerContent.description}
                     </p>
                   </div>
+
+                  {/* <Link href="contact" style={{width:"auto", margin:"auto"}} > */}
                   <button className="btn btn-light fw-bold px-4 py-2 rounded-pill" style={{width:"auto", margin:"auto"}}>
-                      Get a quote
+                  Get a quote
                     </button>
+                    {/* </Link> */}
                   </div>
                   </div>
                 </div>

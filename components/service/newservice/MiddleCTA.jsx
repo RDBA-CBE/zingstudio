@@ -1,6 +1,6 @@
 import React from "react";
 
-const MiddleCTA = () => {
+const MiddleCTA = ({Cta}) => {
   return (
     
     
@@ -16,8 +16,7 @@ const MiddleCTA = () => {
       <div className="col-10 d-flex flex-column align-items-center  justify-content-center py-4 ">
       
         <h1 className="head mt-2 px-3">
-        From understanding brand goals to delivering a responsive, user-friendly website, we ensure every step drives engagement and results.
-        From Vision to Website — See the Magic of Our Design Process!
+        {Cta}
         </h1>
       </div>
 

@@ -33,6 +33,68 @@ export const metadata = {
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
 };
 export default function page() {
+
+  const bannerContent = {
+    caption:"Web Design",
+    head:" Craft Stunning  <br /> <span class='highlight'>Websites</span>",
+    subtitle:"that Captivate, Engage, and Convert with our Web Designing Expertise!",
+    src:"/images/services/web-deisgn/banner-vd.mp4",
+    listTitle:"Designing Websites that Work, Impress, and Convert!",
+  
+    list:[
+      {
+        src:"/images/services/web-deisgn/1.png",
+        item:"User-Centric  <br/>Design"
+      },
+      {
+        src:"/images/services/web-deisgn/2.png",
+        item:"Responsive &  <br/> Mobile-Friendly"
+      },
+      {
+        src:"//images/services/web-deisgn/7.png",
+        item:"SEO-Optimized <br/> for Visibility"
+      }
+    ],
+    description:"Let our Web Design experts bring your vision to life!",
+    
+}
+
+const serviceAbout ={
+  subtitle:"lorem lorem",
+  title:"Transform Your Online <br /> Presence with Expert <br />  Web Design.",
+  descrip:"Create stunning, user-friendly websites that captivate and convert. Our web design solutions combine creativity with functionality, ensuring a seamless user experience across all devices.",
+  subDes:" Let us build a digital presence that leaves a lasting impression.",
+  src:"/images/services/web-deisgn/banner-vd.mp4"
+}
+
+const Performance={
+  head:"Design Excellence",
+  description:" Every Web Design <br /> plan includes",
+  src:"/images/services/web-deisgn/vector-img.png",
+  guarantee:[
+    {
+      icon:"/images/services/web-deisgn/responsive-design-icon.png",
+      title:" Responsive Design", 
+      caption:"Seamless experience across all devices."
+    },
+    {
+      icon:"/images/services/web-deisgn/user-centric-interface-icon.png",
+      title:" User-Centric Interface", 
+      caption:"Engaging, intuitive, and easy to navigate."
+    },
+    {
+      icon:"/images/services/web-deisgn/seo-optimized-icon.png",
+      title:"SEO-Optimized", 
+      caption:"Designed to rank higher on search engines."
+    },
+    {
+      icon:"/images/services/web-deisgn/custom-solution-icon.png",
+      title:"Custom Solutions", 
+      caption:" Tailored to reflect brand identity and goals."
+    }
+  ],
+
+}
   
   const WebDesignfeatures = [
     { icon: "ti-world", text: "50 websites" },
@@ -114,30 +176,7 @@ export default function page() {
       "SaaS Platform",
       "Open-Source Development"
     ]
-    const bannerContent = {
-      // src:"https://img1.wsimg.com/cdnassets/transform/c50e55dd-152b-45c6-815a-f7164b2a87aa/FOSMO-98392-WH-SLP-New-Marquee-Image-without-cPanel",
-      src:"/images/services/web-deisgn/web-design-banner.png",
-        head:"Craft Stunning Websites that Captivate, Engage, and Convert with our Web Designing Expertise!",
-      caption:"Web Design",
-      subTitle:"Designing Websites that Work, Impress, and Convert!",
-      description:"Let our Web Design experts bring your vision to life!",
-      rating:"4.6 out of 5 stars ",
-      
-        icon:[
-          <i className="ti-time " />,
-          <i className="ti-time " />,
-          <i className="ti-time " />
-        ],
-        list:[
-            "User-Centric Design",
-        "Responsive & Mobile-Friendly",
-        "SEO-Optimized for Visibility"
-        ],
-      
-        formTitle:"Build. Scale. Succeed. ",
-      formCaption:"From powerful e-commerce platforms to smart SaaS solutions and flexible open-source development, we’ve got the tools to fuel digital growth. Let’s create something extraordinary—connect now! ",
-      about:"Create stunning, user-friendly websites that captivate and convert. Our web design solutions combine creativity with functionality, ensuring a seamless user experience across all devices. Let us build a digital presence that leaves a lasting impression."
-    }
+   
     const offers={
       head:"Transform Your Online Presence with Expert Web Design.",
       caption:"Create stunning, user-friendly websites that captivate and convert. Our web design solutions combine creativity with functionality, ensuring a seamless user experience across all devices. Let us build a digital presence that leaves a lasting impression.",
@@ -256,34 +295,7 @@ export default function page() {
       },
     ]
 
-    const Performance={
-      head:"Design Excellence",
-      description:"Every Web Design plan includes:",
-      cta:"From understanding brand goals to delivering a responsive, user-friendly website, we ensure every step drives engagement and results. <br/>From Vision to Website — See the Magic of Our Design Process!",
-      guarantee:[
-        {
-          icon:"/images/services/web-deisgn/responsive-design-icon.png",
-          title:" Responsive Design:", 
-          caption:"Seamless experience across all devices."
-        },
-        {
-          icon:"/images/services/web-deisgn/user-centric-interface-icon.png",
-          title:" User-Centric Interface:", 
-          caption:"Engaging, intuitive, and easy to navigate."
-        },
-        {
-          icon:"/images/services/web-deisgn/seo-optimized-icon.png",
-          title:"SEO-Optimized:", 
-          caption:"Designed to rank higher on search engines."
-        },
-        {
-          icon:"/images/services/web-deisgn/custom-solution-icon.png",
-          title:"Custom Solutions:", 
-          caption:" Tailored to reflect brand identity and goals."
-        }
-      ],
-    
-    }
+   
     const Cta={
       title:"Not sure which package is the best for you?",
       description:"Get Expert Guidance on Web Design Packages, schedule a consultation with our experts at Zing Studio and find the perfect solution tailored to your business goals.",
@@ -331,15 +343,15 @@ export default function page() {
       <div className="page-wraper  ">
         <Header17 />
 
-        <ServiceBanner/>
+        <ServiceBanner bannerContent={bannerContent}/>
 
-        <NewServiceAbout/>
+        <NewServiceAbout serviceAbout={serviceAbout}/>
 
         <NewPricingTable/>
 
-        <NewGaruntee/>
+        <NewGaruntee Performance={Performance}/>
 
-        <MiddleCTA/>
+        <MiddleCTA Cta="From understanding brand goals to delivering a responsive, user-friendly website, we ensure every step drives engagement and results. From Vision to Website — See the Magic of Our Design Process!"/>
 
         <NewFeatures/>
 

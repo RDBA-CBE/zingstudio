@@ -4,18 +4,18 @@ const NewServicePortfolio = () => {
   const works = [
     {
       image: '/images/services/web-deisgn/mockup-1.jpg',
-      title: 'Art of Graphic',
-      tags: ['Branding', 'Design'],
+      title: 'GMAK Fiber Laser',
+      tags: "Static"
     },
     {
       image: '/images/services/web-deisgn/mockup-2.jpg',
-      title: 'Product Design',
-      tags: ['Design', 'Development'],
+      title: 'SKD Finedecor',
+      tags: "CMS",
     },
     {
       image: '/images/services/web-deisgn/mockup-3.jpg',
-      title: 'Motion Integration',
-      tags: ['Development', 'Marketing'],
+      title: 'NVM Lifestyle Clinic',
+      tags: "Static",
     },
   ];
 
@@ -36,9 +36,9 @@ const NewServicePortfolio = () => {
               <div className="work-card">
                 <img src={work.image} alt={work.title} className="img-fluid work-image" />
                 <div className="work-tags">
-                  {work.tags.map((tag, i) => (
-                    <span key={i} className="work-tag">{tag}</span>
-                  ))}
+                  
+                    <span className="work-tag">{work.tags}</span>
+                 
                 </div>
                 <h5 className="work-title">{work.title}</h5>
               </div>

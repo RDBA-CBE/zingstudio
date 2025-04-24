@@ -4,26 +4,27 @@ const NewGaruntee = () => {
   return (
     <section className="features-section py-5">
       <div className="container text-center">
-        <p className="features-subtitle">Our Features</p>
+        <p className="features-subtitle">Design Excellence
+        </p>
         <h2 className="features-title">
-          We Specialize in Crafting <br />
-          Digital Experiences and Solutions <br />
-          for Businesses
+        Every Web Design <br /> plan includes
         </h2>
 
         <div className="row align-items-center mt-5">
           {/* Left side features */}
           <div className="col-md-4 text-md-start text-center" >
             <div className="feature-item mb-5">
-              <h5 className="feature-title">Digital Mastery</h5>
+              <h5 className="feature-title">Responsive Design
+              </h5>
               <p className="feature-desc">
-                With a deep understanding of online platforms, emerging technologies, and shifting consumer behaviors.
+              Seamless experience across all devices.
               </p>
             </div>
             <div className="feature-item">
-              <h5 className="feature-title">Strategic Prowess</h5>
+              <h5 className="feature-title">User-Centric Interface 
+              </h5>
               <p className="feature-desc">
-                They delve into market research and audience insights, helping clients refine their digital strategies.
+              Engaging, intuitive, and easy to navigate.
               </p>
             </div>
           </div>
@@ -36,15 +37,15 @@ const NewGaruntee = () => {
           {/* Right side features */}
           <div className="col-md-4 text-md-end text-center">
             <div className="feature-item mb-5">
-              <h5 className="feature-title">Partners in Success</h5>
+              <h5 className="feature-title">SEO-Optimized</h5>
               <p className="feature-desc">
-                Digital agencies are not just service providers; they're partners in their clients' success stories.
+              Designed to rank higher on search engines.
               </p>
             </div>
             <div className="feature-item">
-              <h5 className="feature-title">Design Excellence</h5>
+              <h5 className="feature-title">Custom Solutions</h5>
               <p className="feature-desc">
-                Their creative teams sculpt eye-catching, user-friendly websites and digital assets that leave a lasting impression.
+              Tailored to reflect brand identity and goals.
               </p>
             </div>
           </div>

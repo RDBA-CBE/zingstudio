@@ -10,9 +10,9 @@ const NewServiceAbout = () => {
           <div className="col-lg-6 text-black mb-4 mb-lg-0">
             <p className="about-agency-subtitle mb-2">About Agency</p>
             <h2 className="about-agency-title mb-3">
-              Your Digital Success<br />Starts Here
+            Transform Your Online <br /> Presence with Expert <br />  Web Design.
             </h2>
-            <button className="btn btn-primary about-agency-btn fw-semibold px-4 py-2 rounded-pill">
+            <button className="btn btn-primary about-agency-btn fw-semibold px-4 py-3 rounded-pill mt-4" style={{fontSize:"16px"}}>
               About Company
             </button>
           </div>
@@ -20,10 +20,10 @@ const NewServiceAbout = () => {
           {/* Right Content */}
           <div className="col-lg-6 text-black">
             <p className="about-agency-text mb-3">
-              This is the main factor that sets us apart from our competition and allows us to deliver a specialist business consultancy service.
+            Create stunning, user-friendly websites that captivate and convert. Our web design solutions combine creativity with functionality, ensuring a seamless user experience across all devices.
             </p>
             <p className="about-agency-text">
-              Through our years of experience, we’ve also learned that while each channel has its own set of advantages, they all work best when strategically paired with other channels.
+            Let us build a digital presence that leaves a lasting impression.
             </p>
           </div>
         </div>

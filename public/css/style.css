@@ -22496,14 +22496,24 @@ justify-content: center;
 }
 
 .hero-title {
-  font-weight: 800;
-  font-size: 64px;
-  line-height: 1.2;
+  font-weight: 700 !important;
+  font-size: 100px;
+  line-height:100px;
+  letter-spacing: 5;
 }
 
 .hero-title .highlight {
   display: inline-block;
   font-weight: 800;
+}
+.hero-des-text{
+  font-size: 14px !important;
+  font-weight: 700;
+}
+
+.hero-subdes-text{
+  font-size: 24px !important;
+  font-weight: 400;
 }
 
 .hero-description {
@@ -22515,6 +22525,7 @@ justify-content: center;
 .hero-img {
   max-width: 100%;
   height: auto;
+
 }
 
 /* Responsive Typography */
@@ -22553,15 +22564,15 @@ justify-content: center;
 }
 
 .about-agency-subtitle {
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 16px !important;
+  font-weight: 700;
   color: #000;
 }
 
 .about-agency-title {
-  font-size: 38px;
-  font-weight: 800;
-  line-height: 1.3;
+  font-size: 48px !important;
+  font-weight: 700 !important;
+  line-height: 1;
 }
 
 .about-agency-btn {
@@ -22570,10 +22581,10 @@ justify-content: center;
 }
 
 .about-agency-text {
-  font-size: 15px;
-  font-weight: 400;
-  color: #000;
-  line-height: 1.7;
+  font-size: 18px !important;
+  font-weight: 700;
+  color: #333;
+  line-height: 1.5;
 }
 
 .about-agency-video-wrapper {
@@ -22641,10 +22652,11 @@ justify-content: center;
 }
 
 .pricing-heading {
-  text-align: left;
-  font-size: 2.8rem;
-  font-weight: 700;
-  margin-bottom: 50px;
+  text-align: center;
+  font-size: 48px !important;
+  font-weight: 700 !important;
+  margin-bottom: 20px;
+  padding: 0 20px;
 }
 
 .pricing-card {
@@ -22653,7 +22665,8 @@ justify-content: center;
   min-height: 520px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+ 
+  /* justify-content: space-between; */
 }
 
 .standard-plan,
@@ -22670,10 +22683,10 @@ justify-content: center;
 }
 
 .plan-duration {
-  font-size: 0.85rem;
+  font-size: 14px !important;
   border: 1px solid;
   border-radius: 20px;
-  padding: 4px 12px;
+  padding: 2px 12px;
   display: inline-block;
   margin-bottom: 10px;
   font-weight: 500;
@@ -22701,7 +22714,7 @@ justify-content: center;
 }
 
 .dollar-symbol {
-  font-size: 28px;
+  font-size: 36px;
   font-weight: 600;
   line-height: 1;
   /* margin-right: 2px; */
@@ -22709,33 +22722,41 @@ justify-content: center;
 }
 
 .price-amount {
-  font-size: 60px;
+  font-size: 72px;
   font-weight: 800;
   line-height: 1;
 }
 
 .plan-name {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 1.2;
   display: inline-block;
 }
 
+.plan-features{
+  margin-top: 30px;
+  border-top: 1px solid #b1aeae;
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
 
 
 .plan-features li {
-  font-size: 1rem;
-  margin-bottom: 10px;
+  font-size: 16px !important;
+  margin-bottom: 16px;
 }
 
 .choose-button {
-  background-color: #1d1d1d;
+  background-color: #1a43bf !important;
   color: #fff;
-  font-weight: 600;
-  padding: 12px;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 15px 40px;
   border: none;
   border-radius: 30px;
   transition: background 0.3s;
+  width: fit-content;
 }
 
 .choose-button:hover {
@@ -22801,27 +22822,27 @@ justify-content: center;
 }
 
 .features-subtitle {
-  font-size: 14px;
+  font-size: 16px !important;
   color: #a2a2a2;
-  font-weight: 500;
+  font-weight: 700 !important;
   margin-bottom: 8px;
 }
 
 .features-title {
-  font-size: 32px;
-  font-weight: 800;
-  color: #0c0c1e;
+  font-size: 42px !important;
+  font-weight: 700 !important;
+  color: #000;
   line-height: 1.4;
 }
 
 .feature-title {
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 700 !important;
   color: #0c0c1e;
   border-bottom: 1px solid #000;
   /* display: inline-block; */
-  padding-bottom: 6px;
-  margin-bottom: 12px;
+  padding-bottom: 20px;
+
 }
 .feature-item{
   max-width: 280px;
@@ -22829,11 +22850,12 @@ justify-content: center;
 }
 
 .feature-desc {
-  font-size: 14px;
+  font-size: 16px !important;
   color: #7c7c7c;
-  font-weight: 400;
+  font-weight: 400 !important;
   /* max-width: 280px; */
   margin: 0 auto;
+  padding-top: 20px;
 }
 
 .feature-center-image {
@@ -22862,6 +22884,13 @@ justify-content: center;
 
 /* ---------------------------- */
 
+.middleCta .head{
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  text-align: center ;
+
+}
+
 
 .digital-services-section {
   background-color: #1a43bf;
@@ -22874,24 +22903,25 @@ justify-content: center;
 }
 
 .services-title {
-  font-size: 36px;
-  font-weight: 800;
+  font-size: 42px;
+  font-weight: 700 !important;
 }
 
 .services-description {
-  font-size: 16px;
+  font-size: 16px !important;
   font-weight: 400;
   color: #b4b4d8;
 }
 
 .view-services-btn {
-  background-color: #2d2d70;
-  color: #ffffff;
+  background-color: #fff;
+  color: #1a43bf;
   font-weight: 600;
   border-radius: 30px;
-  padding: 10px 30px;
+  padding: 15px 40px;
   border: none;
   transition: all 0.3s ease;
+  font-size: 16px !important;
 }
 
 .view-services-btn:hover {
@@ -22941,7 +22971,7 @@ justify-content: center;
 
 /* Each card */
 .service-card {
-  background-color: #859eec82;
+  background-color: #11245d85;
   border-radius: 24px;
   text-align: center;
   color: white;
@@ -22949,8 +22979,10 @@ justify-content: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding: 25px 15px;
   height: 100%;
+  row-gap:10px;
 }
 
 /* Hover effect */
@@ -22964,7 +22996,7 @@ justify-content: center;
   grid-row: span 3;
 }
 .card-medium {
-  margin: 40px 0;
+  /* margin: 40px 0; */
   grid-row: span 2;
 }
 /* .card-short {
@@ -22972,15 +23004,20 @@ justify-content: center;
 } */
 
 /* Icons and Titles */
-.service-icon {
+.digital-services-section .service-icon {
   font-size: 26px;
   margin-bottom: 12px;
   color: #d38aff;
 }
-.service-title {
-  font-size: 17px;
+.digital-services-section .service-title {
+  font-size: 22px !important;
   font-weight: 700;
   margin: 0;
+}
+
+.digital-services-section .service-card-des{
+  font-size: 16px !important;
+  font-weight: 400 !important;
 }
 
 /* Responsive override */
@@ -23055,15 +23092,15 @@ justify-content: center;
 }
 
 .our-works-heading {
-  font-size: 36px;
-  font-weight: 800;
+  font-size: 56px !important;
+  font-weight: 700 !important;
   color: black;
 }
 
 .our-works-desc {
-  font-size: 14px;
+  font-size: 16px !important;
   color: black;
-  max-width: 580px;
+  max-width: 600px;
   text-align: right;
 }
 
@@ -23079,10 +23116,11 @@ justify-content: center;
 }
 
 .work-tags {
-  font-size: 12px;
+  font-size: 14px !important;
   text-transform: uppercase;
   color: #4b4b4d;
   margin-bottom: 6px;
+  font-weight: 700 !important;
 }
 
 .work-tag:not(:last-child)::after {
@@ -23091,7 +23129,7 @@ justify-content: center;
 }
 
 .work-title {
-  font-size: 18px;
+  font-size: 30px !important;
   font-weight: 700;
   margin: 0;
   color: black;
@@ -23122,18 +23160,18 @@ justify-content: center;
 }
 
 .faq-heading {
-  font-size: 36px;
-  font-weight: 800;
+  font-size: 48px !important;
+  font-weight: 700 !important;
   margin-bottom: 20px;
 }
 
 .faq-btn {
-  background-color: #2f224f;
-  color: white;
+  background-color: #fff;
+  color: #1a43bf;
   border: none;
-  padding: 10px 24px;
+  padding: 15px 40px;
   border-radius: 999px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   margin-top: 10px;
   transition: background-color 0.3s;
@@ -23153,7 +23191,7 @@ justify-content: center;
 }
 
 .faq-question {
-  font-size: 16px;
+  font-size: 22px;
   font-weight: 700;
   color: white;
   display: flex;
@@ -23167,14 +23205,14 @@ justify-content: center;
 }
 
 .faq-answer {
-  font-size: 14px;
+  font-size: 16px !important;
   color: #e9e9e9;
   margin-top: 8px;
   max-width: 550px;
 }
 
 .faq-divider {
-  border-color: #2d2542;
+  border-color: #ffff;
   margin-top: 12px;
   margin-bottom: 0;
 }

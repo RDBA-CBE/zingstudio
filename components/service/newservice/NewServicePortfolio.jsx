@@ -25,9 +25,10 @@ const NewServicePortfolio = () => {
         <div className="d-flex justify-content-between align-items-start flex-wrap mb-4">
           <h2 className="our-works-heading">Our Works</h2>
           <p className="our-works-desc">
-            They delve into market research and audience insights,
-            helping clients refine their digital strategies.
+          Check out our lineup of stunning websites that pop, perform, and leave a mark! At Zing Studio, we blend bold designs with smooth vibes to craft digital spaces that turn clicks into customers. 
+          From trendy business sites to vibrant online stores, our creations are all about making your brand shine.
           </p>
+          
         </div>
         <div className="row gy-4">
           {works.map((work, index) => (

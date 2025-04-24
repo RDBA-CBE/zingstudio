@@ -26,6 +26,7 @@ import NewFAQ from "@/components/service/newservice/NewFAQ";
 import Footer1 from "@/components/footers/Footer1";
 import HomeCta from "@/components/service/HomeCta";
 import NewServiceCta from "@/components/service/newservice/NewServiceCta";
+import MiddleCTA from "@/components/service/newservice/MiddleCTA";
 
 export const metadata = {
   title: "Web Design Development || Zing Studio",
@@ -337,6 +338,8 @@ export default function page() {
         <NewPricingTable/>
 
         <NewGaruntee/>
+
+        <MiddleCTA/>
 
         <NewFeatures/>
 

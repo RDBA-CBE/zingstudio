@@ -11,12 +11,12 @@ const NewFeatures = () => {
 //   ];
 
 const services = [
-    { title: "UI/UX <br/> Experience", icon: "UI", extraClass: "card-medium" },
-    { title: "Web <br/> Development", icon: "</>", extraClass: "card-tall" },
-    { title: "Digital <br/> Marketing", icon: "📊", extraClass: "card-medium" },
-    { title: "SEO <br/> Solutions", icon: "📈", extraClass: "card-tall" },
-    { title: "Digital <br/> Marketing", icon: "🖥️", extraClass: "card-tall" },
-    { title: "SEO <br/> Solutions", icon: "🔍", extraClass: "card-medium" },
+    { title: "Discovery &  <br/> Planning", icon: "/images/services/web-deisgn/i-1.png", extraClass: "card-medium",description:"Understanding goals, audience, and brand identity to create a tailored strategy." },
+    { title: "Wireframing &  <br/> Prototyping", icon: "/images/services/web-deisgn/i-1.png", extraClass: "card-tall" ,description:"Designing a visual blueprint for seamless navigation and user experience."},
+    { title: "Design  <br/> Creation", icon: "/images/services/web-deisgn/i-1.png", extraClass: "card-medium" , description:"Crafting visually engaging and brand-aligned designs using the latest design principles."},
+    { title: "Development ", icon: "/images/services/web-deisgn/i-1.png", extraClass: "card-tall",description:"Converting designs into responsive, functional websites with clean and efficient code." },
+    { title: "Testing &  <br/> Optimization", icon: "/images/services/web-deisgn/i-1.png", extraClass: "card-tall" ,description:"Conducting thorough testing for usability, compatibility, and performance across devices."},
+    { title: "Launch &  <br/> Maintenance", icon: "/images/services/web-deisgn/i-1.png", extraClass: "card-medium", description:"Deploying the website and providing continuous support for updates and improvements." },
   ];
 
   return (
@@ -24,10 +24,11 @@ const services = [
       <div className="container">
         <div className="row align-items-center g-4">
           <div className="col-lg-5 text-white digital-services-left">
-            <div className="mb-3 star-icon">★</div>
-            <h2 className="services-title mb-3">Digital Services<br />Tailored to You</h2>
+          <p className="features-subtitle mb-3">Design. Develop. Deliver.
+          </p>
+            <h2 className="services-title mb-3">Web design process for delivering exceptional websites</h2>
             <p className="services-description mb-4">
-              A digital agency, also known as a digital marketing agency or a digital marketing firm, is a specialized company that provides a range of services to help businesses establish.
+            You get speedier page-load times, tools to help grow your business, and essential security measures to build trust and help protect user data. Plus, you get peace of mind with a money-back guarantee.
             </p>
             <button className="view-services-btn">View All Services</button>
           </div>
@@ -37,8 +38,9 @@ const services = [
                 <div className="service-grid">
                     {services.map((service, index) => (
                         <div className={`service-card ${service.extraClass}`} key={index}>
-                        <div className="service-icon">{service.icon}</div>
+                        <div className="service-icon icon-md"><img src={service.icon} alt={service.title} /></div>
                         <p className="service-title" dangerouslySetInnerHTML={{__html:service.title}}></p>
+                        <p className="service-card-des">{service.description}</p>
                         </div>
                     ))}
                 </div>

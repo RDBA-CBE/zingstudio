@@ -1,70 +1,39 @@
-import React from "react";
+import React from 'react';
 
 
 const services = [
+  { id: '001', title: 'Course Duration ', description: '3 Months + 3 Months Internship' },
+  { id: '002', title: 'Course Fees', description: '₹25,000' },
   {
-    id: "01",
-    title: "Website Design",
-    description: "Starting @ ₹ 15,000",
-    image: "/images/Home-Page/development.png",
-     link:"web-design-service"
+    id: '003',
+    title: 'Application Closes On ',
+    description:
+      '₹25,000',
   },
-  {
-    id: "02",
-    title: "CMS Websites",
-    description: "Starting @ ₹ 12,000",
-    image: "/images/Home-Page/marketing.png",
-     link:"web-design-service"
-  },
-  {
-    id: "03",
-    title: "Ecommerce",
-    description: "Starting @ ₹ 50,000",
-    image: "/images/Home-Page/graphic-design.png",
-     link:"e-commerce-service"
-  },
- 
+  
 ];
-
 
 const BannerList = () => {
   return (
-    <section className="services-section text-white py-5 NewAboutSpecialize" style={{marginTop:"40px", background:"#1a43bf"}}>
-      <div className="container-fluid">
-        <div className="row justify-content-center">
-        <div className="col-11 ">
-            <div className="d-flex justify-content-between align-items-center  flex-wrap">
-              <div> 
-                <h2 className="section-title  mb-1 mb-3 mb-md-5">
-                Lorem ipsum 
-                </h2>
-              </div>
-              <button className="btn btn-outline-light mb-3 mb-md-5  service-btn">
-                <a href="/services" className="text-white " style={{textDecoration:"none"}}>
-                All Services</a>
-              </button>
+    <section className="services-list-section py-5 px-3 BannerList mt-5">
+      <div className="container">
+        <h6 className="text-white text-center mb-5">Our Services</h6>
+        {services.map((service) => (
+          <div key={service.id} className="service-box d-flex justify-content-center align-items-center border-bottom py-4 position-relative">
+            {/* <div className="service-id text-white-50">{service.id}</div> */}
+
+            <div className="service-content d-flex justify-content-center">
+              <h2 className="service-title mb-0 text-white fw-bold">{service.title}</h2>
+              {service.description && (
+                <p className="service-desc mb-0 text-white-50">{service.description}</p>
+              )}
             </div>
 
-            {services.map((service) => (
-              <div key={service.id} className="service-item border-top border-secondary py-4">
-              <div className="service-content d-flex align-items-start">
-                
-                {/* <div className="service-id text-white mx-3 mt-lg-4 mt-2 ">({service.id})</div> */}
-                <div className="service-text">
-                  <h3 className="fw-bold display-5 service-title mb-2 "><a href={service.link} className="text-white">{service.title}</a></h3>
-                  {/* <p className=" mb-0">{service.description}</p> */}
-                </div>
-                 {/* <div className="service-image-wrapper mt-0 mt-lg-4">
-                  <p>Lorem ipsum </p>
-                </div>  */}
-              </div>
-            </div>
-            
-            ))}
-        </div>
-        </div>
-      
-       
+           
+          </div>
+
+               
+        ))}
       </div>
     </section>
   );

@@ -23276,6 +23276,12 @@ border-radius: 30px;
  
 }
 
+.newacademy-banner .about-agency-btn{
+  background: #1a43bf !important;
+  color: #fff;
+  padding: 19px 30px !important;
+}
+
 
 .NewCourseModules.services-section {
   background:linear-gradient(to right, #984674, #4c48d0);
@@ -23286,13 +23292,13 @@ border-radius: 30px;
 }
 
 .NewCourseModules .service-box {
-  padding: 30px;
+  padding: 0 20px;
   position: relative;
 }
 
 .NewCourseModules .service-id {
-  font-size: 5rem;
-  font-weight: bold;
+  font-size: 100px;
+  font-weight: 700 !important;
   color: rgba(255, 255, 255, 0.1);
   position: absolute;
   top: 20px;
@@ -23301,36 +23307,55 @@ border-radius: 30px;
 }
 
 .NewCourseModules .service-title {
-  position: relative;
   z-index: 1;
   margin-bottom: 10px;
+  margin-bottom: 10px;
+  padding-top: 80px;
+  padding-left: 40px;
+  font-size: 30px;
 }
 
 .NewCourseModules .service-desc {
   position: relative;
   z-index: 1;
-  font-size: 0.95rem;
+  font-size:16px !important;
   line-height: 1.5;
+  padding-left: 40px;
+}
+.NewCourseModules .service-desc ul li{
+  font-size:16px !important;
 }
 
 /* Media Query for smaller screens */
 @media (max-width: 768px) {
   .NewCourseModules .service-id {
-    font-size: 3rem;
-    top: 10px;
+    font-size: 100px;
+    top: -40px;
     left: 15px;
   }
 
  .NewCourseModules .service-box {
     padding: 20px;
+    padding-top: 0;
   }
 
   .NewCourseModules .service-title {
-    font-size: 1.25rem;
+    font-size: 30px !important;
+    padding-top: 20px;
   }
 
   .NewCourseModules .service-desc {
     font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .NewCourseModules .service-title {
+    font-size: 30px !important;
+    padding-left: 20px !important;
+  }
+  .NewCourseModules .service-desc {
+    padding-left: 20px !important;
   }
 }
 
@@ -23374,7 +23399,7 @@ border-radius: 30px;
 
 .service-bubble {
   background: transparent;
-  border: 1px solid #333;
+  border: 1px solid #fff;
   color: white;
   padding: 20px;
   border-radius: 50%;
@@ -23386,15 +23411,17 @@ border-radius: 30px;
   font-weight: 600;
   font-size: 0.9rem;
   transition: background 0.3s;
+  text-align: center;
 }
 
 .service-bubble:hover {
-  background-color: #1a1a40;
+  background-color: #fff;
   cursor: pointer;
+  color: #000;
 }
 
-.pricing-section {
-  background-color: #0d0b21;
+.NewStudentJourney.pricing-section {
+  background: linear-gradient(to right, #984674, #4c48d0);
 }
 
 .section-title {
@@ -23407,17 +23434,20 @@ border-radius: 30px;
 }
 
 .pricing-card {
-  background-color: #131128;
   color: #fff;
   overflow: hidden;
 }
 
-.price {
-  font-size: 3rem;
+.NewStudentJourney .price {
+  font-size: 30px !important;
 }
 
-.plan-title {
-  font-size: 1.25rem;
+.NewStudentJourney .plan-title {
+  font-size: 18px !important;
+}
+.NewStudentJourney .pricing-card{
+  min-height: auto !important;
+  border: 1px solid #fff;
 }
 
 .shape-bg {
@@ -23450,18 +23480,49 @@ border-radius: 30px;
 
 .WhyChooseAcedemy .ds-card {
   border-radius: 20px;
-  padding: 30px;
-  height: 280px;
-  background-size: cover;
+  /* padding: 30px; */
+  height: 450px;
+  background-size: contain;
   background-position: center;
-  /* position: relative; */
-  transition: transform 0.3s ease-in-out;
-  background:linear-gradient(to right, #984674, #4c48d0);
-  margin-top: 100px;
+  position: relative;
+  border: 1px solid #000;
+  /* background: transparent; */
+  background: url(../images/elementbg/unnamed.png);
+  /* transition: transform 0.3s ease-in-out, background 0.5s ease-in-out; */
+ 
+}
+
+.WhyChooseAcedemy img{
+  object-position: right;
 }
 
 .WhyChooseAcedemy .ds-card:hover {
-  transform: translateY(-5px);
+  /* transform: translateY(-5px); */
+  /* background:linear-gradient(to bottom, #984674, #4c48d0); */
+  border: none;
+}
+
+.WhyChooseAcedemy .ds-card:hover::before{
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background:linear-gradient(to bottom, #984674, #4c48d0);
+  z-index: -100;
+  border-radius: 30px;
+  opacity: 1;
+  transition: background 0.5s ease-in-out;
+
+}
+
+.WhyChooseAcedemy .ds-card:hover .ds-card-title{
+  color: #fff;
+}
+
+.WhyChooseAcedemy .ds-card:hover .ds-arrow {
+  color: #fff;
 }
 
 /* Individual card backgrounds (replace with actual bg images) */
@@ -23479,26 +23540,33 @@ border-radius: 30px;
 
 .WhyChooseAcedemy .ds-card-title {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 30px !important;
+  color: #000;
+
 }
 
 .WhyChooseAcedemy .ds-arrow {
   font-size: 24px;
+  color: #000;
 }
 
 .WhyChooseAcedemy .ds-all-btn {
-  background: #2a2a2a;
-  color: #000;
+  background: #1a43bf ;
+  color: #fff !important;
   border-radius: 30px;
-  padding: 10px 20px;
+  padding: 19px 30px;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   margin-top: -80px;
 }
 
 .WhyChooseAcedemy .ds-heading {
-  font-size: 28px;
-  font-weight: 700;
+  font-size: 36px !important;
+  font-weight: 700 !important;
+}
+
+.WhyChooseAcedemy p{
+font-size: 16px !important;
 }
 
 
@@ -23512,11 +23580,11 @@ border-radius: 30px;
 
 .cf-title {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 700 !important;
 }
 
 .cf-note {
-  font-size: 14px;
+  font-size: 16px !important;
   color: #cfcfcf;
 }
 
@@ -23549,6 +23617,319 @@ border-radius: 30px;
 .cf-btn {
   font-size: 14px;
   font-weight: 600;
+}
+
+
+.team-intro-section {
+  background: linear-gradient(to right, #984674, #4c48d0);;
+}
+
+.team-intro-title {
+  font-size: 36px;
+}
+
+.team-intro-desc {
+  font-size: 16px !important;
+  line-height: 1.8;
+  margin-top: -20px;
+}
+
+.team-intro-btn {
+  font-weight: 500;
+  background: #1a43bf;
+  padding: 19px 30px !important;
+  font-size: 16px;
+  color: #fff !important;
+  border: none !important;
+}
+
+.team-intro-stat h3 {
+  font-size: 2.5rem;
+}
+
+.team-intro-stat small {
+  font-size: 0.9rem;
+}
+
+
+/* -------------------------- */
+
+.BannerList.services-list-section {
+  background-color: #1a43bf ;
+  font-family: 'Poppins', sans-serif;
+}
+
+.BannerList .service-box {
+  transition: background 0.4s ease;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.BannerList .service-box:hover {
+  background: linear-gradient(to right, #f4978e, #a163f3);
+}
+
+.BannerList .service-id {
+  flex: 1;
+  font-size: 1rem;
+}
+
+.BannerList .service-content {
+  position: relative;
+}
+
+.BannerList .service-title {
+  font-size: 3rem;
+  height: 100%;
+  width: 550px;
+  position: absolute;
+  top:-20px;  
+  transition: transform 0.5s ease;
+  text-align: center;
+}
+
+.BannerList .service-desc {
+  font-size: 0.95rem;
+  max-width: 400px;
+  opacity: 0;
+  /* margin-right: -500px; */
+  transform: translateX(30%);
+  transition: opacity 0.5s ease, transform 0.5s ease  margin-right 0.5s ease;
+}
+
+.BannerList .service-arrow {
+  flex: 1;
+  font-size: 1.2rem;
+  text-align: end;
+  transition: transform 0.5s ease;
+}
+
+/* Hover animation */
+.BannerList .service-box:hover .service-title {
+  transform: translateX(-20%);
+  margin-right: 0;
+  transition: transform 0.5s ease margin-right 0.5s ease;
+}
+
+.BannerList .service-box:hover .service-desc {
+  opacity: 1;
+  transform: translateX(0%);
+  margin-right: -600px;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+
+.digital-intro-section {
+  background-color: #1a43bf;
+  padding: 30px 0;
+  width: 95%;
+  border-radius: 30px;
+  margin: auto;
+}
+
+.digital-intro-title {
+  font-size: 80px;
+  font-weight: 700 !important;
+  line-height: 1;
+  padding-bottom: 0 !important;
+  margin-bottom: 0;
+}
+
+/* .digital-intro-subline {
+  margin-bottom: 20px;
+} */
+
+.arrow-line {
+  display: inline-block;
+  width: 200px;
+  height: 1px;
+  background-color: white;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.arrow-symbol {
+  font-size: 1.2rem;
+  margin-right: 12px;
+  margin-top: 6px;
+  margin-left: -15px;
+}
+
+.digital-intro-highlight {
+  font-size: 80px !important;
+  font-weight: 700 !important;
+  margin: 0;
+}
+
+.digital-intro-description {
+  font-size: 16px !important;
+    color: #ccc !important;
+    line-height: 1.5;
+    width: 630px;
+    position: relative;
+    top: -80px;
+    left: -360px;
+    margin-bottom: 0;
+}
+
+/* Responsive tweaks */
+/* @media (max-width: 991px) {
+  .digital-intro-title,
+  .digital-intro-highlight {
+    font-size: 2.8rem;
+    text-align: center;
+    
+  }
+
+  .digital-intro-subline {
+    justify-content: center;
+  }
+
+  .digital-intro-description {
+    text-align: center;
+    margin-top: 30px;
+  }
+} */
+
+/* @media (max-width: 576px) {
+  .digital-intro-title,
+  .digital-intro-highlight {
+    font-size: 2rem;
+  }
+
+  .arrow-line {
+    width: 50px;
+  }
+} */
+
+@media (max-width: 1400px){
+ 
+
+
+  .digital-intro-description{
+    left: -290px;
+
+  }
+
+  .arrow-line{
+    width: 100px;
+  }
+
+}
+
+@media (max-width: 1300px){
+
+  .digital-intro-description{
+    left: -290px;
+    width: 480px !important;
+    top: -90px;
+  }
+
+}
+
+@media (max-width: 1200px){
+
+  .digital-intro-description{
+    left: -250px;
+    width: 430px !important;
+    top: -90px;
+  }
+
+}
+
+@media (max-width: 990px){
+
+  .digital-intro-description{
+    left: 0px;
+    width: 100% !important;
+    top: 0;
+    margin-top: 30px;
+  }
+
+}
+
+@media (max-width: 990px){
+
+  .digital-intro-title{
+      font-size: 48px !important;
+  }
+
+  .digital-intro-highlight{
+    font-size: 48px !important;
+  }
+
+  .arrow-line{
+    width: 100px;
+  }
+
+  .WhyChooseAcedemy p{
+   width: 100% !important;
+    }
+    .WhyChooseAcedemy .ds-all-btn{
+      margin-top: 0 !important;
+    }
+
+}
+
+@media (max-width: 500px){
+  .digital-intro-title{
+    font-size: 36px !important;
+}
+
+.digital-intro-highlight{
+  font-size: 36px !important;
+}
+.arrow-line{
+  width: 60px;
+}
+}
+
+@media (max-width: 400px){
+  .digital-intro-title{
+    font-size: 36px !important;
+}
+
+.digital-intro-highlight{
+  font-size: 36px !important;
+}
+.arrow-line{
+  width: 50px;
+}
+}
+
+
+
+.NewStudentJourney li{
+  font-size: 16px !important;
+}
+
+.NewTools{
+  background: linear-gradient(to right, #984674, #4c48d0);
+  width: 95%;
+  margin: auto;
+  border-radius: 30px;
+}
+
+.NewTools .ow-client-logo{
+  background: transparent !important;
+  
+}
+
+.NewTools .ow-client-logo img{
+  border-radius: 20px;
+}
+
+.NewTools .section-head.style2 .title{
+  font-size: 36px !important;
+  font-weight: 700 !important;
+}
+.NewTools .section-head.style2 h4{
+  font-size: 22px !important;
+  font-weight: 500 !important;
+}
+
+.NewTools .section-head.style2 p{
+  font-size: 16px !important;
 }
 
 

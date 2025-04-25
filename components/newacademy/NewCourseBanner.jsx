@@ -28,27 +28,27 @@ const NewCourseBanner = ({serviceAbout}) => {
           </div>
         </div>
 
-        <div className="row align-items-center ">
+        <div className="row align-items-center mt-5">
 
           
                {/* Left Content */}
           <div className="col-lg-6 text-black mb-4 mb-lg-0">
-            <p className="about-agency-subtitle mb-2" dangerouslySetInnerHTML={{__html:serviceAbout?.subtitle}}></p>
-            <h2 className="about-agency-title mb-3" dangerouslySetInnerHTML={{__html:serviceAbout?.title}}>
+            <p className="about-agency-subtitle mb-2 text-white" dangerouslySetInnerHTML={{__html:serviceAbout?.subtitle}}></p>
+            <h2 className="about-agency-title mb-3 text-white" dangerouslySetInnerHTML={{__html:serviceAbout?.title}}>
             
             </h2>
-            <button className="btn btn-primary about-agency-btn fw-semibold px-4 py-3 rounded-pill mt-4" style={{fontSize:"16px"}}>
+            <button className=" about-agency-btn fw-semibold px-4 py-3 rounded-pill mt-4" style={{fontSize:"16px"}}>
               About Company
             </button>
           </div>
 
           {/* Right Content */}
           <div className="col-lg-6 text-black">
-            <p className="about-agency-text mb-3">
-           { serviceAbout?.descrip}
+            <p className="about-agency-text mb-3 text-white" dangerouslySetInnerHTML={{__html:serviceAbout?.subDes}}>
+           
             </p>
-            <p className="about-agency-text">
-            { serviceAbout?.subDes}
+            <p className="about-agency-text text-white" dangerouslySetInnerHTML={{__html: serviceAbout?.descrip}}>
+            
             </p>
           </div>
             </div>

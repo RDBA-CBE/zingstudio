@@ -3,6 +3,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import Textalign from "./Textalign";
 
 const services = [
   "UI/UX Design",
@@ -12,35 +13,14 @@ const services = [
   "SEO",
   "Illustrations",
   "Branding",
-  "Content Marketing",
-  "Motion Design",
-  "Mobile Development",
-  "SMM",
-  "Product Design",
-  "Email Marketing",
-  "E-commerce Solutions",
+  
 ];
 
 const FloatingBubble = () => {
   return (
-    <section className="hero-section">
-      <div className="container">
-        <div className="hero-text">
-          <motion.h1 
-            className="hero-title"
-            initial={{ y: -20, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.8 }}
-          >
-            We Create<br />
-            <span>World-Class</span><br />
-            Digital Products
-          </motion.h1>
-          <p className="hero-subtext">
-            Our Digital agency offers a wide array of services, tailored to the unique needs of each client.
-          </p>
-        </div>
-
+    <section className="digital-intro-section mb-5 pb-5">
+      <div className="container ">
+        <Textalign/>
         <div className="services-bubble-wrapper">
           {services.map((service, index) => (
             <motion.div

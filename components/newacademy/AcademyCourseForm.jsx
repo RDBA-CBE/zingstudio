@@ -11,7 +11,7 @@ const formFields = [
 const AcademyCourseForm = () => {
   return (
     <div className="cf-wrapper container my-5">
-      <div className="cf-form bg-dark-purple p-5 rounded-4 text-white">
+      <div className="cf-form p-5 rounded-4 text-white" style={{background:"#1a43bf"}}>
         <h4 className="cf-title mb-2">Leave a Reply</h4>
         <p className="cf-note mb-4">
           Your email address will not be published. Required fields are marked <span className="text-danger">*</span>

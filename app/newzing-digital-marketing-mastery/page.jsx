@@ -38,6 +38,9 @@ import FloatingBubble from "@/components/newacademy/FloatingBubble";
 import NewCourseModules from "@/components/newacademy/NewCourseModules";
 import Footer1 from "@/components/footers/Footer1";
 import HomeCta from "@/components/service/HomeCta";
+import NewStudentJourney from "@/components/newacademy/NewStudentJourney";
+import WhyChooseAcedemy from "@/components/newacademy/WhyChooseAcedemy";
+import AcademyCourseForm from "@/components/newacademy/AcademyCourseForm";
 export const metadata = {
   title: "Zing Digital Marketing Mastery || Zing Studio",
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
@@ -774,12 +777,19 @@ const faqData = [
         <Header17 />
          {/* <ZingAcademyProgramHero HeroBannerContent={HeroBannerContent}/> */}
          <NewCourseBanner serviceAbout={serviceAbout}/>
+       
 
          <BannerList/>
 
          <NewCourseModules/>
 
          <FloatingBubble/>
+
+         <NewStudentJourney/>
+
+         <WhyChooseAcedemy/>
+
+         <AcademyCourseForm/>
 
         
  

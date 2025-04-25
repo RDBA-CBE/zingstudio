@@ -3,12 +3,14 @@ import React from 'react';
 const NewCourseBanner = ({serviceAbout}) => {
   return (
     <div className="container-fluid about-agency-section  " >
-      <div className='px-3 px-md-5 newacademy-banner pb-5'>
+      <div className='row'>
+        <div className='col-12 px-3 px-md-5  '>
+        <div className='newacademy-banner  pb-5'>
       <div className="container">
         
 
         {/* Video Thumbnail Section */}
-        <div className="row mt-5">
+        <div className="row">
           <div className="col-12">
             <div className="about-agency-video-wrapper position-relative rounded overflow-hidden" style={{display:"flex", justifyContent:"center"}}>
               {/* <img src="/images/services/web-deisgn/banner-vd.mp4" alt="About Us" className="img-fluid w-100" /> */}
@@ -55,6 +57,9 @@ const NewCourseBanner = ({serviceAbout}) => {
 
       </div>
       </div>
+        </div>
+      </div>
+     
     
     </div>
   );

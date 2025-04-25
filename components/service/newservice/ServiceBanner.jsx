@@ -6,9 +6,9 @@ import React from 'react';
 
 const ServiceBanner = ({bannerContent}) => {
   return (
-    <div className="container-fluid bg-white">
+    <div className="container-fluid newServiceBanner" >
       <div className='row px-3 px-md-5'>
-        <div className='col-12 m-0 p-0 hero-section'>
+        <div className='col-12 m-0 p-0 hero-section' >
             <div className="container-fluid py-5">
               <div className='row justify-content-center'>
                 <div className='col-11'>

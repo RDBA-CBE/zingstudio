@@ -798,7 +798,7 @@ const faqData = [
 
          <NewTools ToolsContent={ToolsContent} Tools1={Tools1} Tools2={Tools2} Tools3={Tools3}/>
 
-         <NewFAQ/>
+         <NewFAQ faqData={faqData}/>
 
          <AcademyCourseForm/>
 

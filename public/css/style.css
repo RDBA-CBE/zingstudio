@@ -22482,7 +22482,7 @@ justify-content: center;
 
 /* ----------service page---------- */
 
-.hero-section {
+.newServiceBanner .hero-section {
   /* background: linear-gradient(135deg, #0c0220, #0c0220);  */
   background: #1a43bf;
   color: white;
@@ -22683,7 +22683,7 @@ justify-content: center;
   color: white;
 }
 
-.ultra-plan {
+.serviceprice .ultra-plan {
   background: white;
   color: #000;
   position: relative;

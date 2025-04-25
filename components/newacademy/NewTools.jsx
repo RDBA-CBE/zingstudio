@@ -21,9 +21,9 @@ export default function NewTools({
       </div> */}
 
       <div className="section-head style2 text-center mb-0 ">
-        <h2 className="title pt-5 text-white">Tools That you will learn</h2>
-        <h4 className="text-white mt-3"> <b > {ToolsContent?.tool1Num} </b>{ToolsContent?.tool1Title}</h4>
-                    <p className="text-white mb-0" >{ToolsContent?.tool1worth}</p>
+        <h2 className="title pt-5 text-black">Tools That you will learn</h2>
+        <h4 className="text-black mt-3"> <b > {ToolsContent?.tool1Num} </b>{ToolsContent?.tool1Title}</h4>
+                    <p className="text-black mb-0" >{ToolsContent?.tool1worth}</p>
       </div>
 
       <Swiper
@@ -122,7 +122,7 @@ export default function NewTools({
         <>
           
               <div className="section-head style2 text-center pt-5 mb-0 ">
-                    <h4 className="text-white mb-0"> <b > {ToolsContent?.tool2Num} </b>{ToolsContent?.tool2Title}</h4>
+                    <h4 className="text-black mb-0"> <b > {ToolsContent?.tool2Num} </b>{ToolsContent?.tool2Title}</h4>
                   
                 </div>
 

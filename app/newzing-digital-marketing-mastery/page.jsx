@@ -830,7 +830,7 @@ const faqData = [
          <NewCourseBanner serviceAbout={serviceAbout} bannerContent={bannerContent}/>
        
 
-         {/* <BannerList course="Zing Digital <br/> Marketing Mastery"/> */}
+         <BannerList course="Zing Digital <br/> Marketing Mastery"/>
 
          <NewCourseModules/>
 

@@ -42,11 +42,13 @@ import NewStudentJourney from "@/components/newacademy/NewStudentJourney";
 import WhyChooseAcedemy from "@/components/newacademy/WhyChooseAcedemy";
 import AcademyCourseForm from "@/components/newacademy/AcademyCourseForm";
 import FloatingBubble2 from "@/components/newabout/AcademyTeamSection";
-import AcademyTeamSection from "@/components/newabout/AcademyTeamSection";
 import Textalign from "@/components/newacademy/Textalign";
 import NewFAQ from "@/components/service/newservice/NewFAQ";
 import NewTools from "@/components/newacademy/NewTools";
 import AcademyFAQ from "@/components/newabout/AcademyFAQ";
+import AcademyTeamSection1 from "@/components/newabout/AcademyTeamSection-1";
+import CircleAnimation from "@/components/newabout/AcademyTeamSection-1";
+import PhysicsCircles from "@/components/newabout/AcademyTeamSection-1";
 export const metadata = {
   title: "Zing Digital Marketing Mastery || Zing Studio",
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
@@ -810,7 +812,8 @@ const faqData = [
 
          <WhyChooseAcedemy/>
 
-         <AcademyTeamSection/>
+         {/* <AcademyTeamSection/> */}
+         <PhysicsCircles/>       
 
          <NewTools ToolsContent={ToolsContent} Tools1={Tools1} Tools2={Tools2} Tools3={Tools3}/>
 

@@ -34,7 +34,7 @@ export default function page() {
         item:"User-Centric  <br/> Design"
       },
       {
-        src:"//images/services/web-deisgn/7.png",
+        src:"/images/services/web-deisgn/7.png",
         item:"Scalable  <br/> Growth"
       }
     ],

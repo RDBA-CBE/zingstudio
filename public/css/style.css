@@ -22495,11 +22495,11 @@ justify-content: center;
   color: #b0aecd;
 }
 
-.hero-title {
+.newServiceBanner .hero-title {
   font-weight: 700 !important;
-  font-size: 100px;
-  line-height:100px;
-  letter-spacing: 5;
+  font-size: 80px !important;
+  line-height:100px !important;
+  letter-spacing: 5 !important;
 }
 
 .hero-title .highlight {
@@ -23388,7 +23388,7 @@ border-radius: 30px;
   text-align: center;
 }
 
-.hero-title {
+  .hero-title {
   font-size: 3rem;
   font-weight: 800;
   line-height: 1.2;

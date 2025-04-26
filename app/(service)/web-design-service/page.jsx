@@ -35,7 +35,7 @@ export default function page() {
         item:"Responsive &  <br/> Mobile-Friendly"
       },
       {
-        src:"//images/services/web-deisgn/7.png",
+        src:"/images/services/web-deisgn/7.png",
         item:"SEO-Optimized <br/> for Visibility"
       }
     ],

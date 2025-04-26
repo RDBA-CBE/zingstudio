@@ -35,7 +35,7 @@ export default function page() {
         item:"Multi-Channel <br/> Strategies"
       },
       {
-        src:"//images/services/web-deisgn/7.png",
+        src:"/images/services/web-deisgn/7.png",
         item:"Performance  <br/> for Tracking"
       }
     ],

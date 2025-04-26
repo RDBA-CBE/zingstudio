@@ -1,6 +1,7 @@
 "use client"
 import React from 'react';
 import { motion } from "framer-motion";
+import PhysicsCircles from './AcademyTeamSection-1';
 
 
 const teamIntroData = {
@@ -81,6 +82,7 @@ const AcademyTeamSection = () => {
         </div>
         </div> */}
       </div>
+          
     </section>
   );
 };

@@ -49,6 +49,8 @@ import AcademyFAQ from "@/components/newabout/AcademyFAQ";
 import AcademyTeamSection1 from "@/components/newabout/AcademyTeamSection-1";
 import CircleAnimation from "@/components/newabout/AcademyTeamSection-1";
 import PhysicsCircles from "@/components/newabout/AcademyTeamSection-1";
+import AcademyTeamSection from "@/components/newabout/AcademyTeamSection";
+import AcademyTeamWithPhysics from "@/components/newabout/AcademyTeamWithPhysics";
 export const metadata = {
   title: "Zing Digital Marketing Mastery || Zing Studio",
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
@@ -811,6 +813,8 @@ const faqData = [
          <NewStudentJourney/>
 
          <WhyChooseAcedemy/>
+
+         {/* <AcademyTeamWithPhysics/> */}
 
          {/* <AcademyTeamSection/> */}
          <PhysicsCircles/>       

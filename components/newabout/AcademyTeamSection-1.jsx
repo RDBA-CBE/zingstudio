@@ -1,4 +1,5 @@
 import React from "react";
+import AcademyTeamSection from "./AcademyTeamSection";
 
 const circles = [
   { id: "ecae91b", url: "/images/sample/homepage_1-7.webp", width: 375, height: 375 },
@@ -9,13 +10,15 @@ const circles = [
   { id: "bbfe833", url: "/images/sample/homepage_1-5.webp", width: 148, height: 148 },
   { id: "d921808", url: "/images/sample/homepage_1-6.webp", width: 450, height: 450 },
   { id: "0dfae77", url: "/images/sample/homepage_1-8.webp", width: 150, height: 150 },
-  { id: "a087b13", url: "/images/sample/homepage_1-9.webp", width: 318, height: 318 },
   { id: "4326c43", url: "/images/sample/homepage_1-10.webp", width: 225, height: 225 },
+  { id: "a087b13", url: "/images/sample/homepage_1-9.webp", width: 318, height: 318 },
+ 
 ];
 
 const PhysicsCircles = () => {
   return (
     <div className="physics-wrapper">
+      <AcademyTeamSection/>
       {circles.map((circle, index) => (
         <div
           key={circle.id}

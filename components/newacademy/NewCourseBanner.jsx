@@ -1,6 +1,6 @@
 import React from 'react';
 
-const NewCourseBanner = ({serviceAbout}) => {
+const NewCourseBanner = ({serviceAbout,bannerContent}) => {
   return (
     <div className="container-fluid about-agency-section  " >
       <div className='row'>
@@ -28,7 +28,7 @@ const NewCourseBanner = ({serviceAbout}) => {
           </div>
         </div>
 
-        <div className="row align-items-center mt-5">
+        <div className="row align-items-center mt-5" >
 
           
                {/* Left Content */}
@@ -68,6 +68,26 @@ const NewCourseBanner = ({serviceAbout}) => {
             {/* </p> */}
           </div>
             </div>
+
+            <div className='row mt-5'>
+                  
+                  <div className="hiw-stats w-100" style={{ margin:"auto",marginBottom:"5px",gap:"60px",justifyContent:"space-between"}}>
+                  {bannerContent?.list.map((list,index)=>(
+                     <div className='d-flex align-items-center justify-content-between'>
+                        <div className="icon-xl  m-b20 ">
+                            <img src={list.src} alt="" style={{width:"100px",height:"100px"}}/>
+                        </div>
+                        <p className='text-start mx-3 pe-4 pe-md-0 ' dangerouslySetInnerHTML={{__html:list.item}} style={{marginTop:list?.top}}></p>
+                      </div>
+                  ))}
+                     
+                      
+                  </div>
+
+               
+
+                
+                  </div>
           
 
 

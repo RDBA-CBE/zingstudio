@@ -37,6 +37,9 @@ const NewCourseBanner = ({serviceAbout}) => {
             <h2 className="about-agency-title mb-3 text-white" dangerouslySetInnerHTML={{__html:serviceAbout?.title}}>
             
             </h2>
+            <p className='text-white about-agency-p'>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repudiandae sapiente dolor cum vel tempora modi doloribus laborum voluptatum.
+              </p>
            <a href="about"> <button className=" about-agency-btn fw-semibold px-4 py-3 rounded-pill mt-4" style={{fontSize:"16px"}}>
               About Company
             </button>
@@ -45,12 +48,24 @@ const NewCourseBanner = ({serviceAbout}) => {
 
           {/* Right Content */}
           <div className="col-lg-6 text-black">
-            <p className="about-agency-text mb-3 text-white" dangerouslySetInnerHTML={{__html:serviceAbout?.subDes}}>
+            <p className="about-agency-text-des mb-3 text-white" dangerouslySetInnerHTML={{__html:serviceAbout?.subDes}}>
            
             </p>
-            <p className="about-agency-text text-white" dangerouslySetInnerHTML={{__html: serviceAbout?.descrip}}>
             
-            </p>
+            <ul className='list-unstyled'>
+              {serviceAbout?.list.map((li)=>(
+                <li className='about-agency-text text-white wow fadeInLeft'  data-wow-delay={li?.sec} >
+                <span className="arrow-line"></span>
+                <span className="arrow-symbol">→</span>
+                {li?.item}
+                </li>
+              ))}
+              
+            
+            </ul>
+            {/* <p className="about-agency-text text-white" dangerouslySetInnerHTML={{__html: serviceAbout?.descrip}}> */}
+            
+            {/* </p> */}
           </div>
             </div>
           

@@ -57,6 +57,21 @@ export default function page() {
         subtitle:"lorem lorem",
         title:"Zing Digital Marketing Mastery",
         descrip:"Master industry-relevant skills with hands-on projects <br/> Work with top digital marketing tools & strategies <br/> Guaranteed placement support for top performers",
+        list :[
+          {
+            item:"Master industry-relevant skills with hands-on projects",
+            sec:"0.2s"
+          },
+          {
+            item:"Work with top digital marketing tools & strategies",
+            sec:"0.4s"
+          },
+          {
+            item:"Guaranteed placement support for top performers",
+            sec:"0.6s"
+          }
+          
+        ],
         subDes:"Course Highlight:",
         src:"/images/Home-Page/character-img-3.png"
       }

@@ -22582,6 +22582,11 @@ justify-content: center;
   font-weight: 700 !important;
   line-height: 1;
 }
+.about-agency-p{
+  font-size: 16px !important;
+  width: 90%;
+}
+
 
 .about-agency-btn {
   background-color: #4128b0;
@@ -22593,6 +22598,17 @@ justify-content: center;
   font-weight: 700;
   color: #333;
   line-height: 1.5;
+}
+
+.newacademy-banner .about-agency-text{
+  font-size: 20px !important;
+}
+
+.about-agency-text-des{
+  font-size: 32px !important;
+  font-weight: 700 !important;
+  position: relative;
+  top: -30px;
 }
 
 .about-agency-video-wrapper {
@@ -23278,8 +23294,8 @@ border-radius: 30px;
 }
 
 .newacademy-banner .about-agency-btn{
-  background: #1a43bf !important;
-  color: #fff;
+  background: #fff !important;
+  color: #1a43bf;
   padding: 19px 30px !important;
 }
 
@@ -23688,7 +23704,7 @@ font-size: 16px !important;
 /* -------------------------- */
 
 .BannerList.services-list-section {
-  background-color: #1a43bf ;
+  background-color: #fff ;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -23723,11 +23739,11 @@ font-size: 16px !important;
 }
 
 .BannerList .service-title .service-title-p{
-  font-size: 18px !important;
+  font-size: 20px !important;
   position: relative;
   top: -20px;
   text-align: center;
-
+  text-transform: uppercase;
 }
 
 .BannerList .service-desc {
@@ -23755,6 +23771,7 @@ font-size: 16px !important;
 
 .BannerList .service-box:hover .service-desc {
   opacity: 1;
+  color: #fff !important;
   transform: translateX(0%);
   margin-right: -600px;
   transition: transform 0.5s ease, opacity 0.5s ease;
@@ -23795,6 +23812,26 @@ font-size: 16px !important;
   margin-right: 12px;
   margin-top: 6px;
   margin-left: -15px;
+}
+.about-agency-section .arrow-line {
+  display: inline-block;
+  width: 50px;
+  height: 1px;
+  background-color: #fed81a;
+  margin-right: 10px;
+  margin-top: 10px;
+  position: relative;
+  top: -5px;
+
+}
+
+.about-agency-section .arrow-symbol {
+  font-size: 1.2rem;
+  margin-right: 12px;
+  position: relative;
+  top: -2px;
+  margin-left: -15px;
+  color: #fed81a !important;
 }
 
 .digital-intro-highlight {

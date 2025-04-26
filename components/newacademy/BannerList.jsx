@@ -15,20 +15,21 @@ const services = [
 
 const BannerList = ({course}) => {
   return (
-    <section className="services-list-section  py-5 px-3 BannerList mt-5">
+    <section className="services-list-section  px-3 BannerList mt-3">
       <div className="container">
-        {/* <h6 className="text-white text-center mb-5">Our Services</h6> */}
+        {/* <h6 className="text-black text-center mb-5">Our Services</h6> */}
         {services.map((service) => (
           <div key={service.id} className="service-box d-flex justify-content-center align-items-center border-bottom ">
-            {/* <div className="service-id text-white-50">{service.id}</div> */}
+            {/* <div className="service-id text-black-50">{service.id}</div> */}
 
             <div className="service-content d-flex justify-content-center">
-              <h2 className="service-title mb-0 text-white fw-bold">{service.title} <br /> <span className='service-title-p'>{service.description}</span>
+              <h2 className="service-title mb-0 text-black fw-bold">{service.title} <br /> <span className='service-title-p'>{service.description}</span>
               
               </h2>
+             
               
               {course && (
-                <p className="service-desc mb-0 text-white-50" dangerouslySetInnerHTML={{__html:course}}></p>
+                <p className="service-desc mb-0 text-black-50" dangerouslySetInnerHTML={{__html:course}}></p>
               )}
             </div>
 

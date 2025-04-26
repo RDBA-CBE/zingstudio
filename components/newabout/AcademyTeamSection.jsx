@@ -33,15 +33,16 @@ const AcademyTeamSection = () => {
     <section className="team-intro-section py-5 px-4  text-white mb-5">
       <div className="container">
         <div className="row align-items-center gx-5">
-          <div className="col-md-6 mb-4 mb-md-0">
+          <div className="col-md-4 mb-4 mb-md-0">
             <h2 className="team-intro-title fw-bold" dangerouslySetInnerHTML={{__html:title}}></h2>
-            <a href="about"><button className=" mt-2 rounded-pill team-intro-btn">
+            <p className="team-intro-desc mb-3 mt-4">{description1}</p>
+            {/* <a href="about"><button className=" mt-2 rounded-pill team-intro-btn">
               {buttonText}
             </button>
-            </a>
+            </a> */}
           </div>
-          <div className="col-md-6 new-why-me h-100" style={{position:"relative", top:"60px"}} >
-            <p className="team-intro-desc mb-3">{description1}</p>
+          <div className="col-md-8 new-why-me h-100" style={{position:"relative", top:"-10px"}} >
+            {/* <p className="team-intro-desc mb-3">{description1}</p> */}
 
             <div className="container-fluid ">
                                 <div className="row gy-4">
@@ -55,7 +56,7 @@ const AcademyTeamSection = () => {
                                         <div className="col-md-6 px-0" key={index}>
                                             <div className="service-box">
                                                 {/* <span className="service-number text-white" style={{fontSize:"18px"}}>{item.number}</span> */}
-                                                <h5 className="service-name text-white mt-2 pt-4" style={{fontSize:"18px", borderTop:"1px solid #97969b7a",width:"90%"}} >{item.title}</h5>
+                                                <h5 className="service-name text-white mt-2 pt-4 pb-3" style={{fontSize:"23px",fontWeight:"400", borderBottom:"1px solid #97969b7a",width:"90%" ,borderTop:"none"}} >→ {item.title}</h5>
                                                
                                             </div>
                                         </div>

@@ -24071,6 +24071,9 @@ font-size: 16px !important;
   100% { transform: translateY(600px) translateX(0); }
 }
 
+.team-intro-section .service-name{
+  font-weight: 500 !important;
+}
 
 
 

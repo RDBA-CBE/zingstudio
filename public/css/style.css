@@ -23448,7 +23448,26 @@ border-radius: 30px;
 .NewStudentJourney .pricing-card{
   min-height: auto !important;
   border: 1px solid #fff;
+  position: relative;
+  z-index: 1000;
+  min-height: 500px !important;
 }
+
+/* .NewStudentJourney .pricing-card-bg{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(https://wgl-dsites.net/odefy/wp-content/uploads/2024/03/price_bg-2.webp);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 177px auto;
+  z-index: -100;
+  opacity: 1;
+} */
+
 
 .shape-bg {
   position: absolute;
@@ -23487,7 +23506,6 @@ border-radius: 30px;
   position: relative;
   border: 1px solid #000;
   /* background: transparent; */
-  background: url(../images/elementbg/unnamed.png);
   /* transition: transform 0.3s ease-in-out, background 0.5s ease-in-out; */
  
 }
@@ -23902,6 +23920,7 @@ font-size: 16px !important;
 .NewStudentJourney li{
   font-size: 16px !important;
 }
+
 
 .NewTools{
   /* background: linear-gradient(to right, #984674, #4c48d0); */

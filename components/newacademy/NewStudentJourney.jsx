@@ -13,6 +13,7 @@ const pricingData = [
       "Access to LMS (Learning Management System) and student portal"
     ],
     bgShape: "bubble1",
+    src:"/images/zing-digital-marketing-mastery/price_bg-1.webp"
   },
   {
     id: 2,
@@ -25,6 +26,7 @@ const pricingData = [
         "Interactive Q&A sessions after every module",
     ],
     bgShape: "bubble2",
+    src:"/images/zing-digital-marketing-mastery/price_bg-2.webp"
   },
   {
     id: 3,
@@ -36,6 +38,7 @@ const pricingData = [
       "Discussion forums & peer-to-peer learning groups", 
     ],
     bgShape: "bubble3",
+    src:"/images/zing-digital-marketing-mastery/unnamed.png",
   },
   {
     id: 4,
@@ -48,6 +51,7 @@ const pricingData = [
         "Feedback & improvement sessions"
     ],
     bgShape: "bubble3",
+    src:"/images/zing-digital-marketing-mastery/price_bg-2.webp"
   },
   {
     id: 5,
@@ -60,6 +64,7 @@ const pricingData = [
         "Team-based problem-solving & innovation challenges"
     ],
     bgShape: "bubble3",
+    src:"/images/zing-digital-marketing-mastery/unnamed.png"
   },
 
   {
@@ -70,8 +75,10 @@ const pricingData = [
     features: [
       "Sessions with industry leaders, influencers & successful entrepreneurs",
         "AMA (Ask Me Anything) sessions for deep insights", 
+        
     ],
     bgShape: "bubble3",
+    src:"/images/zing-digital-marketing-mastery/price_bg-1.webp"
   },
   {
     id: 7,
@@ -83,6 +90,7 @@ const pricingData = [
         "Shadowing real businesses & executing digital strategies", 
     ],
     bgShape: "bubble3",
+    src:"/images/zing-digital-marketing-mastery/price_bg-2.webp"
   },
   {
     id: 8,
@@ -95,6 +103,7 @@ const pricingData = [
         "Certification ceremony & alumni community access"
     ],
     bgShape: "bubble3",
+    src:"/images/zing-digital-marketing-mastery/unnamed.png"
   },
 ];
 
@@ -113,6 +122,22 @@ const NewStudentJourney = () => {
               key={plan.id}
             >
               <div className="pricing-card rounded-lg p-4 h-100 position-relative">
+                <div className="" 
+                style={{
+                  backgroundImage: `url(${plan.src})`, 
+                  // backgroundImage : "url(https://wgl-dsites.net/odefy/wp-content/uploads/2024/03/price_bg-2.webp)",
+                  position: "absolute",
+                  top: 0,
+                  left: 0,
+                  height: "100%",
+                  width: "100%",
+                  backgroundPosition: "bottom right",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "200px auto",
+                  zIndex: -100,
+                  opacity: 1,
+                }}
+                ></div>
                 {/* <div className="badge text-white fw-medium mb-3">{plan.duration}</div> */}
                 <h3 className="price fw-bold display-5 mb-0">{plan.price}</h3>
                 <p className="plan-title fw-semibold mt-1 mb-4">{plan.title}</p>
@@ -123,10 +148,8 @@ const NewStudentJourney = () => {
                     </li>
                   ))}
                 </ul>
-                {/* <button className="btn btn-light fw-bold px-4 py-2 rounded-pill">
-                  Choose Pricing Plan
-                </button> */}
-                <div className={`shape-bg ${plan.bgShape}`}></div>
+             
+                
               </div>
             </div>
           ))}

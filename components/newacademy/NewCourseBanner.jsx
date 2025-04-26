@@ -69,7 +69,7 @@ const NewCourseBanner = ({serviceAbout,bannerContent}) => {
           </div>
             </div>
 
-            <div className='row mt-5'>
+            {/* <div className='row mt-5'>
                   
                   <div className="hiw-stats w-100" style={{ margin:"auto",marginBottom:"5px",gap:"60px",justifyContent:"space-between"}}>
                   {bannerContent?.list.map((list,index)=>(
@@ -87,7 +87,7 @@ const NewCourseBanner = ({serviceAbout,bannerContent}) => {
                
 
                 
-                  </div>
+                  </div> */}
           
 
 

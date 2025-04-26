@@ -21,7 +21,11 @@ const FloatingBubble = () => {
     <section className="digital-intro-section mb-5 pb-5">
       <div className="container ">
         <Textalign/>
-        <div className="services-bubble-wrapper">
+
+        <div>
+          <img src="/images/Zing-Infographic-Students-Journey-2.png" alt="" />
+        </div>
+        {/* <div className="services-bubble-wrapper">
           {services.map((service, index) => (
             <motion.div
               key={index}
@@ -33,7 +37,7 @@ const FloatingBubble = () => {
               {service}
             </motion.div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -8,24 +8,27 @@ const services = [
     id: '003',
     title: 'Application Closes On ',
     description:
-      '₹25,000',
+      '31/05/2025',
   },
   
 ];
 
-const BannerList = () => {
+const BannerList = ({course}) => {
   return (
-    <section className="services-list-section py-5 px-3 BannerList mt-5">
+    <section className="services-list-section  py-5 px-3 BannerList mt-5">
       <div className="container">
-        <h6 className="text-white text-center mb-5">Our Services</h6>
+        {/* <h6 className="text-white text-center mb-5">Our Services</h6> */}
         {services.map((service) => (
-          <div key={service.id} className="service-box d-flex justify-content-center align-items-center border-bottom py-4 position-relative">
+          <div key={service.id} className="service-box d-flex justify-content-center align-items-center border-bottom ">
             {/* <div className="service-id text-white-50">{service.id}</div> */}
 
             <div className="service-content d-flex justify-content-center">
-              <h2 className="service-title mb-0 text-white fw-bold">{service.title}</h2>
-              {service.description && (
-                <p className="service-desc mb-0 text-white-50">{service.description}</p>
+              <h2 className="service-title mb-0 text-white fw-bold">{service.title} <br /> <span className='service-title-p'>{service.description}</span>
+              
+              </h2>
+              
+              {course && (
+                <p className="service-desc mb-0 text-white-50" dangerouslySetInnerHTML={{__html:course}}></p>
               )}
             </div>
 

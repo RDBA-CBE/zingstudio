@@ -23270,7 +23270,8 @@ justify-content: center;
 
 
 .newacademy-banner{
-background:linear-gradient(to right, #984674, #4c48d0);
+/* background:linear-gradient(to right, #984674, #4c48d0); */
+background-image: url("../images/Home-Page/banner-bg-img-4.jpg");
 border-radius: 30px;
  color: white;
  
@@ -23403,13 +23404,13 @@ border-radius: 30px;
   color: white;
   padding: 20px;
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 16px !important;
   transition: background 0.3s;
   text-align: center;
 }
@@ -23564,11 +23565,11 @@ border-radius: 30px;
 }
 
 .WhyChooseAcedemy .ds-arrow {
-  font-size: 24px;
+  font-size: 30px !important;
   color: #000;
 }
 
-.WhyChooseAcedemy .ds-all-btn {
+.WhyChooseAcedemy a .ds-all-btn  {
   background: #1a43bf ;
   color: #fff !important;
   border-radius: 30px;
@@ -23576,6 +23577,12 @@ border-radius: 30px;
   font-weight: 500;
   font-size: 16px;
   margin-top: -80px;
+}
+
+.WhyChooseAcedemy a .ds-all-btn:hover {
+  background: #fff ;
+  color: #1a43bf !important;
+  border: 1px solid #1a43bf;
 }
 
 .WhyChooseAcedemy .ds-heading {
@@ -23681,6 +23688,7 @@ font-size: 16px !important;
   transition: background 0.4s ease;
   overflow: hidden;
   cursor: pointer;
+  height: 160px;
 }
 
 .BannerList .service-box:hover {
@@ -23704,6 +23712,14 @@ font-size: 16px !important;
   top:-20px;  
   transition: transform 0.5s ease;
   text-align: center;
+}
+
+.BannerList .service-title .service-title-p{
+  font-size: 18px !important;
+  position: relative;
+  top: -20px;
+  text-align: center;
+
 }
 
 .BannerList .service-desc {

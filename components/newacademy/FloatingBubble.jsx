@@ -6,13 +6,13 @@ import { motion } from "framer-motion";
 import Textalign from "./Textalign";
 
 const services = [
-  "UI/UX Design",
-  "Data Analysis",
-  "Digital Marketing",
-  "Web Development",
-  "SEO",
-  "Illustrations",
-  "Branding",
+  "Enrollment at Zing Academy",
+  "Preparation: Foundation and Discovery",
+  "Academic Engagement and Skill Development",
+  "Mid-Journey: Skill Enhancement and Industry Exposure",
+  "Graduation Preparation",
+  "Post-Graduation: Continued Support & Networking",
+  
   
 ];
 

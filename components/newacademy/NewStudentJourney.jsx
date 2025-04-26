@@ -13,7 +13,7 @@ const pricingData = [
       "Access to LMS (Learning Management System) and student portal"
     ],
     bgShape: "bubble1",
-    src:"/images/zing-digital-marketing-mastery/price_bg-1.webp"
+    src:"/images/zing-digital-marketing-mastery/unnamed.png"
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const pricingData = [
         "Interactive Q&A sessions after every module",
     ],
     bgShape: "bubble2",
-    src:"/images/zing-digital-marketing-mastery/price_bg-2.webp"
+    src:"/images/zing-digital-marketing-mastery/unnamed.png"
   },
   {
     id: 3,
@@ -51,7 +51,7 @@ const pricingData = [
         "Feedback & improvement sessions"
     ],
     bgShape: "bubble3",
-    src:"/images/zing-digital-marketing-mastery/price_bg-2.webp"
+    src:"/images/zing-digital-marketing-mastery/unnamed.png"
   },
   {
     id: 5,
@@ -78,7 +78,7 @@ const pricingData = [
         
     ],
     bgShape: "bubble3",
-    src:"/images/zing-digital-marketing-mastery/price_bg-1.webp"
+    src:"/images/zing-digital-marketing-mastery/unnamed.png"
   },
   {
     id: 7,
@@ -90,7 +90,7 @@ const pricingData = [
         "Shadowing real businesses & executing digital strategies", 
     ],
     bgShape: "bubble3",
-    src:"/images/zing-digital-marketing-mastery/price_bg-2.webp"
+    src:"/images/zing-digital-marketing-mastery/unnamed.png"
   },
   {
     id: 8,
@@ -125,7 +125,7 @@ const NewStudentJourney = () => {
                 <div className="" 
                 style={{
                   backgroundImage: `url(${plan.src})`, 
-                  // backgroundImage : "url(https://wgl-dsites.net/odefy/wp-content/uploads/2024/03/price_bg-2.webp)",
+                  // backgroundImage : "url(https://wgl-dsites.net/odefy/wp-content/uploads/2024/03/unnamed.webp)",
                   position: "absolute",
                   top: 0,
                   left: 0,
@@ -133,7 +133,7 @@ const NewStudentJourney = () => {
                   width: "100%",
                   backgroundPosition: "bottom right",
                   backgroundRepeat: "no-repeat",
-                  backgroundSize: "200px auto",
+                  backgroundSize: "230px auto",
                   zIndex: -100,
                   opacity: 1,
                 }}

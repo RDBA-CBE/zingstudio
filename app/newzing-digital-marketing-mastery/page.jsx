@@ -57,7 +57,7 @@ export default function page() {
         title:"Zing Digital Marketing Mastery",
         descrip:"Master industry-relevant skills with hands-on projects <br/> Work with top digital marketing tools & strategies <br/> Guaranteed placement support for top performers",
         subDes:"Course Highlight:",
-        src:"https://wgl-dsites.net/odefy/wp-content/uploads/2024/04/homepage_3-2.webp"
+        src:"/images/Home-Page/character-img-3.png"
       }
 
 
@@ -784,7 +784,7 @@ const faqData = [
          <NewCourseBanner serviceAbout={serviceAbout}/>
        
 
-         <BannerList/>
+         <BannerList course="Zing Digital <br/> Marketing Mastery"/>
 
          <NewCourseModules/>
 

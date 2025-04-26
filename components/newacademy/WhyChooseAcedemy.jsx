@@ -163,7 +163,7 @@ const WhyChooseAcedemy = () => {
           </h2>
           <p style={{width:"80%"}}>At Zing Academy, we don’t just teach digital marketing—we shape industry leaders. Our hands-on, practical approach ensures that you don’t just learn concepts but also apply them in real-world scenarios. Whether you're a student, entrepreneur, freelancer, or job seeker, our courses are designed to equip you with the most in-demand skills in digital marketing.</p>
          
-          <button className="btn ds-all-btn float-lg-end  text-black">All Services</button>
+          <a href="service"><button className="btn ds-all-btn float-lg-end  text-black">All Services</button></a>
         </div>
       </div>
       <div className="row">
@@ -217,7 +217,7 @@ const WhyChooseAcedemy = () => {
               }}></div>
               <div className=" d-flex flex-column  h-100" style={{padding:"30px 30px 0 30px"}}>
                 <h5 className="ds-card-title fw-bold fs-5">{item.title}</h5>
-                <span className="ds-arrow fs-4">→</span>
+                <a href={item.link}><span className="ds-arrow fs-4">→</span></a>
               </div>
               {/* <div className="d-flex justify-content-end">
               <img src="/images/elementbg/13.png" alt="" />

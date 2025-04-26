@@ -16,7 +16,7 @@ const NewCourseBanner = ({serviceAbout}) => {
               {/* <img src="/images/services/web-deisgn/banner-vd.mp4" alt="About Us" className="img-fluid w-100" /> */}
               <img  src={ serviceAbout?.src}
                             
-                                className="rounded-5" style={{ width:"50%",objectFit:"cover", }} >   
+                                className="rounded-5" style={{ width:"40%",objectFit:"cover", }} >   
                                 </img>
               {/* <div className="about-agency-video-overlay d-flex flex-column justify-content-center align-items-center">
                 <div className="about-agency-play-circle mb-3"></div>
@@ -37,9 +37,10 @@ const NewCourseBanner = ({serviceAbout}) => {
             <h2 className="about-agency-title mb-3 text-white" dangerouslySetInnerHTML={{__html:serviceAbout?.title}}>
             
             </h2>
-            <button className=" about-agency-btn fw-semibold px-4 py-3 rounded-pill mt-4" style={{fontSize:"16px"}}>
+           <a href="about"> <button className=" about-agency-btn fw-semibold px-4 py-3 rounded-pill mt-4" style={{fontSize:"16px"}}>
               About Company
             </button>
+            </a>
           </div>
 
           {/* Right Content */}

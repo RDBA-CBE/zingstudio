@@ -776,35 +776,61 @@ const faqData = [
             "Standard",
           ]
 
+          // const bannerContent = {
+          //   head:"Zing Digital Marketing Mastery",
+          //   caption:"Course Highlights",
+          //   duration:"3 Months + 3 Months Internship",
+          //   fees:"₹25,000",
+          //   subTitle:"Application Closes On 31/05/2025",
+          //   list:[
+          //     "Master industry-relevant skills with hands-on projects",
+          //     "Work with top digital marketing tools & strategies",
+          //     "Guaranteed placement support for top performers"
+          //   ],
+          //   button1:"Live",
+          //   button2:"Online",
+          //   button3:"Interactive",
+          //   image:"/images/brand-buzz/brand-buzz-header-img.png",
+          //   formTitle:"Register Now For free",
+          //   charImg:"/images/Home-Page/mbl-banner/character-img-1.png",
+          //   formLink:"https://connect.irepute.in/file/zing-digital-marketing-mastery/"
+          // }
+
           const bannerContent = {
-            head:"Zing Digital Marketing Mastery",
-            caption:"Course Highlights",
-            duration:"3 Months + 3 Months Internship",
-            fees:"₹25,000",
-            subTitle:"Application Closes On 31/05/2025",
+            caption:"Digital Marketing",
+            head:" Boost Visibility,  <br /> <span class='highlight'>Engage Audiences</span>",
+            subtitle:"and Drive Results with Our Digital Marketing Expertise!",
+            src:"/images/services/web-deisgn/banner-vd.mp4",
+            listTitle:"Drive growth with targeted digital strategies that maximize impact.",
+          
             list:[
-              "Master industry-relevant skills with hands-on projects",
-              "Work with top digital marketing tools & strategies",
-              "Guaranteed placement support for top performers"
+              {
+                top:"25px",
+                src:"/images/services/web-deisgn/1.png",
+                item:"Course Duration :  <br/>3 Months + 3 Months <br/> Internship Zing Digital"
+              },
+              {
+                src:"/images/services/web-deisgn/2.png",
+                item:"Course Fees : <br/> ₹25,000"
+              },
+              {
+                src:"/images/services/web-deisgn/7.png",
+                item:"Application Closes On:  <br/> 31/05/2025"
+              }
             ],
-            button1:"Live",
-            button2:"Online",
-            button3:"Interactive",
-            image:"/images/brand-buzz/brand-buzz-header-img.png",
-            formTitle:"Register Now For free",
-            charImg:"/images/Home-Page/mbl-banner/character-img-1.png",
-            formLink:"https://connect.irepute.in/file/zing-digital-marketing-mastery/"
-          }
+            description:"Our Digital Marketing pros are here to boost your brand!",
+            
+        }
 
   return (
     <>
       <div className="page-wraper  " style={{background:"#fff"}}>
         <Header17 />
          {/* <ZingAcademyProgramHero HeroBannerContent={HeroBannerContent}/> */}
-         <NewCourseBanner serviceAbout={serviceAbout}/>
+         <NewCourseBanner serviceAbout={serviceAbout} bannerContent={bannerContent}/>
        
 
-         <BannerList course="Zing Digital <br/> Marketing Mastery"/>
+         {/* <BannerList course="Zing Digital <br/> Marketing Mastery"/> */}
 
          <NewCourseModules/>
 

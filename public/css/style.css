@@ -22670,7 +22670,7 @@ justify-content: center;
 .pricing-card {
   border-radius: 30px;
   padding: 40px 30px;
-  min-height: 520px;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
  
@@ -23616,7 +23616,7 @@ font-size: 16px !important;
 .cf-input {
   background-color: transparent !important;
   border: none !important;
-  border-bottom: 1px solid #6a5acd !important;
+  border-bottom: 1px solid #fff !important;
   color: white !important;
   border-radius: 0 !important;
   font-size: 15px !important;
@@ -23646,7 +23646,15 @@ font-size: 16px !important;
 
 
 .team-intro-section {
-  background: linear-gradient(to right, #984674, #4c48d0);;
+  /* background: linear-gradient(to right, #984674, #4c48d0); */
+  background: url(/images/zing-digital-marketing-mastery/academy-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 95%;
+  background-position: bottom;
+  height: 100vh;
+  border-radius: 30px;
+  margin: auto;
 }
 
 .team-intro-title {

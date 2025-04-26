@@ -2,7 +2,7 @@ import React from 'react';
 
 
 
-const NewPricingTable = ({pricingPlans}) => {
+const NewPricingTable = ({pricingPlans }) => {
   return (
     <div className="container-fluid bg-white serviceprice">
       <div className="row px-3 px-md-5">

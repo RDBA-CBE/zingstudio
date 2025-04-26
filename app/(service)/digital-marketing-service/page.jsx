@@ -156,6 +156,68 @@ const Feaservices = [
     },
   ];
 
+  const SMOpricingPlans = [
+    {
+      title: 'Basic',
+      price: '10,000',
+      features:  [
+        "Instagram - 3 reels , 3 posts",
+        "Facebook - 3 reels , 3 posts",
+        "Pinterest - 10 pins",
+      ],
+    },
+    {
+      title: 'Enterprise',
+      price: '20,000',
+      features:   [
+        "Instagram - 3 reels , 3 posts",
+        "Facebook - 3 reels , 3 posts",
+        "Pinterest - 10 pins",
+      ],
+    },
+  ];
+
+  const CombopricingPlans = [
+    {
+      title: 'Grow Plan',
+      price: '40,000',
+      features:  [
+        "Logo - 5 options",
+        "Brochure - 8 Pages",
+        "Business Card",
+        "Basic Website - 8 Pages",
+        "Google Maps",
+        "Social Media Pages - Basic profile creation",
+      ],
+    },
+    {
+      title: 'Thrive Plan',
+      price: '75,999',
+      features:  [
+        "Logo - 5 options",
+        "Brochure - 8 Pages",
+        "Business Card",
+        "Google Maps",
+        "Social Media Pages - Basic profile creation",
+        "CMS Website - 12 pages",
+        "SEO for 3 Months - 6 Keywords",
+      ],
+    },
+    {
+      title: 'Flourish Plan',
+      price: '1,49,999',
+      features:  [
+        "Logo - 5 options",
+        "Brochure - 8 Pages",
+        "Business Card",
+        "Google Maps",
+        "Social Media Management (SMM) for 3 Months",
+        "CMS Website - 12 pages",
+        "SEO for 6 Months",
+      ],
+    },
+  ];
+
   const faqData = [
     {
       id: "faq6",
@@ -231,6 +293,14 @@ const Feaservices = [
         <NewServiceAbout serviceAbout={serviceAbout}/>
 
         <NewPricingTable pricingPlans={pricingPlans}/>
+
+        <div className="mt-5">
+        <NewPricingTable pricingPlans={SMOpricingPlans}/>
+        </div>
+
+        <div className="mt-5">
+        <NewPricingTable pricingPlans={CombopricingPlans}/>
+        </div>
 
         <NewGaruntee Performance={Performance}/>
 

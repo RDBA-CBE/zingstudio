@@ -11,10 +11,10 @@ const formFields = [
 const AcademyCourseForm = () => {
   return (
     <div className="cf-wrapper container my-5">
-      <div className="cf-form p-5 rounded-4 text-white" style={{background:"#1a43bf"}}>
-        <h4 className="cf-title mb-2">Leave a Reply</h4>
+      <div className="cf-form p-5 rounded-4 text-white" style={{background:"#f5f6f621"}}>
+        <h4 className="cf-title mb-2">Got Questions? Let’s Chat!</h4>
         <p className="cf-note mb-4">
-          Your email address will not be published. Required fields are marked <span className="text-danger">*</span>
+        Fill out the form and get all the info you need to kickstart your digital marketing journey. We're here to help you level up and make your mark in the digital world!
         </p>
         <form>
           <div className="row">
@@ -47,7 +47,7 @@ const AcademyCourseForm = () => {
             </div>
             <div className="col-12">
               <button type="submit" className="cf-btn btn btn-light rounded-pill px-4 py-2">
-                Post Comment
+                Submit
               </button>
             </div>
           </div>

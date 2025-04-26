@@ -46,6 +46,7 @@ import AcademyTeamSection from "@/components/newabout/AcademyTeamSection";
 import Textalign from "@/components/newacademy/Textalign";
 import NewFAQ from "@/components/service/newservice/NewFAQ";
 import NewTools from "@/components/newacademy/NewTools";
+import AcademyFAQ from "@/components/newabout/AcademyFAQ";
 export const metadata = {
   title: "Zing Digital Marketing Mastery || Zing Studio",
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
@@ -798,9 +799,11 @@ const faqData = [
 
          <NewTools ToolsContent={ToolsContent} Tools1={Tools1} Tools2={Tools2} Tools3={Tools3}/>
 
-         <NewFAQ faqData={faqData}/>
+         
 
-         <AcademyCourseForm/>
+         <AcademyFAQ faqData={faqData}/>
+
+        
 
         
  

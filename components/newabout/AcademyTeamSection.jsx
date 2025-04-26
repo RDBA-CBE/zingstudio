@@ -39,20 +39,33 @@ const AcademyTeamSection = () => {
             </button>
             </a>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 new-why-me h-100" style={{position:"relative", top:"60px"}} >
             <p className="team-intro-desc mb-3">{description1}</p>
+
+            <div className="container-fluid ">
+                                <div className="row gy-4">
+                                    {[
+                                        { number: '01', title: 'Students Studying In College' },
+                                        { number: '02', title: 'Working Proffesionals' },
+                                        { number: '03', title: 'Business Owners' },
+                                        { number: '04', title: 'Home Makers' },
+                                       
+                                    ].map((item, index) => (
+                                        <div className="col-md-6 px-0" key={index}>
+                                            <div className="service-box">
+                                                <span className="service-number text-white" style={{fontSize:"18px"}}>{item.number}</span>
+                                                <h5 className="service-name text-white mt-2 pt-2" style={{fontSize:"18px"}}>{item.title}</h5>
+                                               
+                                            </div>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
             
-            {/* <div className="d-flex gap-5 mt-4">
-              {stats.map((stat) => (
-                <div key={stat.id} className="team-intro-stat">
-                  <h3 className="mb-0 fw-bold display-6">{stat.value}</h3>
-                  <small className="text-white-50">{stat.label}</small>
-                </div>
-              ))}
-            </div> */}
+          
           </div>
         </div>
-        <div className='row mt-5'>
+        {/* <div className='row mt-5'>
         <div className="services-bubble-wrapper">
           {services.map((service, index) => (
             <motion.div
@@ -66,7 +79,7 @@ const AcademyTeamSection = () => {
             </motion.div>
           ))}
         </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

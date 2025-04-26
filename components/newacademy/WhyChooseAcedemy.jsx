@@ -189,10 +189,10 @@ const WhyChooseAcedemy = () => {
                   slidesPerView: 2,
                 },
                 1024: {
-                  slidesPerView: 4,
+                  slidesPerView: 3,
                 },
                 1200: {
-                  slidesPerView: 4,
+                  slidesPerView: 3,
                 },
               }}
               className="img-carousel-dots-nav owl-theme owl-dots-none owl-carousel owl-btn-center-lr owl-btn-3 btn-white"

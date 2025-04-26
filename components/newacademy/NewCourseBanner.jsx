@@ -71,7 +71,7 @@ const NewCourseBanner = ({serviceAbout,bannerContent}) => {
 
             <div className='row mt-5'>
                   
-                  <div className="hiw-stats w-100" style={{ margin:"auto",marginBottom:"5px",gap:"60px"}}>
+                  <div className="hiw-stats w-100" style={{ margin:"auto",marginBottom:"5px",gap:"60px",justifyContent:"space-between"}}>
                   {bannerContent?.list.map((list,index)=>(
                      <div className='d-flex align-items-center justify-content-between'>
                         <div className="icon-xl  m-b20 ">

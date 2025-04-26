@@ -54,8 +54,8 @@ const AcademyTeamSection = () => {
                                     ].map((item, index) => (
                                         <div className="col-md-6 px-0" key={index}>
                                             <div className="service-box">
-                                                <span className="service-number text-white" style={{fontSize:"18px"}}>{item.number}</span>
-                                                <h5 className="service-name text-white mt-2 pt-2" style={{fontSize:"18px"}}>{item.title}</h5>
+                                                {/* <span className="service-number text-white" style={{fontSize:"18px"}}>{item.number}</span> */}
+                                                <h5 className="service-name text-white mt-2 pt-4" style={{fontSize:"18px", borderTop:"1px solid #97969b7a",width:"90%"}} >{item.title}</h5>
                                                
                                             </div>
                                         </div>

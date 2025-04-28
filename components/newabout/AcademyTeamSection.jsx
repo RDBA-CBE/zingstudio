@@ -5,7 +5,7 @@ import PhysicsCircles from './AcademyTeamSection-1';
 
 
 const teamIntroData = {
-  title: "Who can apply for <br/> this course?",
+  title: "Who can apply <br/>  for this course?",
   description1:
     "Students, professionals, entrepreneurs, or content creators—this course is for anyone ready to boost their digital skills. No experience needed, just a passion to learn and grow!",
   description2:

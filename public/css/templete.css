@@ -905,9 +905,9 @@ h6 {
 }
 
 .call-action .title {
-  font-weight: 600;
-  font-size: 45px;
-  margin-bottom: 5px;
+  font-weight: 700 !important;
+  font-size: 36px;
+  margin-bottom: 10px;
 }
 
 .call-action.style1 {

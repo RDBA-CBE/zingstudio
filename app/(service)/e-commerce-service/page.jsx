@@ -212,7 +212,7 @@ const Feaservices = [
 
         <NewServiceAbout serviceAbout={serviceAbout}/>
 
-        <NewPricingTable pricingPlans={pricingPlans}/>
+        <NewPricingTable pricingPlans={pricingPlans} title="E-commerce Development"/>
 
         <NewGaruntee Performance={Performance}/>
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 
 
-const NewPricingTable = ({pricingPlans }) => {
+const NewPricingTable = ({pricingPlans ,title}) => {
   return (
     <div className="container-fluid bg-white serviceprice">
       <div className="row px-3 px-md-5">
@@ -10,8 +10,9 @@ const NewPricingTable = ({pricingPlans }) => {
           <div className="container">
             <div className="row justify-content-center gx-5">
               <div className="col-12 text-center mb-5">
-                <h2 className="pricing-heading">
-                  Choose the Plan That <br /> Works for You
+                <h2 className="pricing-heading" dangerouslySetInnerHTML={{__html:title}}>
+                  {/* Choose the Plan That <br /> Works for You */}
+                
                 </h2>
               </div>
 

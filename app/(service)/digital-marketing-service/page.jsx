@@ -292,14 +292,14 @@ const Feaservices = [
 
         <NewServiceAbout serviceAbout={serviceAbout}/>
 
-        <NewPricingTable pricingPlans={pricingPlans}/>
+        <NewPricingTable pricingPlans={pricingPlans} title="Digital Marketing - SEO"/>
 
         <div className="mt-5">
-        <NewPricingTable pricingPlans={SMOpricingPlans}/>
+        <NewPricingTable pricingPlans={SMOpricingPlans} title="Digital Marketing - SMO"/>
         </div>
 
         <div className="mt-5">
-        <NewPricingTable pricingPlans={CombopricingPlans}/>
+        <NewPricingTable pricingPlans={CombopricingPlans} title="Digital Marketing - <br/> Combo Packages for Startups"/>
         </div>
 
         <NewGaruntee Performance={Performance}/>

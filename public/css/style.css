@@ -22357,6 +22357,7 @@ justify-content: center;
 .NewAboutSpecialize .service-title a{
   font-size: 110px;
   font-weight: 800 !important;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
 }
 .NewAboutSpecialize .section-title{
   font-size: 48px ;

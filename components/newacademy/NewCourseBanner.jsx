@@ -48,9 +48,9 @@ const NewCourseBanner = ({serviceAbout,bannerContent}) => {
 
           {/* Right Content */}
           <div className="col-lg-6 text-black">
-            <p className="about-agency-text-des mb-3 text-white" dangerouslySetInnerHTML={{__html:serviceAbout?.subDes}}>
+            <h5 className="about-agency-text-des mb-3 text-white" dangerouslySetInnerHTML={{__html:serviceAbout?.subDes}}>
            
-            </p>
+            </h5>
             
             <ul className='list-unstyled'>
               {serviceAbout?.list.map((li)=>(

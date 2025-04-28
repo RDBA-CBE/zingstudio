@@ -32,7 +32,7 @@ const NewFeatures = ({Features,Feaservices}) => {
                     {Feaservices.map((service, index) => (
                         <div className={`service-card ${service.extraClass}`} key={index}>
                         <div className="service-icon icon-md"><img src={service.icon} alt={service.title} /></div>
-                        <p className="service-title" dangerouslySetInnerHTML={{__html:service.title}}></p>
+                        <h5 className="service-title" dangerouslySetInnerHTML={{__html:service.title}}></h5>
                         <p className="service-card-des">{service.description}</p>
                         </div>
                     ))}

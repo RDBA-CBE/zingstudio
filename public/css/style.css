@@ -21157,13 +21157,7 @@ margin: 50px 20px !important;
     font-weight: 800 !important;
   }
   }
-  @media (max-width:1141px){
-  
-  
-    .NewSpecialize .headline{
-      font-size: 80px !important;
-    }
-  }
+
   @media (max-width:1344px){
   
   
@@ -21177,6 +21171,14 @@ margin: 50px 20px !important;
   .NewSpecialize .headline{
     font-size: 90px !important;
   }
+  }
+
+  @media (max-width:1141px){
+  
+  
+    .NewSpecialize .headline{
+      font-size: 80px !important;
+    }
   }
 
 @media (max-width: 1100px) {
@@ -22650,6 +22652,21 @@ justify-content: center;
   font-weight: 700;
 }
 
+/* @media (max-width:1024px){
+  .about-agency-title {
+    font-size: 36px !important;
+    
+  }
+  .about-agency-text-des {
+    font-size: 24px !important;
+    top: 0 !important;
+    
+}
+.newacademy-banner .about-agency-text{
+  font-size: 18px !important;
+}
+} */
+
 /* Responsive styles */
 @media (max-width: 991.98px) {
   .about-agency-title {
@@ -23277,6 +23294,15 @@ justify-content: center;
   color: #fcb529;
 }
 
+@media (max-width: 1024px) {
+  .faq-heading {
+    font-size: 36px !important;
+  }
+  .faq-question {
+    font-size: 20px;
+  }
+}
+
 @media (max-width: 768px) {
   .faq-heading {
     font-size: 28px;
@@ -23359,6 +23385,19 @@ border-radius: 30px;
 }
 
 /* Media Query for smaller screens */
+@media (max-width: 1024px) {
+  .NewCourseModules .service-title {
+    font-size: 24px !important;
+    padding-top: 60px;
+
+  }
+  .NewCourseModules .service-id {
+    
+    top: 0px;
+    
+  }
+}
+
 @media (max-width: 768px) {
   .NewCourseModules .service-id {
     font-size: 100px;
@@ -23372,7 +23411,7 @@ border-radius: 30px;
   }
 
   .NewCourseModules .service-title {
-    font-size: 30px !important;
+    font-size: 24px !important;
     padding-top: 20px;
   }
 
@@ -23461,6 +23500,14 @@ border-radius: 30px;
   line-height: 1.3;
 }
 
+@media (max-width:1024px){
+
+.section-title {
+  font-size: 36px;
+  
+}
+}
+
 .highlighted-text {
   color: #fff;
 }
@@ -23483,6 +23530,12 @@ border-radius: 30px;
   position: relative;
   z-index: 1000;
   min-height: 500px !important;
+}
+
+@media (max-width:1024px){
+  .NewStudentJourney .price{
+    font-size: 24px !important;
+  }
 }
 
 /* .NewStudentJourney .pricing-card-bg{
@@ -23625,6 +23678,17 @@ border-radius: 30px;
 font-size: 16px !important;
 }
 
+@media (max-width:1024px){
+  .WhyChooseAcedemy .ds-heading {
+    font-size: 36px !important;
+    font-weight: 700 !important;
+  }
+  .WhyChooseAcedemy .ds-card-title {
+    
+    font-size: 24px !important;
+  }
+}
+
 
 .cf-wrapper {
   max-width: 900px;
@@ -23713,6 +23777,12 @@ font-size: 16px !important;
 
 .team-intro-stat small {
   font-size: 0.9rem;
+}
+
+@media (max-width:1024px){
+  .team-intro-title{
+    font-size: 36px;
+  }
 }
 
 
@@ -24122,6 +24192,13 @@ font-size: 16px !important;
 @media( max-width: 1024px){
   .NewAboutSpecialize .section-title{
     font-size: 36px;
+  }
+  .NewTools .section-head.style2 .title{
+    font-size: 36px !important;
+    
+  }
+  .NewTools .section-head.style2 h4{
+    font-size: 20px !important;
   }
 }
 

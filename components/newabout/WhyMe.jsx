@@ -8,7 +8,7 @@ const WhyMe = () => {
                     <div className='container px-0'>
                         <div className="row gx-5">
                             {/* Left Content */}
-                            <div className="col-lg-4 text-center text-lg-start mb-5 mb-lg-0 d-flex flex-column justify-content-between">
+                            <div className="col-lg-4 text-center text-lg-start mb-5 mb-lg-0 d-flex flex-column justify-content-between px-0">
                                 <div className="service-intro">
                               
                                     <h2 className="service-title mt-3"> Lorem ipsum  <br className='d-none d-lg-block'/>  dolorsit amet <br className='d-none d-lg-block' /> conse ctetur  </h2>

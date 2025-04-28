@@ -1,4 +1,7 @@
-import React from "react";
+"use client"
+
+import React, { useState } from "react";
+import ReCAPTCHA from "react-google-recaptcha";
 
 
 const formFields = [
@@ -9,6 +12,24 @@ const formFields = [
 ];
 
 const AcademyCourseForm = () => {
+
+  const [isVerified, setIsVerified] = useState(false);
+
+  const handleCaptchaChange = (value) => {
+    console.log("Captcha value:", value);
+    setIsVerified(!!value); // If value is not null, captcha is completed
+  };
+
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   if (!isVerified) {
+  //     alert("Please verify that you're not a robot.");
+  //     return;
+  //   }
+  //   // Proceed with form submission
+  //   alert("Form submitted successfully!");
+  // };
+
   return (
     <div className="cf-wrapper container my-5">
       <div className="cf-form p-5 rounded-4 text-white" style={{background:"#f5f6f621"}}>
@@ -45,7 +66,11 @@ const AcademyCourseForm = () => {
                 Save my name, email, and website in this browser for the next time I comment.
               </label>
             </div>
-            <div className="col-12">
+            <ReCAPTCHA
+              sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" 
+              onChange={handleCaptchaChange}
+            />
+            <div className="col-12 mt-4">
               <button type="submit" className="cf-btn btn btn-light rounded-pill px-4 py-2">
                 Submit
               </button>

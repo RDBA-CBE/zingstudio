@@ -19,7 +19,7 @@ const NewFeatures = ({Features,Feaservices}) => {
           <div className="col-lg-5 text-white digital-services-left">
           <p className="features-subtitle mb-3">{Features?.title}
           </p>
-            <h2 className="services-title mb-3">{Features?.subtitle}</h2>
+            <h2 className="services-title mb-3 font-48">{Features?.subtitle}</h2>
             <p className="services-description mb-4">
             {Features?.description}
             </p>
@@ -35,7 +35,7 @@ const NewFeatures = ({Features,Feaservices}) => {
                     {Feaservices.map((service, index) => (
                         <div className={`service-card ${service.extraClass}`} key={index}>
                         <div className="service-icon icon-md"><img src={service.icon} alt={service.title} /></div>
-                        <h5 className="service-title" dangerouslySetInnerHTML={{__html:service.title}}></h5>
+                        <h5 className="service-title font-22" dangerouslySetInnerHTML={{__html:service.title}}></h5>
                         <p className="service-card-des">{service.description}</p>
                         </div>
                     ))}

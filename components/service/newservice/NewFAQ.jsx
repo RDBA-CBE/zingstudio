@@ -21,7 +21,7 @@ const NewFAQ = ({faqData}) => {
               <div className="row justify-content-around">
                 <div className="col-12 col-lg-5 text-white mb-4 d-flex flex-column justify-content-between">
                   <div>
-                  <h2 className="faq-heading pt-4">Explore Frequently<br />Asked Questions</h2>
+                  <h2 className="faq-heading pt-4 font-48">Explore Frequently<br />Asked Questions</h2>
                   <a href="contact">
                   <button className="faq-btn">Get in Touch</button>
                   </a>
@@ -41,7 +41,7 @@ const NewFAQ = ({faqData}) => {
                         className={`faq-item ${openIndex === index ? 'open' : ''}`}
                         onClick={() => toggleFAQ(index)}
                       >
-                        <div className="faq-question">
+                        <div className="faq-question font-22">
                           {faq.question}
                           <span className="arrow-icon">↗</span>
                         </div>

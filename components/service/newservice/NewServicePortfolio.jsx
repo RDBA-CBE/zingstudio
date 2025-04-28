@@ -8,7 +8,7 @@ const NewServicePortfolio = ({portfolioContent,works}) => {
     <section className="our-works-section py-5">
       <div className="container">
         <div className="d-flex justify-content-between align-items-start flex-wrap mb-4">
-          <h2 className="our-works-heading">Our Works</h2>
+          <h2 className="our-works-heading font-48">Our Works</h2>
           <p className="our-works-desc">
           {portfolioContent.description}
           </p>
@@ -24,7 +24,7 @@ const NewServicePortfolio = ({portfolioContent,works}) => {
                     <span className="work-tag">{work.tags}</span>
                  
                 </div>
-                <h5 className="work-title">{work.title}</h5>
+                <h5 className="work-title font-30">{work.title}</h5>
               </div>
             </div>
           ))}

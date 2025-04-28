@@ -10,7 +10,7 @@ const NewAboutHero = () => {
                         <div className="row w-100 align-items-center mx-0 px-0">
                             <div className="col-12 col-lg-6 text-dark content-block">
                             
-                                <h1 className="main-heading mb-4 ">
+                                <h1 className="main-heading mb-4 font-48">
                                     Lorem ipsum dolor sit amet consectetur adipisicing 
                                 </h1>
                                 {/* <h2 className="sub-heading mb-4">

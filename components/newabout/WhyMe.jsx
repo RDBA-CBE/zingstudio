@@ -11,7 +11,7 @@ const WhyMe = () => {
                             <div className="col-lg-4 text-center text-lg-start mb-5 mb-lg-0 d-flex flex-column justify-content-between px-0">
                                 <div className="service-intro">
                               
-                                    <h2 className="service-title mt-3"> Lorem ipsum  <br className='d-none d-lg-block'/>  dolorsit amet <br className='d-none d-lg-block' /> conse ctetur  </h2>
+                                    <h2 className="service-title mt-3 font-48"> Lorem ipsum  <br className='d-none d-lg-block'/>  dolorsit amet <br className='d-none d-lg-block' /> conse ctetur  </h2>
                                     <button className="btn service-button mt-4 "><a href="/services" className='text-white'>All Services</a></button>
                                 </div>
 

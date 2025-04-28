@@ -21217,13 +21217,12 @@ margin: 50px 20px !important;
     font-weight: 700;
   }
 
-  @media (max-width:500px) {
-    .NewSpecialize  .service-item:hover .service-image-wrapper {
-      width: 30% !important;
-      height: 100%;
-      
-    }
+  .marquee-content span{
+    font-size: 36px !important;
   }
+ 
+
+  
   
   /* 
 
@@ -21246,6 +21245,14 @@ margin: 50px 20px !important;
   .service-item:hover .service-text {
     transform: none;
   } */
+}
+
+@media (max-width:500px) {
+  .NewSpecialize  .service-item:hover .service-image-wrapper {
+    width: 30% !important;
+    height: 100%;
+    
+  }
 }
 
 
@@ -22546,38 +22553,38 @@ justify-content: center;
 
 /* Responsive Typography */
 @media (max-width: 1350px) {
-  .hero-title {
-    font-size: 80px ;
+  .newServiceBanner .newServiceBanner .hero-title {
+    font-size: 80px  !important;
     line-height: 75px !important;
   }
 }
 
 @media (max-width: 991.98px) {
-  .hero-title {
-    font-size: 48px;
+  .newServiceBanner .hero-title {
+    font-size: 48px  !important;
     line-height: 50px !important;
   }
 
-  .hero-description {
-    font-size: 16px;
+  .newServiceBanner .hero-description {
+    font-size: 16px  !important;
   }
 
-  .subheading {
-    font-size: 14px;
+  .newServiceBanner .subheading {
+    font-size: 14px  !important;
   }
 }
 
 @media (max-width: 575.98px) {
-  .hero-title {
-    font-size: 36px;
+  .newServiceBanner .hero-title{
+    font-size: 36px  !important;
   }
 
-  .hero-description {
-    font-size: 15px;
+  .newServiceBanner .hero-description {
+    font-size: 15px  !important;
   }
 
-  .subheading {
-    font-size: 13px;
+  .newServiceBanner .subheading {
+    font-size: 13px  !important;
   }
 }
 
@@ -24206,12 +24213,51 @@ font-size: 16px !important;
   .NewTools .section-head.style2 h4{
     font-size: 20px !important;
   }
+  .item-2, .item-5{
+    display: none;
+  }
+  .item-7{
+    left: 80%;
+    display: none;
+  }
 }
 
 @media( max-width: 1024px){
   .about-us-title{
     font-size: 48px;
   }
+}
+
+@media(max-width:1024px){
+  .font-48{
+    font-size: 36px !important;
+  }
+  .font-30{
+    font-size: 24px !important;
+  }
+  .font-22{
+    font-size: 20px !important;
+  }
+}
+
+@media(max-width:768px){
+  .font-48{
+    font-size: 32px !important;
+  }
+  .font-30{
+    font-size: 22px !important;
+  }
+  .font-22{
+    font-size: 20px !important;
+  }
+}
+
+
+@media(max-width:768px){
+  .font-48{
+    font-size: 30px !important;
+  }
+ 
 }
 
 

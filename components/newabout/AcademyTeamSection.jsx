@@ -34,7 +34,7 @@ const AcademyTeamSection = () => {
       <div className="container">
         <div className="row align-items-center gx-5">
           <div className="col-xl-4 col-lg-5 mb-4 mb-md-0">
-            <h2 className="team-intro-title fw-bold" dangerouslySetInnerHTML={{__html:title}}></h2>
+            <h2 className="team-intro-title fw-bold font-48" dangerouslySetInnerHTML={{__html:title}}></h2>
             <p className="team-intro-desc mb-3 mt-4">{description1}</p>
             {/* <a href="about"><button className=" mt-2 rounded-pill team-intro-btn">
               {buttonText}

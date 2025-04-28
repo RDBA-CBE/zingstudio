@@ -85,7 +85,7 @@ export default function Cta() {
         .marquee-content span {
           margin: 0 50px;
           white-space: nowrap;
-          font-size:108px !important;
+          font-size:108px ;
           text-transform:lowercase !important;
           font-weight:700 ! important;
           font-family: 'Poppins', Arial, Helvetica, sans-serif !important;

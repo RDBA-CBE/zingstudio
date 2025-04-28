@@ -8,7 +8,7 @@ const NewServiceAbout = ({serviceAbout}) => {
           {/* Left Content */}
           <div className="col-lg-6 text-black mb-4 mb-lg-0">
             <p className="about-agency-subtitle mb-2" dangerouslySetInnerHTML={{__html:serviceAbout?.subtitle}}></p>
-            <h2 className="about-agency-title mb-3" dangerouslySetInnerHTML={{__html:serviceAbout?.title}}>
+            <h2 className="about-agency-title mb-3 font-48" dangerouslySetInnerHTML={{__html:serviceAbout?.title}}>
             
             </h2>
             <a href="about">

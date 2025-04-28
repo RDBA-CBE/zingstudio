@@ -111,7 +111,7 @@ const NewStudentJourney = () => {
   return (
     <div className="pricing-section  text-white py-5 NewStudentJourney">
       <div className="container text-center">
-        <h2 className="section-title fw-bold">
+        <h2 className="section-title fw-bold font-48">
           Lorem ipsum dolor sit amet <br />
           <span className="highlighted-text">eum neque commodi</span>
         </h2>
@@ -139,7 +139,7 @@ const NewStudentJourney = () => {
                 }}
                 ></div>
                 {/* <div className="badge text-white fw-medium mb-3">{plan.duration}</div> */}
-                <h3 className="price fw-bold display-5 mb-0">{plan.price}</h3>
+                <h3 className="price fw-bold display-5 mb-0 font-30">{plan.price}</h3>
                 <p className="plan-title fw-semibold mt-1 mb-4">{plan.title}</p>
                 <ul className="list-check mb-0 text-left">
                   {plan.features.map((feature, index) => (

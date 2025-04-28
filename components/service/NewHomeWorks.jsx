@@ -57,7 +57,7 @@ const NewHomeWorks = () => {
                 <div className="work-card">
                   <img src={item.img} alt={item.title} className="img-fluid rounded-4" />
                   <p className="category-label mt-2 text-uppercase small mb-0" style={{fontSize:"14px"}}>Service</p>
-                  <h6 className="work-title">{item.title}</h6>
+                  <h6 className="work-title font-30">{item.title}</h6>
                 </div>
               </div>
             ))}

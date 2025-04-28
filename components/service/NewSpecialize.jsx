@@ -34,7 +34,7 @@ const NewSpecialize = () => {
         <div className="col-10 col-lg-8">
             <div className="d-flex justify-content-between align-items-center  flex-wrap">
               <div>
-                <h2 className="section-title  mb-1 mb-3 mb-md-5">
+                <h2 className="section-title  mb-1 mb-3 mb-md-5 font-48">
                 Lorem ipsum dolor sit amet<br className="d-none d-md-block"/> consectetur adipis
                 </h2>
               </div>

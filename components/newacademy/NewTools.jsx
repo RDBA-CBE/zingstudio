@@ -21,8 +21,8 @@ export default function NewTools({
       </div> */}
 
       <div className="section-head style2 text-center mb-0 ">
-        <h2 className="title pt-5 text-black">Tools That you will learn</h2>
-        <h4 className="text-black mt-3"> <b > {ToolsContent?.tool1Num} </b>{ToolsContent?.tool1Title}</h4>
+        <h2 className="title pt-5 text-black font-48">Tools That you will learn</h2>
+        <h4 className="text-black mt-3 font-22"> <b > {ToolsContent?.tool1Num} </b>{ToolsContent?.tool1Title}</h4>
                     <p className="text-black mb-0" >{ToolsContent?.tool1worth}</p>
       </div>
 

@@ -57,7 +57,7 @@ const NewCourseModules = () => {
                 <div className="col-12 col-md-6 col-xl-4" key={index}>
                   <div className="service-box position-relative">
                     <span className="service-id">{service.id}</span>
-                    <h4 className="service-title fw-bold">{service.title}</h4>
+                    <h4 className="service-title fw-bold font-30">{service.title}</h4>
                     <p className="service-desc">
                       <ul>
                         {service.description.map((item)=>(

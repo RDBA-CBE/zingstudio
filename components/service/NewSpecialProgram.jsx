@@ -18,13 +18,13 @@ const NewSpecialProgram = () => {
             <h2 className="hiw-heading text-black">Special Program</h2>
             <Accordion defaultActiveKey="0" className="hiw-accordion">
               <Accordion.Item eventKey="0">
-                <Accordion.Header>Influencer Buzz</Accordion.Header>
+                <Accordion.Header className='font-48'>Influencer Buzz</Accordion.Header>
                 <Accordion.Body >
                   A digital agency is a company that helps design and build businesses online using strategy, design, and tech services.  A digital agency is a company that helps design and build businesses online using strategy, design, and tech services.  A digital agency is a company that helps design and build businesses online using strategy, design, and tech services.
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1">
-                <Accordion.Header>Brand Buzz</Accordion.Header>
+                <Accordion.Header className='font-48'>Brand Buzz</Accordion.Header>
                 <Accordion.Body>
                   Services include branding, web design, development, SEO, digital marketing, and app development. Services include branding, web design, development, SEO, digital marketing, and app development. Services include branding, web design, development, SEO, digital marketing, and app development.
                 </Accordion.Body>

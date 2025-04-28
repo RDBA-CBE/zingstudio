@@ -10,7 +10,7 @@ const NewPricingTable = ({pricingPlans ,title}) => {
           <div className="container">
             <div className="row justify-content-center gx-5">
               <div className="col-12 text-center mb-5">
-                <h2 className="pricing-heading" dangerouslySetInnerHTML={{__html:title}}>
+                <h2 className="pricing-heading font-48" dangerouslySetInnerHTML={{__html:title}}>
                   {/* Choose the Plan That <br /> Works for You */}
                 
                 </h2>
@@ -23,7 +23,7 @@ const NewPricingTable = ({pricingPlans ,title}) => {
                 >
                   <div className="pricing-card ultra-plan p-4 py-5">
                     <p className="plan-duration">{plan.title}</p>
-                    <h3 className="plan-price">
+                    <h3 className="plan-price ">
                       <span className="dollar-symbol">₹</span>
                       <span className="price-amount">{plan.price}</span>
                       <span className="plan-name">

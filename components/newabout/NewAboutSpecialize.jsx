@@ -45,7 +45,7 @@ const NewAboutSpecialize = () => {
     <section className="services-section text-white py-5 NewAboutSpecialize" style={{marginTop:"40px", background:"#1a43bf"}}>
       <div className="container-fluid">
         <div className="row justify-content-center">
-        <div className="col-11 col-md-10 col-lg-8">
+        <div className="col-11 col-lg-10 col-xl-8">
             <div className="d-flex justify-content-between align-items-center  flex-wrap">
               <div> 
                 <h2 className="section-title  mb-1 mb-3 mb-md-5">

@@ -4,14 +4,14 @@ const WhyMe = () => {
     return (
         <section className="service-section container-fluid text-dark py-5 new-why-me" >
             <div className='row justify-content-center px-3 px-md-5'>
-                <div className='col-12 mx-0'>
-                    <div className='container'>
+                <div className='col-12 mx-0 px-0'>
+                    <div className='container px-0'>
                         <div className="row gx-5">
                             {/* Left Content */}
                             <div className="col-lg-4 text-center text-lg-start mb-5 mb-lg-0 d-flex flex-column justify-content-between">
                                 <div className="service-intro">
                               
-                                    <h2 className="service-title mt-3"> Lorem ipsum  <br />  dolorsit amet <br /> conse ctetur  </h2>
+                                    <h2 className="service-title mt-3"> Lorem ipsum  <br className='d-none d-lg-block'/>  dolorsit amet <br className='d-none d-lg-block' /> conse ctetur  </h2>
                                     <button className="btn service-button mt-4 "><a href="/services" className='text-white'>All Services</a></button>
                                 </div>
 

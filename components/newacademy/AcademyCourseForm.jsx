@@ -66,10 +66,13 @@ const AcademyCourseForm = () => {
                 Save my name, email, and website in this browser for the next time I comment.
               </label>
             </div>
-            <ReCAPTCHA
+            <div className="col-12 d-flex align-items-center mb-4">
+            <ReCAPTCHA 
               sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" 
               onChange={handleCaptchaChange}
             />
+            </div>
+            
             <div className="col-12 mt-4">
               <button type="submit" className="cf-btn btn btn-light rounded-pill px-4 py-2">
                 Submit

@@ -22665,6 +22665,13 @@ justify-content: center;
   font-weight: 700;
 }
 
+@media (max-width: 768px) {
+  .about-agency-video-wrapper img{
+      width: 100% !important;
+  }
+}
+
+
 /* @media (max-width:1024px){
   .about-agency-title {
     font-size: 36px !important;

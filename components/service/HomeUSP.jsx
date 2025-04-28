@@ -46,9 +46,10 @@ import Link from "next/link";
 export default function Cta() {
   return (
     <div
-      className="section-full call-action wow fadeIn ourusp"
+      className="section-full wow fadeIn ourusp"
       data-wow-duration="2s"
       data-wow-delay="0.3s"
+      style={{background:"#1a43bf"}}
     >
       <div className="container-fluid">
         <div className="row">

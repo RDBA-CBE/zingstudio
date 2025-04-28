@@ -21151,14 +21151,20 @@ margin: 50px 20px !important;
 
 
 /* Responsive behavior */
-@media (max-width: 1400px) {
+
+@media (max-width: 1440px) {
   .NewSpecialize .service-title a{
     font-size: 80px !important;
     font-weight: 800 !important;
   }
+
+  .marquee-content span{
+    font-size: 80px !important;
+  }
+ 
   }
 
-  @media (max-width:1344px){
+  @media (max-width:1440px){
   
   
     .NewSpecialize .headline{

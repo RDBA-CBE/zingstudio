@@ -30,10 +30,10 @@ const AcademyTeamSection = () => {
   const { title, description1, description2, buttonText, stats } = teamIntroData;
 
   return (
-    <section className="team-intro-section py-5 px-4  text-white mb-5">
+    <section className="team-intro-section py-5 px-4  text-white mb-5 ">
       <div className="container">
         <div className="row align-items-center gx-5">
-          <div className="col-md-4 mb-4 mb-md-0">
+          <div className="col-lg-4 mb-4 mb-md-0">
             <h2 className="team-intro-title fw-bold" dangerouslySetInnerHTML={{__html:title}}></h2>
             <p className="team-intro-desc mb-3 mt-4">{description1}</p>
             {/* <a href="about"><button className=" mt-2 rounded-pill team-intro-btn">
@@ -41,7 +41,7 @@ const AcademyTeamSection = () => {
             </button>
             </a> */}
           </div>
-          <div className="col-md-8 new-why-me h-100" style={{position:"relative", top:"-10px"}} >
+          <div className="col-lg-8 new-why-me h-100" style={{position:"relative", top:"-10px"}} >
             {/* <p className="team-intro-desc mb-3">{description1}</p> */}
 
             <div className="container-fluid ">

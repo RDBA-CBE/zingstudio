@@ -842,7 +842,11 @@ const faqData = [
 
          {/* <AcademyTeamWithPhysics/> */}
 
-         {/* <AcademyTeamSection/> */}
+          <div className="d-block d-lg-none">
+          <AcademyTeamSection/>
+          </div>
+         
+
          <PhysicsCircles/>       
 
          <NewTools ToolsContent={ToolsContent} Tools1={Tools1} Tools2={Tools2} Tools3={Tools3}/>

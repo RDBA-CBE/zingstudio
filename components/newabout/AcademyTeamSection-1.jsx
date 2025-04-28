@@ -17,7 +17,7 @@ const circles = [
 
 const PhysicsCircles = () => {
   return (
-    <div className="physics-wrapper">
+    <div className="physics-wrapper d-none d-lg-block">
       <AcademyTeamSection/>
       {circles.map((circle, index) => (
         <div

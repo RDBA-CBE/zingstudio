@@ -22650,6 +22650,10 @@ justify-content: center;
   .about-agency-video-title {
     font-size: 26px;
   }
+  .about-agency-text-des{
+ 
+    top: 0px;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -23948,6 +23952,10 @@ font-size: 16px !important;
     }
     .WhyChooseAcedemy .ds-all-btn{
       margin-top: 0 !important;
+    }
+
+    .team-intro-section {
+      height: auto;
     }
 
 }

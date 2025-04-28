@@ -21,7 +21,7 @@ const BannerList = ({course}) => {
         <div className='row  px-0' >
         {services.map((service) => (
           <div className='col-lg-4 text-center'>
-          <h2 className=" mb-0 text-black fw-bold text-white " style={{fontSize:"30px"}}>{service.title} <br /> <span className='service-title-p' style={{fontSize:"18px"}}>{service.description}</span>
+          <h2 className=" mb-0 text-black fw-bold text-white mt-4 mt-lg-0" style={{fontSize:"30px"}}>{service.title} <br /> <span className='service-title-p' style={{fontSize:"18px"}}>{service.description}</span>
               
               </h2>
 

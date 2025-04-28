@@ -22,7 +22,10 @@ const NewFAQ = ({faqData}) => {
                 <div className="col-12 col-lg-5 text-white mb-4 d-flex flex-column justify-content-between">
                   <div>
                   <h2 className="faq-heading pt-4">Explore Frequently<br />Asked Questions</h2>
+                  <a href="contact">
                   <button className="faq-btn">Get in Touch</button>
+                  </a>
+                 
                   </div>
                 
                   <div>

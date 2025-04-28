@@ -11,9 +11,12 @@ const NewServiceAbout = ({serviceAbout}) => {
             <h2 className="about-agency-title mb-3" dangerouslySetInnerHTML={{__html:serviceAbout?.title}}>
             
             </h2>
-            <button className="btn btn-primary about-agency-btn fw-semibold px-4 py-3 rounded-pill mt-4" style={{fontSize:"16px"}}>
+            <a href="about">
+            <button className="about-agency-btn fw-semibold px-4 py-3 rounded-pill mt-4" style={{fontSize:"16px"}}>
               About Company
             </button>
+            </a>
+            
           </div>
 
           {/* Right Content */}

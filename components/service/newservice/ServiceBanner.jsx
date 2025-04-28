@@ -64,9 +64,12 @@ const ServiceBanner = ({bannerContent}) => {
                   </div>
 
                   {/* <Link href="contact" style={{width:"auto", margin:"auto"}} > */}
-                  <button className="btn btn-light fw-bold px-4 py-2 rounded-pill" style={{width:"auto", margin:"auto"}}>
+                  <a className='p-0 w-auto m-auto rounded-pill mt-2' href="contact" style={{lineHeight:"1", border:"none"}}>
+                  <button className="btn btn-light fw-bold  rounded-pill" style={{width:"auto", margin:"auto",padding:"15px 30px"}}>
                   Get a quote
                     </button>
+                  </a>
+                  
                     {/* </Link> */}
                   </div>
                   </div>

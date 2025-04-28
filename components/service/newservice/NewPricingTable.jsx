@@ -35,9 +35,12 @@ const NewPricingTable = ({pricingPlans ,title}) => {
                         <li key={i}>{feature}</li>
                       ))}
                     </ul>
+                    <a href="contact">
                     <button className="rounded-pill choose-button">
                       Buy Now
                     </button>
+                    </a>
+                   
                   </div>
                 </div>
               ))}

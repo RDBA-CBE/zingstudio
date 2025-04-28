@@ -23,7 +23,10 @@ const NewFeatures = ({Features,Feaservices}) => {
             <p className="services-description mb-4">
             {Features?.description}
             </p>
+            <a href="services">
             <button className="view-services-btn">View All Services</button>
+            </a>
+           
           </div>
 
           <div className="col-lg-7">

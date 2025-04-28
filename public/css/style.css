@@ -23402,7 +23402,7 @@ border-radius: 30px;
 }
 
 .hero-title span {
-  color: #f5f3e8;
+  /* color: #f5f3e8; */
   display: inline-block;
   position: relative;
 }

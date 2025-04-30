@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const services = [
+const courselist = [
   { id: "01", title: "Digital Marketing Foundations", 
     description: [
       " Understanding Digital Marketing & Trends",
@@ -45,7 +45,7 @@ const services = [
         "Personalization & Predictive Analytics",] },
 ];
 
-const NewCourseModules = () => {
+const NewCourseModules = ({courselist}) => {
   return (
     <section className="services-section py-5 NewCourseModules mt-5 mb-5">
       <div className="container">
@@ -53,7 +53,7 @@ const NewCourseModules = () => {
           {/* <div className="col-10">
             <div className="container-fluid">
               <div className="row "> */}
-              {services.map((service, index) => (
+              {courselist.map((service, index) => (
                 <div className="col-12 col-md-6 col-xl-4" key={index}>
                   <div className="service-box position-relative">
                     <span className="service-id">{service.id}</span>

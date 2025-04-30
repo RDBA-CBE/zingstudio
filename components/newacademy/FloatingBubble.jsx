@@ -16,14 +16,14 @@ const services = [
   
 ];
 
-const FloatingBubble = () => {
+const FloatingBubble = ({image}) => {
   return (
     <section className="digital-intro-section mb-5 pb-5">
       <div className="container ">
-        <Textalign/>
+        <Textalign />
 
         <div>
-          <img src="/images/Zing-Infographic-Students-Journey-2.png" alt="" />
+          <img src={image} alt="" />
         </div>
         {/* <div className="services-bubble-wrapper">
           {services.map((service, index) => (

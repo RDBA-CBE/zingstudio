@@ -1,119 +1,120 @@
 import React from "react";
 
-const pricingData = [
-  {
-    id: 1,
-    title: "(Day 1-2)",
-    price: "Orientation & Icebreaker",
-    duration: "Per Week",
-    features: [
-      "Welcome session with an introduction to Zing Studio’s mission & goals",
-      "Fun icebreaker activities & networking games",
-      "Overview of the course structure, expectations, and outcomes",
-      "Access to LMS (Learning Management System) and student portal"
-    ],
-    bgShape: "bubble1",
-    src:"/images/zing-digital-marketing-mastery/unnamed.png"
-  },
-  {
-    id: 2,
-    title: "(Week 1 - Ongoing)",
-    price: "Module-Based Practical Learning",
-    duration: "Per Week",
-    features: [
-      "Engaging video lessons, live masterclasses & hands-on workshops",
-        "Real-world applications & industry insights",
-        "Interactive Q&A sessions after every module",
-    ],
-    bgShape: "bubble2",
-    src:"/images/zing-digital-marketing-mastery/unnamed.png"
-  },
-  {
-    id: 3,
-    title: "(Every Weekend)",
-    price: "Doubt Clearing & Weekly Q&A",
-    duration: "Per Week",
-    features: [
-      "Dedicated live doubt-clearing sessions with mentors",
-      "Discussion forums & peer-to-peer learning groups", 
-    ],
-    bgShape: "bubble3",
-    src:"/images/zing-digital-marketing-mastery/unnamed.png",
-  },
-  {
-    id: 4,
-    title: "(Mid-Course)",
-    price: "Assignments & Case Studies",
-    duration: "Per Week",
-    features: [
-      "Individual & group assignments with real-world scenarios",
-        "Case studies on successful digital campaigns & business strategies", 
-        "Feedback & improvement sessions"
-    ],
-    bgShape: "bubble3",
-    src:"/images/zing-digital-marketing-mastery/unnamed.png"
-  },
-  {
-    id: 5,
-    title: "",
-    price: "Group Projects & Presentations",
-    duration: "Per Week",
-    features: [
-      "Collaborative projects to apply learning",
-        "Live presentations with expert feedback", 
-        "Team-based problem-solving & innovation challenges"
-    ],
-    bgShape: "bubble3",
-    src:"/images/zing-digital-marketing-mastery/unnamed.png"
-  },
+// const pricingData = [
+//   {
+//     id: 1,
+//     title: "(Day 1-2)",
+//     price: "Orientation & Icebreaker",
+//     duration: "Per Week",
+//     features: [
+//       "Welcome session with an introduction to Zing Studio’s mission & goals",
+//       "Fun icebreaker activities & networking games",
+//       "Overview of the course structure, expectations, and outcomes",
+//       "Access to LMS (Learning Management System) and student portal"
+//     ],
+//     bgShape: "bubble1",
+//     src:"/images/zing-digital-marketing-mastery/unnamed.png"
+//   },
+//   {
+//     id: 2,
+//     title: "(Week 1 - Ongoing)",
+//     price: "Module-Based Practical Learning",
+//     duration: "Per Week",
+//     features: [
+//       "Engaging video lessons, live masterclasses & hands-on workshops",
+//         "Real-world applications & industry insights",
+//         "Interactive Q&A sessions after every module",
+//     ],
+//     bgShape: "bubble2",
+//     src:"/images/zing-digital-marketing-mastery/unnamed.png"
+//   },
+//   {
+//     id: 3,
+//     title: "(Every Weekend)",
+//     price: "Doubt Clearing & Weekly Q&A",
+//     duration: "Per Week",
+//     features: [
+//       "Dedicated live doubt-clearing sessions with mentors",
+//       "Discussion forums & peer-to-peer learning groups", 
+//     ],
+//     bgShape: "bubble3",
+//     src:"/images/zing-digital-marketing-mastery/unnamed.png",
+//   },
+//   {
+//     id: 4,
+//     title: "(Mid-Course)",
+//     price: "Assignments & Case Studies",
+//     duration: "Per Week",
+//     features: [
+//       "Individual & group assignments with real-world scenarios",
+//         "Case studies on successful digital campaigns & business strategies", 
+//         "Feedback & improvement sessions"
+//     ],
+//     bgShape: "bubble3",
+//     src:"/images/zing-digital-marketing-mastery/unnamed.png"
+//   },
+//   {
+//     id: 5,
+//     title: "",
+//     price: "Group Projects & Presentations",
+//     duration: "Per Week",
+//     features: [
+//       "Collaborative projects to apply learning",
+//         "Live presentations with expert feedback", 
+//         "Team-based problem-solving & innovation challenges"
+//     ],
+//     bgShape: "bubble3",
+//     src:"/images/zing-digital-marketing-mastery/unnamed.png"
+//   },
 
-  {
-    id: 6,
-    title: " ",
-    price: "Guest Lectures & Industry Talks",
-    duration: "Per Week",
-    features: [
-      "Sessions with industry leaders, influencers & successful entrepreneurs",
-        "AMA (Ask Me Anything) sessions for deep insights", 
+//   {
+//     id: 6,
+//     title: " ",
+//     price: "Guest Lectures & Industry Talks",
+//     duration: "Per Week",
+//     features: [
+//       "Sessions with industry leaders, influencers & successful entrepreneurs",
+//         "AMA (Ask Me Anything) sessions for deep insights", 
         
-    ],
-    bgShape: "bubble3",
-    src:"/images/zing-digital-marketing-mastery/unnamed.png"
-  },
-  {
-    id: 7,
-    title: " ",
-    price: "Internship & Real-World Application",
-    duration: "Per Week",
-    features: [
-     "Live internship opportunities for top students",
-        "Shadowing real businesses & executing digital strategies", 
-    ],
-    bgShape: "bubble3",
-    src:"/images/zing-digital-marketing-mastery/unnamed.png"
-  },
-  {
-    id: 8,
-    title: " ",
-    price: "Placement Assistance & Graduation",
-    duration: "Per Week",
-    features: [
-     "Resume building & mock interviews",
-        "Placement drives & networking events", 
-        "Certification ceremony & alumni community access"
-    ],
-    bgShape: "bubble3",
-    src:"/images/zing-digital-marketing-mastery/unnamed.png"
-  },
-];
+//     ],
+//     bgShape: "bubble3",
+//     src:"/images/zing-digital-marketing-mastery/unnamed.png"
+//   },
+//   {
+//     id: 7,
+//     title: " ",
+//     price: "Internship & Real-World Application",
+//     duration: "Per Week",
+//     features: [
+//      "Live internship opportunities for top students",
+//         "Shadowing real businesses & executing digital strategies", 
+//     ],
+//     bgShape: "bubble3",
+//     src:"/images/zing-digital-marketing-mastery/unnamed.png"
+//   },
+//   {
+//     id: 8,
+//     title: " ",
+//     price: "Placement Assistance & Graduation",
+//     duration: "Per Week",
+//     features: [
+//      "Resume building & mock interviews",
+//         "Placement drives & networking events", 
+//         "Certification ceremony & alumni community access"
+//     ],
+//     bgShape: "bubble3",
+//     src:"/images/zing-digital-marketing-mastery/unnamed.png"
+//   },
+// ];
 
-const NewStudentJourney = () => {
+const NewStudentJourney = ({title,pricingData}) => {
   return (
     <div className="pricing-section  text-white py-5 NewStudentJourney">
       <div className="container text-center">
-        <h2 className="section-title fw-bold font-48">
-          Lorem ipsum dolor sit amet <br />
-          <span className="highlighted-text">eum neque commodi</span>
+        <h2 className="section-title fw-bold font-48" dangerouslySetInnerHTML={{__html:title}}>
+         
+          {/* Lorem ipsum dolor sit amet <br />
+          <span className="highlighted-text">eum neque commodi</span> */}
         </h2>
         <div className="row justify-content-center mt-5">
           {pricingData.map((plan) => (

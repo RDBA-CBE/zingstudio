@@ -1,6 +1,7 @@
 import React from "react";
+const text={
 
-
+}
 const Textalign = () => {
   return (
     <div className="container-fluid  text-white d-flex align-items-center pt-5">

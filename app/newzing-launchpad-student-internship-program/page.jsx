@@ -403,335 +403,265 @@ export default function page() {
     // ];
 
     const ToolsContent = {
-      tool1Num:"20+",
-      tool1Title :"Free Essential Digital Marketing Tools",
-      tool1worth :"Worth Of 6 Lakhs",
-      tool2Num:"20+",
-      tool2Title :"Digital Marketing AI Tools",
-      tool2worth :"Worth Of 6 Lakhs"
-    }
-    const Tools1 = [
-        {
-          animation: "fadeInLeft",
+        tool1Num:"20+",
+        tool1Title :"Free Essential Digital Marketing Tools",
+        tool1worth :"Worth Of 6 Lakhs",
+        tool2Num:"20+",
+        tool2Title :"Digital Marketing AI Tools",
+        tool2worth :"Worth Of 6 Lakhs"
+      }
+  
+      const Tools1 = [
+          {
+            animation: "fadeInUp",
+            delay: "0.3s",
+            iconClass: "flaticon-factory",
+            img:"/images/Zing-Launchpad-Student-Internship-Program/Zing-Launchpad-Student-Internship-Program-Tools/essential-tools/tool-1.png"
+          },
+          
+          {
+            
+            animation: "fadeInUp",
+            delay: "0.3s",
+            iconClass: "flaticon-settings",
+            img:"/images/Zing-Launchpad-Student-Internship-Program/Zing-Launchpad-Student-Internship-Program-Tools/essential-tools/tool-3.png"
+          },
+          {
+           
+            animation: "fadeInLeft",
+            delay: "0.3s",
+            iconClass: "flaticon-conveyor",
+             img:"/images/Zing-Launchpad-Student-Internship-Program/Zing-Launchpad-Student-Internship-Program-Tools/essential-tools/tool-4.png"
+          },
+          {
+              animation: "fadeInDown",
+              delay: "0.3s",
+              iconClass: "flaticon-factory",
+               img:"/images/Zing-Launchpad-Student-Internship-Program/Zing-Launchpad-Student-Internship-Program-Tools/essential-tools/tool-5.png"
+            },
+            {
+             
+              animation: "fadeInLeft",
+              delay: "0.3s",
+              iconClass: "flaticon-worker",
+               img:"/images/Zing-Launchpad-Student-Internship-Program/Zing-Launchpad-Student-Internship-Program-Tools/essential-tools/tool-6.png"
+            },
+            {
+              
+              animation: "fadeInLeft",
+              delay: "0.3s",
+              iconClass: "flaticon-settings",
+               img:"/images/Zing-Launchpad-Student-Internship-Program/Zing-Launchpad-Student-Internship-Program-Tools/essential-tools/tool-7.png"
+            },
+            {
+             
+              animation: "fadeInRight",
+              delay: "0.3s",
+              iconClass: "flaticon-conveyor",
+               img:"/images/Zing-Launchpad-Student-Internship-Program/Zing-Launchpad-Student-Internship-Program-Tools/essential-tools/tool-8.png"
+            },
+          
+         
+          ];
+  
+    //   const Tools2 = [
+    //     {
+             
+    //       animation: "fadeInDown",
+    //       delay: "0.3s",
+    //       iconClass: "flaticon-worker",
+    //       img:"/images/Zing-Launchpad-Student-Internship-Program/essential-tools/tool-14.png"
+    //     },
+    //     {
+          
+    //       animation: "fadeInUp",
+    //       delay: "0.3s",
+    //       iconClass: "flaticon-settings",
+    //       img:"/images/Zing-Launchpad-Student-Internship-Program/essential-tools/tool-15.png"
+    //     },
+    //     {
+         
+    //       animation: "fadeInRight",
+    //       delay: "0.3s",
+    //       iconClass: "flaticon-conveyor",
+    //       img:"/images/Zing-Launchpad-Student-Internship-Program/essential-tools/tool-16.png"
+    //     },
+    //     {
+    //       animation: "fadeInLeft",
+    //       delay: "0.3s",
+    //       iconClass: "flaticon-factory",
+    //       img:"/images/Zing-Launchpad-Student-Internship-Program/essential-tools/tool-17.png"
+    //     },
+    //     {
+         
+    //       animation: "fadeInDown",
+    //       delay: "0.3s",
+    //       iconClass: "flaticon-worker",
+    //       img:"/images/Zing-Launchpad-Student-Internship-Program/essential-tools/tool-18.png"
+    //     },
+    //     {
+         
+    //       animation: "fadeInDown",
+    //       delay: "0.3s",
+    //       iconClass: "flaticon-worker",
+    //       img:"/images/Zing-Launchpad-Student-Internship-Program/essential-tools/tool-19.png"
+    //     },
+    //     {
+         
+    //       animation: "fadeInDown",
+    //       delay: "0.3s",
+    //       iconClass: "flaticon-worker",
+    //       img:"/images/Zing-Launchpad-Student-Internship-Program/essential-tools/tool-20.png"
+    //     },
+    //     {
+         
+    //       animation: "fadeInDown",
+    //       delay: "0.3s",
+    //       iconClass: "flaticon-worker",
+    //       img:"/images/Zing-Launchpad-Student-Internship-Program/essential-tools/tool-21.png"
+    //     },
+    //     {
+         
+    //       animation: "fadeInDown",
+    //       delay: "0.3s",
+    //       iconClass: "flaticon-worker",
+    //       img:"/images/zZing-Launchpad-Student-Internship-Program/essential-tools/tool-22.png"
+    //     },
+    //     {
+         
+    //       animation: "fadeInDown",
+    //       delay: "0.3s",
+    //       iconClass: "flaticon-worker",
+    //       img:"/images/Zing-Launchpad-Student-Internship-Program/essential-tools/tool-23.png"
+    //     },
+    //     {
+         
+    //       animation: "fadeInDown",
+    //       delay: "0.3s",
+    //       iconClass: "flaticon-worker",
+    //       img:"/images/Zing-Launchpad-Student-Internship-Program/essential-tools/tool-24.png"
+    //     },
+    //     {
+         
+    //       animation: "fadeInDown",
+    //       delay: "0.3s",
+    //       iconClass: "flaticon-worker",
+    //       img:"/images/Zing-Launchpad-Student-Internship-Program/essential-tools/tool-25.png"
+    //     },
+    //     {
+         
+    //       animation: "fadeInDown",
+    //       delay: "0.3s",
+    //       iconClass: "flaticon-worker",
+    //       img:"/images/Zing-Launchpad-Student-Internship-Program/essential-tools/tool-26.png"
+    //     },
+    // ];
+  
+  
+    const Tools3 = [
+     
+      {
+       
+        animation: "fadeInUp",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/Zing-Launchpad-Student-Internship-Program/Zing-Launchpad-Student-Internship-Program-Tools/AI-tools/tool-2.png"
+      },
+     
+      {
+       
+        animation: "fadeInLeft",
+        delay: "0.3s",
+        iconClass: "flaticon-conveyor",
+        img:"/images/Zing-Launchpad-Student-Internship-Program/Zing-Launchpad-Student-Internship-Program-Tools/AI-tools/tool-4.png"
+      },
+      {
+          animation: "fadeInDown",
           delay: "0.3s",
           iconClass: "flaticon-factory",
-          img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-1.png"
+          img:"/images/Zing-Launchpad-Student-Internship-Program/Zing-Launchpad-Student-Internship-Program-Tools/AI-tools/tool-5.png"
+        },
+        {
+         
+          animation: "fadeInRight",
+          delay: "0.3s",
+          iconClass: "flaticon-worker",
+          img:"/images/Zing-Launchpad-Student-Internship-Program/Zing-Launchpad-Student-Internship-Program-Tools/AI-tools/tool-6.png"
         },
         {
          
           animation: "fadeInDown",
           delay: "0.3s",
           iconClass: "flaticon-worker",
-          img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-2.png"
+          img:"/images/Zing-Launchpad-Student-Internship-Program/Zing-Launchpad-Student-Internship-Program-Tools/AI-tools/tool-7.png"
         },
-        {
-          
-          animation: "fadeInUp",
-          delay: "0.3s",
-          iconClass: "flaticon-settings",
-          img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-3.png"
-        },
-        {
-         
-          animation: "fadeInRight",
-          delay: "0.3s",
-          iconClass: "flaticon-conveyor",
-           img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-4.png"
-        },
-        {
-            animation: "fadeInLeft",
-            delay: "0.3s",
-            iconClass: "flaticon-factory",
-             img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-5.png"
-          },
-          {
-           
-            animation: "fadeInDown",
-            delay: "0.3s",
-            iconClass: "flaticon-worker",
-             img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-6.png"
-          },
-          {
-            
-            animation: "fadeInUp",
-            delay: "0.3s",
-            iconClass: "flaticon-settings",
-             img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-7.png"
-          },
-          {
-           
-            animation: "fadeInRight",
-            delay: "0.3s",
-            iconClass: "flaticon-conveyor",
-             img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-8.png"
-          },
-          {
-            animation: "fadeInLeft",
-            delay: "0.3s",
-            iconClass: "flaticon-factory",
-             img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-9.png"
-          },
-          {
-           
-            animation: "fadeInDown",
-            delay: "0.3s",
-            iconClass: "flaticon-worker",
-             img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-10.png"
-          },
-          {
-            
-            animation: "fadeInUp",
-            delay: "0.3s",
-            iconClass: "flaticon-settings",
-             img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-11.png"
-          },
-          {
-           
-            animation: "fadeInRight",
-            delay: "0.3s",
-            iconClass: "flaticon-conveyor",
-             img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-12.png"
-          },
-          {
-            animation: "fadeInLeft",
-            delay: "0.3s",
-            iconClass: "flaticon-factory",
-            img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-13.png"
-          },
-          {
-           
-            animation: "fadeInDown",
-            delay: "0.3s",
-            iconClass: "flaticon-worker",
-            img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-14.png"
-          },
         
-        ];
-
-    const Tools2 = [
-     
-      {
-        
-        animation: "fadeInUp",
-        delay: "0.3s",
-        iconClass: "flaticon-settings",
-        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-15.png"
-      },
-      {
        
-        animation: "fadeInRight",
-        delay: "0.3s",
-        iconClass: "flaticon-conveyor",
-        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-16.png"
-      },
-      {
-        animation: "fadeInLeft",
-        delay: "0.3s",
-        iconClass: "flaticon-factory",
-        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-17.png"
-      },
-      {
-       
-        animation: "fadeInDown",
-        delay: "0.3s",
-        iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-18.png"
-      },
-      {
-       
-        animation: "fadeInDown",
-        delay: "0.3s",
-        iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-19.png"
-      },
-      {
-       
-        animation: "fadeInDown",
-        delay: "0.3s",
-        iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-20.png"
-      },
-      {
-       
-        animation: "fadeInDown",
-        delay: "0.3s",
-        iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-21.png"
-      },
-      {
-       
-        animation: "fadeInDown",
-        delay: "0.3s",
-        iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-22.png"
-      },
-      {
-       
-        animation: "fadeInDown",
-        delay: "0.3s",
-        iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-23.png"
-      },
-      {
-       
-        animation: "fadeInDown",
-        delay: "0.3s",
-        iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-24.png"
-      },
-      {
-       
-        animation: "fadeInDown",
-        delay: "0.3s",
-        iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-25.png"
-      },
-      {
-       
-        animation: "fadeInDown",
-        delay: "0.3s",
-        iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-26.png"
-      },
-  ];
-
-    const Tools3 = [
-    {
-      animation: "fadeInLeft",
-      delay: "0.3s",
-      iconClass: "flaticon-factory",
-       img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/AI-tools/tool-1.png"
-    },
-    {
-     
-      animation: "fadeInDown",
-      delay: "0.3s",
-      iconClass: "flaticon-worker",
-      img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/AI-tools/tool-2.png"
-    },
-    {
-      
-      animation: "fadeInUp",
-      delay: "0.3s",
-      iconClass: "flaticon-settings",
-      img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/AI-tools/tool-3.png"
-    },
-    {
-     
-      animation: "fadeInRight",
-      delay: "0.3s",
-      iconClass: "flaticon-conveyor",
-      img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/AI-tools/tool-4.png"
-    },
-    {
-        animation: "fadeInLeft",
-        delay: "0.3s",
-        iconClass: "flaticon-factory",
-        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/AI-tools/tool-5.png"
-      },
-      {
-       
-        animation: "fadeInDown",
-        delay: "0.3s",
-        iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/AI-tools/tool-6.png"
-      },
-      {
-       
-        animation: "fadeInDown",
-        delay: "0.3s",
-        iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/AI-tools/tool-7.png"
-      },
-      {
-       
-        animation: "fadeInDown",
-        delay: "0.3s",
-        iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/AI-tools/tool-8.png"
-      },
-      {
-       
-        animation: "fadeInDown",
-        delay: "0.3s",
-        iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/AI-tools/tool-9.png"
-      },
-      {
-       
-        animation: "fadeInDown",
-        delay: "0.3s",
-        iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/AI-tools/tool-10.png"
-      },
-      {
-       
-        animation: "fadeInDown",
-        delay: "0.3s",
-        iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/AI-tools/tool-11.png"
-      },
-      {
-       
-        animation: "fadeInDown",
-        delay: "0.3s",
-        iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/AI-tools/tool-12.png"
-      },
-     
-    ]
-
-const faqData = [
-      {
-        id: "faq6",
-        question: "1. Who is this course suitable for?",
-        answer:
-          "The course is ideal for students, marketing professionals, entrepreneurs, and anyone interested in mastering digital marketing skills.",
-      },
-      {
-        id: "faq7",
-        question: "2. What topics does the course cover?",
-        answer:
-          "The curriculum includes SEO, SEM, social media marketing, content marketing, email marketing, analytics, and paid advertising strategies.",
-      },
-      {
-        id: "faq8",
-        question: "3. Are there any prerequisites to enroll?",
-        answer:
-          "No prior experience is required. The course is designed for beginners as well as professionals looking to enhance their skills.",
-      },
-      {
-        id: "faq9",
-        question: "4. Will I get hands-on experience?",
-        answer:
-          "Yes. The course offers live projects and real-world case studies to ensure practical learning and application of strategies.",
-      },
-      {
-        id: "faq10",
-        question: "5. Is there a certification upon completion?",
-        answer:
-          "Yes. Participants will receive a certification upon successfully completing the course, validating their digital marketing expertise.",
-      },
-      {
-        id: "faq11",
-        question: "6. What career opportunities does this course open up?",
-        answer:
-          "Graduates can pursue roles such as digital marketing strategist, SEO specialist, social media manager, content marketer, and more.",
-      },
-      {
-        id: "faq12",
-        question: "7. How long is the course duration?",
-        answer:
-          "The course duration typically ranges from 8 to 12 weeks, depending on the learning mode (full-time or part-time).",
-      },
-      {
-        id: "faq13",
-        question: "8. Does the course provide placement assistance?",
-        answer:
-          "Yes. Participants will receive a certification upon successfully completing the course, validating their digital marketing expertise.",
-      },
-    ]
-
+      ]
+  
+  
+          const faqData = [
+            {
+              id: "faq6",
+              question: "1. Who can apply for the internship program?",
+              answer:
+                "The program is open to students pursuing undergraduate or postgraduate degrees in relevant fields, as well as recent graduates seeking practical experience.",
+            },
+            {
+              id: "faq7",
+              question: "2. What skills are required to apply?",
+              answer:
+                "Basic knowledge related to the chosen domain is preferred. However, a willingness to learn, adaptability, and enthusiasm are highly valued.",
+            },
+            {
+              id: "faq8",
+              question: "3. What are the key benefits of this internship?",
+              answer:
+                "Interns gain hands-on experience, mentorship from industry experts, real-world project exposure, and the opportunity to enhance their professional network.",
+            },
+            {
+              id: "faq9",
+              question: "4. Is this a paid internship?",
+              answer:
+                "The internship structure may vary. Some positions offer stipends based on performance and project requirements.",
+            },
+            {
+              id: "faq10",
+              question: "5. How long does the internship last?",
+              answer:
+                "The duration typically ranges from 8 to 12 weeks, depending on the project scope and the intern's availability.",
+            },
+            {
+              id: "faq11",
+              question: "6. Will I receive a certificate after completion?",
+              answer:
+                "Yes. All interns who successfully complete the program will receive a certificate acknowledging their participation and achievements.",
+            },
+            {
+              id: "faq12",
+              question: "7. What kind of projects will I work on?",
+              answer:
+                "Interns will engage in live projects across various domains, providing practical exposure and helping them apply academic knowledge to real-world scenarios.",
+            },
+            {
+              id: "faq13",
+              question: "8. Is there a possibility of full-time employment after the internship?",
+              answer:
+                "High-performing interns may be considered for full-time opportunities, subject to available openings and performance evaluations.",
+            },
+            {
+              id: "faq14",
+              question: "9. How do I apply for the internship?",
+              answer:
+                "Applications can be submitted through our official website by filling out the internship application form and attaching the latest resume.",
+            },
+            {
+              id: "faq15",
+              question: "10. Will there be mentorship during the internship?",
+              answer:
+                "Yes. Interns will work closely with experienced professionals who will guide them throughout the program, ensuring continuous learning and growth.",
+            },
+          ];
         const testimonials = [
           {
             text: "Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.",
@@ -759,7 +689,7 @@ const faqData = [
 
         
 
-        
+          
 
   return (
     <>
@@ -781,7 +711,7 @@ const faqData = [
           <AcademyTeamSection teamIntroData={teamIntroData}/>
           </div>
          <PhysicsCircles circles={circles}/>       
-         <NewTools ToolsContent={ToolsContent} Tools1={Tools1} Tools2={Tools2} Tools3={Tools3}/>
+         <NewTools ToolsContent={ToolsContent} Tools1={Tools1} Tools3={Tools3}/>
          <AcademyFAQ faqData={faqData}/>
         <HomeCta />
         <div className="home-footer" >

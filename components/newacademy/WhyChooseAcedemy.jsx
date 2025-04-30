@@ -150,7 +150,11 @@ const WhyChooseAcedemy = () => {
             src:"/images/zing-digital-marketing-mastery/unnamed.png"
           },
       ];
-  
+  const AcademyContent={
+    title:"Why Choose Zing Academy?",
+    paragraph:"At Zing Academy, we don’t just teach digital marketing—we shape industry leaders. Our hands-on, practical approach ensures that you don’t just learn concepts but also apply them in real-world scenarios. Whether you're a student, entrepreneur, freelancer, or job seeker, our courses are designed to equip you with the most in-demand skills in digital marketing.",
+    buttoncontent:"All Services",
+  }
 
 
   return (
@@ -158,12 +162,14 @@ const WhyChooseAcedemy = () => {
       <div className="row mb-4">
         <div className="col-12 text-black">
           <div></div>
-          <h2 className="ds-heading fw-bold fs-2 font-48">
-          Why Choose Zing Academy?
+          <h2 className="ds-heading fw-bold fs-2 font-48">{AcademyContent.title}
+          {/* Why Choose Zing Academy? */}
           </h2>
-          <p style={{width:"80%"}}>At Zing Academy, we don’t just teach digital marketing—we shape industry leaders. Our hands-on, practical approach ensures that you don’t just learn concepts but also apply them in real-world scenarios. Whether you're a student, entrepreneur, freelancer, or job seeker, our courses are designed to equip you with the most in-demand skills in digital marketing.</p>
+          <p style={{width:"80%"}}>{AcademyContent.paragraph}
+            {/* At Zing Academy, we don’t just teach digital marketing—we shape industry leaders. Our hands-on, practical approach ensures that you don’t just learn concepts but also apply them in real-world scenarios. Whether you're a student, entrepreneur, freelancer, or job seeker, our courses are designed to equip you with the most in-demand skills in digital marketing. */}
+            </p>
          
-          <a href="service"><button className="btn ds-all-btn float-lg-end  text-black">All Services</button></a>
+          <a href="service"><button className="btn ds-all-btn float-lg-end  text-black">{AcademyContent.button}</button></a>
         </div>
       </div>
       <div className="row">

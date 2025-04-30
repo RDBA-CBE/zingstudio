@@ -2,18 +2,20 @@ import React from "react";
 
 
 const NewStudentJourney = ({title,pricingData}) => {
+  const length = pricingData.length
   return (
     <div className="pricing-section  text-white py-5 NewStudentJourney">
-      <div className="container text-center">
-        <h2 className="section-title fw-bold font-48" dangerouslySetInnerHTML={{__html:title}}>
+      <div className="container-fluid text-center">
+      <h2 className="section-title fw-bold font-48" dangerouslySetInnerHTML={{__html:title}}>
          
-          {/* Lorem ipsum dolor sit amet <br />
-          <span className="highlighted-text">eum neque commodi</span> */}
-        </h2>
+         {/* Lorem ipsum dolor sit amet <br />
+         <span className="highlighted-text">eum neque commodi</span> */}
+       </h2>
+        <div className={`${length == 4 ? "col-11 col-xl-11 mx-auto" : "col-11 col-lg-10 col-xl-9 mx-auto"}`}>
         <div className="row justify-content-center mt-5">
           {pricingData.map((plan) => (
             <div
-              className="col-12 col-md-6 col-lg-4 mb-4"
+              className={` ${length == 4 ? "col-12 col-md-6 col-lg-6 col-xl-3 mb-4" : "col-12 col-md-6 col-lg-6 col-xl-4 mb-4"}`}
               key={plan.id}
             >
               <div className="pricing-card rounded-lg p-4 h-100 position-relative">
@@ -49,6 +51,9 @@ const NewStudentJourney = ({title,pricingData}) => {
             </div>
           ))}
         </div>
+        </div>
+       
+       
       </div>
     </div>
   );

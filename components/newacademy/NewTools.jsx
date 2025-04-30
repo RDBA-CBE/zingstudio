@@ -60,7 +60,7 @@ export default function NewTools({
             <div className="ow-client-logo   ">
               <div className={`client-logo ${border ? "border" : ""}`}>
                 <a href="#">
-                  <Image width={100} height={150} src={item.img} alt="" style={{height:"120px"}} />
+                  <Image width={100} height={150} src={item.img} alt="" className="tool-img" />
                 </a>
               </div>
             </div>
@@ -107,7 +107,7 @@ export default function NewTools({
              <div className="ow-client-logo  ">
                <div className={`client-logo  ${border ? "border" : ""}`}>
                  <a href="#">
-                   <Image width={100} height={150} src={item.img} alt="" style={{height:"120px"}}/>
+                   <Image width={100} height={150} src={item.img} alt="" className="tool-img"/>
                  </a>
                </div>
              </div>
@@ -163,7 +163,7 @@ export default function NewTools({
                 <div className="ow-client-logo  ">
                 <div className={`client-logo  ${border ? "border" : ""}`}>
                     <a href="#">
-                    <Image width={100} height={150} src={item.img} alt="" style={{height:"120px"}}/>
+                    <Image width={100} height={150} src={item.img} alt="" className="tool-img"/>
                     </a>
                 </div>
                 </div>

@@ -24105,8 +24105,8 @@ font-size: 16px !important;
 
 .NewTools{
   /* background: linear-gradient(to right, #984674, #4c48d0); */
-  /* width: 95%;
-  margin: auto; */
+  width: 95%;
+  margin: auto;
   border-radius: 30px;
 }
 
@@ -24281,6 +24281,18 @@ font-size: 16px !important;
 @media(max-width:768px){
   .font-48{
     font-size: 30px !important;
+  }
+ 
+}
+
+.tool-img{
+  height: 120px !important;
+}
+
+
+@media(max-width:1024px){
+  .tool-img{
+    height: 100px !important;
   }
  
 }

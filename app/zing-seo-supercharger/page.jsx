@@ -13,6 +13,7 @@ import NewTools from "@/components/newacademy/NewTools";
 import AcademyFAQ from "@/components/newabout/AcademyFAQ";
 import PhysicsCircles from "@/components/newabout/AcademyTeamSection-1";
 import AcademyTeamSection from "@/components/newabout/AcademyTeamSection";
+import NewZingSEOTools from "@/components/newacademy/NewZingSEOTools";
 export const metadata = {
   title: "Zing Digital Marketing Mastery || Zing Studio",
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
@@ -574,7 +575,7 @@ export default function page() {
           <AcademyTeamSection teamIntroData={teamIntroData}/>
           </div>
          <PhysicsCircles circles={circles} teamIntroData={teamIntroData}/>       
-         <NewTools ToolsContent={ToolsContent} Tools1={Tools1}  Tools3={Tools3}/>
+         <NewZingSEOTools ToolsContent={ToolsContent} Tools1={Tools1}  Tools3={Tools3}/>
          <AcademyFAQ faqData={faqData}/>
         <HomeCta />
         <div className="home-footer" >

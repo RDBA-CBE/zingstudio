@@ -9,10 +9,10 @@ import Footer1 from "@/components/footers/Footer1";
 import HomeCta from "@/components/service/HomeCta";
 import NewStudentJourney from "@/components/newacademy/NewStudentJourney";
 import WhyChooseAcedemy from "@/components/newacademy/WhyChooseAcedemy";
-import NewTools from "@/components/newacademy/NewTools";
 import AcademyFAQ from "@/components/newabout/AcademyFAQ";
 import PhysicsCircles from "@/components/newabout/AcademyTeamSection-1";
 import AcademyTeamSection from "@/components/newabout/AcademyTeamSection";
+import NewZingDigitalSprintTools from "@/components/newacademy/NewZingDigitalSprintTools";
 export const metadata = {
   title: "Zing Digital Marketing Mastery || Zing Studio",
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
@@ -542,7 +542,7 @@ export default function page() {
           <AcademyTeamSection teamIntroData={teamIntroData}/>
           </div>
          <PhysicsCircles circles={circles} teamIntroData={teamIntroData}/>       
-         <NewTools ToolsContent={ToolsContent} Tools1={Tools1} Tools2={Tools2} Tools3={Tools3}/>
+         <NewZingDigitalSprintTools ToolsContent={ToolsContent} Tools1={Tools1} Tools2={Tools2} Tools3={Tools3}/>
          <AcademyFAQ faqData={faqData}/>
         <HomeCta />
         <div className="home-footer" >

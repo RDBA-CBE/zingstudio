@@ -1,606 +1,714 @@
 
+import Link from "next/link";
+
+import ProjectDetails from "@/components/portfolio/ProjectDetails";
 import React from "react";
+import { allProjects } from "@/data/projects";
+import WebDesignDetails from "@/components/service/WebDesignDetails";
+import AcademyContent from "@/components/academy/AcademyContent";
 import Header17 from "@/components/headers/Header17";
-import NewCourseBanner from "@/components/newacademy/NewCourseBanner";
-import BannerList from "@/components/newacademy/BannerList";
-import FloatingBubble from "@/components/newacademy/FloatingBubble";
-import NewCourseModules from "@/components/newacademy/NewCourseModules";
-import Footer1 from "@/components/footers/Footer1";
-import HomeCta from "@/components/service/HomeCta";
-import NewStudentJourney from "@/components/newacademy/NewStudentJourney";
-import WhyChooseAcedemy from "@/components/newacademy/WhyChooseAcedemy";
-import NewTools from "@/components/newacademy/NewTools";
-import AcademyFAQ from "@/components/newabout/AcademyFAQ";
-import PhysicsCircles from "@/components/newabout/AcademyTeamSection-1";
-import AcademyTeamSection from "@/components/newabout/AcademyTeamSection";
+import Testimonials from "@/components/homes/home-6/Testimonials";
+import Footer13 from "@/components/footers/Footer13";
+import Cta from "@/components/homes/home-13/Cta";
+import Insights from "@/components/service/Insights";
+import LiveProjects from "@/components/service/liveProjects";
+import ZingAcademyHero from "@/components/service/zingAcademyCourseHero";
+import CourseModules from "@/components/service/CourseModules";
+import BrandCaseStudy from "@/components/service/BrandCaseStudy";
+import ZingAcademyCta from "@/components/service/ZingAcademyCta";
+import StudentsJourney from "@/components/service/StudentsJourney";
+import ZingAcademy from "@/components/service/ZingAcademy";
+import CourseDetails from "@/components/service/CourseDetails";
+import Projects2 from "@/components/homes/home-5/Projects2";
+import GuestLectures from "@/components/service/GuestLectures";
+import WhosThisCourseFor from "@/components/service/Who'sThisCourseFor";
+import CourseLearning from "@/components/service/CourseLearning";
+import ToolsLearning from "@/components/service/ToolsLearning";
+import SucessStories from "@/components/service/SucessStories";
+import CourseProgramFaq from "@/components/service/CourseProgramFaq";
+import StudentsJourney2 from "@/components/service/StudentsJourney2";
+import StudentsJourney3 from "@/components/service/StudentsJourney3";
+import StudentJourneynew from "@/components/service/StudentJourneynew";
+import ZingAcademyProgramHero from "@/components/service/ZingAcademyProgramHero";
+import AcademyCourseBanner from "@/components/service/AcademyCourseBanner";
+import ZingSocialMediaTools from "@/components/service/ZingSocialMediaTools";
 export const metadata = {
-  title: "Zing Digital Marketing Mastery || Zing Studio",
+  title: "Zing Social Media Mastery || Zing Studio",
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
 };
 export default function page() {
+  const CourseTitle= "Zing Social Media Mastery"
+  const CourseDuration = "4 Weeks"
 
-    const serviceAbout ={
-        subtitle:"lorem lorem",
-        title:"Zing Social Media Mastery",
-        descrip:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repudiandae sapiente dolor cum vel tempora modi doloribus laborum voluptatum.",
-        list :[
-          {
-            item:"Build expertise in social media strategy & engagement",
-            sec:"0.2s"
-          },
-          {
-            item:"Create high-impact content and run paid campaigns",
-            sec:"0.4s"
-          },
-          {
-            item:"Placement support for top performers",
-            sec:"0.6s"
-          }
-          
-        ],
-        subDes:"Course Highlight:",
-        src:"/images/Home-Page/character-img-3.png"
-      }
-      const services = [
-        { id: '001', title: 'Course Duration ', description: '4 Weeks', sec:"0.2s" },
-        { id: '002', title: 'Course Fees', description: '₹10,000',sec:"0.4s" },
-        {
-          id: '003',
-          title: 'Application Closes On ',
-          description:
-            '31/05/2025',
-            sec:"0.6s"
-        },
+  const courseModule = [
+    {
+      title:"Module 1: Social Media Strategy",
+      list:[
+        "Understanding Social Media Algorithms",
+        "Audience Targeting & Engagement",
+       
+      ],
+    imgSrc:"/images/Zing-Social-Media-Mastery/social-media-strategy.jpg",
+    bgColor:"#e9e9e9"
+    },
+    {
+      title:"Module 2: Instagram & Reels Mastery",
+      list:[
+        "Creating Viral Reels & Stories",
+        "Growth Hacking & Monetization",
+       
+      ],
+     imgSrc:"/images/Zing-Social-Media-Mastery/instagram-reels.jpg",
+     bgColor:"#fff"
+    },
+    {
+      title:"Module 3: LinkedIn & Twitter Branding",
+      list:[
+        "Personal Branding Strategies",
+        "Twitter Threads & LinkedIn Networking",
         
-      ];
-      const courselist = [
-        { id: "01", title: "Social Media Strategy", 
-          description: [
-            "Understanding Social Media Algorithms",
-          "Audience Targeting & Engagement",
-          
+      ],
+      imgSrc:"/images/Zing-Social-Media-Mastery/twitter-link.jpg",
+      bgColor:"#d2dbf6"
+    },   
+     {
+      title:"Module 4: Facebook & YouTube Growth",
+      list:[
+        "YouTube SEO & Monetization",
+        "Facebook Groups & Ads",
+        
+      ],
+      imgSrc:"/images/Zing-Social-Media-Mastery/facebook-yutube.jpg",
+      bgColor:"#e9e9e9"
+    },
+    {
+      title:"Module 5: Monetization Strategies",
+      list:[
+        "Affiliate Marketing & Sponsorships",
+        "Brand Collaborations & Paid Partnerships",
       
-        ] },
-        { id: "02", title: "Instagram & Reels Mastery",
-           description:[
-            "Creating Viral Reels & Stories",
-            "Growth Hacking & Monetization",
-           
-          ] },
-        { id: "03", title: "LinkedIn & Twitter Branding",
-           description: [
-            "Personal Branding Strategies",
-            "Twitter Threads & LinkedIn Networking",
-            
-          ] },
-       
-      ];
-      const pricingData = [
-        {
-          id: 1,
-          title: "(Week 1)",
-          price: "Social Media Strategy",
-          duration: "Per Week",
-          features: [
-            "Understanding social media algorithms",
-            "Growth hacking techniques for platforms",
-          
-          ],
-          bgShape: "bubble1",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png"
-        },
-        {
-          id: 2,
-          title: "(Week 2)",
-          price: "Instagram & LinkedIn Mastery",
-          duration: "Per Week",
-          features: [
-            "Creating viral content",
-              "LinkedIn networking & branding",
-             
-          ],
-          bgShape: "bubble2",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png"
-        },
-        {
-          id: 3,
-          title: " (Week 3)",
-          price: "YouTube & Facebook Growth Q&A ",
-          duration: "Per Week",
-          features: [
-            "Monetization & platform-specific strategies",
-           
-          ],
-          bgShape: "bubble3",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png",
-        },
-        {
-          id: 4,
-          title: "(Week 4)",
-          price: "Monetization & Final Projects ",
-          duration: "Per Week",
-          features: [
-            "Crafting collaborations & sponsorships",
-              "Final presentations & certification", 
-              
-          ],
-          bgShape: "bubble3",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png"
-        },
-       
-      ];
-      const AcademyContent={
-        title:"Why Choose Zing Academy?",
-        paragraph:"At Zing Academy, we don’t just teach digital marketing—we shape industry leaders. Our hands-on, practical approach ensures that you don’t just learn concepts but also apply them in real-world scenarios. Whether you're a student, entrepreneur, freelancer, or job seeker, our courses are designed to equip you with the most in-demand skills in digital marketing.",
-        buttoncontent:"All Services",
-      }
-      const courseLearning = [
-        {
-          id: 1,
-          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/digital-marketing-startegy.jpg",
-          title: "10+ Industry-Recognized Certificates",
-          link:"zing-digital-marketing-mastery",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png"
-        },
-        {
-          id: 2,
-          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/content-and-prompt-engineerings.jpg",
-          title: "Weekend & Flexible Batches",
-          link:"zing-digital-marketing-mastery",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png"
-        },
-        {
-          id: 3,
-          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/google-and-advance-web-analytics.jpg",
-          title: "Gamified Learning with Scoreboards",
-          link:"zing-digital-marketing-mastery",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png"
-        },
-        {
-          id: 4,
-          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/social-media-marketing.jpg",
-          title: "100% Practical Learning",
-          link:"zing-digital-marketing-mastery",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png"
-        },
-        {
-          id: 5,
-          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/search-engine-optimization.jpg",
-          title: "Community & Mentorship",
-          link:"zing-digital-marketing-mastery",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png"
-        },
-        {
-          id: 6,
-          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/funnel-building-lead-gen.jpg",
-          title: "Weekly Quizzes & Monthly Assignments",
-          link:"zing-digital-marketing-mastery",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png"
-        },
-        {
-          id: 7,
-          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/facebook-and-instagram-ads.jpg",
-          title: "Weekly Student Presentations",
-          link:"zing-digital-marketing-mastery",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png"
-        },
-        {
-          id: 8,
-          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/wix.jpg",
-          title: "Wix",
-          link:"Final Capstone Project",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png"
-        },
-        {
-            id: 9,
-            imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/whatsapp -marketing.jpg",
-            title: "Certification on Completion",
-            link:"zing-digital-marketing-mastery",
-            src:"/images/zing-digital-marketing-mastery/unnamed.png"
-          },
-          {
-            id: 9,
-            imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/web-technology.jpg",
-            title: "Zingers Alumni Community ",
-            link:"zing-digital-marketing-mastery",
-            src:"/images/zing-digital-marketing-mastery/unnamed.png"
-          },
-          {
-            id: 10,
-            imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/ai-automation-in-digital-marketing.jpg",
-            title: "AI & Automation in Digital Marketing",
-            link:"zing-digital-marketing-mastery",
-            src:"/images/zing-digital-marketing-mastery/unnamed.png"
-          },
-          {
-            id: 11,
-            imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/job-freelancing-support.jpg",
-            title: "Job & Freelancing Support",
-            link:"zing-digital-marketing-mastery",
-            src:"/images/zing-digital-marketing-mastery/unnamed.png"
-          },
-          {
-            id: 12,
-            imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/exclusive-industry-webinars-expert-sessions.jpg",
-            title: "Exclusive Industry Webinars & Expert Sessions",
-            link:"zing-digital-marketing-mastery",
-            src:"/images/zing-digital-marketing-mastery/unnamed.png"
-          },
-          {
-            id: 13,
-            imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/scholarship-for-women-from-underprivileged-backgrounds.jpg",
-            title: "10% Scholarship for Women from Underprivileged Backgrounds",
-            link:"zing-digital-marketing-mastery",
-            src:"/images/zing-digital-marketing-mastery/unnamed.png"
-          },
-      ];
+      ],
+      imgSrc:"/images/Zing-Social-Media-Mastery/monetization.jpg",
+      bgColor:"#fff"
+    },
+    
+  ]
 
-      const circles = [
-        { id: "ecae91b", url: "/images/sample/homepage_1-7.webp", width: 375, height: 375 },
-        { id: "a208805", url: "/images/sample/homepage_1-1.webp", width: 148, height: 148 },
-        { id: "f773497", url: "/images/sample/homepage_1-2.webp", width: 225, height: 225 },
-        { id: "778131d", url: "/images/sample/homepage_1-3.webp", width: 350, height: 350 },
-        { id: "ae61a10", url: "/images/sample/homepage_1-7.webp", width: 225, height: 225 },
-        { id: "bbfe833", url: "/images/sample/homepage_1-5.webp", width: 148, height: 148 },
-        { id: "d921808", url: "/images/sample/homepage_1-6.webp", width: 400, height: 400 },
-        { id: "0dfae77", url: "/images/sample/homepage_1-8.webp", width: 150, height: 150 },
-        { id: "4326c43", url: "/images/sample/homepage_1-10.webp", width: 318, height: 318 },
-        { id: "a087b13", url: "/images/sample/homepage_1-9.webp", width: 225, height: 225 },
+  const services10 =   [
+    {
+      id: 137,
+      imgSrc: "/images/icon/car/icon-1.png",
+      title: " Social Media Strategy <b style='font-size: 18px; color: #1a43bf; font-weight:500'> (Week 1) </b>",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.3s",
+      list:[
+        "Understanding social media algorithms",
+        "Growth hacking techniques for platforms",
+      
+      ]
+    },
+    {
+      id: 138,
+      imgSrc: "/images/icon/car/icon-2.png",
+      title: "Instagram & LinkedIn Mastery <b style='font-size: 18px; color: #1a43bf; font-weight:500'> (Week 2) </b>",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.6s",
+      list:[
+        "Creating viral content",
+        "LinkedIn networking & branding",
+        
        
-      ];
-      const teamIntroData = {
-        title: "Who can apply <br/>  for this course?",
-        description1:
-          "Students, professionals, entrepreneurs, or content creators—this course is for anyone ready to boost their digital skills. No experience needed, just a passion to learn and grow!",
-        description2:
-          "Through our years of experience, we’ve also learned that while each channel has its own set of advantages, they all work best when strategically paired with other channels.",
-        buttonText: "About Company",
-        stats: [
-          { id: 1, value: "15", label: "Years of Experience" },
-          { id: 2, value: "1K+", label: "Projects Worldwide" },
-        ],
-      };
-      
-      
+      ]
+    },
+    {
+      id: 139,
+      imgSrc: "/images/icon/car/icon-3.png",
+      title: "YouTube & Facebook Growth Q&A <b style='font-size: 18px; color: #1a43bf; font-weight:500'> (Week 3) </b>" ,
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.9s",
+      list:[
+        "Monetization & platform-specific strategies",
+     
+      ]
+    },
+    {
+      id: 140,
+      imgSrc: "/images/icon/car/icon-4.png",
+      title: "Monetization & Final Projects <b style='font-size: 18px; color: #1a43bf; font-weight:500'>(Week 4) </b>",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.9s",
+      list:[
+        "Crafting collaborations & sponsorships",
+        "Final presentations & certification", 
+       
+      ]
+    },
+    
+  ]
 
-      const ToolsContent = {
-        tool1Num:"20+",
-        tool1Title :"Free Essential Digital Marketing Tools",
-        tool1worth :"Worth Of 6 Lakhs",
-        tool2Num:"20+",
-        tool2Title :"Digital Marketing AI Tools",
-        tool2worth :"Worth Of 6 Lakhs"
-      }
-      const Tools1 = [
-          {
-            animation: "fadeInLeft",
-            delay: "0.3s",
-            iconClass: "flaticon-factory",
-            img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-1.png"
-          },
-          {
-           
-            animation: "fadeInDown",
-            delay: "0.3s",
-            iconClass: "flaticon-worker",
-            img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-2.png"
-          },
-          {
-            
-            animation: "fadeInUp",
-            delay: "0.3s",
-            iconClass: "flaticon-settings",
-            img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-3.png"
-          },
-          {
-           
-            animation: "fadeInRight",
-            delay: "0.3s",
-            iconClass: "flaticon-conveyor",
-             img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-4.png"
-          },
-          {
-              animation: "fadeInLeft",
-              delay: "0.3s",
-              iconClass: "flaticon-factory",
-               img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-5.png"
-            },
-            {
-             
-              animation: "fadeInDown",
-              delay: "0.3s",
-              iconClass: "flaticon-worker",
-               img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-6.png"
-            },
-            {
-              
-              animation: "fadeInUp",
-              delay: "0.3s",
-              iconClass: "flaticon-settings",
-               img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-7.png"
-            },
-            {
-             
-              animation: "fadeInRight",
-              delay: "0.3s",
-              iconClass: "flaticon-conveyor",
-               img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-8.png"
-            },
-            {
-              animation: "fadeInLeft",
-              delay: "0.3s",
-              iconClass: "flaticon-factory",
-               img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-9.png"
-            },
-            {
-             
-              animation: "fadeInDown",
-              delay: "0.3s",
-              iconClass: "flaticon-worker",
-               img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-10.png"
-            },
-            {
-              
-              animation: "fadeInUp",
-              delay: "0.3s",
-              iconClass: "flaticon-settings",
-               img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-11.png"
-            },
-            {
-             
-              animation: "fadeInRight",
-              delay: "0.3s",
-              iconClass: "flaticon-conveyor",
-               img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-12.png"
-            },
-          
-          
-          ];
-  
-      const Tools2 = [
+  const studentJourneyContent = {
+    Title:"Student Journey at Zing Studio",
+    Description:"From newbie to digital pro—your journey starts here! With expert mentors, hands-on projects, and real-world skills, we’ll help you level up and make your mark in the digital world.",
+    image:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-01.png", 
+    }
+
+  const courseLearningContent = {
+    description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the been when an unknown printer.",
+    modules:"50 Sub Modules"
+     }
+
+     const courseLearning = [
+      {
+        id: 1,
+        imgSrc: "/images/our-work/steelplant/pic10.jpg",
+        title: "Digital Marketing Startegy",
+        link:"zing-digital-marketing-mastery"
+      },
+      {
+        id: 2,
+        imgSrc: "/images/our-work/steelplant/pic9.jpg",
+        title: "Content And Prompt Engineering",
+        link:"zing-digital-marketing-mastery"
+      },
+      {
+        id: 3,
+        imgSrc: "/images/our-work/steelplant/pic8.jpg",
+        title: "Google And Advance web Analytics",
+        link:"zing-digital-marketing-mastery"
+      },
+      {
+        id: 4,
+        imgSrc: "/images/our-work/steelplant/pic7.jpg",
+        title: "Social Media Marketing",
+        link:"zing-digital-marketing-mastery"
+      },
+      {
+        id: 5,
+        imgSrc: "/images/our-work/steelplant/pic10.jpg",
+        title: "Search Engine Optimization",
+        link:"zing-digital-marketing-mastery"
+      },
+      {
+        id: 6,
+        imgSrc: "/images/our-work/steelplant/pic9.jpg",
+        title: "Funnel Building Lead Gen",
+        link:"zing-digital-marketing-mastery"
+      },
+      {
+        id: 7,
+        imgSrc: "/images/our-work/steelplant/pic8.jpg",
+        title: "Facebook And Instagram Ads",
+        link:"zing-digital-marketing-mastery"
+      },
+      {
+        id: 8,
+        imgSrc: "/images/our-work/steelplant/pic7.jpg",
+        title: "Wix",
+        link:"zing-digital-marketing-mastery"
+      },
+      {
+          id: 9,
+          imgSrc: "/images/our-work/steelplant/pic7.jpg",
+          title: "Whatsapp Marketing",
+          link:"zing-digital-marketing-mastery"
+        },
         {
-             
+          id: 9,
+          imgSrc: "/images/our-work/steelplant/pic7.jpg",
+          title: "Web Technology",
+          link:"zing-digital-marketing-mastery"
+        },
+        {
+          id: 10,
+          imgSrc: "/images/our-work/steelplant/pic7.jpg",
+          title: "Projecs",
+          link:"zing-digital-marketing-mastery"
+        },
+    ];
+
+    const ToolsContent = {
+      tool1Num:"20+",
+      tool1Title :"Free Essential Digital Marketing Tools",
+      tool1worth :"Worth Of 6 Lakhs",
+      tool2Num:"20+",
+      tool2Title :"Digital Marketing AI Tools",
+      tool2worth :"Worth Of 6 Lakhs"
+    }
+    const Tools1 = [
+        {
+          animation: "fadeInLeft",
+          delay: "0.3s",
+          iconClass: "flaticon-factory",
+          img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-1.png"
+        },
+        {
+         
           animation: "fadeInDown",
           delay: "0.3s",
           iconClass: "flaticon-worker",
-          img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-14.png"
+          img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-2.png"
         },
         {
           
           animation: "fadeInUp",
           delay: "0.3s",
           iconClass: "flaticon-settings",
-          img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-15.png"
+          img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-3.png"
         },
         {
          
           animation: "fadeInRight",
           delay: "0.3s",
           iconClass: "flaticon-conveyor",
-          img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-16.png"
+           img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-4.png"
         },
         {
-          animation: "fadeInLeft",
-          delay: "0.3s",
-          iconClass: "flaticon-factory",
-          img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-17.png"
-        },
-        {
-         
-          animation: "fadeInDown",
-          delay: "0.3s",
-          iconClass: "flaticon-worker",
-          img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-18.png"
-        },
-        {
-         
-          animation: "fadeInDown",
-          delay: "0.3s",
-          iconClass: "flaticon-worker",
-          img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-19.png"
-        },
-        {
-         
-          animation: "fadeInDown",
-          delay: "0.3s",
-          iconClass: "flaticon-worker",
-          img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-20.png"
-        },
-        {
-         
-          animation: "fadeInDown",
-          delay: "0.3s",
-          iconClass: "flaticon-worker",
-          img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-21.png"
-        },
-        {
-         
-          animation: "fadeInDown",
-          delay: "0.3s",
-          iconClass: "flaticon-worker",
-          img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-22.png"
-        },
-        {
-         
-          animation: "fadeInDown",
-          delay: "0.3s",
-          iconClass: "flaticon-worker",
-          img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-23.png"
-        },
-        {
-         
-          animation: "fadeInDown",
-          delay: "0.3s",
-          iconClass: "flaticon-worker",
-          img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-24.png"
-        },
-        {
-         
-          animation: "fadeInDown",
-          delay: "0.3s",
-          iconClass: "flaticon-worker",
-          img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-25.png"
-        },
-        {
-         
-          animation: "fadeInDown",
-          delay: "0.3s",
-          iconClass: "flaticon-worker",
-          img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-26.png"
-        },
-    ];
-  
-      const Tools3 = [
+            animation: "fadeInLeft",
+            delay: "0.3s",
+            iconClass: "flaticon-factory",
+             img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-5.png"
+          },
+          {
+           
+            animation: "fadeInDown",
+            delay: "0.3s",
+            iconClass: "flaticon-worker",
+             img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-6.png"
+          },
+          {
+            
+            animation: "fadeInUp",
+            delay: "0.3s",
+            iconClass: "flaticon-settings",
+             img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-7.png"
+          },
+          {
+           
+            animation: "fadeInRight",
+            delay: "0.3s",
+            iconClass: "flaticon-conveyor",
+             img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-8.png"
+          },
+          {
+            animation: "fadeInLeft",
+            delay: "0.3s",
+            iconClass: "flaticon-factory",
+             img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-9.png"
+          },
+          {
+           
+            animation: "fadeInDown",
+            delay: "0.3s",
+            iconClass: "flaticon-worker",
+             img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-10.png"
+          },
+          {
+            
+            animation: "fadeInUp",
+            delay: "0.3s",
+            iconClass: "flaticon-settings",
+             img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-11.png"
+          },
+          {
+           
+            animation: "fadeInRight",
+            delay: "0.3s",
+            iconClass: "flaticon-conveyor",
+             img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-12.png"
+          },
+        
+        
+        ];
+
+    const Tools2 = [
       {
-        animation: "fadeInLeft",
-        delay: "0.3s",
-        iconClass: "flaticon-factory",
-         img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/AI-tools/tool-1.png"
-      },
-      {
-       
+           
         animation: "fadeInDown",
         delay: "0.3s",
         iconClass: "flaticon-worker",
-        img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/AI-tools/tool-2.png"
+        img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-14.png"
       },
       {
         
         animation: "fadeInUp",
         delay: "0.3s",
         iconClass: "flaticon-settings",
-        img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/AI-tools/tool-3.png"
+        img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-15.png"
       },
       {
        
         animation: "fadeInRight",
         delay: "0.3s",
         iconClass: "flaticon-conveyor",
-        img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/AI-tools/tool-4.png"
+        img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-16.png"
       },
       {
-          animation: "fadeInLeft",
-          delay: "0.3s",
-          iconClass: "flaticon-factory",
-          img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/AI-tools/tool-5.png"
-        },
-        {
-         
-          animation: "fadeInDown",
-          delay: "0.3s",
-          iconClass: "flaticon-worker",
-          img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/AI-tools/tool-6.png"
-        },
-        {
-         
-          animation: "fadeInDown",
-          delay: "0.3s",
-          iconClass: "flaticon-worker",
-          img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/AI-tools/tool-7.png"
-        },
-        {
-         
-          animation: "fadeInDown",
-          delay: "0.3s",
-          iconClass: "flaticon-worker",
-          img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/AI-tools/tool-8.png"
-        },
-        
+        animation: "fadeInLeft",
+        delay: "0.3s",
+        iconClass: "flaticon-factory",
+        img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-17.png"
+      },
+      {
        
-      ]
-  
-          const faqData = [
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-18.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-19.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-20.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-21.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-22.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-23.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-24.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-25.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/essential-tools/tool-26.png"
+      },
+  ];
+
+    const Tools3 = [
+    {
+      animation: "fadeInLeft",
+      delay: "0.3s",
+      iconClass: "flaticon-factory",
+       img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/AI-tools/tool-1.png"
+    },
+    {
+     
+      animation: "fadeInDown",
+      delay: "0.3s",
+      iconClass: "flaticon-worker",
+      img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/AI-tools/tool-2.png"
+    },
+    {
+      
+      animation: "fadeInUp",
+      delay: "0.3s",
+      iconClass: "flaticon-settings",
+      img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/AI-tools/tool-3.png"
+    },
+    {
+     
+      animation: "fadeInRight",
+      delay: "0.3s",
+      iconClass: "flaticon-conveyor",
+      img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/AI-tools/tool-4.png"
+    },
+    {
+        animation: "fadeInLeft",
+        delay: "0.3s",
+        iconClass: "flaticon-factory",
+        img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/AI-tools/tool-5.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/AI-tools/tool-6.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/AI-tools/tool-7.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/Zing-Social-Media-Mastery/Zing-Social-Media-Mastery-Tools/AI-tools/tool-8.png"
+      },
+      
+     
+    ]
+
+        const faqData = [
+          {
+            id: "faq6",
+            question: "1. Who can enroll in this course?",
+            answer:
+              "This course is ideal for aspiring social media managers, entrepreneurs, content creators, marketing professionals, and anyone looking to master social media strategies.",
+          },
+          {
+            id: "faq7",
+            question: "2. What will I learn in this course?",
+            answer:
+              "Key topics include content creation, platform-specific strategies (Facebook, Instagram, LinkedIn, Twitter, etc.), audience engagement, social media advertising, analytics, and influencer collaborations.",
+          },
+          {
+            id: "faq8",
+            question: "3. Do I need prior experience?",
+            answer:
+              "No prior experience is required. The course covers fundamental concepts and advanced techniques suitable for all skill levels.",
+          },
+          {
+            id: "faq9",
+            question: "4. What is the duration of the course?",
+            answer:
+              "The course spans 4–6 weeks with flexible schedules, including live sessions, recorded lectures, and hands-on projects.",
+          },
+          {
+            id: "faq10",
+            question: "5. Will I receive a certificate after completing the course?",
+            answer:
+              "Yes. Participants will receive a certificate of completion, validating their skills in social media management and strategy.",
+          },
+          {
+            id: "faq11",
+            question: "6. Are there practical projects included?",
+            answer:
+              "Absolutely. Learners will work on real-time projects, including developing social media campaigns, analyzing performance metrics, and running ad campaigns",
+          },
+          {
+            id: "faq12",
+            question: "7. Is this course self-paced or instructor-led?",
+            answer:
+              "The course offers a blend of self-paced learning modules and live interactive sessions with industry experts.",
+          },
+          {
+            id: "faq13",
+            question: "8. What tools will I learn to use?",
+            answer:
+              "You’ll gain hands-on experience with popular social media management tools like Hootsuite, Canva, Meta Business Suite, and Google Analytics.",
+          },
+          {
+            id: "faq14",
+            question: "9. How will this course benefit my career?",
+            answer:
+              "The course equips you with the skills needed to manage professional social media accounts, enhance brand presence, and run successful campaigns, making you job-ready.",
+          },
+          {
+            id: "faq15",
+            question: "10. How do I register for the course?",
+            answer:
+              "Registration is simple—visit our website, choose your preferred batch, and complete the enrollment process online.",
+          },
+        ];
+
+        const testimonials = [
+          {
+            text: "Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.",
+            image: "/images/testimonials/pic3.jpg",
+        
+            name: "David Matin",
+            position: "Student",
+          },
+          {
+            text:  "Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.",
+            image: "/images/testimonials/pic3.jpg",
+            image: "/images/testimonials/pic2.jpg",
+            name: "David Matin",
+            position: "Student",
+          },
+          {
+            text:  "Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.",
+            image: "/images/testimonials/pic3.jpg",
+            image: "/images/testimonials/pic1.jpg",
+            name: "David Matin",
+            position: "Student",
+          },
+        
+        ];
+
+        const HeroBannerContent = {
+          title:"Power Up Your Skills, Power Up Your Career!",
+          description:"Zing Academy – Master Digital Marketing with Industry Experts!",
+          btn1:"Free Career Counselling",
+          btn1Link:"/careers",
+          btn2:"Connect Us",
+          btn2Link:"/contact",
+          img:"/images/Academy/banner/banner-bg-img.jpg"
+          }
+
+          const projectContent = {
+            title:"Live Projects",
+            description:" Gain hands-on experience with real-world digital marketing projects and enhance your skills in practical scenarios."
+          }
+          
+          const projects = [
             {
-              id: "faq6",
-              question: "1. Who can enroll in this course?",
-              answer:
-                "This course is ideal for aspiring social media managers, entrepreneurs, content creators, marketing professionals, and anyone looking to master social media strategies.",
+              title: "<span> Digital </span> <br /> Marketing",
+              description:
+                "Step into the world of digital marketing and learn how to build brands that stand out online! From viral social media strategies and killer SEO hacks to content that clicks and data that delivers, this course has it all! Perfect for beginners and future marketing pros—learn, create, and crush it online.",
+              image: "/images/zing-digital-marketing-mastery/Live-Projects/digital-marketing.jpg",
+              link: "/digital-marketing-service",
+              bgColor: "bg-primary",
+              textColor: "text-white",
             },
             {
-              id: "faq7",
-              question: "2. What will I learn in this course?",
-              answer:
-                "Key topics include content creation, platform-specific strategies (Facebook, Instagram, LinkedIn, Twitter, etc.), audience engagement, social media advertising, analytics, and influencer collaborations.",
+              title: "<span> Saas </span> <br />  Platform",
+              description:
+                "We offer to jump start your e-commerce brand online with some of the leading Saas platforms that offer your quicker turn around, robust and feature rich e-commerce website.",
+              image: "/images/zing-digital-marketing-mastery/Live-Projects/saas-platform.jpg",
+              link: "/web-design-service",
+              bgColor: "#e21100",
+              textColor: "text-white",
             },
             {
-              id: "faq8",
-              question: "3. Do I need prior experience?",
-              answer:
-                "No prior experience is required. The course covers fundamental concepts and advanced techniques suitable for all skill levels.",
-            },
-            {
-              id: "faq9",
-              question: "4. What is the duration of the course?",
-              answer:
-                "The course spans 4–6 weeks with flexible schedules, including live sessions, recorded lectures, and hands-on projects.",
-            },
-            {
-              id: "faq10",
-              question: "5. Will I receive a certificate after completing the course?",
-              answer:
-                "Yes. Participants will receive a certificate of completion, validating their skills in social media management and strategy.",
-            },
-            {
-              id: "faq11",
-              question: "6. Are there practical projects included?",
-              answer:
-                "Absolutely. Learners will work on real-time projects, including developing social media campaigns, analyzing performance metrics, and running ad campaigns",
-            },
-            {
-              id: "faq12",
-              question: "7. Is this course self-paced or instructor-led?",
-              answer:
-                "The course offers a blend of self-paced learning modules and live interactive sessions with industry experts.",
-            },
-            {
-              id: "faq13",
-              question: "8. What tools will I learn to use?",
-              answer:
-                "You’ll gain hands-on experience with popular social media management tools like Hootsuite, Canva, Meta Business Suite, and Google Analytics.",
-            },
-            {
-              id: "faq14",
-              question: "9. How will this course benefit my career?",
-              answer:
-                "The course equips you with the skills needed to manage professional social media accounts, enhance brand presence, and run successful campaigns, making you job-ready.",
-            },
-            {
-              id: "faq15",
-              question: "10. How do I register for the course?",
-              answer:
-                "Registration is simple—visit our website, choose your preferred batch, and complete the enrollment process online.",
+              title: "<span>  Open-source  </span> <br /> Development",
+              description:
+                "Open-source Development Open Source commerce development is the order of the way in Ecommerce development. The open source platforms offer a host os flexible and beneficial features...",
+              image: "/images/zing-digital-marketing-mastery/Live-Projects/open-source-development.jpg",
+              link: "/web-design-service",
+              bgColor: "#e21100",
+              textColor: "text-white",
             },
           ];
-  
 
-    
+          const formOption  =[
+            "Basic",
+            "Standard",
+          ]
+
+          const bannerContent = {
+            head:"Zing Social Media Mastery",
+            caption:"Course Highlights",
+            duration:"4 Weeks",
+            fees:"₹10,000",
+            subTitle:"Application Closes On 31/05/2025",
+            list:[
+              "Build expertise in social media strategy & engagement",
+              "Create high-impact content and run paid campaigns",
+              "Placement support for top performers"
+            ],
+            button1:"Live",
+            button2:"Online",
+            button3:"Interactive",
+            image:"/images/brand-buzz/brand-buzz-header-img.png",
+            formTitle:"Register Now For free",
+            charImg:"/images/Home-Page/mbl-banner/character-img-3.png",
+            formLink:"https://connect.irepute.in/file/zing-social-media-mastery/"
+          }
 
   return (
     <>
       <div className="page-wraper  " style={{background:"#fff"}}>
         <Header17 />
-        
-         <NewCourseBanner serviceAbout={serviceAbout}/>
-
-         <BannerList course="Zing Digital Sprint – <br/> Essentials of Marketing" services={services} />
-
-         <NewCourseModules courselist={courselist} title="Zing Social Media Mastery"/>
-
-         <FloatingBubble image="/images/Zing-Infographic-Students-Journey-2.png"/>
-
-         <NewStudentJourney title="Lorem ipsum dolor sit amet <br /> <span className='highlighted-text'>eum neque commodi</span>" pricingData={pricingData}/>
-
-         <WhyChooseAcedemy courseLearning={courseLearning} AcademyContent={AcademyContent}/>
-          <div className="d-block d-lg-none">
-          <AcademyTeamSection teamIntroData={teamIntroData}/>
+         {/* <ZingAcademyProgramHero HeroBannerContent={HeroBannerContent}/> */}
+         <AcademyCourseBanner option= {formOption} bannerContent={bannerContent}/>
+         {/* <div
+              className="section-full content-inner-2 bg-primary wow fadeIn"
+              data-wow-duration="2s"
+              data-wow-delay="0.2s"
+              style={{ backgroundImage: "url(/images/background/map-bg.png)" }}
+            >
+              <div className="container">
+                <div className="row">
+                  <div className="col-lg-12 text-center service-info">
+                    <h2 className="title text-white">
+                      Why Zing Academy ?
+                    </h2>
+                    <p>
+                    Gain a competitive edge with expert-led digital marketing training that combines real-world experience and hands-on learning. Unlock the skills to thrive in today’s fast-moving digital landscape and take your career to the next level.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div> */}
+ 
+        <div >
+        <CourseDetails CourseTitle={CourseTitle} CourseDuration={CourseDuration} courseModule={courseModule}/>
           </div>
-         <PhysicsCircles circles={circles} teamIntroData={teamIntroData}/>       
-         <NewTools ToolsContent={ToolsContent} Tools1={Tools1}  Tools3={Tools3}/>
-         <AcademyFAQ faqData={faqData}/>
-        <HomeCta />
-        <div className="home-footer" >
-        <Footer1 />
+        {/* <StudentsJourney/> */}
+        <StudentJourneynew services10={services10} studentJourneyContent={studentJourneyContent}/>
+        
+        {/* <div  
+        style={{padding:"100px 0 50px 0"}}
+        >
+        <StudentsJourney2/>
+
+        <StudentsJourney3/>
+
+        </div> */}
+      
+        
+        {/* <div className="section-full content-inner mb-4"> */}
+        {/* <BrandCaseStudy/> */}
+        {/* </div> */}
+
+       
+        <CourseLearning courseLearningContent={courseLearningContent} courseLearning={courseLearning}/>
+        <WhosThisCourseFor/>
+       
+
+      
+        {/* <LiveProjects projectContent={projectContent} projects={projects}/> */}
+      
+    
+      {/* <GuestLectures/> */}
+      
+      
+      {/* <ToolsLearning ToolsContent={ToolsContent} Tools1={Tools1} Tools2={Tools2}/> */}
+      <ZingSocialMediaTools ToolsContent={ToolsContent} Tools1={Tools1} Tools3={Tools3}/>
+      
+      
+      {/* <SucessStories testimonials={testimonials}/> */}
+    
+      <div  className="bg-white pb-0 pb-sm-5" >
+        <CourseProgramFaq faqData={faqData}/>
         </div>
+
+        <ZingAcademyCta/>
+        
+        <Footer13 />
       </div>
     </>
   );

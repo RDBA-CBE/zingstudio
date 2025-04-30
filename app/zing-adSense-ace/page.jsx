@@ -535,6 +535,7 @@ export default function page() {
             },
           ];
 
+    console.log("hello");
     
 
   return (

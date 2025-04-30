@@ -1,19 +1,6 @@
 import React from 'react';
 
 
-// const services = [
-//   { id: '001', title: 'Course Duration ', description: '3 Months + 3 Months Internship', sec:"0.2s" },
-//   { id: '002', title: 'Course Fees', description: '₹25,000',sec:"0.4s" },
-//   {
-//     id: '003',
-//     title: 'Application Closes On ',
-//     description:
-//       '31/05/2025',
-//       sec:"0.6s"
-//   },
-  
-// ];
-
 const BannerList = ({services}) => {
   return (
     <section className="services-list-section BannerList mt-3">

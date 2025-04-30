@@ -38,7 +38,7 @@ const NewCourseBanner = ({serviceAbout,bannerContent}) => {
             
             </h2>
             <p className='text-white about-agency-p'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repudiandae sapiente dolor cum vel tempora modi doloribus laborum voluptatum.
+                {serviceAbout?.descrip}
               </p>
            <a href="about"> <button className=" about-agency-btn fw-semibold px-4 py-3 rounded-pill mt-4" style={{fontSize:"16px"}}>
               About Company

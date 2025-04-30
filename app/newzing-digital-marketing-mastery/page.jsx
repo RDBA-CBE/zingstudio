@@ -202,6 +202,11 @@ export default function page() {
           src:"/images/zing-digital-marketing-mastery/unnamed.png"
         },
       ];
+      const AcademyContent={
+        title:"Why Choose Zing Academy?",
+        paragraph:"At Zing Academy, we don’t just teach digital marketing—we shape industry leaders. Our hands-on, practical approach ensures that you don’t just learn concepts but also apply them in real-world scenarios. Whether you're a student, entrepreneur, freelancer, or job seeker, our courses are designed to equip you with the most in-demand skills in digital marketing.",
+        buttoncontent:"All Services",
+      }
       const courseLearning = [
         {
           id: 1,
@@ -327,80 +332,8 @@ export default function page() {
           { id: 2, value: "1K+", label: "Projects Worldwide" },
         ],
       };
-      
-      
-
 
   
-
-    //  const courseLearning = [
-    //   {
-    //     id: 1,
-    //     imgSrc: "/images/our-work/steelplant/pic10.jpg",
-    //     title: "Digital Marketing Startegy",
-    //     link:"zing-digital-marketing-mastery"
-    //   },
-    //   {
-    //     id: 2,
-    //     imgSrc: "/images/our-work/steelplant/pic9.jpg",
-    //     title: "Content And Prompt Engineering",
-    //     link:"zing-digital-marketing-mastery"
-    //   },
-    //   {
-    //     id: 3,
-    //     imgSrc: "/images/our-work/steelplant/pic8.jpg",
-    //     title: "Google And Advance web Analytics",
-    //     link:"zing-digital-marketing-mastery"
-    //   },
-    //   {
-    //     id: 4,
-    //     imgSrc: "/images/our-work/steelplant/pic7.jpg",
-    //     title: "Social Media Marketing",
-    //     link:"zing-digital-marketing-mastery"
-    //   },
-    //   {
-    //     id: 5,
-    //     imgSrc: "/images/our-work/steelplant/pic10.jpg",
-    //     title: "Search Engine Optimization",
-    //     link:"zing-digital-marketing-mastery"
-    //   },
-    //   {
-    //     id: 6,
-    //     imgSrc: "/images/our-work/steelplant/pic9.jpg",
-    //     title: "Funnel Building Lead Gen",
-    //     link:"zing-digital-marketing-mastery"
-    //   },
-    //   {
-    //     id: 7,
-    //     imgSrc: "/images/our-work/steelplant/pic8.jpg",
-    //     title: "Facebook And Instagram Ads",
-    //     link:"zing-digital-marketing-mastery"
-    //   },
-    //   {
-    //     id: 8,
-    //     imgSrc: "/images/our-work/steelplant/pic7.jpg",
-    //     title: "Wix",
-    //     link:"zing-digital-marketing-mastery"
-    //   },
-    //   {
-    //       id: 9,
-    //       imgSrc: "/images/our-work/steelplant/pic7.jpg",
-    //       title: "Whatsapp Marketing",
-    //       link:"zing-digital-marketing-mastery"
-    //     },
-    //     {
-    //       id: 9,
-    //       imgSrc: "/images/our-work/steelplant/pic7.jpg",
-    //       title: "Web Technology",
-    //       link:"zing-digital-marketing-mastery"
-    //     },
-    //     {
-    //       id: 10,
-    //       imgSrc: "/images/our-work/steelplant/pic7.jpg",
-    //       title: "Projecs",
-    //       link:"zing-digital-marketing-mastery"
-    //     },
-    // ];
 
     const ToolsContent = {
       tool1Num:"20+",
@@ -732,34 +665,6 @@ const faqData = [
       },
     ]
 
-        const testimonials = [
-          {
-            text: "Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.",
-            image: "/images/testimonials/pic3.jpg",
-        
-            name: "David Matin",
-            position: "Student",
-          },
-          {
-            text:  "Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.",
-            image: "/images/testimonials/pic3.jpg",
-            image: "/images/testimonials/pic2.jpg",
-            name: "David Matin",
-            position: "Student",
-          },
-          {
-            text:  "Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.",
-            image: "/images/testimonials/pic3.jpg",
-            image: "/images/testimonials/pic1.jpg",
-            name: "David Matin",
-            position: "Student",
-          },
-        
-        ];
-
-        
-
-        
 
   return (
     <>
@@ -770,17 +675,17 @@ const faqData = [
 
          <BannerList course="Zing Digital <br/> Marketing Mastery" services={services} />
 
-         <NewCourseModules courselist={courselist}/>
+         <NewCourseModules courselist={courselist} title="Zing Digital Marketing Mastery"/>
 
          <FloatingBubble image="/images/Zing-Infographic-Students-Journey-2.png"/>
 
          <NewStudentJourney title="Lorem ipsum dolor sit amet <br /> <span className='highlighted-text'>eum neque commodi</span>" pricingData={pricingData}/>
 
-         <WhyChooseAcedemy courseLearning={courseLearning}/>
+         <WhyChooseAcedemy courseLearning={courseLearning} AcademyContent={AcademyContent}/>
           <div className="d-block d-lg-none">
-          <AcademyTeamSection teamIntroData={teamIntroData}/>
+          <AcademyTeamSection teamIntroData={teamIntroData} />
           </div>
-         <PhysicsCircles circles={circles}/>       
+         <PhysicsCircles circles={circles} teamIntroData={teamIntroData}/>       
          <NewTools ToolsContent={ToolsContent} Tools1={Tools1} Tools2={Tools2} Tools3={Tools3}/>
          <AcademyFAQ faqData={faqData}/>
         <HomeCta />

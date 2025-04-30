@@ -5,17 +5,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import Textalign from "./Textalign";
 
-const services = [
-  "Enrollment at Zing Academy",
-  "Preparation: Foundation and Discovery",
-  "Academic Engagement and Skill Development",
-  "Mid-Journey: Skill Enhancement and Industry Exposure",
-  "Graduation Preparation",
-  "Post-Graduation: Continued Support & Networking",
-  
-  
-];
-
 const FloatingBubble = ({image}) => {
   return (
     <section className="digital-intro-section mb-5 pb-5">

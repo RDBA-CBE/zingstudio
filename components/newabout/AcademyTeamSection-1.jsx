@@ -15,10 +15,10 @@ const circles = [
  
 ];
 
-const PhysicsCircles = () => {
+const PhysicsCircles = ({teamIntroData}) => {
   return (
     <div className="physics-wrapper d-none d-lg-block">
-      <AcademyTeamSection/>
+      <AcademyTeamSection teamIntroData={teamIntroData}/>
       {circles.map((circle, index) => (
         <div
           key={circle.id}

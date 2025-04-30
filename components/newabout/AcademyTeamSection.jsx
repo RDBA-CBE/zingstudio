@@ -1,23 +1,9 @@
 "use client"
 import React from 'react';
-import { motion } from "framer-motion";
-import PhysicsCircles from './AcademyTeamSection-1';
 
-
-
-
-const services = [
-  "Students Studying In College",
-  "Working Proffesionals",
-  "Business Owners",
-  "Home Makers",
- 
-  
-];
 
 const AcademyTeamSection = ({teamIntroData}) => {
   console.log(teamIntroData)
-  // const { title, description1, description2, buttonText, stats } = teamIntroData;
 
   return (
     <section className="team-intro-section py-5 px-4  text-white mb-5 ">
@@ -27,7 +13,7 @@ const AcademyTeamSection = ({teamIntroData}) => {
             <h2 className="team-intro-title fw-bold font-48" dangerouslySetInnerHTML={{__html:teamIntroData?.title}}></h2>
             <p className="team-intro-desc mb-3 mt-4">{teamIntroData?.description1}</p>
             {/* <a href="about"><button className=" mt-2 rounded-pill team-intro-btn">
-              {buttonText}
+              {teamIntroData?.buttonText}
             </button>
             </a> */}
           </div>

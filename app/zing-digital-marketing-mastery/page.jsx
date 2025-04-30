@@ -64,7 +64,6 @@ export default function page() {
         ] },
         { id: "02", title: "SEO Mastery",
            description:[
-            " Keyword Research & Competitive Analysis",
             "Keyword Research & Competitive Analysis",
             "On-Page & Off-Page SEO",
             "Technical SEO (Schema, Site Speed, Mobile Optimization)",

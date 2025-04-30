@@ -73,6 +73,18 @@ export default function page() {
             "Twitter Threads & LinkedIn Networking",
             
           ] },
+          { id: "04", title: "Facebook & YouTube Growth",
+            description: [
+             "YouTube SEO & Monetization",
+             "Facebook Groups & Ads",
+             
+           ] },
+           { id: "05", title: "Monetization Strategies",
+            description: [
+             "Affiliate Marketing & Sponsorships",
+             "Brand Collaborations & Paid Partnerships",
+             
+           ] },
        
       ];
       const pricingData = [

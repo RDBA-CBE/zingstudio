@@ -69,7 +69,7 @@ export default function page() {
           ] },
         { id: "03", title: " Paid Ads & Campaign Setup",
            description: [
-            " Paid Ads & Campaign Setup",
+            "Running Facebook & Google Ads",
             "Basics of Retargeting & Ad Optimization",
            
           ] },
@@ -529,7 +529,6 @@ export default function page() {
                 "Yes. Interns will work closely with experienced professionals who will guide them throughout the program, ensuring continuous learning and growth.",
             },
           ];
-
 
   return (
     <>

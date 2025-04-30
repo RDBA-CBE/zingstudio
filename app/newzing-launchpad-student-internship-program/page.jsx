@@ -21,19 +21,19 @@ export default function page() {
 
     const serviceAbout ={
         subtitle:"lorem lorem",
-        title:"Zing Digital Marketing Mastery",
-        descrip:"Master industry-relevant skills with hands-on projects <br/> Work with top digital marketing tools & strategies <br/> Guaranteed placement support for top performers",
+        title:"Zing Launchpad – Student Internship Program",
+        descrip:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repudiandae sapiente dolor cum vel tempora modi doloribus laborum voluptatum.",
         list :[
           {
-            item:"Master industry-relevant skills with hands-on projects",
+            item:"Gain real-world experience on live projects",
             sec:"0.2s"
           },
           {
-            item:"Work with top digital marketing tools & strategies",
+            item:"Learn under expert mentorship",
             sec:"0.4s"
           },
           {
-            item:"Guaranteed placement support for top performers",
+            item:"In-house placement for top performers",
             sec:"0.6s"
           }
           
@@ -42,8 +42,8 @@ export default function page() {
         src:"/images/Home-Page/character-img-3.png"
       }
       const services = [
-        { id: '001', title: 'Course Duration ', description: '3 Months + 3 Months Internship', sec:"0.2s" },
-        { id: '002', title: 'Course Fees', description: '₹25,000',sec:"0.4s" },
+        { id: '001', title: 'Course Duration ', description: '10 Days', sec:"0.2s" },
+        { id: '002', title: 'Course Fees', description: '₹3,000',sec:"0.4s" },
         {
           id: '003',
           title: 'Application Closes On ',
@@ -54,154 +54,93 @@ export default function page() {
         
       ];
       const courselist = [
-        { id: "01", title: "Digital Marketing Foundations", 
+        { id: "01", title: "Digital Marketing Basics", 
           description: [
-            " Understanding Digital Marketing & Trends",
-          "Marketing Funnels & Customer Journey",
-          "Brand Positioning & Market Research",
-          "Competitor Analysis & Strategy"
+            "Introduction to Digital Marketing",
+          "Marketing Psychology & Consumer Behavior",
+          
       
         ] },
-        { id: "02", title: "SEO Mastery",
+        { id: "02", title: "SEO Basics & Social Media Marketing",
            description:[
-            " Keyword Research & Competitive Analysis",
-            "Keyword Research & Competitive Analysis",
-            "On-Page & Off-Page SEO",
-            "Technical SEO (Schema, Site Speed, Mobile Optimization)",
-            "Local SEO & E-commerce SEO",
-          ] },
-        { id: "03", title: "Social Media & Community Building",
-           description: [
+            "Fundamentals of SEO & Google Search",
             "Instagram & Facebook Growth Strategies",
-            "LinkedIn & Twitter for Personal Branding",
-            "YouTube Marketing & Video SEO",
-            "Social Media Monetization Techniques"
+            
           ] },
-        { id: "04", title: "Paid Advertising & Google Ads", 
+        { id: "03", title: " Paid Ads & Campaign Setup",
+           description: [
+            " Paid Ads & Campaign Setup",
+            "Basics of Retargeting & Ad Optimization",
+           
+          ] },
+        { id: "04", title: "Live Internship Projects", 
           description: [
-            "Google Ads (Search, Display, Shopping)",
-              "Facebook & Instagram Ads",
-              "LinkedIn & Twitter Ads",
-              "A/B Testing & Performance Analytics",
-              "Retargeting & Budget Optimization"
+            "Managing Social Media Pages",
+              "Running Ads & Analyzing Results",
+              "SEO Optimization for Websites",
+              
           ] },
-        { id: "05", title: "Content Marketing & Copywriting", 
-          description: [        
-          "Crafting High-Converting Sales Copy",
-          "Blogging & SEO Writing",
-          "Storytelling & Brand Voice",
-          "Video Content & Email Marketing"] },
-      
-        { id: "06", title: " AI & Automation in Marketing", description: ["AI-Powered Tools for Marketing",
-              "Chatbots & Email Automation",
-              "Personalization & Predictive Analytics",] },
+        
       ];
       const pricingData = [
         {
           id: 1,
-          title: "(Day 1-2)",
-          price: "Orientation & Icebreaker",
+          title: "(Day 1)",
+          price: "Orientation & Goal Setting",
           duration: "Per Week",
           features: [
-            "Welcome session with an introduction to Zing Studio’s mission & goals",
-            "Fun icebreaker activities & networking games",
-            "Overview of the course structure, expectations, and outcomes",
-            "Access to LMS (Learning Management System) and student portal"
+            "Introduction to Zing’s mission & internship expectations",
+            "Personal branding basics & goal-setting workshop",
+          
           ],
           bgShape: "bubble1",
           src:"/images/zing-digital-marketing-mastery/unnamed.png"
         },
         {
           id: 2,
-          title: "(Week 1 - Ongoing)",
-          price: "Module-Based Practical Learning",
+          title: "(Days 2-5)",
+          price: "Digital Marketing Basics & Tools ",
           duration: "Per Week",
           features: [
-            "Engaging video lessons, live masterclasses & hands-on workshops",
-              "Real-world applications & industry insights",
-              "Interactive Q&A sessions after every module",
+            "Recap of digital marketing fundamentals",
+              "SEO & Social Media Tools overview",
+              "Building marketing strategies with live examples",
           ],
           bgShape: "bubble2",
           src:"/images/zing-digital-marketing-mastery/unnamed.png"
         },
         {
           id: 3,
-          title: "(Every Weekend)",
-          price: "Doubt Clearing & Weekly Q&A",
+          title: "(Days 6-8)",
+          price: "Project Implementation ",
           duration: "Per Week",
           features: [
-            "Dedicated live doubt-clearing sessions with mentors",
-            "Discussion forums & peer-to-peer learning groups", 
+            "Social media page management & content posting",
+            "Creating viral posts and Campaigns", 
           ],
           bgShape: "bubble3",
           src:"/images/zing-digital-marketing-mastery/unnamed.png",
         },
         {
           id: 4,
-          title: "(Mid-Course)",
-          price: "Assignments & Case Studies",
+          title: "(Days 9-10)",
+          price: "Evaluation & Networking",
           duration: "Per Week",
           features: [
-            "Individual & group assignments with real-world scenarios",
-              "Case studies on successful digital campaigns & business strategies", 
-              "Feedback & improvement sessions"
-          ],
-          bgShape: "bubble3",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png"
-        },
-        {
-          id: 5,
-          title: "",
-          price: "Group Projects & Presentations",
-          duration: "Per Week",
-          features: [
-            "Collaborative projects to apply learning",
-              "Live presentations with expert feedback", 
-              "Team-based problem-solving & innovation challenges"
-          ],
-          bgShape: "bubble3",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png"
-        },
-      
-        {
-          id: 6,
-          title: " ",
-          price: "Guest Lectures & Industry Talks",
-          duration: "Per Week",
-          features: [
-            "Sessions with industry leaders, influencers & successful entrepreneurs",
-              "AMA (Ask Me Anything) sessions for deep insights", 
+            "Final project presentations with feedback",
+              "Networking session & certification ceremony", 
               
           ],
           bgShape: "bubble3",
           src:"/images/zing-digital-marketing-mastery/unnamed.png"
         },
-        {
-          id: 7,
-          title: " ",
-          price: "Internship & Real-World Application",
-          duration: "Per Week",
-          features: [
-           "Live internship opportunities for top students",
-              "Shadowing real businesses & executing digital strategies", 
-          ],
-          bgShape: "bubble3",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png"
-        },
-        {
-          id: 8,
-          title: " ",
-          price: "Placement Assistance & Graduation",
-          duration: "Per Week",
-          features: [
-           "Resume building & mock interviews",
-              "Placement drives & networking events", 
-              "Certification ceremony & alumni community access"
-          ],
-          bgShape: "bubble3",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png"
-        },
+      
       ];
+      const AcademyContent={
+        title:"Why Choose Zing Academy?",
+        paragraph:"At Zing Academy, we don’t just teach digital marketing—we shape industry leaders. Our hands-on, practical approach ensures that you don’t just learn concepts but also apply them in real-world scenarios. Whether you're a student, entrepreneur, freelancer, or job seeker, our courses are designed to equip you with the most in-demand skills in digital marketing.",
+        buttoncontent:"All Services",
+      }
       const courseLearning = [
         {
           id: 1,
@@ -327,82 +266,10 @@ export default function page() {
           { id: 2, value: "1K+", label: "Projects Worldwide" },
         ],
       };
-      
-      
-
 
   
 
-    //  const courseLearning = [
-    //   {
-    //     id: 1,
-    //     imgSrc: "/images/our-work/steelplant/pic10.jpg",
-    //     title: "Digital Marketing Startegy",
-    //     link:"zing-digital-marketing-mastery"
-    //   },
-    //   {
-    //     id: 2,
-    //     imgSrc: "/images/our-work/steelplant/pic9.jpg",
-    //     title: "Content And Prompt Engineering",
-    //     link:"zing-digital-marketing-mastery"
-    //   },
-    //   {
-    //     id: 3,
-    //     imgSrc: "/images/our-work/steelplant/pic8.jpg",
-    //     title: "Google And Advance web Analytics",
-    //     link:"zing-digital-marketing-mastery"
-    //   },
-    //   {
-    //     id: 4,
-    //     imgSrc: "/images/our-work/steelplant/pic7.jpg",
-    //     title: "Social Media Marketing",
-    //     link:"zing-digital-marketing-mastery"
-    //   },
-    //   {
-    //     id: 5,
-    //     imgSrc: "/images/our-work/steelplant/pic10.jpg",
-    //     title: "Search Engine Optimization",
-    //     link:"zing-digital-marketing-mastery"
-    //   },
-    //   {
-    //     id: 6,
-    //     imgSrc: "/images/our-work/steelplant/pic9.jpg",
-    //     title: "Funnel Building Lead Gen",
-    //     link:"zing-digital-marketing-mastery"
-    //   },
-    //   {
-    //     id: 7,
-    //     imgSrc: "/images/our-work/steelplant/pic8.jpg",
-    //     title: "Facebook And Instagram Ads",
-    //     link:"zing-digital-marketing-mastery"
-    //   },
-    //   {
-    //     id: 8,
-    //     imgSrc: "/images/our-work/steelplant/pic7.jpg",
-    //     title: "Wix",
-    //     link:"zing-digital-marketing-mastery"
-    //   },
-    //   {
-    //       id: 9,
-    //       imgSrc: "/images/our-work/steelplant/pic7.jpg",
-    //       title: "Whatsapp Marketing",
-    //       link:"zing-digital-marketing-mastery"
-    //     },
-    //     {
-    //       id: 9,
-    //       imgSrc: "/images/our-work/steelplant/pic7.jpg",
-    //       title: "Web Technology",
-    //       link:"zing-digital-marketing-mastery"
-    //     },
-    //     {
-    //       id: 10,
-    //       imgSrc: "/images/our-work/steelplant/pic7.jpg",
-    //       title: "Projecs",
-    //       link:"zing-digital-marketing-mastery"
-    //     },
-    // ];
-
-    const ToolsContent = {
+      const ToolsContent = {
         tool1Num:"20+",
         tool1Title :"Free Essential Digital Marketing Tools",
         tool1worth :"Worth Of 6 Lakhs",
@@ -662,34 +529,7 @@ export default function page() {
                 "Yes. Interns will work closely with experienced professionals who will guide them throughout the program, ensuring continuous learning and growth.",
             },
           ];
-        const testimonials = [
-          {
-            text: "Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.",
-            image: "/images/testimonials/pic3.jpg",
-        
-            name: "David Matin",
-            position: "Student",
-          },
-          {
-            text:  "Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.",
-            image: "/images/testimonials/pic3.jpg",
-            image: "/images/testimonials/pic2.jpg",
-            name: "David Matin",
-            position: "Student",
-          },
-          {
-            text:  "Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.",
-            image: "/images/testimonials/pic3.jpg",
-            image: "/images/testimonials/pic1.jpg",
-            name: "David Matin",
-            position: "Student",
-          },
-        
-        ];
 
-        
-
-          
 
   return (
     <>
@@ -700,18 +540,18 @@ export default function page() {
 
          <BannerList course="Zing Digital <br/> Marketing Mastery" services={services} />
 
-         <NewCourseModules courselist={courselist}/>
+         <NewCourseModules courselist={courselist} title="Zing Launchpad – Student Internship Program"/>
 
          <FloatingBubble image="/images/Zing-Infographic-Students-Journey-2.png"/>
 
          <NewStudentJourney title="Lorem ipsum dolor sit amet <br /> <span className='highlighted-text'>eum neque commodi</span>" pricingData={pricingData}/>
 
-         <WhyChooseAcedemy courseLearning={courseLearning}/>
+         <WhyChooseAcedemy courseLearning={courseLearning} AcademyContent={AcademyContent}/>
           <div className="d-block d-lg-none">
-          <AcademyTeamSection teamIntroData={teamIntroData}/>
+          <AcademyTeamSection teamIntroData={teamIntroData} />
           </div>
-         <PhysicsCircles circles={circles}/>       
-         <NewTools ToolsContent={ToolsContent} Tools1={Tools1} Tools3={Tools3}/>
+         <PhysicsCircles circles={circles} teamIntroData={teamIntroData}/>       
+         <NewTools ToolsContent={ToolsContent} Tools1={Tools1}  Tools3={Tools3}/>
          <AcademyFAQ faqData={faqData}/>
         <HomeCta />
         <div className="home-footer" >

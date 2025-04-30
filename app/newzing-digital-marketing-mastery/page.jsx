@@ -22,7 +22,7 @@ export default function page() {
     const serviceAbout ={
         subtitle:"lorem lorem",
         title:"Zing Digital Marketing Mastery",
-        descrip:"Master industry-relevant skills with hands-on projects <br/> Work with top digital marketing tools & strategies <br/> Guaranteed placement support for top performers",
+        descrip:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repudiandae sapiente dolor cum vel tempora modi doloribus laborum voluptatum.",
         list :[
           {
             item:"Master industry-relevant skills with hands-on projects",

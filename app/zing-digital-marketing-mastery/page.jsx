@@ -94,6 +94,13 @@ export default function page() {
         { id: "06", title: " AI & Automation in Marketing", description: ["AI-Powered Tools for Marketing",
               "Chatbots & Email Automation",
               "Personalization & Predictive Analytics",] },
+
+        { id: "07", title: "Internship", 
+                description: [        
+                "Work on Live Projects",
+                "Develop Digital Strategies for Real Businesses",
+                "Create & Optimize Ad Campaigns",
+                "SEO & Social Media Content Execution"] },
       ];
       const pricingData = [
         {

@@ -8,7 +8,7 @@ const NewCourseModules = ({courselist,title}) => {
   return (
     <section className="services-section py-5 NewCourseModules mt-5 mb-5">
       <div className="container-fluid">
-        <div className={`${length === 4 ? "col-11 mx-auto": "col-9 mx-auto"}`}>
+        <div className={`${length === 4 ? "col-11 mx-auto ": "col-9 mx-auto"}`}>
         <div className="row gy-5 justify-content-center">
         <h2 className="section-title fw-bold font-48 text-center" dangerouslySetInnerHTML={{__html:title}}>
          

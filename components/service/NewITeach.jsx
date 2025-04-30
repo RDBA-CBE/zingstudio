@@ -159,27 +159,24 @@ const NewITeach = () => {
             <div className='col-12 mx-0'>
             <div className="custom-team-section py-5 NewITeach" style={{background:"#1a43bf"}}>
       <Container >
-        <Row className="align-items-center">
+        <Row className="">
           <Col md={6} className="text-center text-md-start mb-4 mb-md-0">
             <div className="custom-team-title">
               {/* <span className="custom-sparkle">✦</span> */}
               <h2 className="fw-bold text-white font-48"> Lorem ipsum dolor sit<br />consectetur adipis</h2>
         
               <button className="btn btn-outline-light mb-3 mb-md-5 mt-3 custom-about-btn" style={{background:"none",border:"1px solid #fff"}}>
-            <a href="/services" className="text-white " style={{textDecoration:"none"}}>
+            <a href="/services" style={{textDecoration:"none"}}>
             All Services</a> 
           </button>
             </div>
           </Col>
           <Col md={6}>
             <p className="custom-team-text text-white">
-              This is the main factor that sets us apart from our competition and allows us
-              to deliver a specialist business consultancy service.
+            I teach digital marketing practicaly with hands-on training oppurtunity to work on live projects, internships. 
             </p>
             <p className="custom-team-text text-white">
-              Through our years of experience, we’ve also learned that while each channel has
-              its own set of advantages, they all work best when strategically paired with
-              other channels.
+            Join a thriviing community for continuous learing.
             </p>
           </Col>
         </Row>

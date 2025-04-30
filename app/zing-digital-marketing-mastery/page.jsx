@@ -13,6 +13,7 @@ import NewTools from "@/components/newacademy/NewTools";
 import AcademyFAQ from "@/components/newabout/AcademyFAQ";
 import PhysicsCircles from "@/components/newabout/AcademyTeamSection-1";
 import AcademyTeamSection from "@/components/newabout/AcademyTeamSection";
+import ZingDigitalCourse from "@/components/newacademy/ZingDigitalCourse";
 export const metadata = {
   title: "Zing Digital Marketing Mastery || Zing Studio",
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
@@ -95,12 +96,18 @@ export default function page() {
               "Chatbots & Email Automation",
               "Personalization & Predictive Analytics",] },
 
+              
+
         { id: "07", title: "Internship", 
                 description: [        
                 "Work on Live Projects",
                 "Develop Digital Strategies for Real Businesses",
                 "Create & Optimize Ad Campaigns",
                 "SEO & Social Media Content Execution"] },
+
+                {
+                  img:"/images/elementbg/11.png"
+                },
       ];
       const pricingData = [
         {
@@ -681,7 +688,9 @@ const faqData = [
 
          <BannerList course="Zing Digital <br/> Marketing Mastery" services={services} />
 
-         <NewCourseModules courselist={courselist} title="Zing Digital Marketing Mastery"/>
+         {/* <NewCourseModules courselist={courselist} title="Zing Digital Marketing Mastery"/> */}
+
+         <ZingDigitalCourse/>
 
          <FloatingBubble image="/images/Zing-Infographic-Students-Journey-2.png"/>
 

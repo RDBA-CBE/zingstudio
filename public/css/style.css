@@ -21275,16 +21275,20 @@ margin: 50px 20px !important;
   border: none;
 }
 
+.custom-team-title button a{
+  color: #fff;
+}
+
 .custom-team-title button:hover{
   background-color: white;
-  color: #1a43bf !important;
+  color: #fff !important;
   border:1px solid #1a43bf;
 
 }
 
 .custom-team-title button:hover a{
  
-  color: #1a43bf !important;
+  color: #fff !important;
   
 
 }

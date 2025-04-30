@@ -17,7 +17,7 @@ const NewHomeWorks = () => {
             <span class="gradient-text">Works.</span>
           </div>
           <p className="subtext-digital">
-            They delve into market research and audience insights, helping clients refine their digital strategies.
+          You will see design to purpose creativity and effectiveness in every piece of my works
           </p>
           <button className="btn btn-dark mt-3  service-btn text-black" style={{fontWeight:700, border:"1px solid #1a43bf"}}><a href="projects">View All Projects</a></button>
           <div className="illustration mt-4">
@@ -33,22 +33,26 @@ const NewHomeWorks = () => {
           <div className="row gx-5">
             {[
               {
-                title: "Magnum Spinning Millss",
+                title: "Magnum Spinning Mills",
+                subti:"Web Design",
                 img: "/images/Home-Page/our-work/Mockup-2.jpg",
                
               },
               {
                 title: "Shree Sudharsan Engineering",
+                subti:"E-commerce",
                 img: "/images/Home-Page/our-work/Mockup-3.jpg",
                  top:"100px"
               },
               {
                 title: "GMAK Fiber Laser",
+                subti:" Digital Marketing",
                 img: "/images/Home-Page/our-work/Mockup-4.jpg",
                  top:"0px"
               },
               {
                 title: "Motherland Textiles",
+                subti:"Creative Designs",
                 img: "/images/Home-Page/our-work/Mockup-5.jpg",
                  top:"50px"
               },
@@ -56,7 +60,7 @@ const NewHomeWorks = () => {
               <div className="col-sm-6 work-card-slider pe-0 ps-0 ps-md-4" key={index} style={{marginTop: item.top}}>
                 <div className="work-card">
                   <img src={item.img} alt={item.title} className="img-fluid rounded-4" />
-                  <p className="category-label mt-2 text-uppercase small mb-0" style={{fontSize:"14px"}}>Service</p>
+                  <p className="category-label mt-2 text-uppercase small mb-0" style={{fontSize:"14px"}}>{item.subti}</p>
                   <h6 className="work-title font-30">{item.title}</h6>
                 </div>
               </div>

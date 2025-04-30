@@ -18,8 +18,8 @@ const NewAboutHero = () => {
                                     their goals, and unique challenges.
                                 </h2>*/}
                                 <p className="description text-dark mt-4">
-                                    Through our years of experience, we’ve also<br />
-                                    learned that while each channel has its own set of<br />
+                                New Age Digital Design, Development and Digital Marketing agency based in coimbatore, India.
+                                I Works across globe.
                                     
                                 </p> 
                             </div>

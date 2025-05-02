@@ -1,15 +1,9 @@
 import Footer1 from "@/components/footers/Footer1";
-import Footer13 from "@/components/footers/Footer13";
-
-
 import Header17 from "@/components/headers/Header17";
-
-
 import HomeCta from "@/components/service/HomeCta";
 import NewSerBanner from "@/components/service/NewSerBanner";
-import ServiceDescription from "@/components/service/ServiceDescription";
 import ServiceList from "@/components/service/ServiceList";
-import ServiceProgress from "@/components/service/ServiceProgress";
+
 
 
 import React from "react";
@@ -27,17 +21,6 @@ export default function page() {
         <NewSerBanner/>
 
         <ServiceList/>
-
-        {/* <div className="page-content bg-white pb-0">
-          <Banner2 />
-          <div className="content-block">
-            <ServiceDescription />
-            <Service />
-          
-          </div>
-        </div>
-
-        <Cta/> */}
         
        <HomeCta/>
         <Footer1 />

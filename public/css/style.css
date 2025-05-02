@@ -22516,6 +22516,12 @@ justify-content: center;
   border-radius: 30px;
 }
 
+
+
+.academyBan .hero-section{
+  background-image: url("../images/Home-Page/banner-bg-img-4.jpg");
+}
+
 .subheading {
   font-weight: 600;
   font-size: 16px;
@@ -22528,6 +22534,8 @@ justify-content: center;
   line-height:100px !important;
   letter-spacing: 5 !important;
 }
+
+
 
 .hero-title .highlight {
   display: inline-block;
@@ -24411,6 +24419,249 @@ font-size: 16px !important;
     min-height: 360px !important;
   }
 }
+
+.middleCta .why{
+  font-size: 18px !important;
+}
+
+
+.section-digital-blog {
+  /* background-color: #1a43bf; */
+  color: #ffffff;
+}
+
+.blog-section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+
+.btn-all-news {
+  background-color: #1a43bf !important;
+  color: #fff;
+  padding: 10px 24px;
+  border-radius: 30px;
+  font-weight: 600;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.btn-all-news:hover {
+  background-color: #3a2e7c;
+}
+
+.blog-card-wrapper {
+  /* background-color: #1a43bf; */
+  border-radius: 20px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #000;
+}
+
+.blog-card-wrapper:hover {
+  transform: translateY(-5px);
+}
+
+.blog-image-box {
+  position: relative;
+  overflow: hidden;
+  border-radius: 30px;
+  /* border-bottom: 1px solid #1e1342; */
+}
+
+.blog-image {
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+
+.blog-category-label {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: linear-gradient(to right, #984674, #4c48d0);
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.blog-content {
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blog-date {
+  font-size: 0.75rem;
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.blog-title {
+ 
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.blog-title p{
+  font-size: 16px !important;
+}
+
+.blog-read-more {
+  color: #000;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.blog-read-more:hover{
+  color: #a259ff;
+}
+
+.read-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #a259ff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 991px) {
+  .blog-section-title {
+    font-size: 2rem;
+  }
+
+  .btn-all-news {
+    padding: 8px 20px;
+    font-size: 0.9rem;
+  }
+}
+
+
+@media (max-width: 1300px) {
+  .academyBan .hero-title{
+    font-weight: 700 !important;
+    font-size: 50px !important;
+    line-height:50px !important;
+    letter-spacing: 5 !important;
+  }
+}
+
+/* 
+.unique-wrapper {
+  background-color: #09021c;
+  font-family: "Poppins", sans-serif;
+} */
+
+/* Top gradient section */
+.section-pink {
+  background: linear-gradient(to right, #984674, #4c48d0);
+  min-height: 300px;
+  position: relative;
+  border-radius: 30px;
+  /* border-top-right-radius: 30px;
+  border-top-left-radius: 30px; */
+}
+
+.content-area {
+  max-width: 500px;
+}
+
+.small-desc {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.detail-desc {
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
+.unique-illustration {
+  max-height: 220px;
+}
+
+/* Bottom section cone + lamp */
+.discuss-wrapper {
+  background-color: #09021c;
+}
+
+.light-cone {
+  width: 100%;
+  height: 530px;
+  /* max-width: 600px; */
+  background: linear-gradient(to right, #984674, #4c48d0);
+  clip-path: polygon(0 0, 100% 0, 60% 100%, 40% 100%);
+  padding: 60px 20px;
+  border-radius: 20px;
+}
+
+.lamp-base {
+  width: 260px;
+  height: 120px;
+  background: #f8c42c;
+  border-radius: 0 0 50px 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+.lamp-glow {
+  width: 100%;
+  height: 20px;
+  background: #866c208c;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -10px;
+}
+
+/* Button */
+.custom-discuss-btn {
+  border-radius: 50px;
+  font-size: 0.9rem;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .section-pink {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .unique-illustration {
+    margin-top: 20px;
+  }
+
+  .lamp-base {
+    width: 100px;
+    height: 50px;
+  }
+
+  .light-cone {
+    padding: 40px 15px;
+  }
+}
+
+.unique-wrapper .content-area{
+  max-width: 100% !important;
+  /* width: 100% !important;  */
+}
+
+
+
 
 
 

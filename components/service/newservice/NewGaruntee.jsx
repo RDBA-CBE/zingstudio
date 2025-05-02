@@ -45,7 +45,7 @@ const NewGaruntee = ({Performance}) => {
               </p>
             </div>
             <div className="feature-item">
-              <h5 className="feature-title font-30">{Performance?.guarantee[3]?.title}</h5>
+              <h5 className="feature-title font-30" dangerouslySetInnerHTML={{__html:Performance?.guarantee[3]?.title}}></h5>
               <p className="feature-desc">
               {Performance?.guarantee[3]?.caption}
               </p>

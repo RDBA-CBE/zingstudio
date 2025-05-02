@@ -24302,6 +24302,112 @@ font-size: 16px !important;
 }
 
 
+/* ----------service-landing----------- */
+
+
+.creative-feature-section {
+  background: linear-gradient(to right, #984674, #4c48d0);
+  color: #fff;
+}
+
+.creative-feature-section .col-class{
+  border-top: 1px solid #ffffff7a;
+  border-bottom: 1px solid #ffffff7a;
+  /* width: 95%; */
+  padding: 30px 0;
+  justify-content: center;
+}
+
+
+
+.creative-box-wrapper {
+  padding: 60px 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  min-height: 450px;
+  display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.creative-box-content {
+  position: relative;
+  z-index: 2;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%; */
+}
+
+.creative-box-id {
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  opacity:1;
+}
+
+.creative-box-title a h2 {
+  font-size:48px !important;
+  font-weight: 700 !important;
+  color: #fff;
+}
+
+.creative-box-arrow a{
+  font-size: 30px !important;
+  margin-top: 10px;
+  display: inline-block;
+  color: #fff;
+  
+}
+
+/* Hover image effect */
+.hover-image-wrapper .hover-image-layer {
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  /* filter: grayscale(80%); */
+  transition: opacity 0.4s ease-in-out;
+  opacity: 0;
+  border-radius: 20px;
+  z-index: 1;
+  position: relative;
+}
+
+.hover-image-wrapper:hover::after{
+  position: absolute;
+  content: "";
+  /* background: #0000005c; */
+  background: linear-gradient(to top,  #944677, #ebedf263);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.hover-image-wrapper:hover .hover-image-layer {
+  opacity: 1;
+}
+
+.hover-image-wrapper:hover .creative-box-title a h2,
+.hover-image-wrapper:hover .creative-box-id,
+.hover-image-wrapper:hover .creative-box-arrow a {
+  mix-blend-mode: difference;
+}
+
+@media ( max-width:1024px){
+  .creative-box-title a h2{
+    font-size: 36px !important;
+  }
+}
+
+
+
 
 
 

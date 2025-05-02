@@ -1,14 +1,13 @@
-import Footer1 from "@/components/footers/Footer1";
 import Footer13 from "@/components/footers/Footer13";
 
 
 import Header17 from "@/components/headers/Header17";
 
+import Cta from "@/components/homes/home-13/Cta";
+import Service from "@/components/homes/home-2/Service";
 
-import HomeCta from "@/components/service/HomeCta";
-import NewSerBanner from "@/components/service/NewSerBanner";
+import Banner2 from "@/components/service/Banner2";
 import ServiceDescription from "@/components/service/ServiceDescription";
-import ServiceList from "@/components/service/ServiceList";
 import ServiceProgress from "@/components/service/ServiceProgress";
 
 
@@ -23,24 +22,18 @@ export default function page() {
     <>
       <div className="page-wraper ">
         <Header17 />
-
-        <NewSerBanner/>
-
-        <ServiceList/>
-
-        {/* <div className="page-content bg-white pb-0">
+        <div className="page-content bg-white pb-0">
           <Banner2 />
           <div className="content-block">
             <ServiceDescription />
             <Service />
-          
+            {/* <ServiceProgress/> */}
           </div>
         </div>
 
-        <Cta/> */}
+        <Cta/>
         
-       <HomeCta/>
-        <Footer1 />
+        <Footer13 />
       </div>
     </>
   );

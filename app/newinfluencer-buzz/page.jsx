@@ -13,11 +13,13 @@ import AcademyFAQ from "@/components/newabout/AcademyFAQ";
 import PhysicsCircles from "@/components/newabout/AcademyTeamSection-1";
 import AcademyTeamSection from "@/components/newabout/AcademyTeamSection";
 import NewZingDigitalSprintTools from "@/components/newacademy/NewZingDigitalSprintTools";
-import NewDedicatedSupport from "../(service)/NewDedicatedSupport";
+import NewDedicatedSupport from "/components/service/NewDedicatedSupport";
 import WhyChooseInflunce from "@/components/service/WhyChooseInflunce";
 import NewWhyChooseInfluence from "@/components/service/NewWhyChooseInfluence";
 import NewHowItWorks from "@/components/service/NewHowItWorks";
 import NewInfluenceBanner from "@/components/service/NewInfluenceBanner";
+import NewWhyJoinZingFluence from "@/components/service/NewWhyJoinZingFluence";
+import WhatAreYouWaitingFor from "@/components/service/WhatAreYouWaitingFor";
 export const metadata = {
   title: "Zing Digital Marketing Mastery || Zing Studio",
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
@@ -521,16 +523,18 @@ export default function page() {
          <NewWhyChooseInfluence/>
 
         <NewHowItWorks/>
+
+        <NewWhyJoinZingFluence title="Why join Zingfluence <br/> Buzz ?"/>
+
+        <NewDedicatedSupport/>
      
 
+        <WhatAreYouWaitingFor/>
      
 
-         <NewStudentJourney title="How Does It Work" pricingData={pricingData}/>
-
-         {/* <WhyChooseAcedemy courseLearning={courseLearning} AcademyContent={AcademyContent}/> */}
+      
           
-          <NewDedicatedSupport/>
-
+         
          <AcademyFAQ faqData={faqData}/>
         <HomeCta />
         <div className="home-footer" >

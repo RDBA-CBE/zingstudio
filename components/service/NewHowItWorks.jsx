@@ -19,10 +19,10 @@ const NewHowItWorks = () => {
         
       ];
   return (
-    <section className=" mt-3">
-    <div className="container-fluid rounded-lg mt-5" style={{background:"#1a43bf", padding:"40px 0" }}>
+    <section className="container-fluid mt-5" style={{background:"#1a43bf", padding:"40px 0" }}>
+    <div className=" rounded-lg pt-3 pb-5 " style={{width:"95%",margin:"auto"}} >
         <div>
-            <h6 className="text-white text-center mb-5 font-48 fw-bold" style={{fontSize:"48px"}}>How Does It Work</h6>
+            <h6 className="text-white text-center mb-5 font-48 fw-bold" style={{fontSize:"48px"}}>How Does It Work ?</h6>
         </div>
 
         <div className='services-list-section BannerList'>

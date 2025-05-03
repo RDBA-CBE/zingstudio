@@ -14,6 +14,7 @@ import PhysicsCircles from "@/components/newabout/AcademyTeamSection-1";
 import AcademyTeamSection from "@/components/newabout/AcademyTeamSection";
 import NewZingDigitalSprintTools from "@/components/newacademy/NewZingDigitalSprintTools";
 import NewDedicatedSupport from "../(service)/NewDedicatedSupport";
+import WhyChooseInflunce from "@/components/service/WhyChooseInflunce";
 export const metadata = {
   title: "Zing Digital Marketing Mastery || Zing Studio",
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
@@ -509,9 +510,8 @@ export default function page() {
         
          <NewCourseBanner serviceAbout={serviceAbout}/>
 
-       
 
-         <NewCourseModules courselist={courselist} title="Why Choose Us?"/>
+         <WhyChooseInflunce courselist={courselist} title="Why Choose Us?"/>
 
      
 

@@ -23651,6 +23651,15 @@ border-radius: 30px;
   transition: background 0.5s ease-in-out;
 
 }
+.InHowDoesItWork .ds-card:hover::before{
+  z-index: 100;
+}
+
+.InHowDoesItWork .ds-card:hover .ds-card-title{
+  z-index: 400;
+}
+
+
 
 .WhyChooseAcedemy .ds-card:hover .ds-card-title{
   color: #fff;
@@ -23658,6 +23667,11 @@ border-radius: 30px;
 
 .WhyChooseAcedemy .ds-card:hover .ds-arrow {
   color: #fff;
+}
+
+.InHowDoesItWork .ds-card:hover .ds-arrow{
+  
+  color: #fff !important;
 }
 
 /* Individual card backgrounds (replace with actual bg images) */
@@ -23699,6 +23713,10 @@ border-radius: 30px;
   background: #fff ;
   color: #1a43bf !important;
   border: 1px solid #1a43bf;
+}
+
+.InHowDoesItWork a .ds-all-btn  {
+  margin-top: 0;
 }
 
 .WhyChooseAcedemy .ds-heading {
@@ -24659,6 +24677,199 @@ font-size: 16px !important;
   max-width: 100% !important;
   /* width: 100% !important;  */
 }
+
+
+/* src/components/touch-panel.css */
+.tp-wrap {
+  /* background: radial-gradient(160% 100% at 50% 0%, #42216b 0%, #08071b 60%); */
+  color: #000;
+  padding: 6rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.tp-heading {
+  font-size: 48px !important;
+  font-weight: 700 !important;
+  line-height: 1.15;
+  text-wrap: wrap;
+}
+
+.tp-cta-btn {
+  background: #1a43bf !important;
+  color: #ffffff !important;
+  border-radius: 30px !important;
+  transition: background .3s;
+}
+.tp-cta-btn:hover {
+  background: #3a2d80;
+}
+
+.tp-lead {
+  max-width: 38ch;
+  opacity: .85;
+}
+
+.tp-label {
+  font-size: .9rem;
+  letter-spacing: .05em;
+  opacity: .7;
+  margin-bottom: .25rem;
+}
+
+.tp-link,
+.tp-icon {
+  color: #000;
+  text-decoration: none;
+}
+.tp-link:hover,
+.tp-icon:hover {
+  color: #b9aaff;
+}
+
+.tp-icon {
+  font-size: 1.2rem;
+}
+
+/* --- Decorative star in top–left ------------------------------- */
+
+
+
+/* ------------------ Responsive tweaks -------------------------- */
+@media (max-width: 992px) {
+  .tp-wrap {
+    text-align: center;
+  }
+  .tp-heading {
+    font-size: 36px !important;
+  }
+  .tp-lead {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .tp-wrap {
+    padding: 4rem 1rem;
+  }
+}
+
+
+.cf-section {
+  background: linear-gradient(to right, #984674, #4c48d0);
+  padding: 3rem 2rem;
+  border-radius: 30px;
+  color: #ffffff;
+}
+
+.cf-heading {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.cf-marker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.cf-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.cf-subtext {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: #aaa;
+}
+
+.cf-form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cf-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.cf-input,
+.cf-textarea {
+  flex: 1;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff !important;
+  padding: 0.75rem 0;
+  font-size: 1rem;
+  color: #fff;
+  outline: none;
+}
+
+.cf-input::placeholder,
+.cf-textarea::placeholder {
+  color: #fff !important;
+  font-size: 0.95rem;
+}
+
+.cf-input:focus,
+.cf-textarea:focus {
+  border-bottom-color: #ff5f8f;
+}
+
+.cf-upload {
+  color: #fff;
+}
+
+.cf-submit-wrapper {
+  text-align: center;
+}
+
+.cf-submit {
+  background-color: #fff;
+  color: #000;
+  padding: 0.75rem 2.5rem;
+  border: none;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cf-submit:hover {
+  background-color: #e04572;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .cf-title {
+    font-size: 2rem;
+  }
+
+  .cf-row {
+    flex-direction: column;
+  }
+
+  .cf-input,
+  .cf-textarea {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .cf-section {
+    padding: 2rem 1.25rem;
+  }
+}
+
+
 
 
 

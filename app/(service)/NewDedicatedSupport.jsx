@@ -1,5 +1,6 @@
 import WhyChooseAcedemy from "@/components/newacademy/WhyChooseAcedemy";
 import React from "react";
+import InHowDoesItWork from "./InHowDoesItWork";
 
 
 const NewDedicatedSupport = () => {
@@ -13,101 +14,32 @@ const NewDedicatedSupport = () => {
         {
           id: 1,
           imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/digital-marketing-startegy.jpg",
-          title: "10+ Industry-Recognized Certificates",
+          title: "Right Brands",
           link:"zing-digital-marketing-mastery",
           src:"/images/zing-digital-marketing-mastery/unnamed.png"
         },
         {
           id: 2,
           imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/content-and-prompt-engineerings.jpg",
-          title: "Weekend & Flexible Batches",
+          title: "Plan & Collaborate",
           link:"zing-digital-marketing-mastery",
           src:"/images/zing-digital-marketing-mastery/unnamed.png"
         },
         {
           id: 3,
           imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/google-and-advance-web-analytics.jpg",
-          title: "Gamified Learning with Scoreboards",
+          title: "Create & Share",
           link:"zing-digital-marketing-mastery",
           src:"/images/zing-digital-marketing-mastery/unnamed.png"
         },
         {
           id: 4,
           imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/social-media-marketing.jpg",
-          title: "100% Practical Learning",
+          title: "Measure & Grow",
           link:"zing-digital-marketing-mastery",
           src:"/images/zing-digital-marketing-mastery/unnamed.png"
         },
-        {
-          id: 5,
-          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/search-engine-optimization.jpg",
-          title: "Community & Mentorship",
-          link:"zing-digital-marketing-mastery",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png"
-        },
-        {
-          id: 6,
-          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/funnel-building-lead-gen.jpg",
-          title: "Weekly Quizzes & Monthly Assignments",
-          link:"zing-digital-marketing-mastery",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png"
-        },
-        {
-          id: 7,
-          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/facebook-and-instagram-ads.jpg",
-          title: "Weekly Student Presentations",
-          link:"zing-digital-marketing-mastery",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png"
-        },
-        {
-          id: 8,
-          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/wix.jpg",
-          title: "Wix",
-          link:"Final Capstone Project",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png"
-        },
-        {
-            id: 9,
-            imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/whatsapp -marketing.jpg",
-            title: "Certification on Completion",
-            link:"zing-digital-marketing-mastery",
-            src:"/images/zing-digital-marketing-mastery/unnamed.png"
-          },
-          {
-            id: 9,
-            imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/web-technology.jpg",
-            title: "Zingers Alumni Community ",
-            link:"zing-digital-marketing-mastery",
-            src:"/images/zing-digital-marketing-mastery/unnamed.png"
-          },
-          {
-            id: 10,
-            imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/ai-automation-in-digital-marketing.jpg",
-            title: "AI & Automation in Digital Marketing",
-            link:"zing-digital-marketing-mastery",
-            src:"/images/zing-digital-marketing-mastery/unnamed.png"
-          },
-          {
-            id: 11,
-            imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/job-freelancing-support.jpg",
-            title: "Job & Freelancing Support",
-            link:"zing-digital-marketing-mastery",
-            src:"/images/zing-digital-marketing-mastery/unnamed.png"
-          },
-          {
-            id: 12,
-            imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/exclusive-industry-webinars-expert-sessions.jpg",
-            title: "Exclusive Industry Webinars & Expert Sessions",
-            link:"zing-digital-marketing-mastery",
-            src:"/images/zing-digital-marketing-mastery/unnamed.png"
-          },
-          {
-            id: 13,
-            imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/scholarship-for-women-from-underprivileged-backgrounds.jpg",
-            title: "10% Scholarship for Women from Underprivileged Backgrounds",
-            link:"zing-digital-marketing-mastery",
-            src:"/images/zing-digital-marketing-mastery/unnamed.png"
-          },
+        
       ];
 
   return (
@@ -185,7 +117,7 @@ const NewDedicatedSupport = () => {
       </div>
 
 
-      <WhyChooseAcedemy courseLearning={courseLearning} AcademyContent={AcademyContent}/>
+      <InHowDoesItWork courseLearning={courseLearning} AcademyContent={AcademyContent}/>
 
       {/* Discuss Project Section */}
       <div className="container-fluid position-relative text-center px-4 mt-5">

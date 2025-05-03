@@ -33,8 +33,7 @@ const NewWhyJoinZingFluence = ({title,whyJoindata}) => {
                                                 <span className="service-number">{item.number}</span>
                                                 <h5 className="service-name">{item.title}</h5>
                                                 <p className="service-desc">
-                                                    Our expertise, as well as our passion for web design, sets us apart from other agencies.
-                                                    Plus, our experience demonstrates our ability.
+                                                {item.desc}
                                                 </p>
                                             </div>
                                         </div>

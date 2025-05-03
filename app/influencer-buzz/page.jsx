@@ -110,12 +110,12 @@ export default function page() {
       ];
 
       const whyJoindata= [
-        { number: '01', title: 'Two Decades of Experience' },
-        { number: '02', title: 'Thorough in what I do' },
-        { number: '03', title: 'Creative and Interesting' },
-        { number: '04', title: 'Result Driven' },
-        { number: '05', title: 'Cost Effective' },
-        { number: '06', title: 'Ethical' },
+        { number: '01', title: 'Brand Collaborations',desc:'Partner with reputable brands that align with your values, enhancing your credibility and audience engagement.' },
+        { number: '02', title: 'Exclusive Campaigns in what I do',desc:'Access high-profile campaigns, product launches, and partnerships tailored to showcase your unique voice and expertise.' },
+        { number: '03', title: 'Monetize Your Influence and Interesting',desc:'Leverage your platform through paid collaborations, sponsorships, and long-term brand partnerships, turning your influence into sustainable income.' },
+        { number: '04', title: 'Expand Your Reach' ,desc:'Grow your audience through strategic partnerships and campaigns designed to connect you with new, relevant followers.'},
+        { number: '05', title: 'Creative Freedom',desc:'Maintain your authentic voice with the freedom to create content that reflects your style, supported by strategic guidance when needed.' },
+        { number: '06', title: 'Insightful Analytics',desc: 'Receive detailed performance analytics to measure campaign success, optimize content strategy, and strengthen your influence.'},
     ]
 
 

@@ -8,6 +8,8 @@ import Header17 from "@/components/headers/Header17";
 import Footer13 from "@/components/footers/Footer13";
 import Cta from "@/components/homes/home-13/Cta";
 import Portfolio4 from "@/components/portfolio/Portfolio4";
+import HomeCta from "@/components/service/HomeCta";
+import Footer1 from "@/components/footers/Footer1";
 
 
 export const metadata = {
@@ -20,27 +22,17 @@ export default function page() {
     <>
       <div className="page-wraper  ">
         <Header17 />
-        <div
-          className="dlab-bnr-inr overlay-black-middle bg-pt"
-          style={{ backgroundImage: "url(/images/bg-header.jpg)" }}
-        >
-          <div className="container">
-            <div className="dlab-bnr-inr-entry">
-              <h1 className="text-white">Portfolio</h1>
-              {/* Breadcrumb row */}
-              <div className="breadcrumb-row">
-                {/* <ul className="list-inline">
-                  <li>
-                    <Link href={`/`}>Home</Link>
-                  </li>
-                  <li>
-                    <Link href={`/portfolio`}>Portfolio</Link></li>
-                </ul> */}
-              </div>
-              {/* Breadcrumb row END */}
-            </div>
-          </div>
-        </div>
+      
+      
+           <section className="about-us-hero d-flex flex-column align-items-center justify-content-center text-center">
+             <h1 className="about-us-title fw-bold">Portfolio</h1>
+             <div className="breadcrumb text-white-50 mt-3">
+               <span className="fw-semibold">Home</span>
+               <span className="mx-2 text-white-50">{'>'}</span>
+               <span className="text-white fw-semibold">Portfolio</span>
+             </div>
+           </section>
+      
 
         <div className="content-block">
           {/* <Portfolio2 /> */}
@@ -48,8 +40,8 @@ export default function page() {
 
         </div>
 
-        <Cta />
-        <Footer13 />
+        <HomeCta />
+        <Footer1/>
       </div>
     </>
   );

@@ -16574,7 +16574,13 @@ ol.commentlist li .star-rating {
 
 .portfolio-mas a,
 .portfolio-ic a {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
   color: #000;
+  font-weight: 700 !important;
+}
+.portfolio-ic h5 {
+  color: #000;
+  font-weight: 700 !important;
 }
 
 .portfolio-mas .dez-info a:hover,
@@ -22523,7 +22529,8 @@ justify-content: center;
 }
 
 .zingfluence .hero-section{
-  background-image: url("../images/zingfluence.webp");
+  /* background-image: url("../images/zingfluence.webp"); */
+  background-image: url("../images/Home-Page/zingfluence.jpg");
   background-size: cover;
   background-position: right;
 }
@@ -24925,6 +24932,7 @@ font-size: 16px !important;
 
 .zingfluence-p{
   font-size: 16px !important;
+  color: #000 !important;
 }
 
 .bubble-wrapper {
@@ -25029,4 +25037,16 @@ color: #2b2a2a;
 
 .zingfluence .hero-title{
   font-size: 48px !important;
+}
+
+.zingflu-banner-p{
+  font-size: 20px !important;
+  width: 80%;
+  margin: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.ev-about-content p{
+  font-size: 16px !important;
 }

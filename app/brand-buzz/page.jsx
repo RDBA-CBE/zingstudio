@@ -294,7 +294,6 @@ export default function page() {
                     <p className="text-white mb-0">
                     Unlock the power of influencer marketing with Brand Buzz. We connect your brand with the right voices, creating authentic stories that captivate audiences and drive results. From boosting visibility to building lasting customer trust, Brand Buzz delivers tailored campaigns designed for maximum impact and measurable growth.
 
-
                     </p>
                   </div>
                 </div>

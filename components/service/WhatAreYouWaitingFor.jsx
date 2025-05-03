@@ -70,24 +70,37 @@ const courses = [
 
 const WhatAreYouWaitingFor = () => {
   return (
-    <section className="section-digital-blog  px-3 mt-5">
+    <section className="section-digital-blog  px-3 mt-5 mb-5">
       <div className="container-fluid">
         <div className='row px-3 px-lg-5 justify-content-center'>
             <div className='col-12 col-xl-10 mx-0 px-0'>
                 <div className='container-fluid'>
-                <div className="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-3">
-          <h2 className="blog-section-title mb-0 text-black fw-bold font-48" style={{fontSize:"48px"}}>
-          What are You waiting For ?
-          </h2>
-          {/* <a className='p-0 w-auto  rounded-pill ' href="contact" style={{lineHeight:"1", border:"none"}}>
-          <button className="btn btn-all-news">All News</button>
-          </a> */}
-         
-          <a className='p-0 w-auto rounded-pill ' href="contact" style={{lineHeight:"1", border:"none"}}>
-                  <button className="btn btn-light fw-bold  rounded-pill mt-3 text-white" style={{width:"auto", margin:"auto",padding:"15px 30px",background:"#1a43bf"}}>
-                    Connect Us
-                    </button>
-                  </a>
+                
+
+        <div className="row ">
+          {/* Left Content */}
+          <div className="col-lg-6 text-black mb-4 mb-lg-0">
+           
+            <h2 className="about-agency-title mb-3 font-48" >
+            What are You <br /> waiting For ?
+            </h2>
+            <a href="about">
+            <button className="about-agency-btn fw-semibold px-4 py-3 rounded-pill mt-2" style={{fontSize:"16px"}}>
+              About Company
+            </button>
+            </a>
+            
+          </div>
+
+          {/* Right Content */}
+          <div className="col-lg-6 text-black">
+            <p className="about-agency-text mb-3">
+           The spotlight is yours! Turn influence into impact, connect with top brands, and unlock exciting opportunities. Join the buzz and start earning today!
+            </p>
+
+            <p className="about-agency-text mb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet non modi, maxime ullam quibusdam rerum corporis ex. </p>
+            
+          </div>
         </div>
 
         <div className="row gy-4 mt-4">

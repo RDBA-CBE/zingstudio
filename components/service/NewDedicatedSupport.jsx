@@ -42,8 +42,15 @@ const NewDedicatedSupport = () => {
 
         {/* Right Section */}
         <div className="col-12 col-lg-6 px-0" >
-          <div className="hiw-card hiw-right ms-2 d-flex align-item-center justify-content-center" style={{position:"relative",top:"120px"}}>
-            <img src="/images/Home-Page/vector-img.png" alt="character" className="character-img" style={{width:"auto"}}/>
+          <div className="hiw-card hiw-right ms-2 d-flex flex-column align-items-center justify-content-center" style={{position:"relative",top:"120px"}}>
+            <img src="/images/Home-Page/vector-img.png" alt="character" className="character-img" style={{width:"40%"}}/>
+            <h2 className='font-48 fw-bold text-black' style={{fontSize:"48px"}}>What are you <br />
+            waiting for ?</h2>
+            <a href="contact">
+            <button className="about-agency-btn fw-semibold px-4 py-3 rounded-pill mt-2 text-black" style={{fontSize:"16px",background:"#fff"}}>
+              Reach Us
+            </button>
+            </a>
             {/* <div className="hiw-stats">
               <div className='d-flex align-items-center justify-content-center'>
                 <h3>15</h3>

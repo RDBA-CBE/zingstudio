@@ -22529,7 +22529,8 @@ justify-content: center;
 }
 
 .zingfluence .hero-section{
-  background-image: url("../images/zingfluence.webp");
+  /* background-image: url("../images/zingfluence.webp"); */
+  background-image: url("../images/Home-Page/zingfluence.jpg");
   background-size: cover;
   background-position: right;
 }
@@ -24931,6 +24932,7 @@ font-size: 16px !important;
 
 .zingfluence-p{
   font-size: 16px !important;
+  color: #000 !important;
 }
 
 .bubble-wrapper {

@@ -1,17 +1,10 @@
 import React from 'react';
 
-const NewWhyJoinZingFluence = ({title}) => {
+const NewWhyJoinZingFluence = ({title,whyJoindata}) => {
 
     
 
-    const whyJoindata= [
-        { number: '01', title: 'Two Decades of Experience' },
-        { number: '02', title: 'Thorough in what I do' },
-        { number: '03', title: 'Creative and Interesting' },
-        { number: '04', title: 'Result Driven' },
-        { number: '05', title: 'Cost Effective' },
-        { number: '06', title: 'Ethical' },
-    ]
+  
     return (
         <section className="service-section container-fluid text-dark py-5 new-why-me" >
             <div className='row justify-content-center px-3 px-md-5'>

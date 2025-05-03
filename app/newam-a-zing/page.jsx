@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 
 import ProjectDetails from "@/components/portfolio/ProjectDetails";
@@ -11,10 +12,6 @@ import Footer13 from "@/components/footers/Footer13";
 import AmazingContent from "@/components/am-a-zing/Am-a-zingContent";
 import Cta from "@/components/homes/home-13/Cta";
 import Form from "@/components/service/Amazingform";
-import Footer1 from "@/components/footers/Footer1";
-import NewAmazingContent from "@/components/service/NewAmazingContent";
-import NewForm from "@/components/service/NewForm";
-import HomeCta from "@/components/service/HomeCta";
 
 export const metadata = {
   title: "Am-A-Zing || Zing Studio",
@@ -25,27 +22,32 @@ export default function page() {
     <>
       <div className="page-wraper  ">
         <Header17 />
-        <section className="about-us-hero d-flex flex-column align-items-center justify-content-center text-center">
-      <h1 className="about-us-title fw-bold">Am-A-Zing</h1>
-      <div className="breadcrumb text-white-50 mt-3">
-        <span className="fw-semibold">Home</span>
-        <span className="mx-2 text-white-50">{'>'}</span>
-        <span className="text-white fw-semibold">Am-A-Zing</span>
-      </div>
-    </section>
+        <div
+          className="dlab-bnr-inr overlay-black-middle bg-pt"
+          style={{ backgroundImage: "url(/images/bg-header.jpg)" }}
+        >
+          <div className="container">
+            <div className="dlab-bnr-inr-entry">
+              <h1 className="text-white">Am-A-Zing</h1>
+              {/* Breadcrumb row */}
+              <div className="breadcrumb-row">
+                
+              </div>
+              {/* Breadcrumb row END */}
+            </div>
+          </div>
+        </div>
 
         <div className="content-block">
-          <NewAmazingContent />
+          <AmazingContent />
         </div>
 
 
-        <NewForm/>
+        <Form/>
         {/* <Cta /> */}
-        <HomeCta />
-        <Footer1 />
+        
+        <Footer13 />
       </div>
     </>
   );
 }
-
-

@@ -58,7 +58,7 @@ export default function About() {
                   </p> 
                 </div>
                 <div className=" col-12 col-lg-6 h-100">
-                  <img src="/images/about-us/Infographics-01.png" alt="3D Spiral" className="spiral-img img-fluid" />
+                  <img src="/images/about-us/Zingo-1.jpeg" alt="3D Spiral" className="spiral-img img-fluid" />
                 </div>
               </div>
             </div>

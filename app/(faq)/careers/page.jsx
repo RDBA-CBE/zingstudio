@@ -7,6 +7,12 @@ import Link from "next/link";
 import React from "react";
 import Cta from "@/components/homes/home-13/Cta";
 import CareerForm from "@/components/service/CareerForm";
+import Footer1 from "@/components/footers/Footer1";
+import HomeCta from "@/components/service/HomeCta";
+import CareerBanner from "@/app/(service)/CareerBanner";
+import NewCareerMain from "@/app/(service)/NewCareerMain";
+import NewJoinZing from "@/app/(service)/NewJoinZing";
+import CarrerFaq from "@/app/(service)/CarrerFaq";
 
 
 export const metadata = {
@@ -19,34 +25,17 @@ export default function page() {
       <div className="page-wraper careerss ">
         <Header17 />
 
-        <div
-          className="dlab-bnr-inr overlay-black-middle bg-pt career-ban" style={{ backgroundImage: "url(/images/Life at Zing/banner.jpg)" }}>
-          <div className="container">
-            <div className="dlab-bnr-inr-entry">
-              <h1 className="text-white">Life at Zing</h1>
-              {/* Breadcrumb row */}
-              <div className="breadcrumb-row">
-                {/* <ul className="list-inline">
-                  <li>
-                    <Link href="/">Home</Link>
-                  </li>
-                  <li>
-                    <Link href="/careers">Life at Zing</Link></li>
-                </ul> */}
-              </div>
-              {/* Breadcrumb row END */}
-            </div>
-          </div>
-        </div>
+        <CareerBanner/>
 
-        {/* <div className="content-block"> */}
-          <Faq1 />
-        {/* </div> */}
+        <NewCareerMain/>
 
-      
-        {/* <Cta /> */}
+        <NewJoinZing/>
+    
+        <CarrerFaq/>
         
-        <Footer13 />
+        
+        <HomeCta/>
+        <Footer1 />
       </div>
     </>
   );

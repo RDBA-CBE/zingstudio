@@ -2,7 +2,8 @@ import Footer1 from "@/components/footers/Footer1";
 import Header17 from "@/components/headers/Header17";
 import HomeCta from "@/components/service/HomeCta";
 import NewSerBanner from "@/components/service/NewSerBanner";
-import ServiceList from "@/components/service/ServiceList";
+import NewServiceList from "@/components/service/NewServiceList";
+
 
 
 
@@ -20,7 +21,7 @@ export default function page() {
 
         <NewSerBanner/>
 
-        <ServiceList/>
+        <NewServiceList/>
         
        <HomeCta/>
         <Footer1 />

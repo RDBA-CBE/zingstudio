@@ -17,7 +17,7 @@ const NewContactMainForm = () =>  {
           </p>
         </div>
   
-        <form className="cf-form">
+        <form className="cf-form-contact">
           <div className="cf-row">
             <input
               type="text"

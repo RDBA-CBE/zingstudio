@@ -1,7 +1,7 @@
 import React from 'react';
 // import codingImg from './coding-image.jpg'; 
 
-const ServiceList = () => {
+const NewServiceList = () => {
 
     
 
@@ -50,4 +50,4 @@ const ServiceList = () => {
   );
 };
 
-export default ServiceList;
+export default NewServiceList;

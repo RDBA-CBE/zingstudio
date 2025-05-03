@@ -22,7 +22,16 @@ import InfluencerBuzzFAQ from "@/components/service/InfluencerBuzzFAQ";
 import InfluencerBuzzTestimonial from "@/components/service/InfluencerBuzzTestimonial";
 import BrandsWorkWith from "@/components/service/BrandsWorkWith";
 import InfluencerBuzzCta from "@/components/service/InfluencerBuzzCta";
-import InfluencerCta from "@/components/service/InfluencerCta";
+import BrandBuzzBanner from "@/components/service/BrandBuzzBanner";
+import BusinessWork from "@/components/service/BusinessWork";
+import InfluencerMarketingService from "@/components/service/InfluencerMarketingService";
+import BestInfluencerMarketing from "@/components/service/BestInfluencerMarketing";
+import NumberToCelebrate from "@/components/service/NumberToCelebrate";
+import YoutubersAndInstagramers from "@/components/service/YoutubersAndInstagramers";
+import BrandBuzzCta from "@/components/service/BrandBuzzCta";
+import Footer1 from "@/components/footers/Footer1";
+import HomeCta from "@/components/service/HomeCta";
+import AcademyFAQ from "@/components/newabout/AcademyFAQ";
 
 export const metadata = {
   title: "Zing Studio - Zingfluence",
@@ -34,72 +43,86 @@ export default function page() {
         "Standard",
       ]
       const bannerContent = {
-        head: "Monetize Your Social Media Influence Today!",
-        caption: "Join a Growing Community of Over 200,000 Influencers and",
-        subTitle: "Get Paid for Every",
-        button: "Join Now",
-        words: ["POST", "TWEET", "REEL", "SNAP", "VIDEO", "REVIEW", "STORY", "SHOOT"],
-         image:[
-          "/images/Influence-Buzz/banner-img-1.png",
-          "/images/Influence-Buzz/banner-img-2.png",
-          "/images/Influence-Buzz/banner-img-3.png",
-          "/images/Influence-Buzz/banner-img-4.png",
-          "/images/Influence-Buzz/banner-img-5.png",
-          "/images/Influence-Buzz/banner-img-6.png",
-          "/images/Influence-Buzz/banner-img-7.png",
-           "/images/Influence-Buzz/banner-img-8.png"
-         ],
-        formTitle:"Join the Buzz—Let’s Make Influence Happen!",
-        charImg:"/images/Home-Page/mbl-banner/character-img-6.png",
-      };
+        head:"Create the Buzz. Build the Brand.",
+        caption:"Harness the power of influencer marketing to amplify your brand’s voice, connect authentically, and make a lasting impact",
+        subTitle:"Level up your brand with influencer vibes that",
+        words: ["Connect", "Captivate", "Convert"],
+        list:[
+          "Connect with your ideal customers at the exact moment they are searching.",
+          "Achieve measurable results without the high expenses of traditional marketing.",
+          "Result-driven strategies that target potential customers with precision, leading to high-conversion leads and increased sales for your business."
+        ],
+        button:"Let’s Connect and Spotlight Your Brand!",
+        image:[
+          "/images/brand-buzz/banner-img-1.png",
+          "/images/brand-buzz/banner-img-2.png",
+          "/images/brand-buzz/banner-img-3.png"
+        ],
+        formTitle:"Let’s turn your brand into the next big thing!",
+        bgimg:"/images/brand-buzz/serviceBanner.jpg",
+        charImg:"/images/Home-Page/mbl-banner/character-img-5.png",
+      }
+
       const faqData = [
         {
           id: "faq6",
-          question: "1. How do I join Influencer Buzz?",
+          question: "1. What is influencer marketing, and how can it benefit my brand?",
           answer:
-            "Simply sign up on our platform, complete your profile, and we’ll connect you with brand collaborations that match your style and audience.",
+            "Influencer marketing involves collaborating with influencers who have a loyal following to promote your brand. It boosts brand visibility, builds trust, and drives engagement by leveraging authentic content.",
         },
         {
           id: "faq7",
-          question: "2. What types of brands can I collaborate with?",
+          question: "2. How do you select the right influencers for my brand?",
           answer:
-            "We partner with a wide range of brands across fashion, beauty, tech, lifestyle, and more—ensuring there’s something for every influencer.",
+            "We analyze your brand's target audience, values, and campaign goals to match you with influencers who align perfectly with your brand identity and can deliver measurable results.",
         },
         {
           id: "faq8",
-          question: "3. Do I need a minimum number of followers?",
+          question: "3. What types of influencer partnerships are available?",
           answer:
-            "Payment terms vary by campaign, but we ensure secure and timely payments once campaign requirements are met.",
+            "We offer various partnership options, including sponsored posts, product reviews, brand ambassadorships, event collaborations, and affiliate marketing campaigns.",
         },
         {
           id: "faq9",
-          question: "4. How do I get paid for collaborations?",
+          question: "4. How is influencer marketing success measured?",
           answer:
-            "Payment terms vary by campaign, but we ensure secure and timely payments once campaign requirements are met.",
+            "Success is tracked using key performance indicators (KPIs) such as engagement rates, reach, impressions, click-through rates, and conversion metrics tailored to your campaign objectives.",
         },
         {
           id: "faq10",
-          question: "5. Can I choose the campaigns I want to work on?",
+          question: "5. Is influencer marketing suitable for small businesses?",
           answer:
-            "Absolutely! You have complete freedom to choose the campaigns that resonate with your audience and personal brand.",
+            "Absolutely. Influencer marketing is scalable and can be tailored to suit businesses of all sizes. Micro-influencers, in particular, offer high engagement rates at cost-effective rates.",
         },
         {
           id: "faq11",
-          question: "6. What kind of support will I receive?",
+          question: "6. What is the typical duration of an influencer marketing campaign?",
           answer:
-            "Our dedicated support team is available throughout the collaboration process, offering guidance, campaign insights, and troubleshooting whenever needed.",
+            "Campaign duration varies based on objectives. It can range from a single post or event promotion to long-term partnerships spanning several months for sustained impact.",
         },
         {
           id: "faq12",
-          question: "7. How are collaborations managed?",
+          question: "7. How much does an influencer marketing campaign cost?",
           answer:
-            "We handle the logistics, timelines, and brand communication so you can focus on creating engaging content that delivers results.",
+            "Costs depend on factors such as influencer reach, engagement rates, content requirements, and campaign duration. We offer customizable packages to suit various budgets.",
         },
         {
           id: "faq13",
-          question: "8. Will I have creative control over my content?",
+          question: "8. Can influencer marketing help with brand loyalty?",
           answer:
-            "Yes! We value your unique voice and style, giving you the freedom to create content that feels authentic to you while aligning with brand goals.",
+            "Yes. Long-term collaborations with influencers who resonate with your audience foster brand trust and loyalty, leading to sustained customer relationships.",
+        },
+        {
+          id: "faq14",
+          question: "9. What industries benefit most from influencer marketing?",
+          answer:
+            "Influencer marketing is highly versatile and works well across industries, including fashion, beauty, technology, travel, lifestyle, food, and fitness.",
+        },
+        {
+          id: "faq15",
+          question: "10. How do you ensure influencer content aligns with our brand values?",
+          answer:
+            "We work closely with both brands and influencers, providing clear guidelines and approval processes to ensure all content aligns with your brand voice and objectives.",
         },
       ];
 
@@ -130,7 +153,7 @@ export default function page() {
 
       const ToolsContent = {
         tool1Num:"40+",
-        tool1Title :"Brands We Work With",
+        tool1Title :"As Featured In",
         tool1worth :"Worth Of 6 Lakhs",
         tool2Num:"20+",
         tool2Title :"Digital Marketing AI Tools",
@@ -246,28 +269,16 @@ export default function page() {
 
   return (
     <>
-      <div className="page-wraper  zingFluence">
+      <div>
         <Header17 />
 
        
-        <InfluencerBuzzBanner option= {formOption} bannerContent={bannerContent}/>
+       
 
-       <WhyChooseUs/>
-       <HowDoesItWork/>
-
-        <BenifitsOfBuzz/>
-      <DedicatedSupport/>
-
-      {/* <Industriesworked/> */}
-
-     {/* <InfluencerBuzzTestimonial testimonials={testimonials}/> */}
-     {/* <BrandsWorkWith ToolsContent={ToolsContent} Tools1={Tools1}/> */}
-
-        <InfluencerBuzzCta/>
-        <InfluencerBuzzFAQ faqData={faqData}/>
-        <InfluencerCta/>
-        
-        <Footer13 />
+        <AcademyFAQ faqData={faqData}/>
+       
+        <HomeCta/>
+        <Footer1 />
       </div>
     </>
   );

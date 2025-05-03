@@ -1,20 +1,17 @@
 import React from 'react';
 
-const services = [
-  'POST', 'TWEET', 'REEL', 'SNAP',
-  'VIDEO', 'REVIEW', 'STORY', 'SHOOT'
-];
 
-const BubbleServices = () => {
+
+const BubbleServices = ({banner}) => {
   return (
     <div className="bubble-wrapper">
       <h1 className="bubble-title">
-        <span>Monetize Your Social Media Influence Today!</span><br />
-        <span style={{fontSize:'2rem'}}> Join a Growing Community of Over 200,000 Influencers and</span><br />
-        <span className="bubble-sub">Get Paid for Every</span>
+        <span className='font-48 fw-bold' style={{fontSize:"48px"}}>{banner?.title}</span><br />
+        <span className='bubble-subtitle' >{banner?.subtitle}</span><br />
+        <span className="bubble-sub">{banner?.desc}</span>
       </h1>
       <div className="bubble-container">
-        {services.map((service, index) => (
+        {banner?.services?.map((service, index) => (
           <div
             key={index}
             className={`bubble bubble-${index}`}

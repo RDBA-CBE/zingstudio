@@ -1,25 +1,19 @@
 
 import React from "react";
 import Header17 from "@/components/headers/Header17";
-import NewCourseBanner from "@/components/newacademy/NewCourseBanner";
-import BannerList from "@/components/newacademy/BannerList";
-import FloatingBubble from "@/components/newacademy/FloatingBubble";
+
 
 import Footer1 from "@/components/footers/Footer1";
 import HomeCta from "@/components/service/HomeCta";
-import NewStudentJourney from "@/components/newacademy/NewStudentJourney";
-import WhyChooseAcedemy from "@/components/newacademy/WhyChooseAcedemy";
 import AcademyFAQ from "@/components/newabout/AcademyFAQ";
-import PhysicsCircles from "@/components/newabout/AcademyTeamSection-1";
-import AcademyTeamSection from "@/components/newabout/AcademyTeamSection";
-import NewZingDigitalSprintTools from "@/components/newacademy/NewZingDigitalSprintTools";
+
 import NewDedicatedSupport from "/components/service/NewDedicatedSupport";
-import WhyChooseInflunce from "@/components/service/WhyChooseInflunce";
+
 import NewWhyChooseInfluence from "@/components/service/NewWhyChooseInfluence";
 import NewHowItWorks from "@/components/service/NewHowItWorks";
 import NewInfluenceBanner from "@/components/service/NewInfluenceBanner";
 import NewWhyJoinZingFluence from "@/components/service/NewWhyJoinZingFluence";
-import WhatAreYouWaitingFor from "@/components/service/WhatAreYouWaitingFor";
+
 export const metadata = {
   title: "Zing Digital Marketing Mastery || Zing Studio",
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
@@ -123,6 +117,18 @@ export default function page() {
         { number: '05', title: 'Cost Effective' },
         { number: '06', title: 'Ethical' },
     ]
+
+
+const banner = {
+  title:"Monetize Your Social Media Influence Today!",
+  subtitle:"Join a Growing Community of Over 200,000 Influencers and",
+  desc:"Get Paid for Every",
+  services : [
+      'POST', 'TWEET', 'REEL', 'SNAP',
+      'VIDEO', 'REVIEW', 'STORY', 'SHOOT'
+    ]
+
+}
     
 
   return (
@@ -130,7 +136,7 @@ export default function page() {
       <div className="page-wraper  " style={{background:"#fff"}}>
         <Header17 />
         
-        <NewInfluenceBanner />
+        <NewInfluenceBanner banner={banner} />
 
          <NewWhyChooseInfluence WhyChoose={WhyChoose} title="Why Choose Us?"/>
 

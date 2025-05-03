@@ -1,284 +1,167 @@
-import React from "react";
 
+import React from "react";
 import Header17 from "@/components/headers/Header17";
-import Footer13 from "@/components/footers/Footer13";
-import ZingFluenceBanner from "@/components/service/ZingFluenceBanner";
-import Celebrity from "@/components/service/Celebrity";
-import InfluencerMarketing from "@/components/service/incluencer-marketing-solution";
-import About from "@/components/service/BestMarketingService";
-import Facts from "@/components/service/LetsInfluence";
-import MarketingAgency from "@/components/service/InfluenceMarketingAgency";
-import BestInfluencer from "@/components/service/BestInfluencer";
-import ProcessForInfluencer from "@/components/service/ProcessForInfluencer";
-import ChooseZingFluencer from "@/components/service/ChooseZingfluencer";
-import Cta from "@/components/homes/home-13/Cta";
-import InfluencerBuzzBanner from "@/components/service/InfluencerBuzzBanner";
-import WhyChooseUs from "@/components/service/WhyChooseUs";
-import BenifitsOfBuzz from "@/components/service/BenifitsOfBuzz";
-import DedicatedSupport from "@/components/service/DedicatedSupport";
-import HowDoesItWork from "@/components/service/HowDoesItWork";
-import Industriesworked from "@/components/service/Industriesworked";
-import InfluencerBuzzFAQ from "@/components/service/InfluencerBuzzFAQ";
-import InfluencerBuzzTestimonial from "@/components/service/InfluencerBuzzTestimonial";
-import BrandsWorkWith from "@/components/service/BrandsWorkWith";
-import InfluencerBuzzCta from "@/components/service/InfluencerBuzzCta";
-import BrandBuzzBanner from "@/components/service/BrandBuzzBanner";
-import BusinessWork from "@/components/service/BusinessWork";
-import InfluencerMarketingService from "@/components/service/InfluencerMarketingService";
-import BestInfluencerMarketing from "@/components/service/BestInfluencerMarketing";
-import NumberToCelebrate from "@/components/service/NumberToCelebrate";
-import YoutubersAndInstagramers from "@/components/service/YoutubersAndInstagramers";
-import BrandBuzzCta from "@/components/service/BrandBuzzCta";
+
+
 import Footer1 from "@/components/footers/Footer1";
 import HomeCta from "@/components/service/HomeCta";
 import AcademyFAQ from "@/components/newabout/AcademyFAQ";
 
+import NewDedicatedSupport from "/components/service/NewDedicatedSupport";
+
+import NewWhyChooseInfluence from "@/components/service/NewWhyChooseInfluence";
+import NewHowItWorks from "@/components/service/NewHowItWorks";
+import NewInfluenceBanner from "@/components/service/NewInfluenceBanner";
+import NewWhyJoinZingFluence from "@/components/service/NewWhyJoinZingFluence";
+
 export const metadata = {
-  title: "Zing Studio - Zingfluence",
+  title: "Zing Digital Marketing Mastery || Zing Studio",
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
 };
 export default function page() {
-    const formOption  =[
-        "Basic",
-        "Standard",
-      ]
-      const bannerContent = {
-        head:"Create the Buzz. Build the Brand.",
-        caption:"Harness the power of influencer marketing to amplify your brand’s voice, connect authentically, and make a lasting impact",
-        subTitle:"Level up your brand with influencer vibes that",
-        words: ["Connect", "Captivate", "Convert"],
-        list:[
-          "Connect with your ideal customers at the exact moment they are searching.",
-          "Achieve measurable results without the high expenses of traditional marketing.",
-          "Result-driven strategies that target potential customers with precision, leading to high-conversion leads and increased sales for your business."
-        ],
-        button:"Let’s Connect and Spotlight Your Brand!",
-        image:[
-          "/images/brand-buzz/banner-img-1.png",
-          "/images/brand-buzz/banner-img-2.png",
-          "/images/brand-buzz/banner-img-3.png"
-        ],
-        formTitle:"Let’s turn your brand into the next big thing!",
-        bgimg:"/images/brand-buzz/serviceBanner.jpg",
-        charImg:"/images/Home-Page/mbl-banner/character-img-5.png",
-      }
+
+    
 
       const faqData = [
         {
           id: "faq6",
-          question: "1. What is influencer marketing, and how can it benefit my brand?",
+          question: "1. How do I join Influencer Buzz?",
           answer:
-            "Influencer marketing involves collaborating with influencers who have a loyal following to promote your brand. It boosts brand visibility, builds trust, and drives engagement by leveraging authentic content.",
+            "Simply sign up on our platform, complete your profile, and we’ll connect you with brand collaborations that match your style and audience.",
         },
         {
           id: "faq7",
-          question: "2. How do you select the right influencers for my brand?",
+          question: "2. What types of brands can I collaborate with?",
           answer:
-            "We analyze your brand's target audience, values, and campaign goals to match you with influencers who align perfectly with your brand identity and can deliver measurable results.",
+            "We partner with a wide range of brands across fashion, beauty, tech, lifestyle, and more—ensuring there’s something for every influencer.",
         },
         {
           id: "faq8",
-          question: "3. What types of influencer partnerships are available?",
+          question: "3. Do I need a minimum number of followers?",
           answer:
-            "We offer various partnership options, including sponsored posts, product reviews, brand ambassadorships, event collaborations, and affiliate marketing campaigns.",
+            "Payment terms vary by campaign, but we ensure secure and timely payments once campaign requirements are met.",
         },
         {
           id: "faq9",
-          question: "4. How is influencer marketing success measured?",
+          question: "4. How do I get paid for collaborations?",
           answer:
-            "Success is tracked using key performance indicators (KPIs) such as engagement rates, reach, impressions, click-through rates, and conversion metrics tailored to your campaign objectives.",
+            "Payment terms vary by campaign, but we ensure secure and timely payments once campaign requirements are met.",
         },
         {
           id: "faq10",
-          question: "5. Is influencer marketing suitable for small businesses?",
+          question: "5. Can I choose the campaigns I want to work on?",
           answer:
-            "Absolutely. Influencer marketing is scalable and can be tailored to suit businesses of all sizes. Micro-influencers, in particular, offer high engagement rates at cost-effective rates.",
+            "Absolutely! You have complete freedom to choose the campaigns that resonate with your audience and personal brand.",
         },
         {
           id: "faq11",
-          question: "6. What is the typical duration of an influencer marketing campaign?",
+          question: "6. What kind of support will I receive?",
           answer:
-            "Campaign duration varies based on objectives. It can range from a single post or event promotion to long-term partnerships spanning several months for sustained impact.",
+            "Our dedicated support team is available throughout the collaboration process, offering guidance, campaign insights, and troubleshooting whenever needed.",
         },
         {
           id: "faq12",
-          question: "7. How much does an influencer marketing campaign cost?",
+          question: "7. How are collaborations managed?",
           answer:
-            "Costs depend on factors such as influencer reach, engagement rates, content requirements, and campaign duration. We offer customizable packages to suit various budgets.",
+            "We handle the logistics, timelines, and brand communication so you can focus on creating engaging content that delivers results.",
         },
         {
           id: "faq13",
-          question: "8. Can influencer marketing help with brand loyalty?",
+          question: "8. Will I have creative control over my content?",
           answer:
-            "Yes. Long-term collaborations with influencers who resonate with your audience foster brand trust and loyalty, leading to sustained customer relationships.",
-        },
-        {
-          id: "faq14",
-          question: "9. What industries benefit most from influencer marketing?",
-          answer:
-            "Influencer marketing is highly versatile and works well across industries, including fashion, beauty, technology, travel, lifestyle, food, and fitness.",
-        },
-        {
-          id: "faq15",
-          question: "10. How do you ensure influencer content aligns with our brand values?",
-          answer:
-            "We work closely with both brands and influencers, providing clear guidelines and approval processes to ensure all content aligns with your brand voice and objectives.",
+            "Yes! We value your unique voice and style, giving you the freedom to create content that feels authentic to you while aligning with brand goals.",
         },
       ];
 
-      const testimonials = [
+
+      const WhyChoose = [
         {
-          text: "Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.",
-          image: "/images/testimonials/pic3.jpg",
-      
-          name: "David Matin",
-          position: "Student",
+          title: 'Strategic Partnerships',
+          description:
+            'We connect you with reputable brands that align with your personal style and values, ensuring collaborations feel natural and resonate with your audience.',
         },
         {
-          text:  "Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.",
-          image: "/images/testimonials/pic3.jpg",
-          image: "/images/testimonials/pic2.jpg",
-          name: "David Matin",
-          position: "Student",
+          title: 'Tailored Collaborations',
+          description:
+            'Collaborate with influencers to craft data-driven campaigns designed to convey your brand message authentically and effectively.',
         },
         {
-          text:  "Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.",
-          image: "/images/testimonials/pic3.jpg",
-          image: "/images/testimonials/pic1.jpg",
-          name: "David Matin",
-          position: "Student",
+          title: 'Compelling Content',
+          description:
+            'Influencers produce high-quality, engaging content that enhances brand visibility, fosters trust, and resonates with target audiences.',
         },
-      
+        {
+          title: 'Maximized Engagement',
+          description:
+            'Campaigns are strategically launched across relevant digital platforms, driving meaningful engagement and sustained brand awareness.',
+        },
+        {
+          title: 'CPerformance Insights',
+          description:
+            'Leverage detailed analytics to measure campaign effectiveness, optimize strategies, and ensure continuous growth and long-term brand impact.',
+        },
       ];
 
-      const ToolsContent = {
-        tool1Num:"40+",
-        tool1Title :"As Featured In",
-        tool1worth :"Worth Of 6 Lakhs",
-        tool2Num:"20+",
-        tool2Title :"Digital Marketing AI Tools",
-        tool2worth :"Worth Of 6 Lakhs"
-      }
-      const Tools1 = [
-          {
-            animation: "fadeInLeft",
-            delay: "0.3s",
-            iconClass: "flaticon-factory",
-          },
-          {
-           
-            animation: "fadeInDown",
-            delay: "0.3s",
-            iconClass: "flaticon-worker",
-          },
-          {
-            
-            animation: "fadeInUp",
-            delay: "0.3s",
-            iconClass: "flaticon-settings",
-          },
-          {
-           
-            animation: "fadeInRight",
-            delay: "0.3s",
-            iconClass: "flaticon-conveyor",
-          },
-          {
-              animation: "fadeInLeft",
-              delay: "0.3s",
-              iconClass: "flaticon-factory",
-            },
-            {
-             
-              animation: "fadeInDown",
-              delay: "0.3s",
-              iconClass: "flaticon-worker",
-            },
-            {
-              
-              animation: "fadeInUp",
-              delay: "0.3s",
-              iconClass: "flaticon-settings",
-            },
-            {
-             
-              animation: "fadeInRight",
-              delay: "0.3s",
-              iconClass: "flaticon-conveyor",
-            },
-            {
-              animation: "fadeInLeft",
-              delay: "0.3s",
-              iconClass: "flaticon-factory",
-            },
-            {
-             
-              animation: "fadeInDown",
-              delay: "0.3s",
-              iconClass: "flaticon-worker",
-            },
-            {
-              
-              animation: "fadeInUp",
-              delay: "0.3s",
-              iconClass: "flaticon-settings",
-            },
-            {
-             
-              animation: "fadeInRight",
-              delay: "0.3s",
-              iconClass: "flaticon-conveyor",
-            },
-            {
-              animation: "fadeInLeft",
-              delay: "0.3s",
-              iconClass: "flaticon-factory",
-            },
-            {
-             
-              animation: "fadeInDown",
-              delay: "0.3s",
-              iconClass: "flaticon-worker",
-            },
-            {
-              
-              animation: "fadeInUp",
-              delay: "0.3s",
-              iconClass: "flaticon-settings",
-            },
-            {
-             
-              animation: "fadeInRight",
-              delay: "0.3s",
-              iconClass: "flaticon-conveyor",
-            },
-            {
-              animation: "fadeInLeft",
-              delay: "0.3s",
-              iconClass: "flaticon-factory",
-            },
-            {
-             
-              animation: "fadeInDown",
-              delay: "0.3s",
-              iconClass: "flaticon-worker",
-            },
-        ];
-  
-     
+      const HowItWorks = [
+        { id: '001', title: 'Right Brands ', 
+            description: '3 Months + 3 Months Internship', sec:"0.2s" },
+        { id: '002', title: 'Plan & Collaborate',
+             description: '₹25,000',sec:"0.4s" },
+        {
+          id: '003',
+          title: 'Create & Share',
+          description:
+            '31/05/2025',
+            sec:"0.6s"
+        },
+        { id: '002', title: 'Measure & Grow',
+             description: '₹25,000',sec:"0.4s" },
+        
+      ];
+
+      const whyJoindata= [
+        { number: '01', title: 'Two Decades of Experience' },
+        { number: '02', title: 'Thorough in what I do' },
+        { number: '03', title: 'Creative and Interesting' },
+        { number: '04', title: 'Result Driven' },
+        { number: '05', title: 'Cost Effective' },
+        { number: '06', title: 'Ethical' },
+    ]
+
+
+const banner = {
+  title:"Create the Buzz. Build the Brand.",
+  subtitle:"Harness the power of influencer marketing to amplify your brand’s voice, connect authentically, and make a lasting impact",
+  desc:"Level up your brand with influencer vibes that",
+  services : [
+    "Connect", "Captivate", "Convert"
+    ]
+
+}
+    
 
   return (
     <>
-      <div>
+      <div className="page-wraper  " style={{background:"#fff"}}>
         <Header17 />
+        
+        <NewInfluenceBanner banner={banner} />
 
-       
-       
+         <NewWhyChooseInfluence WhyChoose={WhyChoose} title="How does it work ?"/>
 
-        <AcademyFAQ faqData={faqData}/>
-       
-        <HomeCta/>
+        <NewHowItWorks HowItWorks={HowItWorks} title="How Does It Work ?"/>
+
+        <NewWhyJoinZingFluence title="Why join Zingfluence <br/> Buzz ?" whyJoindata={whyJoindata}/>
+
+        <NewDedicatedSupport/>
+     
+
+         
+         <AcademyFAQ faqData={faqData}/>
+        <HomeCta />
+        <div className="home-footer" >
         <Footer1 />
+        </div>
       </div>
     </>
   );

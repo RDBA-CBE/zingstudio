@@ -29,34 +29,26 @@ const ContactHeader = () => (
 
                     <div className="row gy-4">
                         <div className="col-sm-6">
-                        <h6 className="tp-label">ADDRESS:</h6>
-                        <address className="mb-0">
-                            27 Division St, New York,<br />
-                            NY&nbsp;10002,&nbsp;USA
+                        <h6 className="tp-label  fw-bold">ADDRESS:</h6>
+                        <address className="mb-0" style={{fontSize:"16px"}}>
+                        5A-1, 4th Street,Chinthamani Nagar,K.K.Pudur,Saibaba Colony,<br />Coimbatore – 641 038.<br/>Tamil Nadu, India.
                         </address>
                         </div>
 
                         <div className="col-sm-6">
-                        <h6 className="tp-label">PHONE:</h6>
-                        <a href="tel:+1800123456789" className="tp-link">
-                            +1&nbsp;800&nbsp;123&nbsp;456&nbsp;789
+                        <h6 className="tp-label fw-bold">PHONE:</h6>
+                        <a href="tel:+91(422)4980307"  className="tp-link"  style={{fontSize:"16px"}}>
+                        +91 (422) 498 0307
                         </a>
-                        </div>
+                        
 
-                        <div className="col-sm-6">
-                        <h6 className="tp-label">WORKING&nbsp;HOURS:</h6>
-                        <p className="mb-0">Mon – Fri: 9 am – 6 pm</p>
-                        </div>
+                        
 
-                        <div className="col-sm-6">
-                        <h6 className="tp-label">IN&nbsp;SOCIALS:</h6>
-                        <div className="d-flex gap-3 mt-2">
-                            <i className="fab fa-facebook-f" />
-                            <i className="fab fa-linkedin-in" />
-                            <i className="fab fa-instagram" />
-                            <i className="fab fa-twitter" />
+                        
+                        <h6 className="tp-label mt-3  fw-bold">EMAIL:</h6>
+                        <a href="mailto:support@zingstudio.in"  style={{fontSize:"16px"}}>support@zingstudio.in</a>
                         </div>
-                        </div>
+                       
                     </div>
                     </div>
                 </div>

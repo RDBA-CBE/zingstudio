@@ -188,7 +188,7 @@ const banner = {
 
         
         <NewWhyBrandBuzz />
-        <NewWhyJoinZingFluence title="Zingfluence: The Best at Amplifying Your Brand with Influence That Matters." whyJoindata={whyJoindata}/>
+        <NewWhyJoinZingFluence title="The Best at Amplifying Your Brand with Influence That Matters." whyJoindata={whyJoindata}/>
 
        
      

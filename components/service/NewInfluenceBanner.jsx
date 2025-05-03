@@ -1,21 +1,25 @@
 import React from 'react';
 
 const services = [
-  'Product Design', 'SEO', 'Motion Design', 'Digital Marketing', 'UI/UX Design',
-  'Illustrations', 'Data Analysis', 'Branding', 'Mobile Development',
-  'E-commerce Solutions', 'Web Development', 'Email Marketing', 'Content Marketing', 'SMM'
+  'POST', 'TWEET', 'REEL', 'SNAP',
+  'VIDEO', 'REVIEW', 'STORY', 'SHOOT'
 ];
 
 const BubbleServices = () => {
   return (
     <div className="bubble-wrapper">
       <h1 className="bubble-title">
-        <span>We Can Help</span><br />
-        <span className="bubble-sub">You with...</span>
+        <span>Monetize Your Social Media Influence Today!</span><br />
+        <span style={{fontSize:'2rem'}}> Join a Growing Community of Over 200,000 Influencers and</span><br />
+        <span className="bubble-sub">Get Paid for Every</span>
       </h1>
       <div className="bubble-container">
         {services.map((service, index) => (
-          <div key={index} className={`bubble bubble-${index}`}>
+          <div
+            key={index}
+            className={`bubble bubble-${index}`}
+            style={{ animationDelay: `${index * 0.2}s` }}
+          >
             {service}
           </div>
         ))}

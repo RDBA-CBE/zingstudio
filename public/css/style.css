@@ -24927,12 +24927,9 @@ font-size: 16px !important;
   font-size: 16px !important;
 }
 
-
 .bubble-wrapper {
   padding: 3rem;
   text-align: center;
-  border: 1px solid #ccc;
-  border-radius: 2rem;
   position: relative;
   overflow: hidden;
 }
@@ -24952,7 +24949,7 @@ font-size: 16px !important;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
+  gap: 1.5rem;
   position: relative;
 }
 
@@ -24960,7 +24957,6 @@ font-size: 16px !important;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #ccc;
   border-radius: 50%;
   text-align: center;
   font-weight: 600;
@@ -24968,7 +24964,18 @@ font-size: 16px !important;
   padding: 1rem;
   white-space: nowrap;
   background-color: #fff;
+  border: 1px solid #ccc;
   transition: transform 0.3s ease;
+  animation: bubbleDrop 0.8s ease-out forwards;
+  opacity: 0;
+  transform: translateY(-200px);
+}
+
+@keyframes bubbleDrop {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .bubble:hover {
@@ -24976,27 +24983,30 @@ font-size: 16px !important;
   cursor: pointer;
 }
 
-/* Example varying sizes */
-.bubble-0, .bubble-5, .bubble-7, .bubble-10 {
-  width: 140px;
-  height: 140px;
-}
-
-.bubble-1, .bubble-2, .bubble-12 {
-  width: 100px;
-  height: 100px;
-}
-
-.bubble-3, .bubble-4, .bubble-9, .bubble-13 {
+/* Varying sizes for natural shape */
+.bubble-0, .bubble-5, .bubble-7 {
   width: 120px;
   height: 120px;
 }
 
-.bubble-6, .bubble-8, .bubble-11 {
-  width: 110px;
-  height: 110px;
+.bubble-1, .bubble-2 {
+  width: 90px;
+  height: 90px;
 }
 
+.bubble-3, .bubble-4, .bubble-6 {
+  width: 100px;
+  height: 100px;
+}
+.bubble:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  background: linear-gradient(135deg, #6a5af9, #00d4ff);
+  color: #fff;
+  border-color: transparent;
+  box-shadow: 0 6px 20px rgba(106, 90, 249, 0.4);
+}
+/* Responsive */
 @media (max-width: 768px) {
   .bubble-title {
     font-size: 2rem;
@@ -25010,22 +25020,4 @@ font-size: 16px !important;
     font-size: 0.75rem;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

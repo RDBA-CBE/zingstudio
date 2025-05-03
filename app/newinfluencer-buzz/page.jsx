@@ -529,7 +529,7 @@ export default function page() {
         <NewDedicatedSupport/>
      
 
-        <WhatAreYouWaitingFor/>
+        {/* <WhatAreYouWaitingFor/> */}
      
 
       

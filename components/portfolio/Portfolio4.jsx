@@ -317,9 +317,12 @@ export default function Portfolio4() {
   return (
     <div className="section-full content-inner-2 portfolio text-uppercase bg-gray" id="portfolio">
       <div className="container-fluid">
-        <div className="site-filters clearfix center m-b40">
-          <h2 className="title">Portfolio</h2>
-          <h4 className="title" style={{ color: "black", fontWeight: "600" }}>
+        <div className="row px-3 px-lg-5">
+          <div className="col-12 px-0 mx-0">
+            <div className="container-fluid">
+            <div className="site-filters clearfix center m-b40">
+          <h2 className="title font-22 fw-bold" style={{fontSize:"30px"}}>Portfolio</h2>
+          <h4 className="title font-18 " style={{ color: "black", fontWeight: "600" ,fontSize:"18px"}}>
             Quickly explore our services and projects by category.
           </h4>
           <ul className="filters mt-3">
@@ -335,11 +338,11 @@ export default function Portfolio4() {
         </div>
 
         <div className="clearfix" id="lightgallery">
-          <ul id="masonry" ref={isotopContainer} className="portfolio-ic dlab-gallery-listing gallery-grid-4 lightgallery text-center">
+          <ul id="masonry" ref={isotopContainer} className="portfolio-ic dlab-gallery-listing gallery-grid-4 lightgallery text-center ps-0 row" >
             {portfolioItems3.map((item, index) => (
-              <li key={index} className={`${item.filter} card-container col-lg-4 col-md-6 col-sm-6 p-a0`} onClick={() => handleImageClick(item)}>
-                <div className="dlab-box dlab-gallery-box">
-                  <div className="dlab-media dlab-img-overlay1 dlab-img-effect">
+              <li key={index} className={`${item.filter} card-container col-lg-4 col-md-6 col-sm-6 p-a0 ps-0`} onClick={() => handleImageClick(item)}>
+                <div className="dlab-box dlab-gallery-box" >
+                  <div className="dlab-media dlab-img-overlay1 dlab-img-effect" style={{borderTopLeftRadius:"30px", borderTopRightRadius:"30px"}}>
                     <Image src={item.imageSrc} width={650} height={528} alt={item.title} />
                     <div className="overlay-bx">
                       <div className="overlay-icon">
@@ -355,14 +358,14 @@ export default function Portfolio4() {
                       </div>
                     </div>
                   </div>
-                  <div className="dez-info p-a30 bg-white">
-                    <p className="dez-title m-t0">
+                  <div className="dez-info p-a30 bg-white" style={{borderBottomLeftRadius:"30px", borderBottomRightRadius:"30px"}}>
+                    <h5 className="dez-title m-t0">
                       {item.filter === "web-design" ? (
                         <Link href={item.link || "#"} target="_blank">{item.title}</Link>
                       ) : (
                         item.title
                       )}
-                    </p>
+                    </h5>
                     <p><small>{item.category}</small></p>
                   </div>
                 </div>
@@ -396,6 +399,10 @@ export default function Portfolio4() {
           
           }}
         />
+            </div>
+          </div>
+        </div>
+       
       </div>
     </div>
   );

@@ -14,11 +14,6 @@ import ProcessForInfluencer from "@/components/service/ProcessForInfluencer";
 import ChooseZingFluencer from "@/components/service/ChooseZingfluencer";
 import Cta from "@/components/homes/home-13/Cta";
 import ZingFluenceCta from "@/components/service/ZingFluenceCta";
-import NewZingFluenceBanner from "@/components/NewZingFluenceBanner";
-import NewMarketingAgency from "@/components/service/NewMarketingAgency";
-import NewChooseZingFluencer from "@/components/service/NewChooseZingFluencer";
-import HomeCta from "@/components/service/HomeCta";
-import Footer1 from "@/components/footers/Footer1";
 
 export const metadata = {
   title: "Zing Studio - Zingfluence",
@@ -30,15 +25,13 @@ export default function page() {
       <div className="page-wraper  zingFluence">
         <Header17 />
 
-        
-        <NewZingFluenceBanner/>
+        {/* <ZingFluenceBanner/> */}
+        <ZingFluenceBanner/>
 
         
-        <NewMarketingAgency/>
-
-        <NewChooseZingFluencer/>
+        <MarketingAgency/>
       
-        {/* <ChooseZingFluencer/> */}
+        <ChooseZingFluencer/>
 
         {/* ----------- */}
 
@@ -51,10 +44,10 @@ export default function page() {
 
         <Facts/>
           <ProcessForInfluencer/> */}
-        <HomeCta />
+        <ZingFluenceCta />
         
         
-        <Footer1 />
+        <Footer13 />
       </div>
     </>
   );

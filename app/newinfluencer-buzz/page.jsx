@@ -26,434 +26,7 @@ export const metadata = {
 };
 export default function page() {
 
-    const serviceAbout ={
-        subtitle:"lorem lorem",
-        title:"Zing Digital Sprint – Essentials of Marketing",
-        descrip:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repudiandae sapiente dolor cum vel tempora modi doloribus laborum voluptatum.",
-        list :[
-          {
-            item:"Strong foundation in digital marketing fundamentals",
-            sec:"0.2s"
-          },
-          {
-            item:"Hands-on training with essential marketing tools",
-            sec:"0.4s"
-          },
-          {
-            item:"Placement support for top performers",
-            sec:"0.6s"
-          }
-          
-        ],
-        subDes:"Course Highlight:",
-        src:"/images/Home-Page/character-img-3.png"
-      }
-      const services = [
-        { id: '001', title: 'Course Duration ', description: ' 15 Days', sec:"0.2s" },
-        { id: '002', title: 'Course Fees', description: '₹7,000',sec:"0.4s" },
-        {
-          id: '003',
-          title: 'Application Closes On ',
-          description:
-            '31/05/2025',
-            sec:"0.6s"
-        },
-        
-      ];
-      const courselist = [
-        { id: "01", title: "Instant Setup", 
-          description: [
-            "We connect you with reputable brands that align with your personal style and values, ensuring collaborations feel natural and resonate with your audience."
-          
-      
-        ] },
-        { id: "02", title: "Creative Freedom",
-           description:[
-            "Your voice matters. We provide the flexibility to express your creativity while offering strategic guidance to deliver impactful campaigns that engage and inspire.",
-           
-          ] },
-        { id: "03", title: "Growth Opportunities",
-           description: [
-            "Expand your reach through high-visibility campaigns and exclusive collaborations. We help you build your personal brand, offering opportunities that elevate your influence and open doors to future partnerships.",
-            
-          ] },
-       
-      ];
-      const pricingData = [
-        {
-          id: 1,
-          
-          price: "Right Brands",
-          duration: "Per Week",
-          features: [
-            "We match you with brands that align with your style, values, and audience for authentic collaborations.",
-          
-          ],
-          bgShape: "bubble1",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png"
-        },
-        {
-          id: 2,
-          
-          price: "Plan & Collaborate",
-          duration: "Per Week",
-          features: [
-            "Work closely with our team to design creative campaigns that highlight your unique voice.",
-          ],
-          bgShape: "bubble2",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png"
-        },
-        {
-          id: 3,
-          
-          price: "Create & Share",
-          duration: "Per Week",
-          features: [
-            "Bring campaigns to life with engaging content that resonates with your followers across digital platforms."
-          ],
-          bgShape: "bubble3",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png",
-        },
-        {
-          id: 4,
-          
-          price: "Measure & Grow",
-          duration: "Per Week",
-          features: [
-            "Track performance, gain insights, and unlock new opportunities to expand your reach and influence.", 
-              
-          ],
-          bgShape: "bubble3",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png"
-        },
-       
-      ];
-      const AcademyContent={
-        title:"Why Choose Zing Academy?",
-        paragraph:"At Zing Academy, we don’t just teach digital marketing—we shape industry leaders. Our hands-on, practical approach ensures that you don’t just learn concepts but also apply them in real-world scenarios. Whether you're a student, entrepreneur, freelancer, or job seeker, our courses are designed to equip you with the most in-demand skills in digital marketing.",
-        buttoncontent:"All Services",
-      }
-      const courseLearning = [
-        {
-          id: 1,
-          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/digital-marketing-startegy.jpg",
-          title: "10+ Industry-Recognized Certificates",
-          link:"zing-digital-marketing-mastery",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png"
-        },
-        {
-          id: 2,
-          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/content-and-prompt-engineerings.jpg",
-          title: "Weekend & Flexible Batches",
-          link:"zing-digital-marketing-mastery",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png"
-        },
-        {
-          id: 3,
-          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/google-and-advance-web-analytics.jpg",
-          title: "Gamified Learning with Scoreboards",
-          link:"zing-digital-marketing-mastery",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png"
-        },
-        {
-          id: 4,
-          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/social-media-marketing.jpg",
-          title: "100% Practical Learning",
-          link:"zing-digital-marketing-mastery",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png"
-        },
-        {
-          id: 5,
-          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/search-engine-optimization.jpg",
-          title: "Community & Mentorship",
-          link:"zing-digital-marketing-mastery",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png"
-        },
-        {
-          id: 6,
-          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/funnel-building-lead-gen.jpg",
-          title: "Weekly Quizzes & Monthly Assignments",
-          link:"zing-digital-marketing-mastery",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png"
-        },
-        {
-          id: 7,
-          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/facebook-and-instagram-ads.jpg",
-          title: "Weekly Student Presentations",
-          link:"zing-digital-marketing-mastery",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png"
-        },
-        {
-          id: 8,
-          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/wix.jpg",
-          title: "Wix",
-          link:"Final Capstone Project",
-          src:"/images/zing-digital-marketing-mastery/unnamed.png"
-        },
-        {
-            id: 9,
-            imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/whatsapp -marketing.jpg",
-            title: "Certification on Completion",
-            link:"zing-digital-marketing-mastery",
-            src:"/images/zing-digital-marketing-mastery/unnamed.png"
-          },
-          {
-            id: 9,
-            imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/web-technology.jpg",
-            title: "Zingers Alumni Community ",
-            link:"zing-digital-marketing-mastery",
-            src:"/images/zing-digital-marketing-mastery/unnamed.png"
-          },
-          {
-            id: 10,
-            imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/ai-automation-in-digital-marketing.jpg",
-            title: "AI & Automation in Digital Marketing",
-            link:"zing-digital-marketing-mastery",
-            src:"/images/zing-digital-marketing-mastery/unnamed.png"
-          },
-          {
-            id: 11,
-            imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/job-freelancing-support.jpg",
-            title: "Job & Freelancing Support",
-            link:"zing-digital-marketing-mastery",
-            src:"/images/zing-digital-marketing-mastery/unnamed.png"
-          },
-          {
-            id: 12,
-            imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/exclusive-industry-webinars-expert-sessions.jpg",
-            title: "Exclusive Industry Webinars & Expert Sessions",
-            link:"zing-digital-marketing-mastery",
-            src:"/images/zing-digital-marketing-mastery/unnamed.png"
-          },
-          {
-            id: 13,
-            imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/scholarship-for-women-from-underprivileged-backgrounds.jpg",
-            title: "10% Scholarship for Women from Underprivileged Backgrounds",
-            link:"zing-digital-marketing-mastery",
-            src:"/images/zing-digital-marketing-mastery/unnamed.png"
-          },
-      ];
-
-      const circles = [
-        { id: "ecae91b", url: "/images/sample/homepage_1-7.webp", width: 375, height: 375 },
-        { id: "a208805", url: "/images/sample/homepage_1-1.webp", width: 148, height: 148 },
-        { id: "f773497", url: "/images/sample/homepage_1-2.webp", width: 225, height: 225 },
-        { id: "778131d", url: "/images/sample/homepage_1-3.webp", width: 350, height: 350 },
-        { id: "ae61a10", url: "/images/sample/homepage_1-7.webp", width: 225, height: 225 },
-        { id: "bbfe833", url: "/images/sample/homepage_1-5.webp", width: 148, height: 148 },
-        { id: "d921808", url: "/images/sample/homepage_1-6.webp", width: 400, height: 400 },
-        { id: "0dfae77", url: "/images/sample/homepage_1-8.webp", width: 150, height: 150 },
-        { id: "4326c43", url: "/images/sample/homepage_1-10.webp", width: 318, height: 318 },
-        { id: "a087b13", url: "/images/sample/homepage_1-9.webp", width: 225, height: 225 },
-       
-      ];
-      const teamIntroData = {
-        title: "Who can apply <br/>  for this course?",
-        description1:
-          "Students, professionals, entrepreneurs, or content creators—this course is for anyone ready to boost their digital skills. No experience needed, just a passion to learn and grow!",
-        description2:
-          "Through our years of experience, we’ve also learned that while each channel has its own set of advantages, they all work best when strategically paired with other channels.",
-        buttonText: "About Company",
-        stats: [
-          { id: 1, value: "15", label: "Years of Experience" },
-          { id: 2, value: "1K+", label: "Projects Worldwide" },
-        ],
-      };
-      
-      
-
-      const ToolsContent = {
-        tool1Num:"20+",
-        tool1Title :"Free Essential Digital Marketing Tools",
-        tool1worth :"Worth Of 6 Lakhs",
-        tool2Num:"20+",
-        tool2Title :"Digital Marketing AI Tools",
-        tool2worth :"Worth Of 6 Lakhs"
-      }
-      const Tools1 = [
-          {
-            animation: "fadeInLeft",
-            delay: "0.3s",
-            iconClass: "flaticon-factory",
-            img:"/images/Zing-Digital-Sprint-Essentials-of-Marketing/Zing-Digital-Sprint-Essentials-of-Marketing-Tools/essential-tools/tool-1.png",
-            // img:"/images/logo.png"
-          },
-          {
-           
-            animation: "fadeInDown",
-            delay: "0.3s",
-            iconClass: "flaticon-worker",
-            img:"/images/Zing-Digital-Sprint-Essentials-of-Marketing/Zing-Digital-Sprint-Essentials-of-Marketing-Tools/essential-tools/tool-2.png"
-          },
-          {
-            
-            animation: "fadeInUp",
-            delay: "0.3s",
-            iconClass: "flaticon-settings",
-            img:"/images/Zing-Digital-Sprint-Essentials-of-Marketing/Zing-Digital-Sprint-Essentials-of-Marketing-Tools/essential-tools/tool-3.png"
-          },
-          {
-           
-            animation: "fadeInRight",
-            delay: "0.3s",
-            iconClass: "flaticon-conveyor",
-             img:"/images/Zing-Digital-Sprint-Essentials-of-Marketing/Zing-Digital-Sprint-Essentials-of-Marketing-Tools/essential-tools/tool-4.png"
-          },
-          {
-              animation: "fadeInLeft",
-              delay: "0.3s",
-              iconClass: "flaticon-factory",
-               img:"/images/Zing-Digital-Sprint-Essentials-of-Marketing/Zing-Digital-Sprint-Essentials-of-Marketing-Tools/essential-tools/tool-5.png"
-            },
-            {
-             
-              animation: "fadeInDown",
-              delay: "0.3s",
-              iconClass: "flaticon-worker",
-               img:"/images/Zing-Digital-Sprint-Essentials-of-Marketing/Zing-Digital-Sprint-Essentials-of-Marketing-Tools/essential-tools/tool-6.png"
-            },
-            {
-              
-              animation: "fadeInUp",
-              delay: "0.3s",
-              iconClass: "flaticon-settings",
-               img:"/images/Zing-Digital-Sprint-Essentials-of-Marketing/Zing-Digital-Sprint-Essentials-of-Marketing-Tools/essential-tools/tool-7.png"
-            },
-            {
-             
-              animation: "fadeInRight",
-              delay: "0.3s",
-              iconClass: "flaticon-conveyor",
-               img:"/images/Zing-Digital-Sprint-Essentials-of-Marketing/Zing-Digital-Sprint-Essentials-of-Marketing-Tools/essential-tools/tool-8.png"
-            },
-           
-          
-          ];
-  
-      const Tools2 = [
-        {
-             
-          animation: "fadeInDown",
-          delay: "0.3s",
-          iconClass: "flaticon-worker",
-          img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-14.png"
-        },
-        {
-          
-          animation: "fadeInUp",
-          delay: "0.3s",
-          iconClass: "flaticon-settings",
-          img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-15.png"
-        },
-        {
-         
-          animation: "fadeInRight",
-          delay: "0.3s",
-          iconClass: "flaticon-conveyor",
-          img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-16.png"
-        },
-        {
-          animation: "fadeInLeft",
-          delay: "0.3s",
-          iconClass: "flaticon-factory",
-          img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-17.png"
-        },
-        {
-         
-          animation: "fadeInDown",
-          delay: "0.3s",
-          iconClass: "flaticon-worker",
-          img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-18.png"
-        },
-        {
-         
-          animation: "fadeInDown",
-          delay: "0.3s",
-          iconClass: "flaticon-worker",
-          img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-19.png"
-        },
-        {
-         
-          animation: "fadeInDown",
-          delay: "0.3s",
-          iconClass: "flaticon-worker",
-          img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-20.png"
-        },
-        {
-         
-          animation: "fadeInDown",
-          delay: "0.3s",
-          iconClass: "flaticon-worker",
-          img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-21.png"
-        },
-        {
-         
-          animation: "fadeInDown",
-          delay: "0.3s",
-          iconClass: "flaticon-worker",
-          img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-22.png"
-        },
-        {
-         
-          animation: "fadeInDown",
-          delay: "0.3s",
-          iconClass: "flaticon-worker",
-          img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-23.png"
-        },
-        {
-         
-          animation: "fadeInDown",
-          delay: "0.3s",
-          iconClass: "flaticon-worker",
-          img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-24.png"
-        },
-        {
-         
-          animation: "fadeInDown",
-          delay: "0.3s",
-          iconClass: "flaticon-worker",
-          img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-25.png"
-        },
-        {
-         
-          animation: "fadeInDown",
-          delay: "0.3s",
-          iconClass: "flaticon-worker",
-          img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-26.png"
-        },
-    ];
-  
-      const Tools3 = [
-      {
-        animation: "fadeInLeft",
-        delay: "0.3s",
-        iconClass: "flaticon-factory",
-         img:"/images/Zing-Digital-Sprint-Essentials-of-Marketing/Zing-Digital-Sprint-Essentials-of-Marketing-Tools/AI-tools/tool-1.png"
-      },
-      {
-       
-        animation: "fadeInDown",
-        delay: "0.3s",
-        iconClass: "flaticon-worker",
-        img:"/images/Zing-Digital-Sprint-Essentials-of-Marketing/Zing-Digital-Sprint-Essentials-of-Marketing-Tools/AI-tools/tool-2.png"
-      },
-      {
-        
-        animation: "fadeInUp",
-        delay: "0.3s",
-        iconClass: "flaticon-settings",
-        img:"/images/Zing-Digital-Sprint-Essentials-of-Marketing/Zing-Digital-Sprint-Essentials-of-Marketing-Tools/AI-tools/tool-3.png"
-      },
-      {
-       
-        animation: "fadeInRight",
-        delay: "0.3s",
-        iconClass: "flaticon-conveyor",
-        img:"/images/Zing-Digital-Sprint-Essentials-of-Marketing/Zing-Digital-Sprint-Essentials-of-Marketing-Tools/AI-tools/tool-4.png"
-      },
     
-       
-      ]
 
       const faqData = [
         {
@@ -506,6 +79,50 @@ export default function page() {
         },
       ];
 
+
+      const WhyChoose = [
+        {
+          title: 'Instant Setup',
+          description:
+            'We connect you with reputable brands that align with your personal style and values, ensuring collaborations feel natural and resonate with your audience.',
+        },
+        {
+          title: 'Tailored Collaborations',
+          description:
+            'Our partnerships are carefully selected to match your niche, allowing authentic promotion and long-term growth.',
+        },
+        {
+          title: 'Dedicated Support',
+          description:
+            'Receive guidance from our expert team throughout your brand collaboration journey, from onboarding to execution.',
+        },
+      ];
+
+      const HowItWorks = [
+        { id: '001', title: 'Right Brands ', 
+            description: '3 Months + 3 Months Internship', sec:"0.2s" },
+        { id: '002', title: 'Plan & Collaborate',
+             description: '₹25,000',sec:"0.4s" },
+        {
+          id: '003',
+          title: 'Create & Share',
+          description:
+            '31/05/2025',
+            sec:"0.6s"
+        },
+        { id: '002', title: 'Measure & Grow',
+             description: '₹25,000',sec:"0.4s" },
+        
+      ];
+
+      const whyJoindata= [
+        { number: '01', title: 'Two Decades of Experience' },
+        { number: '02', title: 'Thorough in what I do' },
+        { number: '03', title: 'Creative and Interesting' },
+        { number: '04', title: 'Result Driven' },
+        { number: '05', title: 'Cost Effective' },
+        { number: '06', title: 'Ethical' },
+    ]
     
 
   return (
@@ -513,27 +130,17 @@ export default function page() {
       <div className="page-wraper  " style={{background:"#fff"}}>
         <Header17 />
         
-        <NewInfluenceBanner/>
+        <NewInfluenceBanner />
 
+         <NewWhyChooseInfluence WhyChoose={WhyChoose} title="Why Choose Us?"/>
 
-         {/* <NewCourseBanner serviceAbout={serviceAbout}/> */}
+        <NewHowItWorks HowItWorks={HowItWorks} title="How Does It Work ?"/>
 
-
-         {/* <WhyChooseInflunce courselist={courselist} title="Why Choose Us?"/> */}
-         <NewWhyChooseInfluence/>
-
-        <NewHowItWorks/>
-
-        <NewWhyJoinZingFluence title="Why join Zingfluence <br/> Buzz ?"/>
+        <NewWhyJoinZingFluence title="Why join Zingfluence <br/> Buzz ?" whyJoindata={whyJoindata}/>
 
         <NewDedicatedSupport/>
      
 
-        {/* <WhatAreYouWaitingFor/> */}
-     
-
-      
-          
          
          <AcademyFAQ faqData={faqData}/>
         <HomeCta />

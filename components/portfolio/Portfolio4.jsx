@@ -325,9 +325,9 @@ export default function Portfolio4() {
           <h4 className="title font-18 " style={{ color: "black", fontWeight: "600" ,fontSize:"18px"}}>
             Quickly explore our services and projects by category.
           </h4>
-          <ul className="filters mt-3">
+          <ul className="filters mt-3 ps-0 mx-0">
             {filters.map((item, index) => (
-              <li key={index} className={`btn btnhover20 ${currentFilter === item.filter ? "active" : ""}`} onClick={() => updateCategory(item.filter)}>
+              <li key={index} className={`btn btnhover20 ${currentFilter === item.filter ? "active" : ""} mx-1 mx-md-0`} onClick={() => updateCategory(item.filter)}>
                 <input type="radio" />
                 <a href="#" className="site-button-secondry button-sm radius-xl">
                   <span>{item.text}</span>

@@ -6,7 +6,7 @@ const NewWhyJoinZingFluence = ({title,whyJoindata}) => {
 
   
     return (
-        <section className="service-section container-fluid text-dark py-5 new-why-me" >
+        <section className="service-section container-fluid text-dark py-5 new-why-me pt-0" >
             <div className='row justify-content-center px-3 px-md-5'>
                 <div className='col-12 mx-0 px-0'>
                     <div className='container px-0'>

@@ -38,10 +38,12 @@ const NewSpecialize = () => {
                 Lorem ipsum dolor sit amet<br className="d-none d-md-block"/> consectetur adipis
                 </h2>
               </div>
-              <button className="btn btn-outline-light mb-3 mb-md-5  service-btn">
-                <a href="/services" className="text-white " style={{textDecoration:"none"}}>
-                All Services</a>
+              <a href="/services" className="text-white " style={{textDecoration:"none"}}>
+              <button className="btn btn-outline-light mb-3 mb-md-5  service-btn text-black">
+                
+                All Services
               </button>
+              </a>
             </div>
 
             {services.map((service) => (

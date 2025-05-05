@@ -16,7 +16,9 @@ const NewWhyJoinZingFluence = ({title,whyJoindata}) => {
                                 <div className="service-intro">
                               
                                     <h2 className="service-title mt-3 font-48" dangerouslySetInnerHTML={{__html:title}}></h2>
-                                    <button className="btn service-button mt-4 "><a href="/services" className='text-white'>Enquiry Now</a></button>
+                                    <a href="/contact">
+                                    <button className="btn service-button mt-4 "><a href="/services" className='text-white'>Enquiry Now</a></button></a>
+                                    
                                 </div>
 
                                 <div >

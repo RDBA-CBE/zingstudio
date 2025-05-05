@@ -19,7 +19,7 @@ const NewHomeWorks = () => {
           <p className="subtext-digital">
           You will see design to purpose creativity and effectiveness in every piece of my works
           </p>
-          <button className="btn btn-dark mt-3  service-btn text-black" style={{fontWeight:700, border:"1px solid #1a43bf"}}><a href="projects">View All Projects</a></button>
+          <button className="btn btn-dark mt-3  service-btn text-black" style={{fontWeight:700, border:"1px solid #1a43bf"}}><a href="portfolio">View All Projects</a></button>
           <div className="illustration mt-4">
             <img
               src="/images/Home-Page/WorksIDid-New.png"

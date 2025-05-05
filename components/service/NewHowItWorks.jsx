@@ -7,7 +7,7 @@ const NewHowItWorks = ({HowItWorks,title}) => {
     <section className="container-fluid mt-5" style={{background:"#1a43bf", padding:"40px 0" }}>
     <div className=" rounded-lg pt-3 pb-5 " style={{width:"95%",margin:"auto"}} >
         <div>
-            <h6 className="text-white text-center mb-5 font-48 fw-bold" style={{fontSize:"48px"}}>{title}</h6>
+            <h6 className="text-white text-center mb-4 font-50 fw-bold" style={{fontSize:"55px"}}>{title}</h6>
         </div>
 
         <div className='services-list-section BannerList'>
@@ -21,7 +21,7 @@ const NewHowItWorks = ({HowItWorks,title}) => {
             
 
                     <div className="service-content d-flex justify-content-center">
-                    <h2 className="service-title mb-0 text-black fw-bold text-white" dangerouslySetInnerHTML={{__html:service.title}}>
+                    <h2 className="service-title mb-0 text-black fw-bold text-white font-48" dangerouslySetInnerHTML={{__html:service.title}}>
                     
                     </h2>
                     

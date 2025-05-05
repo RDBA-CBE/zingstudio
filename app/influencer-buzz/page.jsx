@@ -120,7 +120,7 @@ export default function page() {
 
 
 const banner = {
-  title:"Monetize Your Social Media Influence Today!",
+  title:"Monetize Your Social Media <br class='d-none d-md-block'/> Influence Today!",
   subtitle:"Join a Growing Community of Over 200,000 Influencers and",
   desc:"Get Paid for Every",
   services : [

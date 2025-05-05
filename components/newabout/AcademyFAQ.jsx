@@ -29,7 +29,7 @@ const AcademyFAQ = ({faqData}) => {
                   
                   </div>
                 
-                  <div>
+                  <div className='d-flex d-lg-block justify-content-center align-items-center mt-5 mt-lg-0'>
                   <img src="/images/services/web-deisgn/4.png" alt="" style={{width:"60%"}}/>
                   </div>
                   

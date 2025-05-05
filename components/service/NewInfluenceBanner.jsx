@@ -6,7 +6,7 @@ const BubbleServices = ({banner}) => {
   return (
     <div className="bubble-wrapper">
       <h1 className="bubble-title">
-        <span className='font-48 fw-bold' style={{fontSize:"48px"}}>{banner?.title}</span><br />
+        <span className='font-60 fw-bold' style={{fontSize:"60px"}} dangerouslySetInnerHTML={{__html:banner?.title}}></span><br />
         <span className='bubble-subtitle' >{banner?.subtitle}</span><br />
         <span className="bubble-sub">{banner?.desc}</span>
       </h1>

@@ -10,14 +10,17 @@ const ContactHeader = () => (
                 <div className="row g-5">
         {/* Left column ------------------------------------------------ */}
                     <div className="col-lg-6">
-                    <h2 className="tp-heading mb-4">
+                    <h2 className="tp-heading mb-4 font-48" style={{fontSize:"48px"}}>
                         Let’s Start Work Together. <br />
                         Get in Touch
                     </h2>
 
-                    <button className="tp-cta-btn btn px-5 py-3 fw-semibold">
+                    <a href="#newcontact">
+                    <button className="tp-cta-btn btn fw-semibold" style={{padding:"15px 30px"}}>
                         Get in Touch
                     </button>
+                    </a>
+                   
                     </div>
 
                     {/* Right column ----------------------------------------------- */}
@@ -31,13 +34,13 @@ const ContactHeader = () => (
                         <div className="col-sm-6">
                         <h6 className="tp-label  fw-bold">ADDRESS:</h6>
                         <address className="mb-0" style={{fontSize:"16px"}}>
-                        5A-1, 4th Street,Chinthamani Nagar,K.K.Pudur,Saibaba Colony,<br />Coimbatore – 641 038.<br/>Tamil Nadu, India.
+                        5A-1, 4th Street, Chinthamani Nagar, K.K.Pudur, Saibaba Colony,<br />Coimbatore – 641 038.<br/>Tamil Nadu, India.
                         </address>
                         </div>
 
                         <div className="col-sm-6">
-                        <h6 className="tp-label fw-bold">PHONE:</h6>
-                        <a href="tel:+91(422)4980307"  className="tp-link"  style={{fontSize:"16px"}}>
+                        <h6 className="tp-label fw-bold text-black">PHONE:</h6>
+                        <a href="tel:+91(422)4980307"  className="tp-link"  style={{fontSize:"16px",color:"#000"}}>
                         +91 (422) 498 0307
                         </a>
                         
@@ -45,8 +48,8 @@ const ContactHeader = () => (
                         
 
                         
-                        <h6 className="tp-label mt-3  fw-bold">EMAIL:</h6>
-                        <a href="mailto:support@zingstudio.in"  style={{fontSize:"16px"}}>support@zingstudio.in</a>
+                        <h6 className="tp-label mt-3  fw-bold text-black">EMAIL:</h6>
+                        <a href="mailto:support@zingstudio.in"  style={{fontSize:"16px",color:"#000"}}>support@zingstudio.in</a>
                         </div>
                        
                     </div>

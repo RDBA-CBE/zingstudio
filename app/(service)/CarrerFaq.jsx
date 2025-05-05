@@ -62,7 +62,7 @@ const CarrerFaq = () => {
                         className={`faq-item ${openIndex === index ? 'open' : ''}`}
                         onClick={() => toggleFAQ(index)}
                       >
-                        <div className="faq-question font-22 text-black">
+                        <div className="faq-question font-30 text-black" style={{fontSize:"30px"}}>
                           {faq.question}
                           <span className="arrow-icon text-black">↗</span>
                         </div>

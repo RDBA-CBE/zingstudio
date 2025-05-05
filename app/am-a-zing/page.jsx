@@ -23,7 +23,7 @@ export const metadata = {
 export default function page() {
   return (
     <>
-      <div className="page-wraper  ">
+      <div className="">
         <Header17 />
         <section className="about-us-hero d-flex flex-column align-items-center justify-content-center text-center">
       <h1 className="about-us-title fw-bold">Am-A-Zing</h1>

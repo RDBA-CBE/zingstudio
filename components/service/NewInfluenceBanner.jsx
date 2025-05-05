@@ -7,8 +7,8 @@ const BubbleServices = ({banner}) => {
     <div className="bubble-wrapper">
       <h1 className="bubble-title">
         <span className='font-60 fw-bold' style={{fontSize:"60px"}} dangerouslySetInnerHTML={{__html:banner?.title}}></span><br />
-        <span className='bubble-subtitle' >{banner?.subtitle}</span><br />
-        <span className="bubble-sub">{banner?.desc}</span>
+        <span className='bubble-subtitle font-30' dangerouslySetInnerHTML={{__html:banner?.subtitle}} style={{fontSize:"30px"}}></span><br />
+        <span className="bubble-sub font-22">{banner?.desc}</span>
       </h1>
       <div className="bubble-container">
         {banner?.services?.map((service, index) => (

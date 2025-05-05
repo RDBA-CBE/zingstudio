@@ -24,7 +24,7 @@ const AcademyFAQ = ({faqData}) => {
                   <div>
                   <h2 className="faq-heading pt-4 font-48">Explore Frequently<br />Asked Questions</h2>
                   <a href="contact">
-                  <button className="faq-btn">Get in Touch</button>
+                  <button className="faq-btn fw-bold">Get in Touch</button>
                   </a>
                   
                   </div>

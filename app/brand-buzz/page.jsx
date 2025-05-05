@@ -173,7 +173,7 @@ export default function page() {
 
 const banner = {
   title:"Create the Buzz. Build the Brand.",
-  subtitle:"Harness the power of influencer marketing to amplify your brand’s voice, connect authentically, and make a lasting impact",
+  subtitle:"Harness the power of influencer marketing to amplify your brand’s voice, <br/> connect authentically, and make a lasting impact",
   desc:"Level up your brand with influencer vibes that",
   services : [
     "Connect", "Captivate", "Convert"
@@ -196,7 +196,7 @@ const banner = {
 
         
         <NewWhyBrandBuzz />
-        <NewWhyJoinZingFluence title="Zingfluence: The Best at Amplifying Your Brand with Influence That Matters." whyJoindata={whyJoindata}/>
+        <NewWhyJoinZingFluence title="The Best at Amplifying Your Brand with Influence That Matters." whyJoindata={whyJoindata}/>
 
        
      

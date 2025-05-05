@@ -3,7 +3,7 @@ import React from "react";
 
 const NewContactMainForm = () =>  {
     return (
-      <section className="cf-section container">
+      <section className="cf-section container" id="newcontact">
         <div className="cf-heading">
           <div className="cf-marker">
             <span className="cf-dot" />
@@ -12,12 +12,12 @@ const NewContactMainForm = () =>  {
           <h2 className="cf-title">
             Let's Bring Your Vision <br className="cf-title-break" /> Into Reality
           </h2>
-          <p className="cf-subtext">
+          {/* <p className="cf-subtext">
             Your email address will not be published. Required fields are marked *
-          </p>
+          </p> */}
         </div>
   
-        <form className="cf-form-contact">
+        <form className="cf-form-contact px-3">
           <div className="cf-row">
             <input
               type="text"
@@ -54,7 +54,7 @@ const NewContactMainForm = () =>  {
           </div>
   
           <div className="cf-submit-wrapper mt-4">
-            <button type="submit" className="cf-submit">
+            <button type="submit" className="cf-submit" style={{padding:"15px 30px"}}>
               Get a quote
             </button>
           </div>

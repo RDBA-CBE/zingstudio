@@ -31,8 +31,8 @@ const AcademyCourseForm = () => {
   // };
 
   return (
-    <div className="cf-wrapper container my-5">
-      <div className="cf-form p-5 rounded-4 text-white" style={{background:"#f5f6f621"}}>
+    <div className="cf-wrapper container my-5 mb-0 mb-md-3 p-0">
+      <div className="cf-form p-5 px-3 px-md-5 rounded-4 text-white" style={{background:"#f5f6f621"}}>
         <h4 className="cf-title mb-2">Got Questions? Let’s Chat!</h4>
         <p className="cf-note mb-4">
         Fill out the form and get all the info you need to kickstart your digital marketing journey. We're here to help you level up and make your mark in the digital world!
@@ -66,7 +66,7 @@ const AcademyCourseForm = () => {
                 Save my name, email, and website in this browser for the next time I comment.
               </label>
             </div>
-            <div className="col-12 d-flex align-items-center mb-4">
+            <div className="col-12 d-none d-md-flex align-items-center mb-4 ">
             <ReCAPTCHA 
               sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" 
               onChange={handleCaptchaChange}
@@ -74,7 +74,7 @@ const AcademyCourseForm = () => {
             </div>
             
             <div className="col-12 mt-4">
-              <button type="submit" className="cf-btn btn btn-light rounded-pill px-4 py-2">
+              <button type="submit" className="cf-btn btn btn-light rounded-pill fw-bold" style={{padding:"15px 30px"}}>
                 Submit
               </button>
             </div>

@@ -38,27 +38,27 @@ export default function About() {
     <>
       
 
-      <div className="container-fluid visually-appealing-section d-flex align-items-center">
-        <div className='row justify-content-center mx-0 px-0'>
-          <div className='col-10 col-lg-10 mx-0 px-0'>
+      <div className="container-fluid visually-appealing-section p-0 pb-5">
+        <div className='row justify-content-center px-2 px-lg-5'>
+          <div className='col-10 mx-0 px-0'>
             <div className='container-fluid mx-0 px-0'>
-              <div className="row w-100 align-items-center mx-0 px-0">
-                <div className="col-12 col-lg-6 text-dark content-block">
+              <div className="row w-100  mx-0 px-0 justify-content-center align-items-center" >
+                <div className="col-12 col-lg-6 text-dark content-block" >
                   <h1 className="main-heading mb-4 font-48">
                     <img src="/images/Home-Page/am-text-black.png" alt="" />
-                                
-                      Empowering women to lead the future 
+                                <br />
+                      Empowering women to <br/> lead the future 
                   </h1>
                                 {/* <h2 className="sub-heading mb-4">
                                     We work closely with clients to understand
                                     their goals, and unique challenges.
                                 </h2>*/}
-                  <p className="description text-dark mt-4">
+                  <p className="description text-dark mt-4 ">
                     At Zing Studio, we strive to create opportunities to uplift women, enabling them to realize their potential and take control of the decisions that shape their lives. We do this through leadership capacity building, digital literacy, skills development and employment, ensuring equal access to opportunities for women to thrive and succeed.
                   </p> 
                 </div>
-                <div className=" col-12 col-lg-6 h-100">
-                  <img src="/images/about-us/Zingo-1.jpeg" alt="3D Spiral" className="spiral-img img-fluid" />
+                <div className=" col-12 col-lg-6 h-100 d-flex justify-content-center align-items-center"  >
+                  <img src="/images/about-us/Zingo-1.jpeg" alt="3D Spiral" className="spiral-img img-fluid"  style={{width:"70%"}}/>
                 </div>
               </div>
             </div>

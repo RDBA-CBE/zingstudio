@@ -25,7 +25,7 @@ export default function HomeCta() {
             </Link> */}
             <Link
               href={`/contact`}
-              className="btn btn-outline-light mt-2 custom-about-btn ms-lg-auto  text-black" style={{background:"#fff",border:"1px solid #fff", borderRadius:"30px",padding:"15px 30px",height:"fit-content"}}
+              className="btn btn-outline-light mt-2 custom-about-btn ms-lg-auto  text-black fw-bold" style={{background:"#fff",border:"1px solid #fff", borderRadius:"30px",padding:"15px 30px",height:"fit-content"}}
             >
               Contact Us
             </Link>

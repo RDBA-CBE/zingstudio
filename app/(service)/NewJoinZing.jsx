@@ -7,16 +7,16 @@ const NewJoinZing = ({Cta}) => {
     <div className="container-fluid  NewSupportWomen DefineZing  middleCta bg-white">
       <div className="row justify-content-center px-3 px-md-5 bg-white">
         <div className="col-12 mx-0 px-0">
-        <div className="info-section container-fluid ">
-            <div className="row justify-content-center text-white text-center ">
+        <div className="info-section container-fluid px-0">
+            <div className="row justify-content-center text-white text-center px-0">
 
             
 
             {/* 01 - Market Research */}
-            <div className="col-10 d-flex flex-column align-items-center  justify-content-center py-5 ">
+            <div className="col-10 d-flex flex-column align-items-center  justify-content-center py-0  py-lg-5 pb-3 pb-lg-5">
             
             <h1 className="font-48 fw-bold" style={{fontSize:"48px", fontWeight:"700"}}>Job Openings</h1>
-                <p className=" mt-2 px-3 font-16 why" style={{fontSize:"16px"}}>
+                <p className=" mt-2 px-0 px-md-0 font-16 why" style={{fontSize:"16px"}}>
                 At Zing Studio, we’re seeking passionate individuals to join our innovative team. If you’re eager to make an impact in digital marketing, web design, or branding, we offer exciting opportunities for growth and collaboration. Explore our current openings and take the next step in your career with a company that values creativity and professional development.
                 </p>
             </div>

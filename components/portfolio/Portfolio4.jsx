@@ -321,7 +321,7 @@ export default function Portfolio4() {
           <div className="col-12 px-0 mx-0">
             <div className="container-fluid">
             <div className="site-filters clearfix center m-b40">
-          <h2 className="title font-22 fw-bold" style={{fontSize:"30px"}}>Portfolio</h2>
+          <h2 className="title font-48 fw-bold" style={{fontSize:"36px"}}>Portfolio</h2>
           <h4 className="title font-18 " style={{ color: "black", fontWeight: "600" ,fontSize:"18px"}}>
             Quickly explore our services and projects by category.
           </h4>

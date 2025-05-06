@@ -25182,3 +25182,10 @@ color: #2b2a2a;
     }
     
     }
+
+
+    @media  (height:900px) {
+      .about-agency-section .arrow-symbol{
+        top: -1px !important;
+      }
+    }

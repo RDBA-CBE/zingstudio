@@ -20,8 +20,8 @@ const AcademyFAQ = ({faqData}) => {
           <div className='col-12 mx-0 faq-section'>
             <div className="container">
               <div className="row justify-content-around">
-                <div className="col-12 col-lg-5 text-white mb-4 d-flex flex-column justify-content-between">
-                  <div>
+                <div className="col-12 col-lg-5 text-white mb-4 d-flex flex-column  justify-content-between">
+                  <div className='text-center text-lg-start'>
                   <h2 className="faq-heading pt-4 font-48">Explore Frequently<br />Asked Questions</h2>
                   <a href="contact">
                   <button className="faq-btn fw-bold">Get in Touch</button>

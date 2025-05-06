@@ -21915,6 +21915,9 @@ justify-content: center;
 
 
 @media (max-width: 990px) {
+  .home-ban, .digital-agency{
+    height: 80vh !important;
+  }
   .digital-agency {
     text-align: center;
     padding: 40px 10px;
@@ -21940,6 +21943,12 @@ justify-content: center;
     margin: 0 auto;
     top: auto !important;
     left: auto !important;
+  }
+}
+
+@media (max-width: 760px) {
+  .home-ban, .digital-agency{
+    height: auto !important;
   }
 }
 

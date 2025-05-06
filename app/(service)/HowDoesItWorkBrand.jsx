@@ -20,7 +20,7 @@ const HowDoesItWorkBrand = ({WhyChoose}) => {
                 <div className="col-md-4 mb-4 our-process-box ">
                 {/* <h2 className="our-process-number text-white">{item.id}</h2> */}
                 <img src="/images/elementbg/2.png" alt="" style={{width:"100px"}}/>
-                <h4 className="our-process-title text-white mt-2">{item.title} </h4>
+                <h4 className="our-process-title text-white mt-2 font-30">{item.title} </h4>
                 <p className="our-process-description text-white">
                 {item.description}
                 </p>

@@ -64,9 +64,9 @@ const NewHomeBanner = () => {
               <div className="col-12 m-0 p-0">
     <Swiper
       modules={[Navigation, Autoplay]}
-      autoplay={{
-        delay: 4000,
-      }}
+      // autoplay={{
+      //   delay: 4000,
+      // }}
       spaceBetween={40}
       speed={2500}
       loop

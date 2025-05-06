@@ -91,7 +91,7 @@ export default function Contact2() {
                         Phone Number
                       </h5>
                       <p className="m-b0">
-                        <a href="tel:04224980307"> +91 (422) 498 0307</a>
+                        <a href="tel:04224980307"> 04224379826</a>
                       </p>
                      
                     </div>

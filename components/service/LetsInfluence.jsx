@@ -83,7 +83,7 @@ export default function Facts() {
                           <i className="ti-mobile" />
                         </span>
                         Phone Number <br />
-                        <a className="text-white" href="tel:04224980307"> +91 (422) 498 0307</a>
+                        <a className="text-white" href="tel:04224980307"> 04224379826</a>
                       </h5>
                       <h5 className="dlab-tilte p-lr15">
                         <span className="icon-sm text-redblk" style={{margin:"0 10px 0 -5px"}}>

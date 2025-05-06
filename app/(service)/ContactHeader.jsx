@@ -41,7 +41,7 @@ const ContactHeader = () => (
                         <div className="col-sm-6">
                         <h6 className="tp-label fw-bold text-black">PHONE:</h6>
                         <a href="tel:+91(422)4980307"  className="tp-link"  style={{fontSize:"16px",color:"#000"}}>
-                        +91 (422) 498 0307
+                        04224379826
                         </a>
                         
 
